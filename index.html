@@ -120,6 +120,13 @@ section { display: grid; gap: 16px; }
 .pill.part { color: var(--stamp); }
 .none { color: var(--muted); }
 .hypname { color: var(--hyp); }
+.photos { display: flex; flex-wrap: wrap; gap: 14px; }
+.photos figure { margin: 0; display: grid; gap: 6px; width: 170px; max-width: 100%; }
+.photos img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--rule); background: var(--bg); }
+.photos figcaption { font-size: 12px; color: var(--muted); line-height: 1.4; }
+.photos a:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; border-radius: 6px; }
+#tree .cam { fill: var(--stamp); }
+#tree .camlens { fill: var(--surface); }
 
 /* Evidence */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
@@ -173,6 +180,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       <span><i class="sw gub"></i>Gubincsik ág</span>
       <span><i class="sw"></i>beházasodott ágak</span>
       <span><i class="sw hyp"></i>levéltári nyom, nem igazolt</span>
+      <span><svg width="12" height="10" viewBox="0 0 12 10" aria-hidden="true"><rect x="0.5" y="1" width="11" height="8" rx="1.5" fill="currentColor"/><circle cx="6" cy="5" r="2.2" fill="var(--surface)"/></svg>fénykép van róla</span>
       <span><i class="sw direct"></i>vastag keret: az Ön egyenes ági felmenői</span>
       <span><b class="warnmark">⚠</b>ellenőrizendő</span>
       <span>A Ricz név 1918–1920 után, Jugoszláviában: <b>Ric</b> (Риц)</span>
@@ -444,7 +452,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     ago: { st: "part", facts: ["Gubincsik András felesége: a férje 1841-es halotti bejegyzése így nevezi meg (Agó Erzsébet).", "Gyerekei, Imre és Anna 1837-es házassági bejegyzése is anyjukként nevezi meg."], src: ["d1841", "h1837"] },
     derta: { st: "part", facts: ["1835. november 23-án fia, Ricz Pál (20 éves) Óbecsén feleségül vette Sági Veronikát; a bejegyzés szerint anyja „Veronica Derta”."], notes: ["A vezetéknév a házassági bejegyzésben is Derta olvasatú, ez megerősíti a fa olvasatát (nem Beretka)."], src: ["h1835r"] },
     benko: { st: "tree", notes: ["1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt (lányuk, Apollónia keresztelése, okt. 2.). Hogy ennek köze van-e a fán szereplő Kádas Pál és Benko Helena párhoz, nem derül ki.", "1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."], src: ["c1799"] },
-    c1: { st: "part", death: "1983, Óbecse (Becse)", deathAge: 73, deathAgeSrc: "a gyászhír szerint", facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Foglalkozása: cipész, 1983-ban nyugdíjas („ny. cipész”).", "1983-ban, 73 évesen, hirtelen hunyt el Óbecsén (Becse). A család köszönetnyilvánítása 1983. június 28-án kelt.", "Halálakor élt a felesége, és voltak gyermekei, menyei vagy vejei, unokái és dédunokái.", "A gyászhírben „id. Ricz Antal” áll: valószínűleg volt egy Antal nevű fia is (ifj. Ricz Antal).", "Ezen az ágon származik a családfa készítője."], notes: ["A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét, a szerb iratokban Ric (Риц) lehet.", "Ha a gyászhír a halál után néhány héttel jelent meg, a halál 1983 májusára vagy júniusára tehető. A 73 év egyezik az 1910. februári születéssel."], src: ["k1983"] },
+    c1: { st: "part", death: "1983, Óbecse (Becse)", deathAge: 73, deathAgeSrc: "a gyászhír szerint", photos: [{ src: "photos/ricz-antal-1910.jpg", full: "photos/ricz-antal-1910-koszonet.jpg", cap: "Az 1983-as köszönetnyilvánításból (VAMADIA). Kattintásra a teljes hirdetés." }], facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Foglalkozása: cipész, 1983-ban nyugdíjas („ny. cipész”).", "1983-ban, 73 évesen, hirtelen hunyt el Óbecsén (Becse). A család köszönetnyilvánítása 1983. június 28-án kelt.", "Halálakor élt a felesége, és voltak gyermekei, menyei vagy vejei, unokái és dédunokái.", "A gyászhírben „id. Ricz Antal” áll: valószínűleg volt egy Antal nevű fia is (ifj. Ricz Antal).", "Ezen az ágon származik a családfa készítője."], notes: ["A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét, a szerb iratokban Ric (Риц) lehet.", "Ha a gyászhír a halál után néhány héttel jelent meg, a halál 1983 májusára vagy júniusára tehető. A 73 év egyezik az 1910. februári születéssel."], src: ["k1983"] },
     next: { st: "todo", facts: ["Ide kerül Ricz Antal (1910–1983) felesége és gyermekei, majd a további nemzedékek a mai napig.", "Az 1983-as gyászhír szerint felesége túlélte, és voltak gyermekei, unokái, dédunokái. A „id.” megjelölés alapján valószínűleg az egyik fia is Antal volt."], notes: ["Élő személyeknél csak a név jelenik meg, dátum nem."], src: ["k1983"] },
     c2: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c3: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
@@ -578,6 +586,10 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     var tip = p.name + (p.info.length ? " — " + p.info.join(", ") : "") + (p.note ? "\n" + p.note : "");
     el("title", {}, g, tip);
     el("rect", { x: x, y: y, width: W, height: H, rx: 6, "class": "box " + p.line }, g);
+    if ((D[k] || {}).photos) {
+      el("rect", { x: x + W - 17, y: y + 7, width: 11, height: 8, rx: 1.5, "class": "cam" }, g);
+      el("circle", { cx: x + W - 11.5, cy: y + 11, r: 2.2, "class": "camlens" }, g);
+    }
     var names = splitName(p.name);
     var ls = lifeShort(k), info = ls ? [p.info[0], ls].filter(Boolean) : p.info;
     var lines = names.map(function (t) { return [t, "nm"]; }).concat(info.map(function (t) { return [t, p.line === "hyp" ? "hyp-t" : "dt"]; }));
@@ -668,6 +680,15 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     if (p.info.length) h("div", "dates", p.info.join(" · "), head);
     var meta = h("div", "meta", null, head);
     h("span", "pill " + st[1], st[0], meta);
+    if (d.photos && d.photos.length) {
+      var ph = h("div", "photos", null, panel);
+      d.photos.forEach(function (f) {
+        var fig = h("figure", null, null, ph), a = h("a", null, null, fig), img = h("img", null, null, a);
+        a.href = f.full || f.src; a.target = "_blank"; a.rel = "noopener";
+        img.src = f.src; img.alt = p.name + " fényképe"; img.loading = "lazy";
+        h("figcaption", null, f.cap, fig);
+      });
+    }
 
     var grid = h("div", "dgrid", null, panel);
     var relBox = h("div", null, null, grid);
