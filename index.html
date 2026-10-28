@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ricz–Kádas családfa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: archive worksheet — a scrollable pedigree chart on top, the notarial evidence and open questions below. */
+:root {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --ink: #1c2330;
+  --muted: #5a6476;
+  --rule: #d6dbe4;
+  --stamp: #2c4c8c;
+  --ricz: #2c4c8c;
+  --kadas: #2f6b4a;
+  --gub: #7b3a6c;
+  --other: #7a8394;
+  --hyp: #a8660f;
+  --hyp-soft: #fbf3e6;
+  --warn: #b4410f;
+  --ok: #2f6b4a;
+  --font-display: "Spectral", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
+    --stamp: #8fb0ec; --ricz: #8fb0ec; --kadas: #86c39e; --gub: #d79bc9; --other: #9ba4b4;
+    --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
+  --stamp: #8fb0ec; --ricz: #8fb0ec; --kadas: #86c39e; --gub: #d79bc9; --other: #9ba4b4;
+  --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 56px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 36px; }
+header { display: grid; gap: 8px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 24px; margin: 0; text-wrap: balance; }
+h3 { font-size: 15px; font-weight: 600; margin: 0; }
+p { margin: 0; max-width: 68ch; }
+.lede { color: var(--muted); }
+section { display: grid; gap: 16px; }
+
+/* Tree */
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--muted); align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 18px; height: 12px; border-radius: 3px; border: 2px solid var(--other); background: var(--surface); display: inline-block; }
+.sw.ricz { border-color: var(--ricz); } .sw.kadas { border-color: var(--kadas); } .sw.gub { border-color: var(--gub); }
+.sw.hyp { border: 2px dashed var(--hyp); background: var(--hyp-soft); }
+.warnmark { color: var(--warn); font-weight: 600; }
+.toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.toolbar button {
+  font: 500 14px var(--font-body); color: var(--ink); background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 6px 12px; cursor: pointer; min-width: 40px;
+}
+.toolbar button:hover { border-color: var(--stamp); }
+.toolbar button:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; }
+.toolbar .zoomval { font: 13px var(--font-mono); color: var(--muted); min-width: 4ch; }
+.treebox {
+  overflow: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
+  max-height: 78vh; -webkit-overflow-scrolling: touch;
+}
+#tree { display: block; }
+#tree .box { fill: var(--surface); stroke-width: 1.6; }
+#tree .box.ricz { stroke: var(--ricz); } #tree .box.kadas { stroke: var(--kadas); }
+#tree .box.gub { stroke: var(--gub); } #tree .box.other { stroke: var(--other); }
+#tree .box.hyp { stroke: var(--hyp); stroke-dasharray: 5 4; fill: var(--hyp-soft); }
+#tree .nm { font: 600 12.5px var(--font-body); fill: var(--ink); }
+#tree .dt { font: 400 11px var(--font-mono); fill: var(--muted); }
+#tree .hyp-t { font: 400 10.5px var(--font-body); fill: var(--hyp); }
+#tree .edge { stroke: var(--muted); stroke-width: 1.4; fill: none; }
+#tree .edge.hyp { stroke: var(--hyp); stroke-dasharray: 5 4; }
+#tree .lbl { font: 500 11px var(--font-body); fill: var(--warn); }
+#tree .lbl.hyp { fill: var(--hyp); }
+#tree .gen { font: 500 10.5px var(--font-body); fill: var(--muted); letter-spacing: .06em; }
+
+/* Evidence */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 18px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.card.main { grid-column: 1 / -1; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 12.5px; color: var(--muted); }
+.ref { font-family: var(--font-mono); font-size: 12px; overflow-wrap: anywhere; }
+.ref a { color: var(--stamp); text-underline-offset: 2px; }
+.ref a:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; }
+.pill { font-size: 11.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+.pill.done { color: var(--ok); } .pill.todo { color: var(--hyp); } .pill.conflict { color: var(--warn); } .pill.other { color: var(--muted); }
+.card ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; }
+.card p, .card li { font-size: 14px; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px 24px; }
+.two > div { min-width: 0; display: grid; gap: 6px; align-content: start; }
+.k { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+
+/* Checks */
+.checks { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.checks li { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 16px; display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; }
+.checks .mark { font-weight: 700; color: var(--warn); font-family: var(--font-mono); }
+.checks b { font-weight: 600; }
+
+/* Table */
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 560px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+td.d { font-family: var(--font-mono); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; background: var(--other); }
+.dot.ricz { background: var(--ricz); } .dot.kadas { background: var(--kadas); } .dot.gub { background: var(--gub); }
+footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Családfakutatás · munkaváltozat · 2026. október</div>
+    <h1>Ricz–Kádas családfa</h1>
+    <p class="lede">Az eredeti családfa adatai, kiegészítve az óbecsei közjegyzői iratokban (Zentai Történelmi Levéltár) eddig talált nyomokkal. A szaggatott, borostyánszínű elemek feltételezések: levéltári nyomok, amelyek kapcsolata a fához még nincs bizonyítva.</p>
+  </header>
+
+  <section aria-labelledby="h-tree">
+    <h2 id="h-tree">Családfa</h2>
+    <div class="legend">
+      <span><i class="sw ricz"></i>Ricz ág</span>
+      <span><i class="sw kadas"></i>Kádas ág</span>
+      <span><i class="sw gub"></i>Gubincsik ág</span>
+      <span><i class="sw"></i>beházasodott ágak</span>
+      <span><i class="sw hyp"></i>levéltári nyom, nem igazolt</span>
+      <span><b class="warnmark">⚠</b>ellenőrizendő</span>
+    </div>
+    <div class="toolbar">
+      <button type="button" id="zoomOut" aria-label="Kicsinyítés">−</button>
+      <span class="zoomval" id="zoomVal">80%</span>
+      <button type="button" id="zoomIn" aria-label="Nagyítás">+</button>
+      <button type="button" id="zoomFit">Teljes fa</button>
+    </div>
+    <div class="treebox" id="treebox"><svg id="tree" role="img" aria-label="A Ricz–Kádas család hét nemzedéke"></svg></div>
+  </section>
+
+  <section aria-labelledby="h-ev">
+    <h2 id="h-ev">Óbecsei iratok</h2>
+    <p class="lede">Az óbecsei római katolikus anyakönyv (FamilySearch), valamint Parcsetich Félix és Vissy Károly óbecsei közjegyzők iratai (Hungaricana). Óbecse ekkor Bács-Bodrog vármegyéhez tartozott.</p>
+    <div class="cards">
+      <article class="card main">
+        <div class="meta"><span class="pill done">igazolva</span><span>1842. január 17. · római katolikus keresztelési anyakönyv · 26. bejegyzés</span><span class="ref"><a href="https://www.familysearch.org/search/film/004594732" target="_blank" rel="noopener">FamilySearch, DGS 4594732 ↗</a></span></div>
+        <h3>Ricz Antal keresztelése: szülei Ricz Péter és Fehér Rozália, óbecsei lakosok</h3>
+        <p>Született és megkeresztelték 1842. január 17-én. Szülei <b>Ricz Péter és Fehér Rozália</b>, hites házasok, óbecsei lakosok, nemtelenek. Keresztszülők: [Brandl] Mihály és [Pecze] Anna, óbecsei lakosok. Keresztelte András József óbecsei káplán. <b>Ezzel bizonyított, hogy a családfa Ricz ága Óbecséről való.</b></p>
+        <p>Ugyanezen az oldalpáron: <b>Csanak Mihály és Gubincsik Anna</b> lánya, Verona (1842. jan. 18.), keresztapja <b>Kádas Lőrinc</b>. Vagyis 1842-ben Gubincsik és Kádas nevű családok is Óbecsén éltek. Itt szerepel egy Ricz Rozália gyermeke is (férje [Katona?] Tamás, jan. 12.).</p>
+      </article>
+
+      <article class="card main">
+        <div class="meta"><span class="pill done">igazolva</span><span>1841. május 5. · római katolikus keresztelési anyakönyv · 141. bejegyzés</span><span class="ref"><a href="https://www.familysearch.org/search/film/004594732" target="_blank" rel="noopener">FamilySearch, DGS 4594732 ↗</a></span></div>
+        <h3>Gubincsik Ilona keresztelése: szülei Gubincsik Imre és Budai Katalin, óbecsei lakosok</h3>
+        <p>Született és megkeresztelték 1841. május 5-én. Szülei <b>Gubincsik Imre és Budai Katalin</b>, hites házasok, óbecsei lakosok, nemtelenek. Keresztszülők: [Gálfi] György és [Szalai] Erzsébet, óbecsei lakosok. Keresztelte András József óbecsei káplán. <b>A Gubincsik ág is Óbecséről való.</b></p>
+        <p>Ugyanezen az oldalpáron (1841. ápr. 8–9.): Farkas András és <b>Gubincsik Anna</b> fia, György. Egy Benko Anna (férje [Gorova] György) gyermeke is szerepel, ápr. 24-én.</p>
+      </article>
+
+      <article class="card main">
+        <div class="meta"><span class="pill done">átírva</span><span>1879. október 19. · meghatalmazás · 4 oldal</span><span class="ref"><a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1088661/" target="_blank" rel="noopener">RS_IASE_F_022_1879_0845 ↗</a></span></div>
+        <h3>Ricz-örököstársak meghatalmazzák Ricz Mártont egy közös föld eladására</h3>
+        <p>Az óbecsei 2107. sz. telekjegyzőkönyvben, 6890. helyrajzi szám alatt felvett <b>1 hold 800 négyszögöl</b> földet <b>260 forintért</b> adják el <b>Ricz Józsefnek</b>. Ricz Márton veszi fel a vételárat és intézi a telekkönyvi átírást.</p>
+        <div class="two">
+          <div>
+            <div class="k">Meghatalmazók (óbecsei földművesek)</div>
+            <ul>
+              <li>Ricz Pál, <i>Ricz István fia</i> (saját kezűleg írt alá)</li>
+              <li>Ricz Pál, <i>Ricz Pál fia</i> (kereszttel)</li>
+              <li><b>Ricz Antal</b> (kereszttel, nem tudott írni)</li>
+              <li>Ricz György, Ricz Vincze (saját kezűleg)</li>
+              <li>Ricz József (a vevő)</li>
+              <li>Ricz Verona, férj. Pálfi · Ricz Verona, férj. Varnyú · Ricz Verona, férj. Simovits</li>
+              <li>Ricz Anna, férj. Székely</li>
+              <li>özv. Kovácsné Ludmány Rozál</li>
+            </ul>
+          </div>
+          <div>
+            <div class="k">Mit jelent</div>
+            <ul>
+              <li>Sok társtulajdonos egy kis földön többnyire <b>osztatlan örökséget</b> jelent.</li>
+              <li>A két Ricz Pált az apjuk nevével különböztetik meg, ezért a felek valószínűleg <b>unokatestvérek</b>.</li>
+              <li>Az örökhagyó neve és Ricz Antal szülei <b>nem derülnek ki</b> az iratból.</li>
+              <li>Tanúk: Juhász István, Sziracki József.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="pill done">átírva</span><span>1879. március · osztályegyezség · 4 oldal</span><span class="ref"><a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1074672/" target="_blank" rel="noopener">RS_IASE_F_022_1879_0208 ↗</a></span></div>
+        <h3>Ricz József, Szabó Albert és Szabó Róza (Ferencz Józsefné) vagyonosztálya</h3>
+        <p>Közös vagyon felosztása: az óbecsei 1080. sz. telekkönyvben egy ház beltelekkel, két 1 hold 600 négyszögöles föld és egy 1100 négyszögöles szőlő. A ház és a földek Ricz Józsefé és Szabó Alberté lettek, a szőlő Szabó Rózáé. Ricz József és Szabó Róza nem tudott írni. <b>Az örökhagyót nem nevezi meg, és Ricz Antal nem szerepel benne.</b> Ricz József és a Szabó testvérek talán féltestvérek voltak, de ez nem igazolt.</p>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="pill done">átírva</span><span>1877. december 8. · adóssági és kezességi nyilatkozat · 2 oldal</span><span class="ref"><a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1073458/" target="_blank" rel="noopener">RS_IASE_F_022_1877_1155 ↗</a> · <a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1073461/" target="_blank" rel="noopener">1158 ↗</a> · <a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1073463/" target="_blank" rel="noopener">1160 ↗</a></span></div>
+        <h3>Ricz Márton kölcsöne az árvapénztárból, kezesek: Ricz Pál és Fehér József</h3>
+        <p>A családfa szerint Ricz Antal anyja <b>Fehér Rozália</b>. Ricz Márton 50 forintot vett fel kölcsön az óbecsei árvapénztárból 8% kamatra, Ricz Pál és Fehér József készfizető kezesként. Ricz Márton és Fehér József nem tudott írni, Ricz Pál igen, így valószínűleg ő az 1879-es „Ricz István fia”. <b>Rokoni kapcsolatot az irat nem nevez meg.</b> Annyi látszik, hogy egy Fehér család közel állt az óbecsei Riczekhez. Ez illik a családfa Ricz–Fehér házasságához, de nem bizonyítja.</p>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="pill other">másik személy</span><span>1879 · csereszerződés</span><span class="ref"><a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1074762/" target="_blank" rel="noopener">RS_IASE_F_022_1879_0300 ↗</a></span></div>
+        <h3>Kiskorú Ricz Antal, gyámja özv. Ricz Istvánné Bálint Borbála</h3>
+        <p>1879-ben tehát <b>két Ricz Antal</b> élt Óbecsén: egy kiskorú (Ricz István fia) és egy nagykorú, a meghatalmazás aláírója. Ricz István 1879 előtt meghalt. Az ő fia az egyik meghatalmazó Ricz Pál.</p>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="pill conflict">ellentmondás</span><span>1880 · 1894</span><span class="ref"><a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1089853/" target="_blank" rel="noopener">RS_IASE_F_022_1880_0974 ↗</a> · <a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1102562/" target="_blank" rel="noopener">RS_IASE_F0024_1894_0239 ↗</a></span></div>
+        <h3>Ricz Antal és felesége, Pál Viktória</h3>
+        <p>A fán az 1842-es Ricz Antal felesége <b>Imre Rozália</b>. Ez az Antal vagy egy harmadik személy, vagy a családfa hibás. Az ifj. Ricz Antal 1883-as keresztelési bejegyzése dönti el, ki az anyja.</p>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="pill todo">megnézendő</span><span>1892 · meghatalmazás</span><span class="ref"><a href="https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1100868/" target="_blank" rel="noopener">RS_IASE_F0024_1892_0012 ↗</a></span></div>
+        <h3>Ugyanaz a rokoni kör, Ricz Antal nélkül</h3>
+        <p>Ricz Márton, Varnyú Ricz Verona, Ricz György, József, Vince és Nagy Petronella (Ricz Petronella). Ricz Antal hiánya jelentheti, hogy eladta a részét, vagy hogy addigra meghalt.</p>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-chk">
+    <h2 id="h-chk">Ellenőrizendő pontok</h2>
+    <ul class="checks">
+      <li><span class="mark">1</span><div><b>Kádas Pál (1748) → Kádas Pál (1799): 51 év.</b> Lehetséges, de valószínűbb, hogy kimaradt egy 1770 körül született Kádas Pál. Cibakházi keresztelési anyakönyv.</div></li>
+      <li><span class="mark">2</span><div><b>Ricz Antal (1883) anyja: Imre Rozália vagy Pál Viktória?</b> Óbecsei katolikus keresztelési anyakönyv, 1883. május 30.</div></li>
+      <li><span class="mark">3</span><div><b>Ricz Antal (1883) és Kádas Ilona (1884) is május 30-án született.</b> Lehet véletlen, de másolási hibára is utalhat.</div></li>
+      <li><span class="mark">4</span><div><b>Az 1879-es óbecsei Ricz Antal azonos-e az 1842-es Ricz Antallal?</b> Az 1842-es Ricz Antal Óbecsén született (igazolva). Nagyon valószínű, hogy az 1879-es földműves ő, mert a másik óbecsei Ricz Antal akkor kiskorú volt.</div></li>
+      <li><span class="mark">5</span><div><b>Hol házasodott Ricz Antal és Kádas Ilona?</b> Ricz Antal (1842) és Gubincsik Ilona (1841) is Óbecsén született (igazolva), és 1842-ben Kádas nevű család is élt ott. Kádas Pál (1833. dec. 10.) keresztelése ugyanezen a filmen ellenőrizhető. Az ifj. Ricz Antal és Kádas Ilona házassága valószínűleg Óbecsén volt.</div></li>
+      <li><span class="mark">6</span><div><b>Klimek János (Óbecse, 1880):</b> nincs kapcsolata a fával. A nyilatkozat két változatában történeti hibák vannak (például a pecsétben a megye), ezért az eredeti szkennelt képre van szükség.</div></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-tab">
+    <h2 id="h-tab">Személyek</h2>
+    <div class="tablebox"><table id="ptable"><thead><tr><th>Név</th><th>Született</th><th>Szülők</th><th>Házastárs</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <footer>
+    <span>Források: saját családfa; óbecsei római katolikus anyakönyv (FamilySearch); Hungaricana, Zentai Történelmi Levéltár: Parcsetich Félix (F.022) és Vissy Károly (F.024) óbecsei közjegyzők iratai.</span>
+    <span>Az átírt szövegek bizonytalan olvasatait a beszélgetésben szögletes zárójel jelöli.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var W = 128, H = 60, ROWH = 120, OY = 34, OX = 210, SX = 1.12;
+  var P = {};
+  function add(id, r, cx, line, name, info, note) { P[id] = { id: id, r: r, cx: cx, line: line, name: name, info: info || [], note: note || "" }; }
+
+  add("gjakab", 0, 1330, "gub", "Gubincsik Jakab");
+  add("panna", 0, 1470, "other", "Péter Anna");
+  add("kistvan", 1, 900, "kadas", "Kádas István");
+  add("micsel", 1, 1040, "other", "Micsel Elizabeth", ["Michel? Michael?"], "A „Micsel” lehet a német Michel/Michl vezetéknév magyaros írása, de félreolvasott vagy rossz mezőbe került Michael is lehet. Az 1748-as cibakházi keresztelési bejegyzés döntheti el.");
+  add("gand1", 1, 1400, "gub", "Gubincsik András", ["1732–1817"]);
+  add("balogh", 1, 1540, "other", "Balogh Erzsébet", ["1738"]);
+  add("rpeter0", 2, 72, "ricz", "Ricz Péter");
+  add("derta", 2, 212, "other", "Derta (Beretka) Veronika");
+  add("fferenc", 2, 352, "other", "Fehér Ferenc");
+  add("kokai", 2, 492, "other", "Kokai Erzsébet");
+  add("kpal1", 2, 970, "kadas", "Kádas Pál", ["1748. jan. 22.", "Cibakháza"]);
+  add("benko", 2, 1110, "other", "Benko Helena");
+  add("gand2", 2, 1470, "gub", "Gubincsik András", ["1774 – 1841. júl. 13."]);
+  add("ago", 2, 1610, "other", "Ago Erzsébet");
+  add("bgyorgy", 2, 1760, "other", "Budai György");
+  add("dudas", 2, 1900, "other", "Dudás Rozália");
+  add("rpeter1", 3, 142, "ricz", "Ricz Péter", ["1813", "Óbecse, 1842"]);
+  add("frozalia", 3, 422, "other", "Fehér Rozália", ["1817", "Óbecse, 1842"]);
+  add("imatyas", 3, 632, "other", "Imre Mátyás");
+  add("kovats", 3, 772, "other", "Kovats Ilona");
+  add("kpal2", 3, 1040, "kadas", "Kádas Pál", ["1799. jan. 18."]);
+  add("busa", 3, 1180, "other", "Busa Ilona");
+  add("gimre", 3, 1540, "gub", "Gubincsik Imre", ["1818. júl. 12.", "Óbecse, 1841"]);
+  add("bkatalin", 3, 1830, "other", "Budai Katalin", ["1819", "Óbecse, 1841"]);
+  add("rantal1", 4, 282, "ricz", "Ricz Antal", ["1842. jan. 17.", "Óbecse ✓"], "Óbecsei római katolikus keresztelési anyakönyv, 1842. jan. 17.: szülei Ricz Péter és Fehér Rozália, óbecsei lakosok.");
+  add("irozalia", 4, 702, "other", "Imre Rozália", ["1853. aug. 2."]);
+  add("kpal3", 4, 1110, "kadas", "Kádas Pál", ["1833. dec. 10."]);
+  add("gilona", 4, 1685, "gub", "Gubincsik Ilona", ["1841. máj. 5.", "Óbecse ✓"], "Óbecsei római katolikus keresztelési anyakönyv, 1841. máj. 5.: szülei Gubincsik Imre és Budai Katalin, óbecsei lakosok.");
+  add("rantal2", 5, 492, "ricz", "Ricz Antal", ["1883. máj. 30."]);
+  add("kilona", 5, 1397.5, "kadas", "Kádas Ilona", ["1884. máj. 30."]);
+  var kidMid = (492 + 1397.5) / 2;
+  add("c1", 6, kidMid - 280, "ricz", "Ricz Antal", ["1910. febr. 24."]);
+  add("c2", 6, kidMid - 140, "ricz", "Ricz János");
+  add("c3", 6, kidMid, "ricz", "Ricz András");
+  add("c4", 6, kidMid + 140, "ricz", "Ricz László");
+  add("c5", 6, kidMid + 280, "ricz", "Ricz Veronika");
+  // Hypotheses from the Óbecse notarial records
+  add("hfathers", 3, -30, "hyp", "Ricz István · Ricz Pál", ["az 1879-es örököstársak", "apái – Péter testvérei?"],
+      "Az 1879-es meghatalmazásban a két Ricz Pált apjuk (István, Pál) szerint különböztetik meg. Ricz István 1879 előtt meghalt (özvegye Bálint Borbála). Nem igazolt, hogy Ricz Péter testvérei voltak.");
+  add("hantal", 5, 110, "hyp", "Ricz Antal", ["óbecsei földműves, 1879", "nem tudott írni"],
+      "RS_IASE_F_022_1879_0845: kereszttel írt alá. Az 1842-ben Óbecsén született Ricz Antallal valószínűleg azonos (1879-ben 37 éves). A másik óbecsei Ricz Antal 1879-ben kiskorú volt.");
+
+  var C = [
+    ["gjakab", "panna", ["gand1"]], ["kistvan", "micsel", ["kpal1"]], ["gand1", "balogh", ["gand2"]],
+    ["rpeter0", "derta", ["rpeter1"]], ["fferenc", "kokai", ["frozalia"]], ["kpal1", "benko", ["kpal2"]],
+    ["gand2", "ago", ["gimre"]], ["bgyorgy", "dudas", ["bkatalin"]],
+    ["rpeter1", "frozalia", ["rantal1"]], ["imatyas", "kovats", ["irozalia"]], ["kpal2", "busa", ["kpal3"]], ["gimre", "bkatalin", ["gilona"]],
+    ["rantal1", "irozalia", ["rantal2"]], ["kpal3", "gilona", ["kilona"]],
+    ["rantal2", "kilona", ["c1", "c2", "c3", "c4", "c5"]]
+  ];
+
+  function X(p) { return p.cx * SX + OX; }
+  function Y(p) { return OY + p.r * ROWH; }
+  var maxX = 0;
+  Object.keys(P).forEach(function (k) { maxX = Math.max(maxX, X(P[k]) + W / 2); });
+  var VW = Math.ceil(maxX + 30), VH = OY + 6 * ROWH + H + 34;
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("tree");
+  svg.setAttribute("viewBox", "0 0 " + VW + " " + VH);
+  function el(tag, attrs, parent, text) {
+    var e = document.createElementNS(NS, tag);
+    for (var a in attrs) e.setAttribute(a, attrs[a]);
+    if (text != null) e.textContent = text;
+    (parent || svg).appendChild(e);
+    return e;
+  }
+  var gE = el("g", {}), gN = el("g", {});
+
+  // Generation labels down the left edge
+  ["VII.", "VI.", "V.", "IV.", "III.", "II.", "I."].forEach(function (t, i) {
+    el("text", { x: 14, y: OY + i * ROWH + H / 2 + 4, "class": "gen" }, gE, t);
+  });
+
+  function line(x1, y1, x2, y2, cls) { el("line", { x1: x1, y1: y1, x2: x2, y2: y2, "class": "edge" + (cls ? " " + cls : "") }, gE); }
+
+  C.forEach(function (c) {
+    var a = P[c[0]], b = P[c[1]];
+    var ya = Y(a) + H / 2;
+    line(X(a) + W / 2, ya, X(b) - W / 2, ya);
+    var mx = (X(a) + X(b)) / 2;
+    var kids = c[2].map(function (id) { return P[id]; });
+    var ky = Y(kids[0]);
+    if (kids.length === 1) {
+      line(mx, ya, mx, ky);
+    } else {
+      var bar = ky - 26;
+      line(mx, ya, mx, bar);
+      line(X(kids[0]), bar, X(kids[kids.length - 1]), bar);
+      kids.forEach(function (k) { line(X(k), bar, X(k), ky); });
+    }
+  });
+
+  // Hypothesis: fathers as siblings of Ricz Péter (b. 1813)
+  (function () {
+    var h = P.hfathers, rp = P.rpeter1, bar = Y(rp) - 26;
+    line(X(h), Y(h), X(h), bar, "hyp");
+    line(X(h), bar, X(rp), bar, "hyp");
+    el("text", { x: (X(h) + X(rp)) / 2, y: bar - 6, "text-anchor": "middle", "class": "lbl hyp" }, gE, "testvérek?");
+  })();
+  // Hypothesis: the 1879 Ricz Antal = Ricz Antal b. 1842
+  (function () {
+    var h = P.hantal, ra = P.rantal1;
+    var x1 = X(h), y1 = Y(h), x2 = X(ra) - 20, y2 = Y(ra) + H;
+    line(x1, y1, x2, y2, "hyp");
+    el("text", { x: (x1 + x2) / 2 - 8, y: (y1 + y2) / 2 + 4, "text-anchor": "end", "class": "lbl hyp" }, gE, "valószínűleg azonos");
+  })();
+  // Warnings
+  (function () {
+    var a = P.kpal1, b = P.kpal2, x = (X(a) + X(P.benko)) / 2;
+    el("text", { x: x + 8, y: Y(b) - 34, "class": "lbl" }, gE, "⚠ 51 év különbség");
+    el("text", { x: x + 8, y: Y(b) - 20, "class": "lbl" }, gE, "kimaradt nemzedék?");
+    var r = P.rantal2, k = P.kilona, mid = (X(r) + X(k)) / 2;
+    el("text", { x: mid - 14, y: Y(r) + H / 2 - 8, "text-anchor": "end", "class": "lbl" }, gE, "⚠ mindketten május 30.");
+  })();
+
+  function splitName(s) {
+    if (s.length <= 18) return [s];
+    var cut = s.lastIndexOf(" ", 18);
+    if (cut < 1) cut = s.indexOf(" ");
+    return cut < 1 ? [s] : [s.slice(0, cut), s.slice(cut + 1)];
+  }
+
+  Object.keys(P).forEach(function (k) {
+    var p = P[k], x = X(p) - W / 2, y = Y(p);
+    var g = el("g", {}, gN);
+    var tip = p.name + (p.info.length ? " — " + p.info.join(", ") : "") + (p.note ? "\n" + p.note : "");
+    el("title", {}, g, tip);
+    el("rect", { x: x, y: y, width: W, height: H, rx: 6, "class": "box " + p.line }, g);
+    var names = splitName(p.name);
+    var lines = names.map(function (t) { return [t, "nm"]; }).concat(p.info.map(function (t) { return [t, p.line === "hyp" ? "hyp-t" : "dt"]; }));
+    var lh = 14, y0 = y + H / 2 - ((lines.length - 1) * lh) / 2 + 4;
+    lines.forEach(function (l, i) { el("text", { x: X(p), y: y0 + i * lh, "text-anchor": "middle", "class": l[1] }, g, l[0]); });
+  });
+
+  // Zoom
+  var box = document.getElementById("treebox"), zv = document.getElementById("zoomVal");
+  var z = 0.8;
+  function apply(center) {
+    svg.setAttribute("width", Math.round(VW * z));
+    svg.setAttribute("height", Math.round(VH * z));
+    zv.textContent = Math.round(z * 100) + "%";
+    if (center) box.scrollLeft = Math.max(0, (kidMid * SX + OX) * z - box.clientWidth / 2);
+  }
+  function setZ(nz, center) {
+    var cx = (box.scrollLeft + box.clientWidth / 2) / z;
+    z = Math.min(1.6, Math.max(0.3, nz));
+    apply(false);
+    if (center) box.scrollLeft = Math.max(0, cx * z - box.clientWidth / 2);
+  }
+  document.getElementById("zoomIn").addEventListener("click", function () { setZ(z + 0.1, true); });
+  document.getElementById("zoomOut").addEventListener("click", function () { setZ(z - 0.1, true); });
+  document.getElementById("zoomFit").addEventListener("click", function () { setZ((box.clientWidth - 2) / VW, false); box.scrollLeft = 0; });
+  apply(true);
+
+  // People table
+  var parentsOf = {}, spouseOf = {};
+  C.forEach(function (c) {
+    c[2].forEach(function (k) { parentsOf[k] = P[c[0]].name + " és " + P[c[1]].name; });
+    (spouseOf[c[0]] = spouseOf[c[0]] || []).push(P[c[1]].name);
+    (spouseOf[c[1]] = spouseOf[c[1]] || []).push(P[c[0]].name);
+  });
+  var tb = document.querySelector("#ptable tbody");
+  Object.keys(P).filter(function (k) { return P[k].line !== "hyp"; })
+    .sort(function (a, b) { return P[a].r - P[b].r || P[a].cx - P[b].cx; })
+    .forEach(function (k) {
+      var p = P[k], tr = document.createElement("tr");
+      function td(t, cls) { var d = document.createElement("td"); if (cls) d.className = cls; d.textContent = t; tr.appendChild(d); return d; }
+      var n = td(p.name);
+      var dot = document.createElement("i"); dot.className = "dot " + p.line; n.prepend(dot);
+      td(p.info.join(", ") || "–", "d");
+      td(parentsOf[k] || "–");
+      td((spouseOf[k] || []).join(", ") || "–");
+      tb.appendChild(tr);
+    });
+})();
+</script>
+
+</body>
+</html>
