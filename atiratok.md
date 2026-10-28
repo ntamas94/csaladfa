@@ -227,3 +227,89 @@ Vagyis 1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt. Ho
 Fordítás: Mihály 1836. szeptember 13-án született, 14-én keresztelték. Szülei Kádas Pál és [Homonyi] Katalin, óbecsei plébániabeliek, nemtelenek. Keresztszülők: Kovács Lőrinc és [Berecka] Judit. Keresztelő: Keller Ferenc káplán.
 
 Megjegyzés: a keresztszülők ugyanazok, mint az 1833-as Kádas Pál-keresztelésnél (7. fejezet: „Laurentius Kovács cum uxore Juditha [Borecka?]”). Ez arra utalhat, hogy ugyanarról a Kádas Pálról van szó, aki 1833 és 1836 között második feleséget vett, de a forrás ezt nem mondja ki.
+
+## 14. Kádas Pál és [Homonyi] Karolina házassága, Óbecse, 1835. június 29.
+
+Óbecse, r. k. házassági anyakönyv, FamilySearch DGS 7994502 (Házasultak 1826–1875), 66. kép (433-ból): https://www.familysearch.org/search/film/007994502?i=65 . A bal oldali lap utolsó előtti bejegyzése; az 1835-ös oldalakon nincs sorszám. A névmutatóban nincs benne.
+
+Oszlopfejek: Annus et Dies Mensis | Nomen et Cognomen, ac Parochia Contrahentium | Aetas Annorum | Conditio | Nomina Testium | Minister
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus et Dies Mensis | 1835. 29. Junii |
+| Nomen et Cognomen, ac Parochia Contrahentium | Paulus Kádas, viduus Helenae Busa; Carolina, Ladislai Ho[mo?]nyi et Elis[abethae] Kovács filia, P. V. B. [Parochiani Veteris Becse] |
+| Aetas | 40.; 20. |
+| Conditio | Pleb.; Pleb. |
+| Nomina Testium | Joannes Deák et Steph[anus] Varga, P. V. B. |
+| Minister | Idem (a fölötte álló bejegyzésnél: Ant[onius] Millkovics, Cap[ellanus] V. Becs.) |
+
+Fordítás: 1835. június 29-én házasságot kötött Kádas Pál, Busa Ilona özvegye, 40 éves, nemtelen, és Karolina, [Homonyi] László és Kovács Erzsébet lánya, 20 éves, nemtelen, óbecsei plébániabeliek. Tanúk: Deák János és Varga István, óbecseiek. Összeadta: [Millkovics] Antal káplán.
+
+Megjegyzések:
+- A „viduus Helenae Busa” igazolja, hogy Busa Ilona 1835. június előtt meghalt (ifj. Kádas Pál 1833. decemberi születése után). Halálát a halotti anyakönyvben 1833. dec. – 1835. jún. között érdemes keresni (DGS 8265818).
+- A 40 év alapján Kádas Pál kb. 1795-ben született, nem 1799-ben.
+- A menyasszony keresztneve itt „Carolina”, az 1836-os keresztelőn „Cathar.” áll (13. fejezet). A vezetéknév középső betűi elmosódottak.
+- Mindkét fél óbecsei; más településre a bejegyzés nem utal.
+
+Kádas Pál és Busa Ilona házassága (1826–1833): nem található. Átnézett képek: 20. (1828. nov. 4–6.) és 54. (1833. nov. 20–27. és az év lezárása); ezeken nincs Kádas. Az 1826–1833 közötti rész (kb. a 6–54. kép) nincs teljesen átnézve. Az 1834. jan. – 1836. jún. 24. közötti képeken (55–72.) a fenti bejegyzésen kívül nincs Kádas vőlegény.
+
+Mellékes nevek (bizonytalan olvasatok): 60. kép, 1834. nov. 12., 74. sz.: a menyasszony Theresia, Emerici Gubincsik et Rosaliae [Deretha?] filia, 18 éves; 59. kép, 1834. nov. 4., 52. sz.: Margaretha Gubincsik, vidua Emerici Deák, 22 éves; 61. kép, 1834. nov. 17., 82. sz.: Carolus, Emerici Budai et Rosaliae Bene filius, 19 éves.
+
+## 15. Gubincsik András halála, Óbecse, 1841. július 13.
+
+Óbecse, r. k. halotti anyakönyv (másodpéldány), FamilySearch DGS 8265818 (Halottak 1826–1855), 170. kép (403-ból): https://www.familysearch.org/search/film/008265818?i=169 . Nyomtatott magyar fejléces oldalpár, lapszám [163]; a bal oldal kb. 1841. jún. 30 – júl. 20., a jobb oldal júl. 20 – aug. 7. 1841 júliusában ez az egyetlen Gubincsik-bejegyzés. Sorszám: (131), a margón második szám [31].
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Esztendeje, Hónapja, Napja a meghalálozásnak | 1841. 13. Julius |
+| A megholtnak Neve, Vezetékneve, Lakása | Gubincsik András. Agó Erzsébet férje, Óbecsei lakos. |
+| Kora | 64 esztendő[s] |
+| Sorsa | nemtelen |
+| Szentségek felvétele | A' haldoklók szent[ségeivel] ellátva |
+| Ki temette | Keller Ferencz, Óbecsei Káplán |
+
+Fordítás: Gubincsik András, Agó Erzsébet férje, óbecsei lakos, 1841. július 13-án halt meg 64 évesen; nemtelen; a haldoklók szentségeit felvette; Keller Ferenc óbecsei káplán temette.
+
+Megjegyzés: a 64 év kb. 1777-es születést jelent (a fán kb. 1774). A halál okának és a temetés napjának nincs oszlopa ezen a nyomtatványon. Ugyanezen az oldalpáron nincs Ricz, Kádas, Fehér, Busa, Budai vagy Homonyi nevű bejegyzés.
+
+## 16. Imre Rozália keresztelése, Óbecse, 1853. július 31. / augusztus 1.
+
+Óbecse, r. k. keresztelési anyakönyv 1851–1860, 60. kép (480-ból): https://www.familysearch.org/ark:/61903/3:1:939Z-1F9L-R7 . Indexrekord: https://www.familysearch.org/ark:/61903/1:1:X859-WJC
+
+Fejléc: Matricula Baptisatorum Ecclesiae Parochialis Ó-Becsensis [in Archi-]Dioecesi Colocensi sitae de Anno 1853; lapszám 57/58. Sorszám: 184.
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Numerus | 184 |
+| Nativitatis / Baptismi | 1853. 31. Julii / 1ª Augusti |
+| Nomen | Rosalia |
+| Sexus | foem. |
+| Legit. / Illeg. | legitima |
+| Nomina Parentum, Religio, Conditio | Mathias Imre et Helena Kovács, [R. Cath.?] |
+| Locus domicilii cum Numero domus | Óbecse, [házszám nincs kitöltve] |
+| Nomina Patrinorum | Josephus Sötét et Rosalia [Lányi?] |
+| Nomen Baptizantis | Franciscus [Vályes?], Capellanus |
+
+Fordítás: Rozália 1853. július 31-én született, augusztus 1-jén keresztelték; törvényes leánygyermek; szülei Imre Mátyás és Kovács Ilona, római katolikus óbecsei lakosok. Keresztszülők: Sötét József és [Lányi] Rozália. Keresztelő: [Vályes] Ferenc káplán.
+
+Eltérés: a fán és a névmutatóban aug. 2. áll; a kép szerint a születés júl. 31., a keresztelés aug. 1.
+
+Ugyanezen az oldalpáron: 183. bejegyzés (1853. júl. 29/30.): Rosalia, Stephanus Ritz és Barbara Bálint gyermeke; keresztszülők Joannes Nagy és Elisabeth Sági.
+
+Imre Mátyás és Kovács Ilona gyermekei Óbecsén a névmutató szerint (csak Joannes 1852 ellenőrizve a képen):
+- Joannes, 1852. máj. 12. (1851–1860-as kötet, 19. kép, 108. sor; házszám 982; keresztszülők Barbara Pintér és Michael Hank) – képen ellenőrizve
+- Rosalia, 1853 (fent)
+- Catharina, 1855 (index: 1:1:X85M-FPP)
+- Maria Anna, 1862 (index: 1:1:X853-S68)
+- Stephanus, 1865 (index: 1:1:X859-2YY)
+- Joannes, 1880, apa „Mathaeus” Imre (index: 1:1:X859-9VL) – lehet névrokon pár, nem ellenőrizve
+
+Imre Mátyás és Kovács Ilona házassága: nem található. A névmutatóban nincs; a Házasultak filmen (DGS 7994502) átnézve az 1848. febr. – 1852. febr. közötti képek (139–149.): 1849-ből csak januári bejegyzések vannak, 1851 teljesen hiányzik. A 147. képen latin margójegyzet szerint az 1852-es házassági anyakönyv külön, teljes egészében megvan („Adest separatim Matricula Copulatorum de anno 1852 tota et integra”). Mivel az első gyerek 1852. májusában született, 1851 a legvalószínűbb házassági év – ez ezen a filmen nincs meg.
+
+## 17. Halálozások, amelyeket a névmutatóban nem találtunk
+
+Az óbecsei r. k. halotti filmek (DGS 8265818: 1826–1855; 8265819: 1856–1870; 8265820: 1871–1880) képei nincsenek indexelve (a szúrópróbával nézett képeken: „No indexes are available for this image”). Névmutatóval ezért nem került elő: Ricz Péter, Fehér Rozália, Imre Mátyás, Kovács Ilona, Ricz Antal, Imre Rozália, Gubincsik Imre, Budai Katalin halála. Ezek csak lapozással kereshetők. Tájékozódás a DGS 8265818-on: 133. kép ≈ 1837. december, 170. kép = 1841. július, 200. kép ≈ 1844. január.
+
+## 18. VAMADIA (vamadia.rs) – keresés nem volt lehetséges
+
+A Vajdasági Magyar Digitális Archívum keresőjét (https://vamadia.rs/kereses) a webhely robots.txt-je tiltja a gépi lekérdezés elől, és Cloudflare robotellenőrzés („Verify you are human”) védi, ezért automatikusan nem kereshető. A Google/WebSearch `site:vamadia.rs` keresések („Ricz Antal Óbecse”, „Ricz Óbecse gyászjelentés”, „Kádas Óbecse”, „Gubincsik”) nem adtak vamadia.rs-találatot. Kézi kereséshez javasolt kifejezések („Keresés csak a PDF-ekben” bekapcsolva): Ricz Antal, Ritz Antal, Kádas Ilona, Kádas Pál, Gubincsik; Ricz + Óbecse / Becse / Bečej. Találat a családról innen nem került elő.
