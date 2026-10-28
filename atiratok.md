@@ -184,3 +184,46 @@ Cibakháza, római katolikus keresztelési anyakönyv 1745–1803, 1748. január
 Fordítás: 1748. január [28.]-án megkeresztelték Pált, Kádas István és Michel Erzsébet gyermekét. Keresztszülők: [Mursi] János és [Timár] Katalin. A keresztelő és a hely ugyanaz, mint az előző bejegyzésnél.
 
 Megjegyzés: a január 22-i bejegyzés egy másik Pálé (szülei Franciscus Dobros és Anna Hajdin). A Kádas-bejegyzés ez után áll, a napszám második jegye bizonytalan („2?.”), de nem 22.
+
+## 12. Kádas Pál keresztelése, 1799 – Cibakháza (nem található)
+
+Film: Cibakháza, r. k. keresztelési anyakönyv 1745–1803, FamilySearch DGS 4551516 (a film megjegyzése: „Kereszteltek 1745–1868”; házassági bejegyzés nincs rajta). https://www.familysearch.org/search/film/004551516
+
+Névmutató: Cibakházán Kádas/Kadas/Kad* vezetéknévvel 1803 előtt csak két indexelt keresztelés van: Kádas Paulus 1748 és Kádas Catharina 1752. július 7. (mindkettő Kádas Stephanus és Michel/Michet Elisabeth gyermeke). 1795–1803 között sehol nincs indexelt Kádas Paulus-keresztelés. Az 1770-es évek indexelve vannak (pl. a 100. kép: 1778. okt. – 1779. jan.), de Kádas Pál-keresztelés ott sincs a névmutatóban; ezeket a képeket kézzel nem lapoztam át.
+
+Kézzel átnézett képek:
+- 177. kép: 1798. október 12. – november 24. körül. Kádas nincs.
+- 178. kép: 1798. december 17. – 1799. január 22. A januári bejegyzések: 6. Casparus [Székely], 10. Apollonia [Kristván], 18. Paulus (Andr. Timár és Eliz. Ferenczi; keresztszülők Andr. [Elek] és Eliz. Tóth), 20. Paulus [Biszka], 21. Paulus Varga, 2[?]. Apollonia Danyi, 22. Catharina Nagy. Kádas nincs.
+- 179. kép: 1799. január 2[?]. (Josephus Bottyán) – március 20. Kádas nincs.
+
+A január 18-i Pál tehát Timár András és Ferenczi Erzsébet fia, nem Kádas.
+
+Mellékes találat ugyanezen a filmen (176. kép, 1798. október 2.):
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Dies | 2. (in Octobri 1798) |
+| Nomen Infantis | Apollonia |
+| Parentes | Paul. Barta, Hel. Benkó |
+| Patrini | Petr. Balás, Anna Marót [?] |
+| Minister | Jos. Bercsi [?] Coop. Loci |
+| Locus | Cibakh[áza] |
+
+Vagyis 1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt. Hogy ennek van-e köze a fán szereplő „Kádas Pál × Benko Helena” párhoz, a forrásból nem derül ki.
+
+## 13. Kádas Mihály keresztelése, Óbecse, 1836. szeptember 13/14.
+
+Óbecse, r. k. keresztelési anyakönyv 1826–1847, FamilySearch DGS 4594732, 179. kép (377-ből), a bal oldali lap utolsó előtti bejegyzése (a sorszámot nem olvastam le). A névmutató: „Kadas Michael”, apja Kadas Paulus, anyja Homanyi Cathar.
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus et Dies Mensis (Nativ./Bapt.) | 1836. 13. / 14. Septemb. |
+| Nomen Baptisati | Michael |
+| Nomina Parentum Conjugum | Paulus Kádas et Cathar. [Homonyi / Hornyányi?], P. V. B. [Parochiani Ó-Becsenses] |
+| Conditio | Pleb. |
+| Nomina Patrinorum | Laurentius Kovács et Juditha [Berecka?], P. V. B. |
+| Baptisans | Franciscus Keller, Capell. V. B. |
+
+Fordítás: Mihály 1836. szeptember 13-án született, 14-én keresztelték. Szülei Kádas Pál és [Homonyi] Katalin, óbecsei plébániabeliek, nemtelenek. Keresztszülők: Kovács Lőrinc és [Berecka] Judit. Keresztelő: Keller Ferenc káplán.
+
+Megjegyzés: a keresztszülők ugyanazok, mint az 1833-as Kádas Pál-keresztelésnél (7. fejezet: „Laurentius Kovács cum uxore Juditha [Borecka?]”). Ez arra utalhat, hogy ugyanarról a Kádas Pálról van szó, aki 1833 és 1836 között második feleséget vett, de a forrás ezt nem mondja ki.
