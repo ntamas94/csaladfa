@@ -19,7 +19,8 @@ Családfakutatás: a Ricz, a Kádas és a Gubincsik ág, kiegészítve az óbecs
 
 ## Nyitott kérdések
 
-1. **Kádas Pál (1799):** hol született, és tényleg az 1748-as Kádas Pál fia? (51 év különbség; cibakházi film 1745–1803, DGS 4551516)
+1. **Kádas Pál (1799?):** hol és mikor született, kik a szülei? Cibakházán 1795–1803 között nincs Kádas-keresztelés; a fa „1799. jan. 18.” dátuma egy másik Pálé (Timár András fia). A halotti vagy házassági bejegyzése segíthet.
+   - Mellékszál: Kádas Mihály (Óbecse, 1836), Kádas Pál és [Homonyi] Katalin fia, ugyanazokkal a keresztszülőkkel, mint az 1833-as Kádas Pál. Féltestvér lehet.
 2. **Mikor költözött a Kádas család Cibakházáról Óbecsére?** (1748 és 1833 között)
 3. **Ricz Antal (1883) és Kádas Ilona házassága** (kb. 1903–1909), valószínűleg Óbecsén, állami anyakönyv.
 4. **Ricz Péter × Fehér Rozália és Gubincsik Imre × Budai Katalin házassága** (kb. 1835–1841, Házasultak 1826–1875, DGS 7994502).
