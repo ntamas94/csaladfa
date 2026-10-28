@@ -386,9 +386,12 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   add("c3", 6, kidMid, "ricz", "Ricz András");
   add("c4", 6, kidMid + 140, "ricz", "Ricz László");
   add("c5", 6, kidMid + 280, "ricz", "Ricz Veronika");
-  add("ifj", 7, kidMid - 280, "ricz", "ifj. Ricz Antal", ["id. Antal fia"]);
-  add("unc", 8, kidMid - 350, "ricz", "Ricz Antal", ["nagybácsi"]);
-  add("next", 8, kidMid - 210, "todo", "Az Ön szülője", ["kitöltendő"]);
+  add("ifj", 7, kidMid - 420, "ricz", "ifj. Ricz Antal", ["id. Antal fia"]);
+  add("gp", 7, kidMid - 140, "todo", "Az Ön nagyszülője", ["kitöltendő"]);
+  add("unc", 8, kidMid - 420, "ricz", "Ricz Antal", ["unokatestvér"]);
+  add("mom", 8, kidMid - 210, "todo", "Az Ön édesanyja", ["kitöltendő"]);
+  add("msib", 8, kidMid - 70, "todo", "Édesanyja testvérei", ["kitöltendő"]);
+  add("me", 9, kidMid - 210, "other", "Ön", ["családfa-készítő"]);
   // Hypotheses from the Óbecse notarial records
   add("hfathers", 3, -30, "hyp", "Ricz István · Ricz Pál", ["az 1879-es örököstársak", "apái – Péter testvérei?"],
       "Az 1879-es meghatalmazásban a két Ricz Pált apjuk (István, Pál) szerint különböztetik meg. Ricz István 1879 előtt meghalt (özvegye Bálint Borbála). Nem igazolt, hogy Ricz Péter testvérei voltak.");
@@ -455,9 +458,12 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     derta: { st: "part", facts: ["1835. november 23-án fia, Ricz Pál (20 éves) Óbecsén feleségül vette Sági Veronikát; a bejegyzés szerint anyja „Veronica Derta”."], notes: ["A vezetéknév a házassági bejegyzésben is Derta olvasatú, ez megerősíti a fa olvasatát (nem Beretka)."], src: ["h1835r"] },
     benko: { st: "tree", notes: ["1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt (lányuk, Apollónia keresztelése, okt. 2.). Hogy ennek köze van-e a fán szereplő Kádas Pál és Benko Helena párhoz, nem derül ki.", "1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."], src: ["c1799"] },
     c1: { st: "part", death: "1983, Óbecse (Becse)", deathAge: 73, deathAgeSrc: "a gyászhír szerint", photos: [{ src: "photos/ricz-antal-1910.jpg", full: "photos/ricz-antal-1910-koszonet.jpg", cap: "Az 1983-as köszönetnyilvánításból (VAMADIA). Kattintásra a teljes hirdetés." }], facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Foglalkozása: cipész, 1983-ban nyugdíjas („ny. cipész”).", "1983-ban, 73 évesen, hirtelen hunyt el Óbecsén (Becse). A család köszönetnyilvánítása 1983. június 28-án kelt.", "Halálakor élt a felesége, és voltak gyermekei, menyei vagy vejei, unokái és dédunokái.", "A gyászhírben „id. Ricz Antal” áll: valószínűleg volt egy Antal nevű fia is (ifj. Ricz Antal).", "Ezen az ágon származik a családfa készítője."], notes: ["A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét, a szerb iratokban Ric (Риц) lehet.", "Ha a gyászhír a halál után néhány héttel jelent meg, a halál 1983 májusára vagy júniusára tehető. A 73 év egyezik az 1910. februári születéssel."], src: ["k1983"] },
-    ifj: { st: "fam", facts: ["Id. Ricz Antal (1910–1983) fia. Erre utal az „id.” jelző az 1983-as köszönetnyilvánításban, és a család is így tudja.", "Fia, Antal a családfa készítőjének nagybátyja."], notes: ["A felesége neve még nem ismert.", "Ha él, csak a neve szerepel a fán, dátum nem."], src: ["k1983"] },
-    unc: { st: "fam", facts: ["Ifj. Ricz Antal fia, id. Ricz Antal (1910–1983) unokája.", "A családfa készítőjének nagybátyja."], notes: ["Élő személy lehet, ezért dátum nem szerepel."] },
-    next: { st: "todo", facts: ["A családfa készítőjének szülője: ifj. Ricz Antal gyermeke, a nagybácsi, Antal testvére."], notes: ["Kitöltendő: név. Élő személyeknél csak a név jelenik meg, dátum nem."] },
+    ifj: { st: "fam", facts: ["Id. Ricz Antal (1910–1983) fia. Erre utal az „id.” jelző az 1983-as köszönetnyilvánításban, és a család is így tudja.", "Fia, Antal az Ön édesanyjának első unokatestvére."], notes: ["A felesége neve még nem ismert. Ha él, csak a neve szerepel a fán, dátum nem."], src: ["k1983"] },
+    gp: { st: "todo", facts: ["Id. Ricz Antal (1910–1983) gyermeke, az Ön édesanyjának szülője, ifj. Ricz Antal testvére."], notes: ["Kitöltendő: név. Ha lány volt, a lánykori neve Ricz (Ric), és a férje nevét viselte."] },
+    unc: { st: "fam", facts: ["Ifj. Ricz Antal fia, id. Ricz Antal (1910–1983) unokája.", "Az Ön édesanyjának első unokatestvére."], notes: ["Élő személy lehet, ezért dátum nem szerepel."] },
+    mom: { st: "todo", facts: ["Id. Ricz Antal (1910–1983) unokája. Első unokatestvére Ricz Antal, ifj. Ricz Antal fia."], notes: ["Kitöltendő: név. Élő személyeknél csak a név szerepel, dátum nem."] },
+    msib: { st: "todo", facts: ["Az Ön édesanyjának testvérei, id. Ricz Antal unokái."], notes: ["Kitöltendő: nevek."] },
+    me: { st: "fam", facts: ["A családfa készítője. Id. Ricz Antal (1910–1983) dédunokája: az 1983-as köszönetnyilvánítás „dédapánk” szava már a dédunokákra is utal."] },
     c2: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c3: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c4: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
@@ -475,7 +481,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     ["rantal2", "kilona", ["c1", "c2", "c3", "c4", "c5"]]
   ];
   // Single-parent links: the other parent is not known yet
-  var SOLO = [["c1", ["ifj"]], ["ifj", ["unc", "next"]]];
+  var SOLO = [["c1", ["ifj", "gp"]], ["ifj", ["unc"]], ["gp", ["mom", "msib"]], ["mom", ["me"]]];
 
   function X(p) { return p.cx * SX + OX; }
   function Y(p) { return OY + p.r * ROWH; }
@@ -564,7 +570,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var DIRECT = {}, pm = {};
   C.forEach(function (c) { c[2].forEach(function (k) { pm[k] = [c[0], c[1]]; }); });
   SOLO.forEach(function (sl) { sl[1].forEach(function (k) { pm[k] = [sl[0]]; }); });
-  (function up(k) { DIRECT[k] = true; (pm[k] || []).forEach(up); })("next");
+  (function up(k) { DIRECT[k] = true; (pm[k] || []).forEach(up); })("me");
   var NODES = {};
   var MON = { jan: 1, febr: 2, "márc": 3, "ápr": 4, "máj": 5, "jún": 6, "júl": 7, aug: 8, szept: 9, okt: 10, nov: 11, dec: 12 };
   function parseDate(t) {
