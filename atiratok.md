@@ -347,3 +347,31 @@ Mellékes nevek ugyanezen a filmen (bizonytalan olvasatok):
 Ifj. Kádas Pál (1833) és Gubincsik Ilona gyermekei a névmutató szerint (keresztelések, Óbecse): Antonius 1864, Petrus 1867, Paulus 1870, Josephus 1873, Josephus 1875, Maria 1876, Helena 1884 (ez utóbbi a 9. fejezetben). A két József arra utalhat, hogy az 1873-as meghalt; ez feltevés, a halotti film (DGS 8265820, 1871–1880) nincs indexelve.
 
 Id. Kádas Pál és [Homonyi] Karolina/Katalin halálára nincs indexelt bejegyzés; az óbecsei halotti filmek névre nincsenek indexelve.
+
+## 20. Gubincsik Imre és Budai Katalin házassága, Óbecse, 1837. november 20.
+
+Óbecse, r. k. házassági anyakönyv, FamilySearch DGS 7994502 (Házasultak 1826–1875), 79. kép (433-ból): https://www.familysearch.org/search/film/007994502?i=78 . A bal oldali lap utolsó bejegyzése; az oldalpár 1837. nov. 13–22. bejegyzéseit tartalmazza. Magyar nyelvű nyomtatott rovatok, sorszám nincs. A névmutatóban nincs benne.
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Esztendeje, Hónapja, Napja | 1837. 20. November |
+| Nevek, vezetéknevek, lakhelyek | Imre, Gubincsik András és Agó Erzsébet fia; Katalin, Budai György és [Dudás? / Deák?] Rozál leánya, Óbecsei lak. |
+| Hány esztendősek | 18; 18 |
+| Sorsok | n[em] n[eme]s; n[em] n[eme]s |
+| Násznagyok nevei | Gubincsik Mátyás és Juhász József, Óbecsei lak. |
+| A házasság szentségét kiszolgáltató | ugyanaz (az oldalon máshol: Wagner Tóbiás óbecsei plébános) |
+
+Fordítás: 1837. november 20-án házasságot kötött Gubincsik Imre, 18 éves, Gubincsik András és Agó Erzsébet fia, és Budai Katalin, 18 éves, Budai György és [Dudás] Rozália leánya, mindketten óbecsei lakosok, nemtelenek. Násznagyok: Gubincsik Mátyás és Juhász József, óbecseiek.
+
+Ugyanazon a napon, közvetlenül fölötte: Farkas András (20), Farkas András és Fehér Anna fia, és Gubincsik Anna (17), Gubincsik András és Agó Erzsébet leánya, óbecsei lakosok. Násznagyok: Németh János és Gubincsik János. Gubincsik Anna tehát Imre testvére.
+
+Megjegyzések:
+- Az életkorok egyeznek a fán szereplő születési évekkel (1818, 1819).
+- Gubincsik Imre és Budai Katalin keresztelése nincs a névmutatóban (az óbecsei Gubincsik-keresztelések csak 1829-től indexeltek).
+- Budai Katalin anyjának vezetékneve a legbizonytalanabb olvasat.
+
+Első gyermekük: Óbecse, Kereszteltek 1826–1847 (DGS 4594732), 2. tétel, 22. kép, bal oldal: 1839. február 18-án született, 19-én keresztelték Viktort; szülei „Gubincsek Imre és Budai Kata, Óbecsei lak.”; keresztszülők [Gálfi? György] és Szalai Erzsébet. (A névmutató tévesen „Gubintsch Joannes”-nek írja az apát.)
+
+Gubincsik Imre és Budai Katalin gyermekei a névmutató szerint (Óbecse): Viktor 1839, János 1840, Ilona 1841 (2. fejezet), Rozália 1843, Antal 1846, Erzsébet 1847. Egy Gubincsik Rozália (szül. 1844, szülei Gubincsik Imre és Budai Katalin) 1915. május 23-án halt meg Budapesten, Pataki István feleségeként (polgári anyakönyvi index; nem ellenőrizve).
+
+Más óbecsei Gubincsik-családok 1829–1838 körül (rokonság nem igazolt): Péter × Bálint Rozália; János × Majoros Anna; József × Szerda Katalin; Jakab × Szalai Ilona.
