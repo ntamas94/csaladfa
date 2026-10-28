@@ -375,3 +375,41 @@ Első gyermekük: Óbecse, Kereszteltek 1826–1847 (DGS 4594732), 2. tétel, 22
 Gubincsik Imre és Budai Katalin gyermekei a névmutató szerint (Óbecse): Viktor 1839, János 1840, Ilona 1841 (2. fejezet), Rozália 1843, Antal 1846, Erzsébet 1847. Egy Gubincsik Rozália (szül. 1844, szülei Gubincsik Imre és Budai Katalin) 1915. május 23-án halt meg Budapesten, Pataki István feleségeként (polgári anyakönyvi index; nem ellenőrizve).
 
 Más óbecsei Gubincsik-családok 1829–1838 körül (rokonság nem igazolt): Péter × Bálint Rozália; János × Majoros Anna; József × Szerda Katalin; Jakab × Szalai Ilona.
+
+## 21. Ricz Pál és Sági Veronika házassága, Óbecse, 1835. november 23.
+
+Óbecse, r. k. házassági anyakönyv, FamilySearch DGS 7994502 (Házasultak 1826–1875), 69. kép (433-ból): https://www.familysearch.org/search/film/007994502?i=68 . A bal oldali lap, felülről a 3. bejegyzés; sorszám nincs.
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus et Dies Mensis | 1835. 23. Novemb. |
+| Nomen et Cognomen, ac Parochia Contrahentium | Paulus Ritz, Petri Ritz et Veronicae Derta filius; Veronica, Josephi Sági et Helenae [Vrbók?] filia, P. V. B. |
+| Aetas | 20.; 18. |
+| Conditio | Pleb.; Pleb. |
+| Nomina Testium | Josephus [Sávra?] et Mich[ael] Sági, P. V. B. |
+| Minister | Idem |
+
+Fordítás: 1835. november 23-án házasságot kötött Ricz Pál, 20 éves, Ricz Péter és Derta Veronika fia, és Sági Veronika, 18 éves, Sági József és [Vrbók] Ilona lánya, óbecsei plébániabeliek, nemtelenek.
+
+Megjegyzés: a szülők nevei megegyeznek a fán Ricz Péter (1813) szüleiként szereplő párral (Ricz Péter és Derta Veronika); ha a fa helyes, Ricz Pál (kb. 1815) Ricz Péter öccse. A „Derta” olvasatot ez a bejegyzés is alátámasztja.
+
+## 22. Ricz Péter házassága, Óbecse, 1837. június 12. – valószínűleg névrokon
+
+Ugyanez a film, 77. kép: https://www.familysearch.org/search/film/007994502?i=76 . A bal oldali lap közepe, az 1837. máj. 28-i bejegyzés után. Magyar nyelvű nyomtatott rovatok, sorszám nincs.
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Esztendeje, Hónapja, Napja | 1837. 12. Junius |
+| Nevek, vezetéknevek, plébánia | Péter, Ricz János és Gubincsik Erzsébet megholtaknak fia; Rosalia, G[ronka? / Gonda?] Pál és Ö[rtig?] Rosaliának leánya, Óbecsei lak. |
+| Hány esztendősek | 19.; 18. |
+| Sorsok | n[em] n[eme]s; nemes |
+| Násznagyok | Sándor János; Farkas József, Óbecsei lak. |
+| Eskető | Wagner [Tóbiás], Óbecsei Plébános |
+
+Fordítás: 1837. június 12-én házasságot kötött Ricz Péter, 19 éves, nemtelen, a néhai Ricz János és Gubincsik Erzsébet fia, és Rozália, 18 éves, nemes, [Gronka] Pál és [Örtig] Rozália lánya, óbecsei lakosok.
+
+Miért valószínűleg nem a mi Ricz Péterünk: a vőlegény apja János (a fán Péter), a menyasszony vezetékneve nem Fehér, és a vőlegény kb. 1818-ban született (a fán 1813). Ugyanezen az oldalpáron a következő bejegyzés: Ricz János (20), szintén Ricz János és Gubincsik Erzsébet fia, Fülöp József leányát, Annát veszi el.
+
+Ricz Péter és Fehér Rozália házassága: az 1834. január – 1837. december közötti házassági bejegyzésekben (55–77. kép) nem szerepel. Gyermekeik a névmutató szerint (Óbecse): Vincze 1838 (DGS 4594732, 184. kép; index: https://www.familysearch.org/ark:/61903/1:1:XKYY-4ZR), Antal 1842 (1. fejezet), József 1844 (https://www.familysearch.org/ark:/61903/1:1:XKYY-K8R), Vincze 1846 (https://www.familysearch.org/ark:/61903/1:1:XKYY-PXT). Mivel az első gyerek 1838-ban született, a házasság valószínűleg 1838 előtt, de 1834 előtt is lehetett (1826–1833 nincs átnézve). Az 1826 előtti óbecsei keresztelések nincsenek indexelve, így Ricz Péter (1813) és Fehér Rozália (1817) keresztelése nem található.
+
+Mellékes Ricz-, Fehér- és Busa-nevek az 1834–1837-es házassági lapokon (a segédkutatás rövid olvasatai, nem ellenőrizve): 1834. jún. 5. Michael Pinter, „Agnetis Ritz” özvegye (kb. 56. kép); 1834. nov. 5. Rosalia Fehér × Josephus Horváth (59. kép); 1835. febr. Joannes Ricz özvegyember (65. kép); 1836. febr. 9. a menyasszony anyja Agnes Ricz (71. kép); 1836. nov. 7. Georgius Busa, Stephanus Busa és Helena Gubincsik fia × Rosalia Szabó (74. kép).
