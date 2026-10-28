@@ -386,7 +386,9 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   add("c3", 6, kidMid, "ricz", "Ricz András");
   add("c4", 6, kidMid + 140, "ricz", "Ricz László");
   add("c5", 6, kidMid + 280, "ricz", "Ricz Veronika");
-  add("next", 7, kidMid - 280, "todo", "Ric Antal családja", ["kitöltendő"]);
+  add("ifj", 7, kidMid - 280, "ricz", "ifj. Ricz Antal", ["id. Antal fia"]);
+  add("unc", 8, kidMid - 350, "ricz", "Ricz Antal", ["nagybácsi"]);
+  add("next", 8, kidMid - 210, "todo", "Az Ön szülője", ["kitöltendő"]);
   // Hypotheses from the Óbecse notarial records
   add("hfathers", 3, -30, "hyp", "Ricz István · Ricz Pál", ["az 1879-es örököstársak", "apái – Péter testvérei?"],
       "Az 1879-es meghatalmazásban a két Ricz Pált apjuk (István, Pál) szerint különböztetik meg. Ricz István 1879 előtt meghalt (özvegye Bálint Borbála). Nem igazolt, hogy Ricz Péter testvérei voltak.");
@@ -453,7 +455,9 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     derta: { st: "part", facts: ["1835. november 23-án fia, Ricz Pál (20 éves) Óbecsén feleségül vette Sági Veronikát; a bejegyzés szerint anyja „Veronica Derta”."], notes: ["A vezetéknév a házassági bejegyzésben is Derta olvasatú, ez megerősíti a fa olvasatát (nem Beretka)."], src: ["h1835r"] },
     benko: { st: "tree", notes: ["1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt (lányuk, Apollónia keresztelése, okt. 2.). Hogy ennek köze van-e a fán szereplő Kádas Pál és Benko Helena párhoz, nem derül ki.", "1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."], src: ["c1799"] },
     c1: { st: "part", death: "1983, Óbecse (Becse)", deathAge: 73, deathAgeSrc: "a gyászhír szerint", photos: [{ src: "photos/ricz-antal-1910.jpg", full: "photos/ricz-antal-1910-koszonet.jpg", cap: "Az 1983-as köszönetnyilvánításból (VAMADIA). Kattintásra a teljes hirdetés." }], facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Foglalkozása: cipész, 1983-ban nyugdíjas („ny. cipész”).", "1983-ban, 73 évesen, hirtelen hunyt el Óbecsén (Becse). A család köszönetnyilvánítása 1983. június 28-án kelt.", "Halálakor élt a felesége, és voltak gyermekei, menyei vagy vejei, unokái és dédunokái.", "A gyászhírben „id. Ricz Antal” áll: valószínűleg volt egy Antal nevű fia is (ifj. Ricz Antal).", "Ezen az ágon származik a családfa készítője."], notes: ["A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét, a szerb iratokban Ric (Риц) lehet.", "Ha a gyászhír a halál után néhány héttel jelent meg, a halál 1983 májusára vagy júniusára tehető. A 73 év egyezik az 1910. februári születéssel."], src: ["k1983"] },
-    next: { st: "todo", facts: ["Ide kerül Ricz Antal (1910–1983) felesége és gyermekei, majd a további nemzedékek a mai napig.", "Az 1983-as gyászhír szerint felesége túlélte, és voltak gyermekei, unokái, dédunokái. A „id.” megjelölés alapján valószínűleg az egyik fia is Antal volt."], notes: ["Élő személyeknél csak a név jelenik meg, dátum nem."], src: ["k1983"] },
+    ifj: { st: "fam", facts: ["Id. Ricz Antal (1910–1983) fia. Erre utal az „id.” jelző az 1983-as köszönetnyilvánításban, és a család is így tudja.", "Fia, Antal a családfa készítőjének nagybátyja."], notes: ["A felesége neve még nem ismert.", "Ha él, csak a neve szerepel a fán, dátum nem."], src: ["k1983"] },
+    unc: { st: "fam", facts: ["Ifj. Ricz Antal fia, id. Ricz Antal (1910–1983) unokája.", "A családfa készítőjének nagybátyja."], notes: ["Élő személy lehet, ezért dátum nem szerepel."] },
+    next: { st: "todo", facts: ["A családfa készítőjének szülője: ifj. Ricz Antal gyermeke, a nagybácsi, Antal testvére."], notes: ["Kitöltendő: név. Élő személyeknél csak a név jelenik meg, dátum nem."] },
     c2: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c3: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c4: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
@@ -470,6 +474,8 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     ["rantal1", "irozalia", ["rantal2"]], ["kpal3", "gilona", ["kilona"]],
     ["rantal2", "kilona", ["c1", "c2", "c3", "c4", "c5"]]
   ];
+  // Single-parent links: the other parent is not known yet
+  var SOLO = [["c1", ["ifj"]], ["ifj", ["unc", "next"]]];
 
   function X(p) { return p.cx * SX + OX; }
   function Y(p) { return OY + p.r * ROWH; }
@@ -530,7 +536,14 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     el("text", { x: (x1 + x2) / 2 - 8, y: (y1 + y2) / 2 + 4, "text-anchor": "end", "class": "lbl hyp" }, gE, "valószínűleg azonos");
   })();
   // Placeholder for the generations below Ric Antal (1910), down to today
-  line(X(P.c1), Y(P.c1) + H, X(P.next), Y(P.next), "todo");
+  SOLO.forEach(function (sl) {
+    var pa = P[sl[0]], kids = sl[1].map(function (id) { return P[id]; }), px = X(pa), py = Y(pa) + H, ky = Y(kids[0]);
+    if (kids.length === 1) { line(px, py, X(kids[0]), ky); return; }
+    var bar = ky - 26;
+    line(px, py, px, bar);
+    line(X(kids[0]), bar, X(kids[kids.length - 1]), bar);
+    kids.forEach(function (k) { line(X(k), bar, X(k), ky, k.line === "todo" ? "todo" : ""); });
+  });
   // Warnings
   (function () {
     var a = P.kpal1, b = P.kpal2, x = (X(a) + X(P.benko)) / 2;
@@ -550,7 +563,8 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   // Direct line of the tree's author: Ric Antal (1910) and all his ancestors
   var DIRECT = {}, pm = {};
   C.forEach(function (c) { c[2].forEach(function (k) { pm[k] = [c[0], c[1]]; }); });
-  (function up(k) { DIRECT[k] = true; (pm[k] || []).forEach(up); })("c1");
+  SOLO.forEach(function (sl) { sl[1].forEach(function (k) { pm[k] = [sl[0]]; }); });
+  (function up(k) { DIRECT[k] = true; (pm[k] || []).forEach(up); })("next");
   var NODES = {};
   var MON = { jan: 1, febr: 2, "márc": 3, "ápr": 4, "máj": 5, "jún": 6, "júl": 7, aug: 8, szept: 9, okt: 10, nov: 11, dec: 12 };
   function parseDate(t) {
@@ -642,7 +656,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       tb.appendChild(tr);
     });
 
-  var ST = { todo: ["kitöltendő", "todo"], ok: ["igazolva", "done"], part: ["részben igazolva", "part"], tree: ["a családfa rajzáról, forrás nélkül", "other"], hyp: ["feltételezés", "todo"] };
+  var ST = { fam: ["a család közlése szerint", "part"], todo: ["kitöltendő", "todo"], ok: ["igazolva", "done"], part: ["részben igazolva", "part"], tree: ["a családfa rajzáról, forrás nélkül", "other"], hyp: ["feltételezés", "todo"] };
   var LINE = { todo: "Következő nemzedék", ricz: "Ricz ág", kadas: "Kádas ág", gub: "Gubincsik ág", other: "Beházasodott ág", hyp: "Levéltári nyom" };
 
   var parents = {}, spouses = {}, children = {};
@@ -652,6 +666,11 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       (spouses[pr[0]] = spouses[pr[0]] || []).push(pr[1]);
       children[pr[0]] = (children[pr[0]] || []).concat(c[2]);
     });
+  });
+
+  SOLO.forEach(function (sl) {
+    sl[1].forEach(function (k) { parents[k] = [sl[0]]; });
+    children[sl[0]] = (children[sl[0]] || []).concat(sl[1]);
   });
 
   function h(tag, cls, text, parent) {
@@ -711,7 +730,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       else h("span", x.st === "hyp" ? "hypname" : null, x.n + (x.d ? " (" + x.d + ")" : "") + (x.st === "hyp" ? " ?" : " ✓"), sd);
     });
     if (!sib.length && !extra.length) {
-      h("span", "none", parents[id] ? "még nem ismert: " + P[parents[id][0]].name + " és " + P[parents[id][1]].name + " többi gyermeke keresendő" : "nem ismert", sd);
+      h("span", "none", parents[id] ? "még nem ismert: " + parents[id].map(function (k) { return P[k].name; }).join(" és ") + " többi gyermeke keresendő" : "nem ismert", sd);
     } else if (extra.some(function (x) { return x.st === "hyp" || (x.id && P[x.id].line === "hyp"); })) {
       h("span", "none", "(? = feltételezés)", sd);
     }
