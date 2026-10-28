@@ -51,6 +51,15 @@ Szenttamáson a 19. század második felében legalább öt Németh-család élt
 
 A polgári anyakönyvi indexben (Hungary, Civil Registration 1895–1980) Ferenc Németh 1950–1960 közötti halálozására Kiskunhalas hellyel nincs találat; házasságra és születésre sok találat van, de egyik sem kiskunhalasi helynévvel (az index a települést gyakran nem tartalmazza). A FamilySearch-családfában szenttamási születésű, Kiskunhalashoz kötődő Németh Ferenc nincs.
 
+## Házasságok (a család közlése, 2026. okt. 28.)
+
+- **1. házasság:** Hamu Petronellával, valószínűleg **Becsén** (Óbecse, ma Bečej, Szerbia).
+- **2. házasság:** Magyarországon, valószínűleg Kiskunhalason, 1950 és 1960 között.
+
+Keresés eredménye:
+- FamilySearch: Németh × Hamu házasság vagy közös gyerek nincs indexelve. Óbecsén Hamu nevű bejegyzés nincs a névmutatóban (a hasonló nevek: Hamores, Hamcs, 1846–1862). A 20. századi becsei anyakönyvek (jugoszláv állami anyakönyv) nincsenek a FamilySearch-ön.
+- VAMADIA: a „Hamu Petronella” keresést a webhely robotellenőrzése megállította; kézzel kell megnézni. A Magyar Szó „Becse … Házasságot kötöttek” rovata (lásd atiratok.md 24. fejezet) ilyen házasságot közölhet. Javasolt keresések (pontos kifejezéssel): „Hamu Petronella”, „Hamu Petra”, „Németh Ferenc” + Becse, „Hamu” + Becse.
+
 ## Jelölt 2: régi kiskunhalasi Német család (1808–1826)
 
 FamilySearch Családfa, „Német” alakkal:
