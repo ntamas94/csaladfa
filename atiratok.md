@@ -414,9 +414,9 @@ Ricz Péter és Fehér Rozália házassága: az 1834. január – 1837. december
 
 Mellékes Ricz-, Fehér- és Busa-nevek az 1834–1837-es házassági lapokon (a segédkutatás rövid olvasatai, nem ellenőrizve): 1834. jún. 5. Michael Pinter, „Agnetis Ritz” özvegye (kb. 56. kép); 1834. nov. 5. Rosalia Fehér × Josephus Horváth (59. kép); 1835. febr. Joannes Ricz özvegyember (65. kép); 1836. febr. 9. a menyasszony anyja Agnes Ricz (71. kép); 1836. nov. 7. Georgius Busa, Stephanus Busa és Helena Gubincsik fia × Rosalia Szabó (74. kép).
 
-## 23. Köszönetnyilvánítás: id. Ricz Antal (1910–1983), Becse, 1983. június 28.
+## 23. Köszönetnyilvánítás: id. Ricz Antal (1910–1983), Becse, 1983. június 26.
 
-Forrás: VAMADIA (Vajdasági Magyar Digitális Archívum), a felhasználó kézi keresése. Az újság címe és oldalszáma még pótlandó.
+Forrás: Magyar Szó, 40. évf. 173. sz., 1983. június 26. (vasárnap), 26. oldal; VAMADIA (Vajdasági Magyar Digitális Archívum): https://vamadia.rs/periodika-szam/magyar-szo-40-evf-1983-junius-26-173-sz-1-28-oldal
 
 > KÖSZÖNETNYILVÁNÍTÁS
 >
@@ -428,7 +428,7 @@ Forrás: VAMADIA (Vajdasági Magyar Digitális Archívum), a felhasználó kézi
 >
 > temetésén megjelentek, koszorú- és virágadományukkal, részvétnyilvánításukkal fájdalmunkon enyhíteni igyekeztek. Jó édesapánk élete munka és küzdelem volt, sok hálával köszönjük, amit értünk tett. Legyen pihenése békés és könnyű.
 >
-> Becse, 1983. VI. 28.
+> Becse, 1983. VI. 26.
 >
 > A gyászoló család
 
@@ -440,3 +440,22 @@ Megjegyzések:
 - A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét.
 - Fénykép is van a köszönetnyilvánításban.
 
+
+Megjegyzés a keltezéshez: a hirdetés alján „Becse, 1983. VI. 26.” olvasható, és a lapszám is június 26-i, ezért a korábbi „VI. 28.” olvasat téves volt.
+
+## 24. További VAMADIA-találatok (Magyar Szó és más kiadványok)
+
+Keresés a https://vamadia.rs/kereses oldalon, „Pontos kifejezésre keresek” beállítással. A szövegrészek a VAMADIA szövegfelismeréséből származnak; a hirdetéseket a 2. és 4. pont kivételével nem nyitottam meg.
+
+1. **Ricz Antal „Tika” cipész (1943–1996)** – Magyar Szó, 53. évf. 231. sz., 1996. szeptember 29., 21. oldal: köszönetnyilvánítás az 53 éves korában hirtelen elhunyt férj és apa temetéséről. https://vamadia.rs/periodika-szam/magyar-szo-53-evf-1996-szeptember-29-231-sz-1-24-oldal
+   - Megemlékezés ugyanerről: Magyar Szó, 54. évf. 217. sz., 1997. szeptember 14., 17. oldal (halálának első évfordulója szeptember 21-én). https://vamadia.rs/periodika-szam/magyar-szo-54-evf-1997-szeptember-14-217-sz-1-24-oldal
+   - Miért lehet a családé: cipész volt, mint id. Ricz Antal (1910–1983), és 1943-ban született, amikor id. Antal 33 éves volt; az 1983-as hirdetés „id.” jelzője egy élő ifj. Ricz Antalra utal. A lakóhely a találati szövegrészből nem derül ki, ezért a kapcsolat még nem biztos.
+2. **Ric Antal cipész** – Magyar Szó, 18. évf. 110. sz., 1961. május 13., 22. PDF-oldal: egy kézművesverseny díjazottjai között („első díjat kapott még Ric Antal cipész”). Valószínűleg id. Ricz Antal (1910) vagy fia; a település a szövegrészből nem derül ki.
+3. **Kovács Viktória és Ric Antal házassága, Becse, 1967** – Magyar Szó, 24. évf. 145. sz., 1967. május 30., „Becse és környéke” oldal (24. PDF-oldal), https://vamadia.rs/periodika-szam/magyar-szo-24-evf-1967-majus-30-145-sz-1-16-oldal . A „BECSE … Házasságot kötöttek:” rovatban 16 pár között: „Kovács Viktória és Ric Antal”. Ha ez az 1943-ban született ifj. Ricz Antal, akkor 24 évesen nősült; a hír életkort és szülőket nem közöl, ezért az azonosítás valószínű, de nem biztos.
+4. **Ric Antal** – Magyar Szó, 10. évf. 47. sz., 1953. február 17.: egy adakozói vagy kötvényjegyzési névsorban (1200 dinár). Település nem ellenőrizve.
+5. **Ricz Veronika** anyaként két első világháborús veszteséglistában: Cseszák Péter (szül. 1882. júl. 29., Óbecse, apja János) és Balaska János Miklós (szül. 1890. dec. 5., Óbecse, apja Ferenc). Források: „A bácskai Tisza mente I. világháborús hősi halottai” és „Óbecse, Péterréve és Bácsföldvár első világháborús (1914–1918) katonai áldozatai”. Nem tudni, hogy a mi családunkhoz tartoznak-e.
+6. **Gubincsik** nevek ugyanezekben a kötetekben: óbecsei katonák feleségeként Gubincsik Anna, illetve Gubincsik Krisztina (házasság: Óbecse, 1907. május 13.), és anyaként Gubincsik Éva (fia szül. 1887. jan. 22., Óbecse; „Szabadka a nagy háborúban”).
+
+Nincs találat: „Ricz Antalné”, „Kádas Ilona”. A „Kádas” keresés csak idegen szövegrészeket adott. A „Ricz László” találatai közül egy képzőművész (halálának 10. évfordulója 1979-ben) és diákmunkák (1991–1993) szerepelnek; családi kapcsolat nem látszik. A „Ricz András” találatai egy mai szabadkai/palicsi személyre és egy szerkesztőre vonatkoznak.
+
+Érdemes még kézzel megnézni: a fenti 1., 3. és 4. pont teljes szövegét, valamint a két első világháborús veszteségkötetben a „Ricz” és „Kádas” bejegyzéseket.
