@@ -63,6 +63,7 @@ section { display: grid; gap: 16px; }
 .sw { width: 18px; height: 12px; border-radius: 3px; border: 2px solid var(--other); background: var(--surface); display: inline-block; }
 .sw.ricz { border-color: var(--ricz); } .sw.kadas { border-color: var(--kadas); } .sw.gub { border-color: var(--gub); }
 .sw.hyp { border: 2px dashed var(--hyp); background: var(--hyp-soft); }
+.sw.direct { border: 3px solid var(--ink); }
 .warnmark { color: var(--warn); font-weight: 600; }
 .toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .toolbar button {
@@ -92,7 +93,10 @@ section { display: grid; gap: 16px; }
 #tree .gen { font: 500 10.5px var(--font-body); fill: var(--muted); letter-spacing: .06em; }
 #tree .node { cursor: pointer; }
 #tree .node:focus { outline: none; }
-#tree .node:hover .box, #tree .node:focus-visible .box { stroke-width: 2.6; }
+#tree .node.direct .box { stroke-width: 2.8; }
+#tree .node:hover .box, #tree .node:focus-visible .box { stroke-width: 3.2; }
+#tree .box.todo { stroke: var(--muted); stroke-dasharray: 5 4; fill: var(--bg); }
+#tree .edge.todo { stroke-dasharray: 5 4; }
 #tree .node.sel .box { stroke-width: 3.2; fill: var(--sel); }
 #tree .node.sel .box.hyp { fill: var(--hyp-soft); }
 .hint { font-size: 13px; color: var(--muted); }
@@ -169,6 +173,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       <span><i class="sw gub"></i>Gubincsik ág</span>
       <span><i class="sw"></i>beházasodott ágak</span>
       <span><i class="sw hyp"></i>levéltári nyom, nem igazolt</span>
+      <span><i class="sw direct"></i>vastag keret: az Ön egyenes ági felmenői</span>
       <span><b class="warnmark">⚠</b>ellenőrizendő</span>
       <span>A Ricz név 1918–1920 után, Jugoszláviában: <b>Ric</b> (Риц)</span>
     </div>
@@ -347,7 +352,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   add("kokai", 2, 492, "other", "Kokai Erzsébet");
   add("kpal1", 2, 970, "kadas", "Kádas Pál", ["1748. jan. [28.]", "Cibakháza ✓"]);
   add("benko", 2, 1110, "other", "Benko Helena");
-  add("gand2", 2, 1470, "gub", "Gubincsik András", ["kb. 1777", "Óbecse ✓"]);
+  add("gand2", 2, 1470, "gub", "Gubincsik András", ["1774"]);
   add("ago", 2, 1610, "other", "Ago Erzsébet");
   add("bgyorgy", 2, 1760, "other", "Budai György");
   add("dudas", 2, 1900, "other", "Dudás Rozália");
@@ -355,15 +360,14 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   add("frozalia", 3, 422, "other", "Fehér Rozália", ["1817", "Óbecse, 1842"]);
   add("imatyas", 3, 632, "other", "Imre Mátyás", ["Óbecse, 1872"]);
   add("kovats", 3, 772, "other", "Kovács Ilona", ["(fán: Kovats)"]);
-  add("kpal2", 3, 1040, "kadas", "Kádas Pál", ["kb. 1795", "Óbecse, 1833–1836"]);
-  add("hkarolina", 3, 906, "other", "[Homonyi] Karolina", ["kb. 1815", "⚭ 1835, Óbecse ✓"]);
-  add("busa", 3, 1180, "other", "Busa Ilona", ["kb. 1797", "Óbecse ✓"]);
+  add("kpal2", 3, 1040, "kadas", "Kádas Pál", ["1799?", "nincs forrás"]);
+  add("busa", 3, 1180, "other", "Busa Ilona", ["Óbecse, 1833"]);
   add("gimre", 3, 1540, "gub", "Gubincsik Imre", ["1818. júl. 12.", "Óbecse, 1841"]);
   add("bkatalin", 3, 1830, "other", "Budai Katalin", ["1819", "Óbecse, 1841"]);
   add("rantal1", 4, 282, "ricz", "Ricz Antal", ["1842. jan. 17.", "Óbecse ✓"], "Óbecsei római katolikus keresztelési anyakönyv, 1842. jan. 17.: szülei Ricz Péter és Fehér Rozália, óbecsei lakosok.");
-  add("irozalia", 4, 702, "other", "Imre Rozália", ["1853. júl. 31.", "Óbecse ✓"]);
+  add("irozalia", 4, 702, "other", "Imre Rozália", ["1853. aug. 2.", "Óbecse, 1872"]);
   add("kpal3", 4, 1110, "kadas", "Kádas Pál", ["1833. dec. [13.]", "Óbecse ✓"]);
-  add("hmihaly", 4, 973, "kadas", "Kádas Mihály", ["1836. szept. 13.", "Óbecse ✓"]);
+  add("hmihaly", 4, 906, "hyp", "Kádas Mihály", ["1836. szept. 13., Óbecse", "anyja [Homonyi] Katalin"]);
   add("gilona", 4, 1685, "gub", "Gubincsik Ilona", ["1841. máj. 5.", "Óbecse ✓"], "Óbecsei római katolikus keresztelési anyakönyv, 1841. máj. 5.: szülei Gubincsik Imre és Budai Katalin, óbecsei lakosok.");
   add("rantal2", 5, 492, "ricz", "Ricz Antal", ["1883. máj. 29.", "Óbecse ✓"]);
   add("kilona", 5, 1397.5, "kadas", "Kádas Ilona", ["1884. máj. 30.", "Óbecse ✓"]);
@@ -373,6 +377,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   add("c3", 6, kidMid, "ricz", "Ricz András");
   add("c4", 6, kidMid + 140, "ricz", "Ricz László");
   add("c5", 6, kidMid + 280, "ricz", "Ricz Veronika");
+  add("next", 7, kidMid - 280, "todo", "Ric Antal családja", ["kitöltendő"]);
   // Hypotheses from the Óbecse notarial records
   add("hfathers", 3, -30, "hyp", "Ricz István · Ricz Pál", ["az 1879-es örököstársak", "apái – Péter testvérei?"],
       "Az 1879-es meghatalmazásban a két Ricz Pált apjuk (István, Pál) szerint különböztetik meg. Ricz István 1879 előtt meghalt (özvegye Bálint Borbála). Nem igazolt, hogy Ricz Péter testvérei voltak.");
@@ -387,10 +392,6 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var FSC = "https://www.familysearch.org/search/film/004551516";
   var S = {
     b1836: { t: "Keresztelés, Óbecse, 1836. szept. 14., Kádas Mihály (179. kép)", u: FS1 },
-    h1835: { t: "Házasság, Óbecse, 1835. jún. 29., Kádas Pál és [Homonyi] Karolina (66. kép)", u: FSM + "?i=65" },
-    d1835: { t: "Halotti anyakönyv, Óbecse, 1835. ápr. 18., Busa Ilona (109. kép)", u: "https://www.familysearch.org/search/film/008265818?i=108" },
-    d1841: { t: "Halotti anyakönyv, Óbecse, 1841. júl. 13., Gubincsik András (170. kép)", u: "https://www.familysearch.org/search/film/008265818?i=169" },
-    b1853: { t: "Keresztelés, Óbecse, 1853. júl. 31./aug. 1., 184. bejegyzés (Kereszteltek 1851–1860, 60. kép)", u: "https://www.familysearch.org/ark:/61903/3:1:939Z-1F9L-R7" },
     c1799: { t: "Cibakháza, Kereszteltek 1745–1803: 1798. okt. – 1799. márc. átnézve (177–179. kép)", u: FSC },
     b1842: { t: "Keresztelés, Óbecse, 1842. jan. 17., 26. bejegyzés", u: FS1 },
     b1841: { t: "Keresztelés, Óbecse, 1841. máj. 5., 141. bejegyzés", u: FS1 },
@@ -409,31 +410,30 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var D = {
     kistvan: { st: "part", facts: ["1748-ban Cibakházán élt, felesége Michel Erzsébet. Ekkor keresztelték fiukat, Pált."], src: ["c1748", "c1748i"] },
     micsel: { st: "part", facts: ["Kádas István felesége. 1748-ban Cibakházán keresztelték fiukat, Pált."], notes: ["A családfán „Micsel Elizabeth” áll. Az anyakönyvben Elisabeth Michel: a „Micsel” a német Michel név magyaros írása."], src: ["c1748", "c1748i"] },
-    kpal1: { st: "ok", sibs: [{ n: "Kádas Katalin", d: "kereszt. 1752. júl. 7., Cibakháza", st: "ok" }], facts: ["Megkeresztelték 1748. január [28.]-án, Cibakházán.", "Szülei Kádas István és Michel Erzsébet.", "Keresztszülők: [Mursi] János és [Timár] Katalin."], notes: ["A családfán jan. 22. áll, de az a bejegyzés egy másik Pálé (Dobros Ferenc és Hajdin Anna fia). A Kádas-bejegyzés napja bizonytalan, „2?.”, de nem 22.", "A fán a fia az óbecsei Kádas Pál, aki 1835-ben 40 éves volt (kb. 1795). Ez kb. 47 év különbség; az apa–fiú kapcsolatot forrás nem igazolja, és kimaradt nemzedék is lehet. A cibakházi névmutatóban 1803 előtt csak két Kádas-keresztelés van (Pál 1748, Katalin 1752)."], src: ["c1748", "c1748i"] },
-    kpal2: { st: "part", facts: ["1835. június 29-én Óbecsén, 40 évesen, Busa Ilona özvegyeként feleségül vette a 20 éves [Homonyi] Karolinát. Ebből a születése kb. 1795-re tehető.", "1833-ban Óbecsén élt első feleségével, Busa Ilonával (fiuk, Pál keresztelése).", "1836-ban második feleségétől fia született, Mihály."], notes: ["A családfán 1799. jan. 18. áll; ezt forrás nem igazolja, és a házassági bejegyzés szerinti életkorral (1835-ben 40 év) sem egyezik.", "A cibakházi anyakönyvben 1798 októbere és 1799 márciusa között nincs Kádas-keresztelés, és a névmutatóban 1795 és 1803 között sem. A január 18-i Pál Timár András és Ferenczi Erzsébet fia. A fa dátuma valószínűleg erről a bejegyzésről került át, ahogy az 1748-as jan. 22. is egy másik Pálé volt.", "Így az sem igazolt, hogy az 1748-as Kádas Pál fia. Az 51 éves különbség miatt ez eleve kétséges volt.", "Az 1835-ös házassági bejegyzés nem nevezi meg a szüleit és a születési helyét."], src: ["h1835", "b1833", "b1836", "c1799"] },
-    hkarolina: { st: "part", facts: ["1835. június 29-én Óbecsén, 20 évesen férjhez ment az özvegy Kádas Pálhoz.", "Szülei [Homonyi] László és Kovács Erzsébet, óbecsei plébániabeliek.", "1836-ban fia született, Mihály."], notes: ["A házassági bejegyzésben „Carolina” áll, a fia keresztelésénél „Cathar.” (Katalin). A vezetéknév középső betűi mindkét helyen elmosódottak: Homonyi, Homanyi vagy Hornyányi."], src: ["h1835", "b1836"] },
-    hmihaly: { st: "ok", sibs: [{ id: "kpal3" }], facts: ["Született 1836. szept. 13-án, keresztelték 14-én, Óbecsén.", "Szülei Kádas Pál és [Homonyi] Katalin/Karolina, óbecsei plébániabeliek, nemtelenek.", "Keresztszülők: Kovács Lőrinc és [Berecka] Judit. Keresztelte Keller Ferenc káplán."], notes: ["Az 1833-ban született Kádas Pál féltestvére: apjuk ugyanaz a Kádas Pál, aki Busa Ilona halála után, 1835-ben újranősült. A keresztszülők is ugyanazok, mint 1833-ban."], src: ["b1836", "h1835"] },
-    busa: { st: "part", facts: ["1833-ban óbecsei plébániabeli, Kádas Pál felesége. Ekkor keresztelték fiukat, Pált.", "Meghalt 1835. április 18-án, Óbecsén, 38 évesen (így kb. 1797-ben született), „Kádas Pál felesége”, nemtelen. A haldoklók szentségeit felvette.", "Férje 1835. június 29-én „Busa Ilona özvegyeként” nősült újra."], death: "1835. ápr. 18., Óbecse", notes: ["A halotti bejegyzésben a vezetéknév „Busa” vagy „Bursa” olvasatú."], src: ["d1835", "b1833", "h1835"] },
+    kpal1: { st: "ok", sibs: [{ n: "Kádas Katalin", d: "kereszt. 1752. júl. 7., Cibakháza", st: "ok" }], facts: ["Megkeresztelték 1748. január [28.]-án, Cibakházán.", "Szülei Kádas István és Michel Erzsébet.", "Keresztszülők: [Mursi] János és [Timár] Katalin."], notes: ["A családfán jan. 22. áll, de az a bejegyzés egy másik Pálé (Dobros Ferenc és Hajdin Anna fia). A Kádas-bejegyzés napja bizonytalan, „2?.”, de nem 22.", "51 év a különbség az apjának tartott és az 1799-ben született Kádas Pál között. Lehet, hogy kimaradt egy nemzedék. A cibakházi film 1803-ig tart, így az 1799-es keresztelés is ellenőrizhető rajta."], src: ["c1748", "c1748i"] },
+    kpal2: { st: "tree", facts: ["A családfa szerint 1799. jan. 18-án született, de ezt forrás nem igazolja.", "1833-ban Óbecsén élt feleségével, Busa Ilonával (fiuk, Pál keresztelése)."], notes: ["A cibakházi anyakönyvben 1798 októbere és 1799 márciusa között nincs Kádas-keresztelés, és a névmutatóban 1795 és 1803 között sem. A január 18-i Pál Timár András és Ferenczi Erzsébet fia. A fa dátuma valószínűleg erről a bejegyzésről került át, ahogy az 1748-as jan. 22. is egy másik Pálé volt.", "Így az sem igazolt, hogy az 1748-as Kádas Pál fia. Az 51 éves különbség miatt ez eleve kétséges volt.", "1836-ban egy Kádas Pál és [Homonyi] Katalin fia, Mihály Óbecsén született, ugyanazokkal a keresztszülőkkel, mint az 1833-as Kádas Pál. Lehet, hogy Busa Ilona meghalt, és Kádas Pál újranősült, de a forrás ezt nem mondja ki."], src: ["b1833", "b1836", "c1799"] },
+    hmihaly: { st: "hyp", sibs: [{ id: "kpal3" }], facts: ["Született 1836. szept. 13-án, keresztelték 14-én, Óbecsén.", "Szülei Kádas Pál és [Homonyi / Hornyányi?] Katalin, óbecsei plébániabeliek, nemtelenek.", "Keresztszülők: Kovács Lőrinc és [Berecka] Judit. Keresztelte Keller Ferenc káplán."], notes: ["A keresztszülők ugyanazok, mint az 1833-as Kádas Pál keresztelésénél. Ha az apa ugyanaz a Kádas Pál, akkor Mihály az 1833-as Pál féltestvére, és Busa Ilona 1833 és 1836 között meghalhatott. Ezt Busa Ilona halotti bejegyzése vagy Kádas Pál második házassága igazolhatja."], src: ["b1836"] },
+    busa: { st: "part", facts: ["1833-ban óbecsei plébániabeli, Kádas Pál felesége. Ekkor keresztelték fiukat, Pált."], notes: ["1836-ban egy Kádas Pál felesége már [Homonyi] Katalin volt. Ha ugyanarról a Kádas Pálról van szó, Busa Ilona 1833 decembere és 1836 szeptembere között halhatott meg (Halottak 1826–1855, DGS 8265818)."], src: ["b1833", "b1836"] },
     kpal3: { st: "ok", sibs: [{ id: "hmihaly" }], facts: ["Megkeresztelték 1833. december [13.]-án, Óbecsén (a bejegyzésben egy dátum szerepel).", "Szülei Kádas Pál és Busa Ilona, óbecsei plébániabeliek, közrendűek.", "Keresztszülők: Kovács Lőrinc és felesége, [Borecka] Judit.", "Keresztelte [Vály?] Ferenc káplán.", "1884-ben feleségével, Gubincsik Ilonával Óbecsén élt, a 934-es házszám alatt."], notes: ["A családfán dec. 10. áll. Lehet, hogy 10-én született és 13-án keresztelték.", "A FamilySearch névmutatója tévesen „Kadam Paulus” alakban indexelte."], src: ["b1833", "b1884"] },
     rpeter1: { st: "part", sibs: [{ id: "hfathers" }, { n: "Ricz Rozália", d: "[Katona?] Tamás felesége, Óbecse, 1842", st: "hyp" }], facts: ["Született 1813-ban (a családfa szerint). A másodpéldányok 1826-tal kezdődnek, így ezt az óbecsei filmen nem lehet ellenőrizni.", "1842-ben óbecsei lakos, felesége Fehér Rozália, nemtelen család.", "Fia, Antal 1872-es házassági bejegyzése is őt és Fehér Rozáliát nevezi meg szülőként."], src: ["b1842", "h1872"] },
     frozalia: { st: "part", sibs: [{ n: "Fehér József", d: "óbecsei földműves, 1877", st: "hyp" }], facts: ["Született 1817-ben (a családfa szerint).", "1842-ben óbecsei lakos, Ricz Péter hites felesége.", "Fia, Antal 1872-es házassági bejegyzése is anyaként nevezi meg."], notes: ["1877-ben egy Fehér József kezességet vállalt Ricz Mártonért, 1872-ben pedig egy Fehér Ferenc József tanú volt egy esküvőn. Rokonai lehetnek, de ezt az iratok nem mondják ki."], src: ["b1842", "h1872", "n1877"] },
-    imatyas: { st: "part", facts: ["Felesége Kovács Ilona. Lányuk, Rozália 1853-ban, fiuk, János 1852-ben született Óbecsén; a névmutató szerint további gyerekeik: Katalin (1855), Mária Anna (1862), István (1865)."], notes: ["A házasságuk valószínűleg 1851-ben volt, de az óbecsei házassági filmen az 1851-es év hiányzik."], src: ["b1853", "h1872"] },
+    imatyas: { st: "part", facts: ["Lánya, Imre Rozália 1872-es házassági bejegyzése szerint felesége Kovács Ilona."], src: ["h1872"] },
     kovats: { st: "part", facts: ["Imre Mátyás felesége, Imre Rozália anyja (1872-es házassági bejegyzés)."], notes: ["A családfán „Kovats Ilona”, az anyakönyvben Helena Kovács."], src: ["h1872"] },
     rantal1: { st: "ok", facts: ["Született és megkeresztelték 1842. jan. 17-én, Óbecsén.", "Keresztszülők: [Brandl] Mihály és [Pecze] Anna, óbecsei lakosok. Keresztelte András József óbecsei káplán.", "1872. február 7-én, 30 évesen, nőtlenként feleségül vette Imre Rozáliát Óbecsén. Tanúk: Dudás Imre és [Varnyú] Sándor. Összeadta Bende József apát, óbecsei plébános.", "1879-ben szinte biztosan ő az az óbecsei földműves Ricz Antal, aki kereszttel írta alá a Ricz-örökösök meghatalmazását (nem tudott írni)."], notes: ["Az 1880-as és 1894-es iratokban szereplő Ricz Antal (felesége Pál Viktória) egy másik személy."], src: ["b1842", "h1872", "b1883", "m1879"] },
-    irozalia: { st: "ok", sibs: [{ n: "Imre János", d: "1852. máj. 12., Óbecse", st: "ok" }, { n: "Imre Katalin", d: "1855, Óbecse, névmutató", st: "ok" }, { n: "Imre Mária Anna", d: "1862, Óbecse, névmutató", st: "ok" }, { n: "Imre István", d: "1865, Óbecse, névmutató", st: "ok" }], facts: ["Született 1853. július 31-én, keresztelték augusztus 1-jén, Óbecsén (184. bejegyzés). Szülei Imre Mátyás és Kovács Ilona. Keresztszülők: Sötét József és [Lányi] Rozália.", "Az esküvőjén [18] évesnek írták, ez egyezik.", "1872. február 7-én hajadonként férjhez ment Ricz Antalhoz Óbecsén. Szülei Imre Mátyás és Kovács Ilona.", "1883-ban óbecsei lakos, ekkor született fia, Antal."], notes: ["A családfán aug. 2. áll; a keresztelési bejegyzés szerint júl. 31-én született."], src: ["b1853", "h1872", "b1883"] },
+    irozalia: { st: "part", facts: ["Született 1853. aug. 2-án (a családfa szerint). Ezzel egyezik, hogy az esküvőjén [18] évesnek írták.", "1872. február 7-én hajadonként férjhez ment Ricz Antalhoz Óbecsén. Szülei Imre Mátyás és Kovács Ilona.", "1883-ban óbecsei lakos, ekkor született fia, Antal."], src: ["h1872", "b1883"] },
     rantal2: { st: "ok", facts: ["Született 1883. május 29-én, megkeresztelték május 30-án, Óbecsén.", "Szülei Ricz Antal és Imre Rozália, római katolikusok, óbecsei lakosok.", "Keresztanya: [Stoló] Terézia, [Ambrus] Péter felesége. Keresztelte Varga [Mátyás] káplán."], notes: ["A családfán május 30. áll: ez a keresztelés napja. Így a Kádas Ilonával közösnek hitt születésnap csak látszólagos egyezés.", "1918–1920 után, amikor Óbecse Jugoszlávia része lett, a neve az iratokban Ric Antal (Антал Риц) lett."], src: ["b1883"] },
     gilona: { st: "ok", sibs: [{ n: "Gubincsik Viktória", d: "Berényi Márton özvegye, Óbecse, 1884", st: "hyp" }], facts: ["Született és megkeresztelték 1841. máj. 5-én, Óbecsén.", "Keresztszülők: [Gálfi] György és [Szalai] Erzsébet, óbecsei lakosok. Keresztelte András József óbecsei káplán.", "1884-ben férjével, Kádas Pállal Óbecsén élt, a 934-es házszám alatt."], src: ["b1841", "b1884"] },
     gimre: { st: "part", sibs: [{ n: "Gubincsik Anna", d: "Farkas András felesége, Óbecse, 1841", st: "hyp" }], facts: ["Született 1818. júl. 12-én (a családfa szerint).", "1841-ben óbecsei lakos, felesége Budai Katalin."], notes: ["1841-ben egy Gubincsik Anna (Farkas András felesége) is Óbecsén élt, talán a testvére. 1884-ben egy Gubincsik Viktória (Berényi Márton özvegye) is óbecsei volt."], src: ["b1841"] },
     bkatalin: { st: "part", sibs: [{ n: "Budai Rozália", d: "Csábi Mihály felesége, Óbecse, 1842", st: "hyp" }, { n: "Budai Ilona", d: "[Lorik] János felesége, Óbecse, 1833", st: "hyp" }], facts: ["Született 1819-ben (a családfa szerint).", "1841-ben óbecsei lakos, Gubincsik Imre hites felesége."], src: ["b1841"] },
-    kilona: { st: "ok", sibs: [{ n: "Kádas Antal", d: "1864, Óbecse, névmutató", st: "ok" }, { n: "Kádas Péter", d: "1867, Óbecse, névmutató", st: "ok" }, { n: "Kádas Pál", d: "1870, Óbecse, névmutató", st: "ok" }, { n: "Kádas József", d: "1873, Óbecse, névmutató", st: "ok" }, { n: "Kádas József", d: "1875, Óbecse, névmutató (az 1873-as talán meghalt)", st: "ok" }, { n: "Kádas Mária", d: "1876, Óbecse, névmutató", st: "ok" }], facts: ["Született és megkeresztelték 1884. május 30-án, Óbecsén.", "Szülei Kádas Pál és Gubincsik Ilona, római katolikusok, óbecsei lakosok, házszám: 934.", "Keresztanya: [Bálint] Veronika, [Malenovszki] János felesége. Keresztelte Varga Mátyás káplán."], notes: ["A Ricz Antallal kötött házassága (kb. 1903–1909) még nincs meg.", "Férjezett neve 1918–1920 után, a jugoszláv iratokban: Ric Antalné, illetve Ilona Ric."], src: ["b1884"] },
+    kilona: { st: "ok", facts: ["Született és megkeresztelték 1884. május 30-án, Óbecsén.", "Szülei Kádas Pál és Gubincsik Ilona, római katolikusok, óbecsei lakosok, házszám: 934.", "Keresztanya: [Bálint] Veronika, [Malenovszki] János felesége. Keresztelte Varga Mátyás káplán."], notes: ["A Ricz Antallal kötött házassága (kb. 1903–1909) még nincs meg.", "Férjezett neve 1918–1920 után, a jugoszláv iratokban: Ric Antalné, illetve Ilona Ric."], src: ["b1884"] },
     gand1: { st: "tree", facts: ["Született 1732-ben (a családfa szerint)."], death: "1817 (a családfa szerint)" },
-    gand2: { st: "part", facts: ["Meghalt 1841. július 13-án, Óbecsén, 64 évesen (így kb. 1777-ben született). Agó Erzsébet férje, óbecsei lakos, nemtelen. Keller Ferenc káplán temette."], death: "1841. júl. 13., Óbecse", notes: ["A családfán 1774 a születési év; a halotti bejegyzés szerinti életkorból kb. 1777 jön ki."], src: ["d1841"] },
+    gand2: { st: "tree", facts: ["Született 1774-ben (a családfa szerint)."], death: "1841. júl. 13. (a családfa szerint)", notes: ["Ha Óbecsén halt meg, az óbecsei halotti anyakönyvben ellenőrizhető (Halottak 1826–1855, DGS 8265818). A bejegyzés az életkorát és a felesége nevét is megadhatja."] },
     bgyorgy: { st: "tree", notes: ["Csak a családfa rajzáról ismert. Lánya, Budai Katalin 1841-ben Óbecsén élt.", "Óbecsén több Budai is élt: 1842-ben Budai Rozália (Csábi Mihály felesége), 1833-ban Budai Ilona ([Lorik] János felesége). Lehetnek Katalin testvérei.", "Igazolhatja: Gubincsik Imre és Budai Katalin házassági bejegyzése (kb. 1838–1840, Házasultak 1826–1875), amely a menyasszony szüleit is megnevezi."] },
     dudas: { st: "tree", notes: ["Csak a családfa rajzáról ismert.", "Óbecsén Dudás család is élt: 1872-ben Dudás Imre tanú volt Ricz Antal és Imre Rozália esküvőjén."] },
-    ago: { st: "part", facts: ["Gubincsik András felesége: a férje 1841-es halotti bejegyzése így nevezi meg (Agó Erzsébet)."], src: ["d1841"] },
     derta: { st: "tree", notes: ["A vezetéknév olvasata bizonytalan: Derta vagy Beretka."] },
     benko: { st: "tree", notes: ["1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt (lányuk, Apollónia keresztelése, okt. 2.). Hogy ennek köze van-e a fán szereplő Kádas Pál és Benko Helena párhoz, nem derül ki.", "1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."], src: ["c1799"] },
-    c1: { st: "tree", facts: ["Született 1910. febr. 24-én (a családfa szerint)."], notes: ["A születési bejegyzés az állami anyakönyvben van. Abból a szülők életkora és születési helye is kiderül.", "Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
+    c1: { st: "tree", facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Ezen az ágon származik a családfa készítője."], notes: ["A születési bejegyzés az állami anyakönyvben van. Abból a szülők életkora és születési helye is kiderül.", "Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
+    next: { st: "todo", facts: ["Ide kerül Ric Antal (1910) házastársa és gyermekei, majd a további nemzedékek a mai napig."], notes: ["Élő személyeknél csak a név jelenik meg, dátum nem."] },
     c2: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c3: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c4: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
@@ -446,7 +446,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     ["gjakab", "panna", ["gand1"]], ["kistvan", "micsel", ["kpal1"]], ["gand1", "balogh", ["gand2"]],
     ["rpeter0", "derta", ["rpeter1"]], ["fferenc", "kokai", ["frozalia"]], ["kpal1", "benko", ["kpal2"]],
     ["gand2", "ago", ["gimre"]], ["bgyorgy", "dudas", ["bkatalin"]],
-    ["rpeter1", "frozalia", ["rantal1"]], ["imatyas", "kovats", ["irozalia"]], ["hkarolina", "kpal2", ["hmihaly"]], ["kpal2", "busa", ["kpal3"]], ["gimre", "bkatalin", ["gilona"]],
+    ["rpeter1", "frozalia", ["rantal1"]], ["imatyas", "kovats", ["irozalia"]], ["kpal2", "busa", ["kpal3"]], ["gimre", "bkatalin", ["gilona"]],
     ["rantal1", "irozalia", ["rantal2"]], ["kpal3", "gilona", ["kilona"]],
     ["rantal2", "kilona", ["c1", "c2", "c3", "c4", "c5"]]
   ];
@@ -455,7 +455,9 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   function Y(p) { return OY + p.r * ROWH; }
   var maxX = 0;
   Object.keys(P).forEach(function (k) { maxX = Math.max(maxX, X(P[k]) + W / 2); });
-  var VW = Math.ceil(maxX + 30), VH = OY + 6 * ROWH + H + 34;
+  var maxR = 0;
+  Object.keys(P).forEach(function (k) { maxR = Math.max(maxR, P[k].r); });
+  var VW = Math.ceil(maxX + 30), VH = OY + maxR * ROWH + H + 34;
 
   var NS = "http://www.w3.org/2000/svg";
   var svg = document.getElementById("tree");
@@ -507,11 +509,20 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     line(x1, y1, x2, y2, "hyp");
     el("text", { x: (x1 + x2) / 2 - 8, y: (y1 + y2) / 2 + 4, "text-anchor": "end", "class": "lbl hyp" }, gE, "valószínűleg azonos");
   })();
+  // Hypothesis: Kádas Mihály (1836) as half-brother of Kádas Pál (1833)
+  (function () {
+    var f = P.kpal2, m = P.hmihaly;
+    var x1 = X(f) - 30, y1 = Y(f) + H, x2 = X(m), y2 = Y(m);
+    line(x1, y1, x2, y2, "hyp");
+    el("text", { x: (x1 + x2) / 2 - 8, y: (y1 + y2) / 2 + 4, "text-anchor": "end", "class": "lbl hyp" }, gE, "féltestvér?");
+  })();
+  // Placeholder for the generations below Ric Antal (1910), down to today
+  line(X(P.c1), Y(P.c1) + H, X(P.next), Y(P.next), "todo");
   // Warnings
   (function () {
     var a = P.kpal1, b = P.kpal2, x = (X(a) + X(P.benko)) / 2;
-    el("text", { x: x + 8, y: Y(b) - 34, "class": "lbl" }, gE, "⚠ kb. 47 év különbség");
-    el("text", { x: x + 8, y: Y(b) - 20, "class": "lbl" }, gE, "apa–fiú kapcsolat nem igazolt");
+    el("text", { x: x + 8, y: Y(b) - 34, "class": "lbl" }, gE, "⚠ 51 év különbség");
+    el("text", { x: x + 8, y: Y(b) - 20, "class": "lbl" }, gE, "1799: forrás nem található");
     var ra = P.rantal1, ir = P.irozalia, mm = (X(ra) + X(ir)) / 2;
     el("text", { x: mm, y: Y(ra) + H / 2 - 8, "text-anchor": "middle", "class": "lbl ok" }, gE, "⚭ 1872. febr. 7., Óbecse ✓");
   })();
@@ -523,6 +534,10 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     return cut < 1 ? [s] : [s.slice(0, cut), s.slice(cut + 1)];
   }
 
+  // Direct line of the tree's author: Ric Antal (1910) and all his ancestors
+  var DIRECT = {}, pm = {};
+  C.forEach(function (c) { c[2].forEach(function (k) { pm[k] = [c[0], c[1]]; }); });
+  (function up(k) { DIRECT[k] = true; (pm[k] || []).forEach(up); })("c1");
   var NODES = {};
   var MON = { jan: 1, febr: 2, "márc": 3, "ápr": 4, "máj": 5, "jún": 6, "júl": 7, aug: 8, szept: 9, okt: 10, nov: 11, dec: 12 };
   function parseDate(t) {
@@ -552,7 +567,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
 
   Object.keys(P).forEach(function (k) {
     var p = P[k], x = X(p) - W / 2, y = Y(p);
-    var g = NODES[k] = el("g", { "class": "node", tabindex: 0, role: "button", "aria-label": p.name + (p.info.length ? ", " + p.info.join(", ") : "") }, gN);
+    var g = NODES[k] = el("g", { "class": "node" + (DIRECT[k] ? " direct" : ""), tabindex: 0, role: "button", "aria-label": p.name + (p.info.length ? ", " + p.info.join(", ") : "") }, gN);
     g.addEventListener("click", function () { select(k, "tree"); });
     g.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(k, "tree"); } });
     var tip = p.name + (p.info.length ? " — " + p.info.join(", ") : "") + (p.note ? "\n" + p.note : "");
@@ -593,7 +608,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     (spouseOf[c[1]] = spouseOf[c[1]] || []).push(P[c[0]].name);
   });
   var tb = document.querySelector("#ptable tbody");
-  Object.keys(P).filter(function (k) { return P[k].line !== "hyp"; })
+  Object.keys(P).filter(function (k) { return P[k].line !== "hyp" && P[k].line !== "todo"; })
     .sort(function (a, b) { return P[a].r - P[b].r || P[a].cx - P[b].cx; })
     .forEach(function (k) {
       var p = P[k], tr = document.createElement("tr");
@@ -610,8 +625,8 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       tb.appendChild(tr);
     });
 
-  var ST = { ok: ["igazolva", "done"], part: ["részben igazolva", "part"], tree: ["a családfa rajzáról, forrás nélkül", "other"], hyp: ["feltételezés", "todo"] };
-  var LINE = { ricz: "Ricz ág", kadas: "Kádas ág", gub: "Gubincsik ág", other: "Beházasodott ág", hyp: "Levéltári nyom" };
+  var ST = { todo: ["kitöltendő", "todo"], ok: ["igazolva", "done"], part: ["részben igazolva", "part"], tree: ["a családfa rajzáról, forrás nélkül", "other"], hyp: ["feltételezés", "todo"] };
+  var LINE = { todo: "Következő nemzedék", ricz: "Ricz ág", kadas: "Kádas ág", gub: "Gubincsik ág", other: "Beházasodott ág", hyp: "Levéltári nyom" };
 
   var parents = {}, spouses = {}, children = {};
   C.forEach(function (c) {
