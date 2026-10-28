@@ -683,6 +683,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     h("dt", null, "Testvérek", dl);
     var sd = h("dd", null, null, dl), extra = d.sibs || [];
     sib.forEach(function (k) { sd.appendChild(personLink(k)); });
+    extra = extra.filter(function (x) { return !x.id || sib.indexOf(x.id) < 0; });
     extra.forEach(function (x) {
       if (x.id) sd.appendChild(personLink(x.id));
       else h("span", x.st === "hyp" ? "hypname" : null, x.n + (x.d ? " (" + x.d + ")" : "") + (x.st === "hyp" ? " ?" : " ✓"), sd);
