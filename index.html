@@ -298,7 +298,8 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       <li><span class="mark">2</span><div><b>Mikor költözött a Kádas család Cibakházáról Óbecsére?</b> 1748-ban még Cibakházán, 1833-ban már Óbecsén éltek.</div></li>
       <li><span class="mark">3</span><div><b>Ricz Antal (1883) és Kádas Ilona (1884) házassága, kb. 1903–1909.</b> Valószínűleg Óbecsén. Ez már az állami anyakönyvezés ideje, ezért a becsei anyakönyvvezetőnél vagy a FamilySearch állami anyakönyvei között kell keresni.</div></li>
       <li><span class="mark">4</span><div><b>Ricz Péter és Fehér Rozália, valamint Gubincsik Imre és Budai Katalin házassága.</b> Kb. 1835–1841, a Házasultak 1826–1875 filmen (DGS 7994502). A bejegyzések megadnák a következő nemzedék szüleit is.</div></li>
-      <li><span class="mark">5</span><div><b>Klimek János (Óbecse, 1880):</b> nincs kapcsolata a fával. A nyilatkozat két változatában történeti hibák vannak (például a pecsétben a megye), ezért az eredeti szkennelt képre van szükség.</div></li>
+      <li><span class="mark">5</span><div><b>Halálozások.</b> Csak a két Gubincsik András halálának éve ismert, és az sincs forrással igazolva. Az 1895 előtti óbecsei halálozások a halotti anyakönyvekben vannak (Halottak 1826–1855: DGS 8265818, 1856–1870: 8265819, 1871–1880: 8265820, 1881–1895 a katalógus 2. oldalán). Az 1895 utániak az állami anyakönyvben.</div></li>
+      <li><span class="mark">6</span><div><b>Klimek János (Óbecse, 1880):</b> nincs kapcsolata a fával. A nyilatkozat két változatában történeti hibák vannak (például a pecsétben a megye), ezért az eredeti szkennelt képre van szükség.</div></li>
       <li><span class="mark">✓</span><div><b>Megoldva:</b> ifj. Ricz Antal anyja Imre Rozália (1883). A május 30-i „közös születésnap” csak látszólagos: Antal 29-én született, 30-án keresztelték. Az 1879-es óbecsei Ricz Antal szinte biztosan a mi Ricz Antalunk. A „Micsel” valójában Michel.</div></li>
     </ul>
   </section>
@@ -539,6 +540,8 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     gimre: { st: "part", facts: ["Született 1818. júl. 12-én (a családfa szerint).", "1841-ben óbecsei lakos, felesége Budai Katalin."], notes: ["1841-ben egy Gubincsik Anna (Farkas András felesége) is Óbecsén élt, talán a testvére. 1884-ben egy Gubincsik Viktória (Berényi Márton özvegye) is óbecsei volt."], src: ["b1841"] },
     bkatalin: { st: "part", facts: ["Született 1819-ben (a családfa szerint).", "1841-ben óbecsei lakos, Gubincsik Imre hites felesége."], src: ["b1841"] },
     kilona: { st: "ok", facts: ["Született és megkeresztelték 1884. május 30-án, Óbecsén.", "Szülei Kádas Pál és Gubincsik Ilona, római katolikusok, óbecsei lakosok, házszám: 934.", "Keresztanya: [Bálint] Veronika, [Malenovszki] János felesége. Keresztelte Varga Mátyás káplán."], notes: ["A Ricz Antallal kötött házassága (kb. 1903–1909) még nincs meg."], src: ["b1884"] },
+    gand1: { st: "tree", facts: ["Született 1732-ben (a családfa szerint)."], death: "1817 (a családfa szerint)" },
+    gand2: { st: "tree", facts: ["Született 1774-ben (a családfa szerint)."], death: "1841. júl. 13. (a családfa szerint)", notes: ["Ha Óbecsén halt meg, az óbecsei halotti anyakönyvben ellenőrizhető (Halottak 1826–1855, DGS 8265818). A bejegyzés az életkorát és a felesége nevét is megadhatja."] },
     derta: { st: "tree", notes: ["A vezetéknév olvasata bizonytalan: Derta vagy Beretka."] },
     benko: { st: "tree", notes: ["1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."] },
     c1: { st: "tree", facts: ["Született 1910. febr. 24-én (a családfa szerint)."], notes: ["A születési bejegyzés az állami anyakönyvben van. Abból a szülők életkora és születési helye is kiderül."] },
@@ -595,6 +598,9 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       if (r[1].length) r[1].forEach(function (k) { dd.appendChild(personLink(k)); });
       else h("span", "none", "nem ismert", dd);
     });
+    h("dt", null, "Elhunyt", dl);
+    var ddd = h("dd", null, null, dl);
+    if (d.death) h("span", null, "† " + d.death, ddd); else h("span", "none", "még nem ismert", ddd);
 
     var factBox = h("div", null, null, grid);
     h("div", "k", "Amit tudunk", factBox);
