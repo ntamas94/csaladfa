@@ -392,6 +392,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var FSM = "https://www.familysearch.org/search/film/007994502";
   var FSC = "https://www.familysearch.org/search/film/004551516";
   var S = {
+    k1983: { t: "Köszönetnyilvánítás: id. Ricz Antal ny. cipész (1910–1983), Becse, 1983. VI. 28. (VAMADIA)", u: "https://vamadia.rs/" },
     b1836: { t: "Keresztelés, Óbecse, 1836. szept. 14., Kádas Mihály (179. kép)", u: FS1 },
     h1835: { t: "Házasság, Óbecse, 1835. jún. 29., Kádas Pál és [Homonyi] Karolina (66. kép)", u: FSM + "?i=65" },
     h1835r: { t: "Házasság, Óbecse, 1835. nov. 23., Ricz Pál és Sági Veronika (69. kép)", u: FSM + "?i=68" },
@@ -443,8 +444,8 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     ago: { st: "part", facts: ["Gubincsik András felesége: a férje 1841-es halotti bejegyzése így nevezi meg (Agó Erzsébet).", "Gyerekei, Imre és Anna 1837-es házassági bejegyzése is anyjukként nevezi meg."], src: ["d1841", "h1837"] },
     derta: { st: "part", facts: ["1835. november 23-án fia, Ricz Pál (20 éves) Óbecsén feleségül vette Sági Veronikát; a bejegyzés szerint anyja „Veronica Derta”."], notes: ["A vezetéknév a házassági bejegyzésben is Derta olvasatú, ez megerősíti a fa olvasatát (nem Beretka)."], src: ["h1835r"] },
     benko: { st: "tree", notes: ["1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt (lányuk, Apollónia keresztelése, okt. 2.). Hogy ennek köze van-e a fán szereplő Kádas Pál és Benko Helena párhoz, nem derül ki.", "1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."], src: ["c1799"] },
-    c1: { st: "tree", facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Ezen az ágon származik a családfa készítője."], notes: ["A születési bejegyzés az állami anyakönyvben van. Abból a szülők életkora és születési helye is kiderül.", "Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
-    next: { st: "todo", facts: ["Ide kerül Ric Antal (1910) házastársa és gyermekei, majd a további nemzedékek a mai napig."], notes: ["Élő személyeknél csak a név jelenik meg, dátum nem."] },
+    c1: { st: "part", death: "1983, Óbecse (Becse)", deathAge: 73, deathAgeSrc: "a gyászhír szerint", facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Foglalkozása: cipész, 1983-ban nyugdíjas („ny. cipész”).", "1983-ban, 73 évesen, hirtelen hunyt el Óbecsén (Becse). A család köszönetnyilvánítása 1983. június 28-án kelt.", "Halálakor élt a felesége, és voltak gyermekei, menyei vagy vejei, unokái és dédunokái.", "A gyászhírben „id. Ricz Antal” áll: valószínűleg volt egy Antal nevű fia is (ifj. Ricz Antal).", "Ezen az ágon származik a családfa készítője."], notes: ["A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét, a szerb iratokban Ric (Риц) lehet.", "Ha a gyászhír a halál után néhány héttel jelent meg, a halál 1983 májusára vagy júniusára tehető. A 73 év egyezik az 1910. februári születéssel."], src: ["k1983"] },
+    next: { st: "todo", facts: ["Ide kerül Ricz Antal (1910–1983) felesége és gyermekei, majd a további nemzedékek a mai napig.", "Az 1983-as gyászhír szerint felesége túlélte, és voltak gyermekei, unokái, dédunokái. A „id.” megjelölés alapján valószínűleg az egyik fia is Antal volt."], notes: ["Élő személyeknél csak a név jelenik meg, dátum nem."], src: ["k1983"] },
     c2: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c3: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
     c4: { st: "tree", notes: ["Amikor Óbecse 1918–1920-ban a Szerb–Horvát–Szlovén Királyság (később Jugoszlávia) része lett, a család neve az iratokban Ric (Риц) lett. Az ezutáni iratokban így kell keresni."] },
@@ -552,7 +553,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   function lifeSpan(k) {
     var d = D[k] || {};
     if (!d.death) return null;
-    if (d.deathAge != null) return { exact: true, n: d.deathAge, text: d.deathAge + " évet (a halotti anyakönyv szerint)" };
+    if (d.deathAge != null) return { exact: true, n: d.deathAge, text: d.deathAge + " évet (" + (d.deathAgeSrc || "a halotti anyakönyv szerint") + ")" };
     var b = parseDate(P[k].info[0]), e = parseDate(d.death);
     if (!b || !e) return null;
     var n = e.y - b.y;

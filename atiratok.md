@@ -413,3 +413,30 @@ Miért valószínűleg nem a mi Ricz Péterünk: a vőlegény apja János (a fá
 Ricz Péter és Fehér Rozália házassága: az 1834. január – 1837. december közötti házassági bejegyzésekben (55–77. kép) nem szerepel. Gyermekeik a névmutató szerint (Óbecse): Vincze 1838 (DGS 4594732, 184. kép; index: https://www.familysearch.org/ark:/61903/1:1:XKYY-4ZR), Antal 1842 (1. fejezet), József 1844 (https://www.familysearch.org/ark:/61903/1:1:XKYY-K8R), Vincze 1846 (https://www.familysearch.org/ark:/61903/1:1:XKYY-PXT). Mivel az első gyerek 1838-ban született, a házasság valószínűleg 1838 előtt, de 1834 előtt is lehetett (1826–1833 nincs átnézve). Az 1826 előtti óbecsei keresztelések nincsenek indexelve, így Ricz Péter (1813) és Fehér Rozália (1817) keresztelése nem található.
 
 Mellékes Ricz-, Fehér- és Busa-nevek az 1834–1837-es házassági lapokon (a segédkutatás rövid olvasatai, nem ellenőrizve): 1834. jún. 5. Michael Pinter, „Agnetis Ritz” özvegye (kb. 56. kép); 1834. nov. 5. Rosalia Fehér × Josephus Horváth (59. kép); 1835. febr. Joannes Ricz özvegyember (65. kép); 1836. febr. 9. a menyasszony anyja Agnes Ricz (71. kép); 1836. nov. 7. Georgius Busa, Stephanus Busa és Helena Gubincsik fia × Rosalia Szabó (74. kép).
+
+## 23. Köszönetnyilvánítás: id. Ricz Antal (1910–1983), Becse, 1983. június 28.
+
+Forrás: VAMADIA (Vajdasági Magyar Digitális Archívum), a felhasználó kézi keresése. Az újság címe és oldalszáma még pótlandó.
+
+> KÖSZÖNETNYILVÁNÍTÁS
+>
+> Őszinte hálával mondunk köszönetet a rokonoknak, testvéreknek, barátoknak, szomszédoknak, szaktársaknak, ismerősöknek, akik a 73 éves korában hirtelen elhunyt szeretett férjem, édesapánk, nagyapánk, dédapánk, apósunk, sógorunk
+>
+> **id. Ricz Antal**
+> ny. cipész
+> (1910–1983)
+>
+> temetésén megjelentek, koszorú- és virágadományukkal, részvétnyilvánításukkal fájdalmunkon enyhíteni igyekeztek. Jó édesapánk élete munka és küzdelem volt, sok hálával köszönjük, amit értünk tett. Legyen pihenése békés és könnyű.
+>
+> Becse, 1983. VI. 28.
+>
+> A gyászoló család
+
+Megjegyzések:
+- Foglalkozása cipész volt, 1983-ban nyugdíjas.
+- 73 évesen, hirtelen hunyt el, tehát 1983. február 24. után; a köszönetnyilvánítás alapján valószínűleg 1983 májusában vagy júniusában.
+- Halálakor élt a felesége („szeretett férjem”), és voltak gyermekei, vejei vagy menyei, unokái és dédunokái; sógorai is éltek.
+- Az „id.” megjelölés alapján valószínűleg volt egy Antal nevű fia (ifj. Ricz Antal).
+- A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét.
+- Fénykép is van a köszönetnyilvánításban.
+
