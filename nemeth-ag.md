@@ -31,6 +31,26 @@ Ami nem stimmel vagy nyitott:
 - 1945-ben 44 évesen nősült; lehet, hogy ez második házasság.
 - Gyermekei a FamilySearch-ön nincsenek. Ha a család ágához tartozik, a következő nemzedék (kb. 1925–1950 között született gyerekek) születési vagy házassági bejegyzése kötné össze.
 
+## Pontosítás (2026. okt. 28.)
+
+A család szerint Németh Ferenc **nem Kiskunhalason született, hanem valószínűleg Szenttamáson** (Bács-Bodrog vm., ma Srbobran, Szerbia), és a kiskunhalasi esemény **1950 és 1960 közé** tehető. Ez alapján az 1. jelölt (1901, Budapest / Kiskunhalas) kevésbé valószínű.
+
+### Szenttamási Németh Ferencek a névmutatóban (római katolikus keresztelések, csak 1895-ig indexelt)
+
+| Név | Keresztelés | Szülők |
+|---|---|---|
+| Nemeth Franciscus | 1856 | Nemeth Stephanus és Fodor Rosalia |
+| Nemeth Franciscus | 1879 | Nemeth Stephanus és Barabas Elisabetha |
+| Nemeth Franciscus | 1883 | Nemeth Carolus és Pelle Catharina |
+| Nemeth Franciscus | 1885 | Nemeth Michael és Ignacski (Igracski) Victoria |
+| Nemeth Ferencz | 1892. november 12. | Nemeth Mihály és Teleki Erzsébet |
+
+Szenttamáson a 19. század második felében legalább öt Németh-család élt (István × Fodor Rozália, István × Barabás Erzsébet, Károly × Pelle Katalin, Mihály × Ignacski Viktória, Mihály × Teleki Erzsébet). Ha a keresett Ferenc 1895 előtt született, ezek egyike lehet; ha később (pl. 1900–1940 között), a születése a jugoszláv/szerb állami anyakönyvben van, és a FamilySearch-ön nem indexelt.
+
+### Kiskunhalas, 1950–1960
+
+A polgári anyakönyvi indexben (Hungary, Civil Registration 1895–1980) Ferenc Németh 1950–1960 közötti halálozására Kiskunhalas hellyel nincs találat; házasságra és születésre sok találat van, de egyik sem kiskunhalasi helynévvel (az index a települést gyakran nem tartalmazza). A FamilySearch-családfában szenttamási születésű, Kiskunhalashoz kötődő Németh Ferenc nincs.
+
 ## Jelölt 2: régi kiskunhalasi Német család (1808–1826)
 
 FamilySearch Családfa, „Német” alakkal:
@@ -44,6 +64,6 @@ FamilySearch Családfa, „Német” alakkal:
 
 ## Következő lépések
 
-1. Megkérdezni a családban: ki volt Németh Ferenc a Német család szempontjából (dédapa? nagyapa?), és mi történt 1960 körül.
+1. Megkérdezni a családban: ki volt Németh Ferenc a Német család szempontjából (dédapa? nagyapa?), mikor született (kb. melyik évben), mi történt 1950–1960 között Kiskunhalason (házasság? beköltözés? halál?), és kik voltak a szülei vagy a felesége.
 2. Ha a nagyapa vagy dédapa születési évét és helyét tudjuk, a polgári anyakönyvi indexben a szülők nevével célzottan lehet keresni (ez a mostani keresésnél is működött).
 3. Az 1. jelölt születési (1901) és házassági (1945) bejegyzésének képe: megnézni a pontos helyet és a tanúkat.
