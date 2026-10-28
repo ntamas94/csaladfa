@@ -313,3 +313,37 @@ Az óbecsei r. k. halotti filmek (DGS 8265818: 1826–1855; 8265819: 1856–1870
 ## 18. VAMADIA (vamadia.rs) – keresés nem volt lehetséges
 
 A Vajdasági Magyar Digitális Archívum keresőjét (https://vamadia.rs/kereses) a webhely robots.txt-je tiltja a gépi lekérdezés elől, és Cloudflare robotellenőrzés („Verify you are human”) védi, ezért automatikusan nem kereshető. A Google/WebSearch `site:vamadia.rs` keresések („Ricz Antal Óbecse”, „Ricz Óbecse gyászjelentés”, „Kádas Óbecse”, „Gubincsik”) nem adtak vamadia.rs-találatot. Kézi kereséshez javasolt kifejezések („Keresés csak a PDF-ekben” bekapcsolva): Ricz Antal, Ritz Antal, Kádas Ilona, Kádas Pál, Gubincsik; Ricz + Óbecse / Becse / Bečej. Találat a családról innen nem került elő.
+
+## 19. Busa Ilona halála, Óbecse, 1835. április 18.
+
+Óbecse, r. k. halotti anyakönyv (másodpéldány), FamilySearch DGS 8265818 (Halottak 1826–1855), 109. kép (403-ból): https://www.familysearch.org/search/film/008265818?i=108 . A bal oldali lap, felülről a 6. bejegyzés; az 1835-ös lapokon nincs sorszám.
+
+Oszlopfejek: Annus, Dies, Mensis | Nomen, Cognomen, ac Locus Domicilii Defuncti | Aetas | Conditio | Provisio | Sepeliens
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus, Dies, Mensis | 1835. 18ª Aprilis |
+| Nomen, Cognomen, ac Locus Domicilii | Helena Bu[r?]sa, uxor Pauli Kadas, Par[ochiana] V. Bec[s]. |
+| Aetas | 38 Annor[um] |
+| Conditio | Pleb[eja] |
+| Provisio | Om[nibus] mor[ientium] Sacr[amentis] provisa |
+| Sepeliens | Idem (a fölötte álló, ápr. 15-i bejegyzésnél: [Miklovics], Cap[ellanus] V. Becs.) |
+
+Fordítás: 1835. április 18-án meghalt Busa Ilona, Kádas Pál felesége, óbecsei plébániabeli, 38 éves, nemtelen; a haldoklók minden szentségében részesült. Temette: [Miklovics] káplán.
+
+Megjegyzések:
+- A 38 év alapján kb. 1797-ben született.
+- Ezzel igazolódik, hogy Kádas Pál 1835. június 29-én (14. fejezet) Busa Ilona özvegyeként nősült újra.
+- A vezetéknév harmadik betűje bizonytalan („Busa” vagy „Bursa”).
+- Ugyanezen az oldalpáron (1835. ápr. 10. – máj. 12.) nincs Ricz, Kádas, Gubincsik, Fehér, Imre, Budai vagy Homonyi nevű bejegyzés.
+
+Átnézett képek: 100–109. (1834. jún. 9. – 1835. máj. 12.). A 97–99. képek (1833 vége – 1834 eleje) nem lettek olvashatóan átnézve.
+
+Mellékes nevek ugyanezen a filmen (bizonytalan olvasatok):
+- 100. kép, 1834. jún. 10., 87. sz.: Michael Ritz, maritus Helenae B[ödi / Budai?], Paroch. V. Bec., 42 éves (kb. 1792).
+- 103. kép, 1834. nov. 9., 181. sz.: Elisabeth Deák, uxor Mathiae Bu[s]a[?], 27 éves.
+- 104. kép, 1834. dec. 6., 194. sz.: Eva, Caroli Nagy et Elisabethae B[udai?] filia, csecsemő.
+
+Ifj. Kádas Pál (1833) és Gubincsik Ilona gyermekei a névmutató szerint (keresztelések, Óbecse): Antonius 1864, Petrus 1867, Paulus 1870, Josephus 1873, Josephus 1875, Maria 1876, Helena 1884 (ez utóbbi a 9. fejezetben). A két József arra utalhat, hogy az 1873-as meghalt; ez feltevés, a halotti film (DGS 8265820, 1871–1880) nincs indexelve.
+
+Id. Kádas Pál és [Homonyi] Karolina/Katalin halálára nincs indexelt bejegyzés; az óbecsei halotti filmek névre nincsenek indexelve.
