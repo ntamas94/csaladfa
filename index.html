@@ -24,6 +24,7 @@
   --hyp-soft: #fbf3e6;
   --warn: #b4410f;
   --ok: #2f6b4a;
+  --sel: #e4ecfb;
   --font-display: "Spectral", Georgia, "Times New Roman", serif;
   --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -32,13 +33,13 @@
   :root:not([data-theme="light"]) {
     --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
     --stamp: #8fb0ec; --ricz: #8fb0ec; --kadas: #86c39e; --gub: #d79bc9; --other: #9ba4b4;
-    --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; color-scheme: dark;
+    --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; --sel: #24314a; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
   --stamp: #8fb0ec; --ricz: #8fb0ec; --kadas: #86c39e; --gub: #d79bc9; --other: #9ba4b4;
-  --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; color-scheme: dark;
+  --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; --sel: #24314a; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
@@ -88,6 +89,31 @@ section { display: grid; gap: 16px; }
 #tree .lbl { font: 500 11px var(--font-body); fill: var(--warn); }
 #tree .lbl.hyp { fill: var(--hyp); }
 #tree .gen { font: 500 10.5px var(--font-body); fill: var(--muted); letter-spacing: .06em; }
+#tree .node { cursor: pointer; }
+#tree .node:focus { outline: none; }
+#tree .node:hover .box, #tree .node:focus-visible .box { stroke-width: 2.6; }
+#tree .node.sel .box { stroke-width: 3.2; fill: var(--sel); }
+#tree .node.sel .box.hyp { fill: var(--hyp-soft); }
+.hint { font-size: 13px; color: var(--muted); }
+
+/* Person detail */
+.detail { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 18px 20px; display: grid; gap: 14px; scroll-margin-top: 16px; }
+.dhead { display: grid; gap: 4px; }
+.dhead h3 { font-family: var(--font-display); font-size: 24px; font-weight: 600; line-height: 1.2; text-wrap: balance; }
+.dhead .dates { font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.dhead .meta { margin-top: 2px; }
+.dgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px 28px; }
+.dgrid > div { min-width: 0; display: grid; gap: 6px; align-content: start; }
+.detail ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.detail li, .detail p { font-size: 14px; }
+.rel { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 14px; }
+.rel dt { color: var(--muted); }
+.rel dd { margin: 0; display: flex; flex-wrap: wrap; gap: 2px 10px; min-width: 0; }
+.plink { appearance: none; background: none; border: 0; padding: 0; font: inherit; color: var(--stamp); text-decoration: underline; text-underline-offset: 2px; cursor: pointer; text-align: left; }
+.plink:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; border-radius: 2px; }
+.detail a { color: var(--stamp); text-underline-offset: 2px; overflow-wrap: anywhere; }
+.pill.part { color: var(--stamp); }
+.none { color: var(--muted); }
 
 /* Evidence */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
@@ -149,7 +175,9 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       <button type="button" id="zoomIn" aria-label="Nagyítás">+</button>
       <button type="button" id="zoomFit">Teljes fa</button>
     </div>
-    <div class="treebox" id="treebox"><svg id="tree" role="img" aria-label="A Ricz–Kádas család hét nemzedéke"></svg></div>
+    <p class="hint">Kattintson egy személyre a fán: alatta megjelennek a róla tudott adatok, a rokonai és a források.</p>
+    <div class="treebox" id="treebox"><svg id="tree" aria-label="A Ricz–Kádas család hét nemzedéke"></svg></div>
+    <article class="detail" id="detail" aria-live="polite"><p class="none">Kattintson egy személyre a fán.</p></article>
   </section>
 
   <section aria-labelledby="h-ev">
@@ -384,9 +412,12 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     return cut < 1 ? [s] : [s.slice(0, cut), s.slice(cut + 1)];
   }
 
+  var NODES = {};
   Object.keys(P).forEach(function (k) {
     var p = P[k], x = X(p) - W / 2, y = Y(p);
-    var g = el("g", {}, gN);
+    var g = NODES[k] = el("g", { "class": "node", tabindex: 0, role: "button", "aria-label": p.name + (p.info.length ? ", " + p.info.join(", ") : "") }, gN);
+    g.addEventListener("click", function () { select(k, "tree"); });
+    g.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(k, "tree"); } });
     var tip = p.name + (p.info.length ? " — " + p.info.join(", ") : "") + (p.note ? "\n" + p.note : "");
     el("title", {}, g, tip);
     el("rect", { x: x, y: y, width: W, height: H, rx: 6, "class": "box " + p.line }, g);
@@ -429,13 +460,137 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     .forEach(function (k) {
       var p = P[k], tr = document.createElement("tr");
       function td(t, cls) { var d = document.createElement("td"); if (cls) d.className = cls; d.textContent = t; tr.appendChild(d); return d; }
-      var n = td(p.name);
-      var dot = document.createElement("i"); dot.className = "dot " + p.line; n.prepend(dot);
+      var n = td("");
+      var dot = document.createElement("i"); dot.className = "dot " + p.line; n.appendChild(dot);
+      n.appendChild(personLink(k, true));
       td(p.info.join(", ") || "–", "d");
       td(parentsOf[k] || "–");
       td((spouseOf[k] || []).join(", ") || "–");
       tb.appendChild(tr);
     });
+
+  // Person details
+  var FS1 = "https://www.familysearch.org/search/film/004594732";
+  var FS2 = "https://www.familysearch.org/search/film/004541565";
+  var HU = "https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/";
+  var S = {
+    b1842: { t: "Keresztelés, Óbecse, 1842. jan. 17., 26. bejegyzés", u: FS1 },
+    b1841: { t: "Keresztelés, Óbecse, 1841. máj. 5., 141. bejegyzés", u: FS1 },
+    m1879: { t: "Meghatalmazás, 1879. okt. 19. (RS_IASE_F_022_1879_0845)", u: HU + "1088661/" },
+    c1879: { t: "Csereszerződés, 1879 (RS_IASE_F_022_1879_0300)", u: HU + "1074762/" },
+    n1877: { t: "Adóssági és kezességi nyilatkozat, 1877. dec. 8. (RS_IASE_F_022_1877_1155)", u: HU + "1073458/" },
+    v1880: { t: "Nyilatkozat, 1880: Ricz Antal és Pál Viktória (RS_IASE_F_022_1880_0974)", u: HU + "1089853/" },
+    v1894: { t: "Adásvétel, 1894: Ricz Antal és Pál Viktória (RS_IASE_F0024_1894_0239)", u: HU + "1102562/" },
+    f1876: { t: "Óbecse, Kereszteltek 1876–1885 (még nincs átnézve)", u: FS2 },
+    f1826: { t: "Óbecse, Kereszteltek 1826–1847 (133. kép körül, még nem találtuk)", u: FS1 }
+  };
+  var D = {
+    rpeter1: { st: "part", facts: ["Született 1813-ban (a családfa szerint). A másodpéldányok 1826-tal kezdődnek, így ezt az óbecsei filmen nem lehet ellenőrizni.", "1842-ben óbecsei lakos, felesége Fehér Rozália, nemtelen család."], src: ["b1842"] },
+    frozalia: { st: "part", facts: ["Született 1817-ben (a családfa szerint).", "1842-ben óbecsei lakos, Ricz Péter hites felesége."], notes: ["1877-ben egy Fehér József kezességet vállalt Ricz Mártonért. Rokona lehet, de az irat ezt nem mondja ki."], src: ["b1842", "n1877"] },
+    rantal1: { st: "ok", facts: ["Született és megkeresztelték 1842. jan. 17-én, Óbecsén.", "Keresztszülők: [Brandl] Mihály és [Pecze] Anna, óbecsei lakosok.", "Keresztelte András József óbecsei káplán.", "1879-ben valószínűleg ő az az óbecsei földműves Ricz Antal, aki kereszttel írta alá a Ricz-örökösök meghatalmazását (nem tudott írni)."], notes: ["1880-ban és 1894-ben egy óbecsei Ricz Antal feleségeként Pál Viktória szerepel. A családfa szerint a felesége Imre Rozália, ezt még ellenőrizni kell."], src: ["b1842", "m1879", "v1880", "v1894"] },
+    irozalia: { st: "tree", facts: ["Született 1853. aug. 2-án (a családfa szerint)."], notes: ["Az óbecsei közjegyzői iratokban 1880-ban és 1894-ben Ricz Antal feleségeként Pál Viktória szerepel. Ifj. Ricz Antal 1883-as keresztelése eldönti, ki az anyja."], src: ["v1880", "v1894", "f1876"] },
+    rantal2: { st: "tree", facts: ["Született 1883. máj. 30-án (a családfa szerint)."], notes: ["Ugyanazon a napon született, mint Kádas Ilona egy évvel később. Ez másolási hibára is utalhat.", "Az anyja kérdéses: Imre Rozália vagy Pál Viktória."], src: ["f1876"] },
+    kilona: { st: "tree", facts: ["Született 1884. máj. 30-án (a családfa szerint)."], notes: ["A keresztelése a Kereszteltek 1876–1885 filmen várható, kb. a film 83%-ánál."], src: ["f1876"] },
+    kpal3: { st: "tree", facts: ["Született 1833. dec. 10-én (a családfa szerint)."], notes: ["A 133. képen (1833. dec. 9–10.) még nem találtuk, a szomszédos képeket is meg kell nézni.", "1842-ben egy Kádas Lőrinc Óbecsén keresztapa volt, tehát a Kádas család ott élt."], src: ["f1826"] },
+    gilona: { st: "ok", facts: ["Született és megkeresztelték 1841. máj. 5-én, Óbecsén.", "Keresztszülők: [Gálfi] György és [Szalai] Erzsébet, óbecsei lakosok.", "Keresztelte András József óbecsei káplán."], src: ["b1841"] },
+    gimre: { st: "part", facts: ["Született 1818. júl. 12-én (a családfa szerint).", "1841-ben óbecsei lakos, felesége Budai Katalin."], notes: ["1841-ben egy Gubincsik Anna (Farkas András felesége) is Óbecsén élt, talán a testvére."], src: ["b1841"] },
+    bkatalin: { st: "part", facts: ["Született 1819-ben (a családfa szerint).", "1841-ben óbecsei lakos, Gubincsik Imre hites felesége."], src: ["b1841"] },
+    kpal1: { st: "tree", facts: ["Született 1748. jan. 22-én, Cibakházán (a családfa szerint)."], notes: ["51 év van közte és a fiának tartott Kádas Pál (1799) között. Lehet, hogy kimaradt egy nemzedék."] },
+    kpal2: { st: "tree", facts: ["Született 1799. jan. 18-án (a családfa szerint)."], notes: ["Apjának a fa az 1748-as Kádas Pált adja meg: 51 év a különbség."] },
+    micsel: { st: "tree", notes: ["A „Micsel” lehet a német Michel/Michl név magyaros írása, de félreolvasott vagy rossz mezőbe került Michael is lehet. Az 1748-as cibakházi keresztelési bejegyzés döntheti el."] },
+    derta: { st: "tree", notes: ["A vezetéknév olvasata bizonytalan: Derta vagy Beretka."] },
+    benko: { st: "tree", notes: ["1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."] },
+    c1: { st: "tree", facts: ["Született 1910. febr. 24-én (a családfa szerint)."], notes: ["A születési bejegyzés az állami anyakönyvben van. Abból a szülők életkora és születési helye is kiderül."] },
+    hfathers: { st: "hyp", facts: ["Az 1879-es meghatalmazásban két Ricz Pált az apjuk szerint különböztetnek meg: Ricz István fia és Ricz Pál fia.", "Ricz István 1879 előtt meghalt, özvegye Bálint Borbála."], notes: ["Nem igazolt, hogy Ricz Péter testvérei voltak. Lehetnek unokatestvérek, vagy más ághoz is tartozhatnak."], src: ["m1879", "c1879"] },
+    hantal: { st: "hyp", facts: ["Óbecsei földműves. 1879-ben kereszttel írta alá a Ricz-örökösök meghatalmazását, mert nem tudott írni."], notes: ["Valószínűleg azonos az 1842-ben született Ricz Antallal: 1879-ben 37 éves volt, a másik óbecsei Ricz Antal pedig akkor még kiskorú."], src: ["m1879", "c1879"] }
+  };
+  var ST = { ok: ["igazolva", "done"], part: ["részben igazolva", "part"], tree: ["a családfa rajzáról, forrás nélkül", "other"], hyp: ["feltételezés", "todo"] };
+  var LINE = { ricz: "Ricz ág", kadas: "Kádas ág", gub: "Gubincsik ág", other: "Beházasodott ág", hyp: "Levéltári nyom" };
+
+  var parents = {}, spouses = {}, children = {};
+  C.forEach(function (c) {
+    c[2].forEach(function (k) { parents[k] = [c[0], c[1]]; });
+    [[c[0], c[1]], [c[1], c[0]]].forEach(function (pr) {
+      (spouses[pr[0]] = spouses[pr[0]] || []).push(pr[1]);
+      children[pr[0]] = (children[pr[0]] || []).concat(c[2]);
+    });
+  });
+
+  function h(tag, cls, text, parent) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function personLink(id, bare) {
+    var p = P[id], b = h("button", "plink", p.name + (!bare && p.info[0] ? " (" + p.info[0] + ")" : ""));
+    b.type = "button";
+    b.addEventListener("click", function () { select(id, "link"); });
+    return b;
+  }
+
+  var panel = document.getElementById("detail"), cur = null;
+  var smooth = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+
+  function render(id) {
+    var p = P[id], d = D[id] || { st: "tree" }, st = ST[d.st];
+    panel.textContent = "";
+    var head = h("div", "dhead", null, panel);
+    h("div", "eyebrow", LINE[p.line], head);
+    h("h3", null, p.name, head);
+    if (p.info.length) h("div", "dates", p.info.join(" · "), head);
+    var meta = h("div", "meta", null, head);
+    h("span", "pill " + st[1], st[0], meta);
+
+    var grid = h("div", "dgrid", null, panel);
+    var relBox = h("div", null, null, grid);
+    h("div", "k", "Rokonság a fán", relBox);
+    var dl = h("dl", "rel", null, relBox);
+    var sib = parents[id] ? (children[parents[id][0]] || []).filter(function (k) { return k !== id; }) : [];
+    [["Szülők", parents[id] || []], ["Házastárs", spouses[id] || []], ["Gyermekek", children[id] || []], ["Testvérek", sib]].forEach(function (r) {
+      h("dt", null, r[0], dl);
+      var dd = h("dd", null, null, dl);
+      if (r[1].length) r[1].forEach(function (k) { dd.appendChild(personLink(k)); });
+      else h("span", "none", "nem ismert", dd);
+    });
+
+    var factBox = h("div", null, null, grid);
+    h("div", "k", "Amit tudunk", factBox);
+    if (d.facts && d.facts.length) { var ul = h("ul", null, null, factBox); d.facts.forEach(function (t) { h("li", null, t, ul); }); }
+    else h("p", "none", "Csak a név ismert, az eredeti családfa rajzáról.", factBox);
+
+    if (d.notes && d.notes.length) {
+      var noteBox = h("div", null, null, grid);
+      h("div", "k", "Megjegyzések, nyitott kérdések", noteBox);
+      var nl = h("ul", null, null, noteBox);
+      d.notes.forEach(function (t) { h("li", null, t, nl); });
+    }
+
+    var srcBox = h("div", null, null, grid);
+    h("div", "k", "Források", srcBox);
+    if (d.src && d.src.length) {
+      var sl = h("ul", null, null, srcBox);
+      d.src.forEach(function (s) { var li = h("li", null, null, sl), a = h("a", null, S[s].t + " ↗", li); a.href = S[s].u; a.target = "_blank"; a.rel = "noopener"; });
+    } else h("p", "none", "Még nincs forrás csatolva.", srcBox);
+  }
+
+  function select(id, how) {
+    if (cur && NODES[cur]) NODES[cur].classList.remove("sel");
+    cur = id;
+    NODES[id].classList.add("sel");
+    render(id);
+    if (how === "link") {
+      var p = P[id];
+      box.scrollTo({ left: Math.max(0, X(p) * z - box.clientWidth / 2), top: Math.max(0, (Y(p) + H / 2) * z - box.clientHeight / 2), behavior: smooth ? "smooth" : "auto" });
+      box.scrollIntoView({ block: "nearest", behavior: smooth ? "smooth" : "auto" });
+    } else if (how === "tree") {
+      var r = panel.getBoundingClientRect();
+      if (r.top > window.innerHeight - 80) panel.scrollIntoView({ block: "start", behavior: smooth ? "smooth" : "auto" });
+    }
+  }
+
+  select("rantal1", "init");
 })();
 </script>
 
