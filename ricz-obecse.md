@@ -76,3 +76,4 @@ Szerda József × Ricz Veronika (1828–1844, legalább 9 gyermek); Pintér Mih�
 - A névmutató néhol felcseréli a gyermeket és a szülőt, vagy egy keresztelést kétszer is felvesz; ezeket összevontuk. A pontos adatot mindig az eredeti képen kell ellenőrizni.
 - Az 1848–1850 közötti évek hiányoznak a filmről (32–33. fejezet).
 - Az első világháborús veszteséglistán szereplő óbecsei Ricz Pál (szül. 1880, 86. gyalogezred; 54. fejezet) a névmutató szerint **Ricz Pál és Besenyi Anna fia**, 1880-ban keresztelve. Ifj. Ricz Antal (1883) testvére, Ricz Pál 1882-ben született, így a katona nem ő.
+- Első világháborús halottak az óbecsei Ricz-családokból (MNL veszteségi adatbázis, 63. fejezet): Ricz Imre (Ricz György × Szűcs Klára fia, 1879), †1917. dec. 31., Szeged; Nagy Ferenc (Nagy András × Ricz Petronella fia), 86. gyalogezred, †1917. ápr. 21., Budapest.

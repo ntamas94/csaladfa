@@ -1141,3 +1141,19 @@ A keresztszülők olvasata bizonytalan, de ha helyes, ők az óbecsei **Ricz Jó
 Összevetés Imre Mátyás és Kovács Ilona gyermekeinek keresztszüleivel: Rozália 1853: Sötét József és [Lányi] Rozália; Katalin 1855. szept. 21. (213. sz., 1855-ös lap, 3:1:939Z-1F92-5M): Ambrus Mihály [és Pintér Borbála]; János 1860: Pintér Borbála, Ambrus Mihály neje. Kovács vagy Nagy nevű keresztszülő nincs köztük, így a keresztszülők nem erősítik meg az azonosságot. **Az 1833-as Kovács Ilona továbbra is csak feltételezés.**
 
 Mellékes: az Ambrus család (Mihály és Pintér Borbála 1855-ben és 1860-ban, Péter és [Stoló] Terézia 1883-ban) két nemzedéken át komája volt az Imre–Ricz családnak.
+
+## 63. További online adatbázisok: MNL AdatbázisokOnline, HM HIM, Vajdasági Levéltár (2026. okt. 29.)
+
+**MNL – Az első világháború veszteségi adatbázisa** (adatbazisokonline.mnl.gov.hu; holttá nyilvánítások és hősi halotti anyakönyvezések). Keresés: Ricz (6), Kádas (16), Keczeli (13), Klimek (2).
+- **Ricz Imre**, született **Óbecsén**, lakóhelye Szeged; anyja Szűcs Klára, apja Ricz György; meghalt 1917. december 31-én, 38 évesen; holttá nyilvánította a Szegedi Királyi Járásbíróság (Pk. 749/1922). Ő Ricz György és Szűcs Klára 1879-ben keresztelt fia (ricz-obecse.md), oldalági rokon.
+- **Nagy Ferenc**, napszámos, címzetes szakaszvezető, cs. és kir. 86. gyalogezred; anyja **Ricz Petrona**, apja Nagy András; meghalt 1917. április 21-én, 26 évesen, a budapesti 17. sz. helyőrségi kórházban („a hazáért hősi halált halt”). Nagy András és Ricz Petronella óbecsei családjából (gyermekeik 1877–1890), oldalági rokon.
+- **Károlyi Izidor**, gyári munkás, gyalogos, 86. gyalogezred, apja Károlyi János, anyja Major Veronika, **felesége Ricz Patronella**; meghalt 1916. február 6-án, 20 évesen, Čáslavban (Csehország); bejegyezve Budapesten, 1933. A település nincs megadva; a 86. gyalogezred (Szabadka) Óbecséről is sorozott, és egy Károlyi János 1880-ban Klimek Jánostól vett fel kölcsönt (61. fejezet) – kapcsolat nem igazolt.
+- Kádas, Keczeli, Klimek: a szülők nevei alapján egyik sem a mi családunké (Klimek: Klimek Béla, 10. gyalogezred, és Klimek Johan, 5. gyalogezred, 1915 – szülők nélkül, nem óbecseiek).
+
+**MNL – Állami anyakönyvek (1895–1980):** csak a mai Pest, Somogy és Csongrád-Csanád vármegye településeit tartalmazza; Óbecse (Bács-Bodrog) nincs benne. A **Klimek–Keceli házasság (1913)** így itt sem kereshető.
+
+**HM HIM „Katonahőseink” adatbázis (katonahoseink.militaria.hu, hadisir.militaria.hu):** a keresés idején nem volt elérhető (időtúllépés, illetve „503 Service Unavailable”).
+
+**Vajdasági Levéltár (arhivvojvodine.org.rs):** online csak fond- és gyűjteményjegyzék, oklevélgyűjtemény és virtuális kiállítások vannak; név szerinti adatbázis, anyakönyv vagy összeírás online nincs.
+
+Megjegyzés: a keresés közben előkerült irodalom – „The 1744 Census of Old Bečej Township” (Óbecse 1744-es összeírása; folyóiratcikk a CEEOL-on) – név szerinti 1744-es lakosjegyzéket ígér; a teljes szöveg előfizetéses.
