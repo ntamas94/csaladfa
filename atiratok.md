@@ -908,3 +908,5 @@ Agó Erzsébet – folytatás (Halottak 1856–1870, DGS 8265819, 431 kép): át
 Agó Erzsébet – folytatás: átnézve 1857. nov. – 1861. máj. (71–195. kép); nincs benne. Az 1859 közepétől latin nyelvű, apró kézírású bejegyzések ebben a nagyításban nehezen olvashatók, ezért egy rövid, rosszul olvasható bejegyzés elkerülhette a figyelmet. Folytatandó a 196. képtől.
 
 Agó Erzsébet – folytatás: átnézve 1861. máj. – dec. (196–222. kép); nincs benne. **Figyelem:** 1862-től (223. képtől) a lapok kétoldalasak (a kép jobb felén is vannak bejegyzések); a 223–235. képeken eddig csak a bal oldalt néztem, ezeket mindkét oldallal újra kell nézni. Folytatandó a 223. képtől, mindkét oldal.
+
+Agó Erzsébet – folytatás: átnézve 1862. jan. – 1864. márc. (223–257. kép), mindkét oldal; nincs benne. Az 1862–1863-as kézírás ebben a nagyításban csak részben olvasható. Folytatandó a 258. képtől.
