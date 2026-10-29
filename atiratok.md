@@ -580,3 +580,22 @@ Ezzel kiderült, hogy a névmutató két Klimek Jánosa (Galics Anna férje, gye
 **Keceli Mária (1890. aug. 15.)**: az óbecsei katolikus keresztelések között 1890 augusztusában nincs (DGS 4492284, 284–289. kép, 264–317. bejegyzés). Valószínűleg máshol született.
 
 Mellékes: ugyanezen a házassági filmen, 45. kép, 1878. május 20.: Franciscus, filius Stephani Kádas et + Elisabethae Sóti × Elisabetha, filia Mathiae Ferencz et Agnetis Mészáros. Kádas Ferenc Kádas István (kb. 1817) fia, tehát Kádas Pál (kb. 1795) unokája.
+
+## 31. Bácsföldvár: Füstös Mária keresztelése, 1852. szeptember 7.
+
+Bácsföldvár (Tiszaföldvár), r. k. keresztelési anyakönyv, FamilySearch DGS 4594708 (Kereszteltek 1826–1857), 170. kép, 71. bejegyzés: https://www.familysearch.org/search/film/004594708?i=169 . A filmen lévő példány későbbi, nyomtatott fejlécű másolat („A bácsföldvári r. k. plébánia egyházban …”).
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Született / keresztelték | 1852. szept. 7. / 1852. szept. 7. |
+| Név, nem, származás | Maria, leány, törvényes |
+| Szülők | Joannes Füstös et Catharina Bálint, civilis conditionis et Romano catholici |
+| Lakóhely | Tiszaföldvár, 200. sz. |
+| Keresztszülő | Victoria Baranyi, consors Andreae Tóth, civilis conditionis et Romano catholica |
+| Keresztelő | Mathias Jadronyi, [parochus] Tiszaföldvariensis |
+
+A dátum egyezik a család lapjával, a szülők nevei az 1871-es házassági bejegyzéssel (30. fejezet).
+
+A bácsföldvári katolikus anyakönyvek a FamilySearch-katalógusban: Kereszteltek 1826–1857 (DGS 4594708), 1857–1895 (DGS 4552338), Házasultak 1826–1895 (DGS 8305240), Halottak 1826–1895 (DGS 8305241). Névmutató Bácsföldvárra nincs.
+
+Keceli Mária (1890. aug. 15.) a bácsföldvári keresztelések között sincs: DGS 4552338, 572–574. kép, 1890. júl. 14. – aug. 30. (90–111. bejegyzés). Az óbecsei anyakönyvben sem szerepel (30. fejezet).
