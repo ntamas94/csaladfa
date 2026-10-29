@@ -975,3 +975,53 @@ Ifj. Ricz Antal (1883. máj. 29.) bejegyzése a 9. fejezetben van. A család teh
 ### Ricz Pál × Besenyi Anna fia, Pál (a katona, 54. fejezet)
 
 1880. jan. 20. (26. sz.), „Paulus Ritz et Anna Bessenyi”, Óbecse „in nov[is] port[is]”[?]; keresztanya Bessenyi Terézia, Ludmán Mihály neje; keresztelte Török Sándor káplán. Ugyanazon a képen, mint Veronika (3:1:939Z-1NSP-V). Ez megerősíti, hogy az első világháborús veszteséglistán szereplő, 1880-ban született óbecsei Ricz Pál nem a családfa ágán áll, hanem egy oldalági Ricz család fia.
+
+## 56. Az 507-es ház, a komaságok és a két csecsemő halála
+
+### Imre Mátyás családja az 507-es házban (1860)
+
+A névmutató egy „Imre Joannes, 1880, Imre Mathaeus és Kovacs Helena” keresztelést is tartalmaz. Az eredeti képen (Kereszteltek 1851–1860, 3:1:939Z-1F9L-JQ, 404. lap) ez **1860**:
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Sorszám | 149 |
+| Születés / keresztelés | 1860. máj. 28. / 29. |
+| Név | Joannes, fiú, törvényes |
+| Szülők | Matthaeus Imre et Helena Kovács, R. C. c[ivilis] c[onditionis] |
+| Lakóhely | V[etus] Becse 507 |
+| Keresztszülő | Borbala Pintér, uxor Michaelis Ambrus, c. c. |
+| Keresztelő | Aloysius Gergics cooperator |
+
+Az első Imre János (1852) tehát valószínűleg meghalt, ezért kapta a nevet az 1860-as fiú is. **Imre Mátyás családja 1860-ban az 507. számú házban lakott; ugyanitt lakott 1874–1877-ben a fiatal Ricz Antal és Imre Rozália (55. fejezet).** Ricz Antal tehát a házasság után az após házába költözött.
+
+Imre Mátyás keresztelését az óbecsei névmutatóban 1826–1835 között nem találtam (Imre-keresztelések ekkor: Imre János × Esztaleczki Katalin, Imre Ferenc × Esztelist Katalin, Imre György × Kolenák Rozália, Imre István × Kanyó Katalin, Imre József × Conter Veronika). Valószínűleg 1826 előtt született, az óbecsei filmek kezdete előtt; a házasságuk éve (1851) a házassági filmről hiányzik (37. fejezet).
+
+### Komaságok: Bartusz–Bottlik és László–Megyeri
+
+A Ricz-gyerekek két állandó keresztanyjának családja a névmutató és az eredeti képek szerint:
+
+- **Bartusz István × Bottlik Rozália**, a szomszéd **508. számú házban** (Bartusz István „ex Hegyes”, azaz Hegyesről való). Gyermekeik: Pál 1873, Rozina 1875, András 1876, Imre 1877, Éva 1879, Antal 1882, Mária 1884. Imre fiuk keresztelésénél (1877. okt. 26/27., 363. sz., 3:1:939Z-1NSS-3) a keresztanya **„Rosalia Imre uxor Antonii Ritz”**.
+- **László András × Megyeri Rozália**, 821. számú ház (1872-ben 221.). Gyermekeik: Veronika 1872, József 1877, András 1879, István 1881, Terézia 1883, András 1890. András fiuk keresztelésénél (1879. nov. 3/4., 372. sz., 3:1:939Z-1NST-T) a keresztanya szintén **„Rosalia Imre uxor Antonii Ritz”**. Veronika (1872. okt. 2., 3:1:939Z-1NQH-D) keresztanyja még más: Kovács Erzsébet, Ördögh József neje.
+
+Ez kölcsönös komaság: a két család egymás gyerekeit keresztelte. Rokoni kapcsolatot az iratok nem mutatnak. Az 1884-es és 1887-es Ricz-keresztelésen szereplő „László Veronika hajadon” Megyeri Rozália 1872-ben született lánya; 12–15 évesen az anyja helyett állt keresztanyának. László András és Megyeri Rozália házassága nincs a névmutatóban.
+
+Megjegyzés: 1860-ban Imre János keresztanyja Pintér Borbála, Ambrus Mihály neje; 1883-ban ifj. Ricz Antal keresztanyja [Stoló] Terézia, [Ambrus] Péter neje (9. fejezet). Az Ambrus család két nemzedéken át komája lehetett az Imre–Ricz háznak.
+
+### Ricz Mihály halála, 1877
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1871–1880, DGS 8265820), 333. kép, 268. bejegyzés:
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Halál | 1877. okt. 5. |
+| Név | Michael Ritz, filius Antonii et Rosaliae Imre, R. C. civ. |
+| Lakóhely | Óbecse 507 |
+| Nem, kor | fiú, 2 hebd[omadarum] (2 hetes) |
+| Halál oka | Eclampsia (görcsök) |
+| Temetés | Óbecse, okt. 6.; Scharffenberger Ádám káplán |
+
+### Ricz József halála, 1892
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1881–1895, DGS 8265821), 469. kép, 266. bejegyzés: **1892. aug. 30.**, „Ricz József, Antal és Imre Róza fia, r. k.”, lakóhely **Pacsirta u.**, fiú, 12 napos, halál oka eclampsia. Ez a keresztelési bejegyzés margójegyzetét („1892 30/8”) és a Pacsirta utcai lakcímet is megerősíti.
+
+Tájékozódás a DGS 8265821-en: 469. kép ≈ 1892. aug. vége, 471. kép = 1892. szept. közepe, 491. kép = 1893. január.
