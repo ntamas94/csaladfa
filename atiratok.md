@@ -1099,3 +1099,15 @@ Ricz Péter – újranézés nagyobb nagyítással (Halottak 1871–1880, DGS 82
 413. kép, 286. bejegyzés: **1879. okt. 6.**, „Michaël Ritz, filius Antonii et Rosaliae Imre, Civ. R. C.”, Óbecse, fiú, **1 éves**, halál oka eclampsia (görcsök). Temette okt. 7-én Török Sándor káplán.
 
 Ricz Antal és Imre Rozália **második Mihály nevű fia**: kb. 1878-ban született (az első Mihály 1877. okt. 5-én halt meg, 56. fejezet). A keresztelése nincs a névmutatóban. Így a pár ismert csecsemőhalálai: Rozália (1873), Mihály (1877), Mihály (1879), József (1892).
+
+## 59. Testvérek keresése szülőpáronként (névmutató)
+
+FamilySearch-névmutató, Óbecse/Bácsföldvár, szülőpárra keresve (a névalak-változatokkal):
+
+- **Hegyi Gergely × Kovács Terézia** (Hegyi Julianna szülei): János 1855, Veronika 1857, János Pál 1858, Mária 1859, Rozália 1865, Rozália 1868.
+- **Keceli (Keczeli) János × Lázár Terézia** (Keceli Ferenc szülei): János 1834, Anna 1841, József 1844, Ferenc 1845.
+- **Keceli Ferenc × Füstös Mária**: Antal 1872, (István 1873), János 1880 („Rezeli”), Imre 1881 („Reczeli”), Ferenc 1885 („Reczeli”), **Mária 1890 („Koczeli”)**.
+
+**Keceli Mária (a dédmama anyja) keresztelése megvan.** Óbecse, Kereszteltek 1886–1895, 3:1:9Q97-YS8R-NLZ, 233. bejegyzés: Maria, leány, törvényes, született **1890. júl. 5.**, keresztelték júl. 6.; szülők Franciscus Keczeli et Maria Füstös, r. k.; lakóhely Óbecse 1799; keresztanya Julianna Szanka[?], Joannis Burúzs uxor. A család lapján aug. 15. áll; a korábbi keresés (augusztusban) ezért nem találta, a névmutató pedig „Koczeli” alakban vette fel.
+
+Nem hozott eredményt (még): Füstös János × Bálint Katalin (Bácsföldvár; csak Mária ismert, 33. fejezet), Homonyi László × Kovács Erzsébet (a lányok Karolina és Anna ismertek). Imre Mátyás, Kovács Ilona, Fehér Ferenc, Agó Erzsébet és a többi 1826 előtt született személy testvérei a filmek kezdete előtt születtek, online nem kereshetők.
