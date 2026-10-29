@@ -1111,3 +1111,10 @@ FamilySearch-névmutató, Óbecse/Bácsföldvár, szülőpárra keresve (a néva
 **Keceli Mária (a dédmama anyja) keresztelése megvan.** Óbecse, Kereszteltek 1886–1895, 3:1:9Q97-YS8R-NLZ, 233. bejegyzés: Maria, leány, törvényes, született **1890. júl. 5.**, keresztelték júl. 6.; szülők Franciscus Keczeli et Maria Füstös, r. k.; lakóhely Óbecse 1799; keresztanya Julianna Szanka[?], Joannis Burúzs uxor. A család lapján aug. 15. áll; a korábbi keresés (augusztusban) ezért nem találta, a névmutató pedig „Koczeli” alakban vette fel.
 
 Nem hozott eredményt (még): Füstös János × Bálint Katalin (Bácsföldvár; csak Mária ismert, 33. fejezet), Homonyi László × Kovács Erzsébet (a lányok Karolina és Anna ismertek). Imre Mátyás, Kovács Ilona, Fehér Ferenc, Agó Erzsébet és a többi 1826 előtt született személy testvérei a filmek kezdete előtt születtek, online nem kereshetők.
+
+## 60. További szülőpár-keresések (névmutató)
+
+- **Füstös János × Bálint Katalin** (Füstös, Fistos alakokkal is): Óbecsén és Bácsföldváron a névmutatóban nincs közös gyermekük. Mária (1852) az egyetlen ismert, a bácsföldvári film 1848–1850 közti hiánya miatt (33. fejezet) korábbi gyerek sem zárható ki.
+- **Homonyi (Homanyi) László × Kovács Erzsébet:** a névmutatóban nincs gyermekük; Karolina (kb. 1815) és Anna (kb. 1817) 1826 előtt született, a filmek kezdete előtt.
+- **Imre Mátyás:** óbecsei keresztelése 1820–1835 között nincs a névmutatóban (az 1826 előtti évek hiányoznak).
+- **Kovács Ilona (Imre Mátyás felesége):** egyetlen jelölt az óbecsei névmutatóban 1825–1835 között: **Kovács Ilona, keresztelve 1833, Kovács Mihály és Nagy Erzsébet lánya** (3:1:939X-339D-WW). Ez egyezik az első gyermek (1852) alapján várható kb. 1830-as születéssel, de a Kovács név gyakori, és a házassági bejegyzés (1851) hiányzik a filmről, így az azonosság **csak feltételezés**.
