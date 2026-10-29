@@ -818,3 +818,18 @@ Megjegyzések:
 Megjegyzés a halotti filmről (DGS 8265818): a 280. kép (1847. dec.) után a 281. kép már 1849. januári, tehát **1848 teljes egészében hiányzik**; a 286. kép (1849. jan.) után a 287. kép 1850. júniusi, tehát **1849. febr. – 1850. máj. is hiányzik** (az 1849-es kolerajárvány időszaka).
 
 Homonyi Karolina újraházasodása (Kádas Pál özvegyeként, 1841 után): a házassági filmen (DGS 7994502) 1841 képei (96–99.) kis nagyításban átnézve, egyértelmű találat nincs; a keresés nagyobb nagyítással folytatandó, 1841–1845.
+
+## 47. Kádas Imre keresztelése, Óbecse, 1837. augusztus 22.
+
+Óbecse, r. k. keresztelési anyakönyv (Kereszteltek 1826–1847, DGS 4594732), kép: https://www.familysearch.org/ark:/61903/3:1:939X-339Z-4P (lapszám 174; a FamilySearch-névmutatóban „Kados Imre”, anyja „Homanyi Katalin”, https://www.familysearch.org/ark:/61903/1:1:XKYY-WP2).
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Született / keresztelték | 1837. aug. 22. |
+| Név | Imre |
+| Szülők | Kádas Pál és Homanyi Karolina, hit. hor. [hites házastársak], óbecsei lakosok |
+| Sorsa | n. n. [nemtelen] |
+| Keresztszülők | Kovács Lőrinc és Bereczka Judit |
+| Keresztelő | Keller Ferenc óbecsei káplán |
+
+Kádas Pál (kb. 1793) és Homonyi Karolina második gyermeke, Mihály (1836, †9 naposan) után. Ugyanazok a keresztszülők, mint 1833-ban és 1836-ban. A halotti anyakönyvben 1836–1841 között nem találtam a halálát.
