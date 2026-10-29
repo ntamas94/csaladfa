@@ -524,3 +524,17 @@ Valószínűleg más személy: Magyar Szó, 42. évf. 227. sz., 1985. augusztus 
 A FamilySearch névmutatójában Óbecsén csak keresztelések vannak indexelve, halálozások és házasságok nem. Kádas István (kb. 1817) gyermekei: Verona 1839 (anyja „Homaj Anna”, https://www.familysearch.org/ark:/61903/1:1:XKYY-ZBY); Verona 1846, Veronika 1853, János 1856 (anyjuk Sóti Erzsébet). Első felesége, [Homonyi] Anna tehát 1839 és 1846 között valószínűleg meghalt (nem ellenőrizve).
 
 Ifj. Kádas Pál (1833) és Gubincsik Ilona házassága: a Házasultak filmen (DGS 7994502) átnézve az 1863–1864-es év (264–279. kép) és 1862 egy része (260–263. kép); nincs benne. Első gyermekük, Antal 1864-ben született, így a házasság 1862 elejére vagy korábbra (1859–1862) tehető.
+
+## 29. Klimek–Keceli ág (id. Ricz Antal felesége, Klimek Mária)
+
+A család kézírásos lapja szerint: id. Ricz Antal (szül. 1910. II. 24.) 1934-ben feleségül vette Klimek Máriát (a lapon „Klimek Marija”, szül. 1914. III. 18.). Szülei: Klimek János (szül. 1887. VI. 9.; a család szerint huszár volt) és Keceli Mária (szül. 1890. VIII. 15.), házasságuk 1913. IV. 22. Gyermekeik a lap szerint: Mária, Verona, Matild, Ilona, Katalin. Nagyszülők: Klimek János és Hegyi Julianna (szül. 1853. II. 12.), illetve Keceli Ferenc (szül. 1845. X. 8.) és Füstös Mária (szül. 1852. IX. 7.).
+
+Ellenőrzés a FamilySearch óbecsei keresztelési névmutatójában (1826–1895):
+- Klimek Joannes, kereszt. 1887, szülei Klimek Joannes és Hegyi Julianna: https://www.familysearch.org/ark:/61903/1:1:XZ8L-TFM . Testvérei ugyanezen szülőktől: Theresia 1879 (X853-PN5), Michael 1880 (X85Q-SHL), Agnes 1882 (X85Q-6Z3), Catharina 1884 (X857-SVD).
+- Hegyi Julianna, kereszt. 1853, szülei Hegyi Gergely és Kovács Terézia: https://www.familysearch.org/ark:/61903/1:1:X859-Q5B
+- Keczeli Ferencz, kereszt. 1845, szülei Keczeli János és Lázár Terézia: https://www.familysearch.org/ark:/61903/1:1:XKYY-GYC . Testvérei: János 1834, Mátyás 1839, Anna 1841, József 1844.
+- Keceli Ferenc és Füstös Mária gyermekei: Antal 1872 (X85S-YR4), István 1873 (X853-7LY).
+- Keceli Mária (1890) és Füstös Mária (1852) keresztelése nincs a névmutatóban.
+- Óbecsén egy másik Klimek János is élt (felesége Galics Anna; gyermekek 1865–1877), ezért az 1880-as közjegyzői nyilatkozat Klimek Jánosa nem azonosítható biztosan.
+
+A dátumok a lapról származnak; a névmutató csak az évet adja, a napot az eredeti bejegyzésből lehet ellenőrizni.

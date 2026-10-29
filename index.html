@@ -325,7 +325,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       <li><span class="mark">2</span><div><b>Mikor költözött a Kádas család Cibakházáról Óbecsére?</b> 1748-ban még Cibakházán, 1833-ban már Óbecsén éltek.</div></li>
       <li><span class="mark">3</span><div><b>Ricz Antal (1883) és Kádas Ilona (1884) házassága: a család lapja szerint 1908. január 21.</b> Forrással még nincs igazolva. Az 1895 utáni óbecsei állami anyakönyv nincs fent a FamilySearchen (a katalógusban Óbecséről csak az 1826–1895-ös egyházi anyakönyv van), és a Hungaricana közjegyzői iratai, valamint a VAMADIA sem hoz találatot. A bejegyzés a becsei anyakönyvi hivatalban (matična služba) kérhető ki.</div></li>
       <li><span class="mark">4</span><div><b>Halálozások.</b> Csak a két Gubincsik András halálának éve ismert, és az sincs forrással igazolva. Az 1895 előtti óbecsei halálozások a halotti anyakönyvekben vannak (Halottak 1826–1855: DGS 8265818, 1856–1870: 8265819, 1871–1880: 8265820, 1881–1895 a katalógus 2. oldalán). Az 1895 utániak az állami anyakönyvben.</div></li>
-      <li><span class="mark">5</span><div><b>Klimek János (Óbecse, 1880):</b> a család lapja szerint id. Ricz Antal (1910) felesége egy Klimek lány (szül. 1914. márc. 18., házasság 1934), apja Klimek János (1887), nagyapja szintén Klimek János (felesége Hegyi Juliána). Az 1880-as Klimek János ez utóbbi lehet; ezt még ellenőrizni kell. A nyilatkozat két változatában történeti hibák vannak (például a pecsétben a megye), ezért az eredeti szkennelt képre van szükség.</div></li>
+      <li><span class="mark">5</span><div><b>Klimek János (Óbecse, 1880):</b> id. Ricz Antal (1910) felesége Klimek Mária (1914), apja Klimek János (1887, huszár), nagyapja szintén Klimek János (felesége Hegyi Julianna). Óbecsén ekkor két Klimek János élt (a másik felesége Galics Anna); az 1880-as nyilatkozat melyikükre vonatkozik, az eredeti iratból derülhet ki. A nyilatkozat két változatában történeti hibák vannak (például a pecsétben a megye), ezért az eredeti szkennelt képre van szükség.</div></li>
       <li><span class="mark">✓</span><div><b>Megoldva:</b> ifj. Ricz Antal anyja Imre Rozália (1883). A május 30-i „közös születésnap” csak látszólagos: Antal 29-én született, 30-án keresztelték. Az 1879-es óbecsei Ricz Antal szinte biztosan a mi Ricz Antalunk. A „Micsel” valójában Michel. Ricz Péter és Fehér Rozália 1833. nov. 17-én, Gubincsik Imre és Budai Katalin 1837. nov. 20-án házasodott Óbecsén.</div></li>
     </ul>
   </section>
@@ -385,6 +385,13 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   add("c3", 6, kidMid, "ricz", "Ricz András");
   add("c4", 6, kidMid + 140, "ricz", "Ricz László");
   add("c5", 6, kidMid + 280, "ricz", "Ricz Veronika");
+  add("kjanos1", 4, -450, "other", "Klimek János", ["Óbecse, 1879–1887"]);
+  add("hjuli", 4, -310, "other", "Hegyi Julianna", ["1853. febr. 12.", "Óbecse ✓"]);
+  add("kferenc", 4, -170, "other", "Keceli Ferenc", ["1845. okt. 8.", "Óbecse ✓"]);
+  add("fmaria", 4, -30, "other", "Füstös Mária", ["1852. szept. 7."]);
+  add("kjanos2", 5, -380, "other", "Klimek János", ["1887. jún. 9.", "Óbecse ✓ · huszár"]);
+  add("kmariak", 5, -100, "other", "Keceli Mária", ["1890. aug. 15.", "⚭ 1913"]);
+  add("kmaria", 6, 524, "other", "Klimek Mária", ["1914. márc. 18.", "⚭ 1934"]);
   add("ifj", 7, kidMid - 420, "ricz", "ifj. Ricz Antal", ["1943 · „Tika”"]);
   add("kviki", 7, kidMid - 280, "hyp", "Kovács Viktória", ["⚭ 1967, Becse?"]);
   add("gp", 7, kidMid - 140, "todo", "Az Ön nagyszülője", ["kitöltendő"]);
@@ -411,6 +418,11 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     v1982n: { t: "Dicséret a beküldött fogalmazásokért, becsei Petőfi Sándor iskola – Magyar Szó, 1982. ápr. 7., 29. old. (VAMADIA)", u: "https://vamadia.rs/periodika-szam/magyar-szo-39-evf-1982-aprilis-7-95-sz-1-20-oldal" },
     v1982r: { t: "Rügyfakadás rovat, beküldők névsora – Jó Pajtás, 1982. nov. 11. és 1983. jan. 13. (VAMADIA)", u: "https://vamadia.rs/periodika-szam/jo-pajtas-37-evf-1983-januar-13-1-2-sz" },
     v1983l: { t: "Levelezőtárs-hirdetés: Ricz Antal, Becse, 15 éves – 7 Nap melléklet, 1983. szept. 24–30. (VAMADIA)", u: "https://vamadia.rs/periodika-szam/7-nap-melleklet-9-evf-1983-szeptember-24-30-38-sz" },
+    lap: { t: "A család kézírásos családfa-lapja (Ricz–Kádas, Klimek–Keceli ág)" },
+    bk1887: { t: "FamilySearch-index: Klimek Joannes, kereszt. 1887, Óbecse; szülei Klimek Joannes és Hegyi Julianna", u: "https://www.familysearch.org/ark:/61903/1:1:XZ8L-TFM" },
+    bh1853: { t: "FamilySearch-index: Hegyi Julianna, kereszt. 1853, Óbecse; szülei Hegyi Gergely és Kovács Terézia", u: "https://www.familysearch.org/ark:/61903/1:1:X859-Q5B" },
+    bk1845: { t: "FamilySearch-index: Keczeli Ferencz, kereszt. 1845, Óbecse; szülei Keczeli János és Lázár Terézia", u: "https://www.familysearch.org/ark:/61903/1:1:XKYY-GYC" },
+    bk1872: { t: "FamilySearch-index: Keczeli Antonius, kereszt. 1872, Óbecse; szülei Keczeli Franciscus és Füstös Mária", u: "https://www.familysearch.org/ark:/61903/1:1:X85S-YR4" },
     k1996: { t: "Köszönetnyilvánítás: Ricz Antal „Tika” cipész (1943–1996) – Magyar Szó, 1996. szept. 29., 21. old. (VAMADIA)", u: "https://vamadia.rs/periodika-szam/magyar-szo-53-evf-1996-szeptember-29-231-sz-1-24-oldal" },
     b1836: { t: "Keresztelés, Óbecse, 1836. szept. 14., Kádas Mihály (179. kép)", u: FS1 },
     h1835: { t: "Házasság, Óbecse, 1835. jún. 29., Kádas Pál és [Homonyi] Karolina (66. kép)", u: FSM + "?i=65" },
@@ -468,6 +480,13 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     ago: { st: "part", facts: ["Gubincsik András felesége: a férje 1841-es halotti bejegyzése így nevezi meg (Agó Erzsébet).", "Gyerekei, Imre és Anna 1837-es házassági bejegyzése is anyjukként nevezi meg."], src: ["d1841", "h1837"] },
     derta: { st: "part", facts: ["1835. november 23-án fia, Ricz Pál (20 éves) Óbecsén feleségül vette Sági Veronikát; a bejegyzés szerint anyja „Veronica Derta”."], notes: ["A vezetéknév az 1835-ös bejegyzésben Derta olvasatú. A gyermekei, Péter és Apollónia 1833-as házassági bejegyzésében viszont tisztán „Veronicae Bertha dftae”, azaz a néhai Bertha Veronika áll. A D és a B ebben a kézírásban könnyen összetéveszthető; a Bertha olvasat a biztosabb.", "1833. november 17-én már nem élt."], death: "1833. nov. 17. előtt", src: ["h1833r", "h1835r"] },
     benko: { st: "tree", notes: ["1798-ban Cibakházán egy Barta Pál és Benkó Ilona házaspár élt (lányuk, Apollónia keresztelése, okt. 2.). Hogy ennek köze van-e a fán szereplő Kádas Pál és Benko Helena párhoz, nem derül ki.", "1841-ben egy Benko Anna ([Gorova] György felesége) Óbecsén élt."], src: ["c1799"] },
+    kmaria: { st: "fam", sibs: [{ n: "Klimek Verona", d: "a család lapja szerint", st: "fam" }, { n: "Klimek Matild", d: "a család lapja szerint", st: "fam" }, { n: "Klimek Ilona", d: "a család lapja szerint", st: "fam" }, { n: "Klimek Katalin", d: "a család lapja szerint", st: "fam" }], facts: ["Született 1914. március 18-án (a család lapja szerint). Szülei Klimek János és Keceli Mária.", "1934-ben férjhez ment id. Ricz Antalhoz (1910–1983); férjezett nevén Ricz Mária. Az Ön dédanyja."], notes: ["A lapon a neve szerb írásmóddal, „Klimek Marija” alakban áll.", "Születése 1895 utáni, ezért az óbecsei egyházi névmutatóban nincs benne."], src: ["lap"] },
+    kjanos2: { st: "ok", sibs: [{ n: "Klimek Teréz", d: "kereszt. 1879, Óbecse, névmutató", st: "ok" }, { n: "Klimek Mihály", d: "kereszt. 1880, Óbecse, névmutató", st: "ok" }, { n: "Klimek Ágnes", d: "kereszt. 1882, Óbecse, névmutató", st: "ok" }, { n: "Klimek Katalin", d: "kereszt. 1884, Óbecse, névmutató", st: "ok" }], facts: ["Született 1887. június 9-én (a család lapja szerint); a névmutató szerint 1887-ben keresztelték Óbecsén. Szülei Klimek János és Hegyi Julianna.", "Huszár volt (a család közlése szerint).", "1913. április 22-én feleségül vette Keceli Máriát (a család lapja szerint)."], src: ["bk1887", "lap"] },
+    kmariak: { st: "fam", facts: ["Született 1890. augusztus 15-én (a család lapja szerint). Szülei Keceli Ferenc és Füstös Mária.", "1913. április 22-én férjhez ment Klimek Jánoshoz (a család lapja szerint). Gyermekeik a lap szerint: Mária, Verona, Matild, Ilona, Katalin."], notes: ["A keresztelése nincs a FamilySearch névmutatójában."], src: ["lap"] },
+    kjanos1: { st: "part", facts: ["Felesége Hegyi Julianna. Gyermekeik a névmutató szerint Óbecsén: Teréz (1879), Mihály (1880), Ágnes (1882), Katalin (1884), János (1887)."], notes: ["Óbecsén egy másik Klimek János is élt ekkor (felesége Galics Anna, gyerekek 1865–1877). Az 1880-as közjegyzői nyilatkozat Klimek Jánosa (Ellenőrizendő pontok, 5.) bármelyikük lehet."], src: ["bk1887", "lap"] },
+    hjuli: { st: "ok", facts: ["Született 1853. február 12-én (a család lapja szerint); a névmutató szerint 1853-ban keresztelték Óbecsén. Szülei Hegyi Gergely és Kovács Terézia.", "Klimek János felesége."], src: ["bh1853", "lap"] },
+    kferenc: { st: "ok", facts: ["Született 1845. október 8-án (a család lapja szerint); a névmutató szerint 1845-ben keresztelték Óbecsén (Keczeli Ferencz). Szülei Keczeli János és Lázár Terézia.", "Felesége Füstös Mária; gyermekeik a névmutató szerint: Antal (1872), István (1873), és a lap szerint Mária (1890)."], src: ["bk1845", "bk1872", "lap"] },
+    fmaria: { st: "part", facts: ["Született 1852. szeptember 7-én (a család lapja szerint).", "Keceli Ferenc felesége; a névmutató 1872-ben és 1873-ban gyermekeik anyjaként nevezi meg."], notes: ["A saját keresztelése nincs a névmutatóban."], src: ["bk1872", "lap"] },
     c1: { st: "part", death: "1983, Óbecse (Becse)", deathAge: 73, deathAgeSrc: "a gyászhír szerint", photos: [{ src: "photos/ricz-antal-1910.jpg", full: "photos/ricz-antal-1910-koszonet.jpg", cap: "Az 1983-as köszönetnyilvánításból (VAMADIA). Kattintásra a teljes hirdetés." }], facts: ["Született 1910. febr. 24-én (a családfa szerint).", "Foglalkozása: cipész, 1983-ban nyugdíjas („ny. cipész”).", "1983-ban, 73 évesen, hirtelen hunyt el Óbecsén (Becse). A család köszönetnyilvánítása 1983. június 26-án kelt (Magyar Szó, 1983. jún. 26.).", "Halálakor élt a felesége, és voltak gyermekei, menyei vagy vejei, unokái és dédunokái.", "A gyászhírben „id. Ricz Antal” áll: valószínűleg volt egy Antal nevű fia is (ifj. Ricz Antal).", "Ezen az ágon származik a családfa készítője."], notes: ["A magyar nyelvű újság 1983-ban is Ricz alakban írta a nevét, a szerb iratokban Ric (Риц) lehet.", "Ha a gyászhír a halál után néhány héttel jelent meg, a halál 1983 májusára vagy júniusára tehető. A 73 év egyezik az 1910. februári születéssel."], src: ["k1983"] },
     ifj: { st: "fam", death: "1996. szept. 21. körül", deathAge: 53, deathAgeSrc: "a gyászhír szerint", facts: ["Id. Ricz Antal (1910–1983) fia, becenevén „Tika”. Az 1983-as köszönetnyilvánítás „id.” jelzője is rá utal, és a család is így tudja.", "Született 1943-ban. Cipész volt, mint az apja.", "1996-ban, 53 évesen, hirtelen hunyt el. Halálának első évfordulója szeptember 21-én volt (Magyar Szó, 1997. szept. 14.).", "Valószínűleg ő vette feleségül Kovács Viktóriát Becsén 1967 tavaszán (Magyar Szó házassági rovata).", "Fia, Antal az Ön édesanyjának első unokatestvére."], notes: ["A gyászhírek szövegrészéből a lakóhely még nem igazolt, de a becenév és a cipészmesterség egyezik."], src: ["k1996", "h1967", "k1983"] },
     kviki: { st: "hyp", facts: ["Becsén 1967 tavaszán házasságot kötött egy Ric Antallal (Magyar Szó, 1967. máj. 30., „Becse … Házasságot kötöttek” rovat)."], notes: ["Valószínűleg ifj. Ricz Antal „Tika” (1943–1996) felesége, de a hír életkort és szülőket nem közöl, ezért nem biztos. A család meg tudja erősíteni."], src: ["h1967"] },
@@ -491,10 +510,12 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     ["rpeter1", "frozalia", ["rantal1"]], ["imatyas", "kovats", ["irozalia"]], ["hkarolina", "kpal2", ["hmihaly"]], ["kpal2", "busa", ["kpal3"]], ["gimre", "bkatalin", ["gilona"]],
     ["rantal1", "irozalia", ["rantal2"]], ["kpal3", "gilona", ["kilona"]],
     ["rantal2", "kilona", ["c1", "c2", "c3", "c4", "c5"]],
-    ["ifj", "kviki", ["unc"]]
+    ["ifj", "kviki", ["unc"]],
+    ["kjanos1", "hjuli", ["kjanos2"]], ["kferenc", "fmaria", ["kmariak"]], ["kjanos2", "kmariak", ["kmaria"]],
+    ["c1", "kmaria", ["ifj", "gp"]]
   ];
   // Single-parent links: the other parent is not known yet
-  var SOLO = [["c1", ["ifj", "gp"]], ["gp", ["mom", "msib"]], ["mom", ["me"]]];
+  var SOLO = [["gp", ["mom", "msib"]], ["mom", ["me"]]];
 
   function X(p) { return p.cx * SX + OX; }
   function Y(p) { return OY + p.r * ROWH; }
