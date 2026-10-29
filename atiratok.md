@@ -1186,3 +1186,18 @@ Következmény a kutatásra: a családjaink 1757–1825 közötti keresztelései
 - **Csehszlovák–jugoszláv–magyar népességmozgás, lakosságcsere:** Ricz névre nincs találat.
 
 Ezzel az MNL AdatbázisokOnline családunk szempontjából releváns adatbázisai mind át vannak nézve (1828-as összeírás, I. és II. világháborús veszteségek, szovjet táborok, állami anyakönyvek, népességmozgás).
+
+## 67. Mások családfái és kivándorlók (FamilySearch közös családfa, Ellis Island)
+
+**FamilySearch közös családfa (Family Tree)** – más kutatók által feltöltött, részben forrással alátámasztott adatok. Csak tájékoztató jellegűek; a forrás nélküli adatokat nem tekintjük igazoltnak.
+
+- **Ricz ág (szerkesztő: Fábri Ágnes, 2025. április):** Peter Ritz (1813, KH46-R2T) × Rozalia Feher (1817, LH9R-DLW), házasság 1833. nov. [17.], gyermekeik: Károly 1835, Vince 1838–1846[?], Anna 1840, Antal 1842 (MKXK-6QF), József 1844 (L5YN-F6C; ⚭ 1868. febr. 24. Pataki Rozália), Vince 1846 (MTC2-B8G; Csabi Veronika férje), András. Ricz Antal (1842) × Imre Rozália alatt mind a 12 ismert gyermek. A fa egy nemzedékkel feljebb is megy: **Petrus Ritz (kb. 1788, KCHV-KKD) × Veronica Bertha (kb. 1793, K4K9-SLD)**, gyermekeik Péter 1813, Pál 1815, Veronika – ezek születési évei **becslések, forrás nincs csatolva**. Az ifj. Ricz Antal (1883, P91Z-YXS) alatt nincs házastárs és leszármazott.
+  - Új adat: **Ricz József (1844), Ricz Antal testvére, 1868. február 24-én Óbecsén feleségül vette Pataki Rozáliát** – ők a ricz-obecse.md „Ricz József × Pataki Rozália” családja (10 gyermek, 1868–1885). Ricz Vince (1846) pedig a „Ricz Vince × Csabi Veronika” család (6 gyermek, 1875–1886). Mindkét testvér családja tehát a mi Ricz Antalunk unokatestvér-ága.
+- **Klimek ág (szerkesztő: „Mészáros44”, 2022–2023):** Klimek János (1843, GJQF-HRY) × **Hegyi Julianna (1853 – 1933. május 8., Bečej**, L7R4-7K3; a halálozási adathoz forrás nincs csatolva), 12 gyermekkel: a már ismertek mellett forrás és dátum nélkül **Klimek András, Klimek Ádám, Klimek Katalin, Klimek Ágnes, Klimek János** (a huszár). Közülük **Klimek Mária (kereszt. 1889. szept. 8., † 1951) férje Megyeri Imre (1886–1965)**; gyermekeik Megyeri Mária (1922–1992), Ferenc, Imre, Julianna. (A Megyeri család az 1880-as években a Ricz-gyerekek keresztszülője volt, 56. fejezet.) A szerkesztő valószínűleg Klimek Mária leszármazottja.
+- **Kádas ág:** Kádas Pál × Gubincsik Ilona (GRNS-FRY, GRNS-G5S) alatt egy gyermek: **Kádas Péter (szül. 1867. júl. 31., Óbecse; ⚭ 1892. okt. 31. Óbecse, Keri Mária)**, gyermekei Julianna Rozina (1894) és Kádas András (1896–1966). Ő Kádas Ilona bátyja. Kádas Ilona maga nincs a fán.
+
+**Kivándorlók:** FamilySearch-index, Ellis Island: **Ricz István (Ostvan Ricz), szül. kb. 1871, lakóhely O. Becse, érkezett 1907. november 9-én New Yorkba.** Kilétét a keresztelési lista alapján nem lehet biztosan megállapítani (1871 körül nincs Ricz István-keresztelés a névmutatóban; talán Ricz István × Nyitri Anna vagy × Sági Terézia családjából).
+
+**Hungaricana, mellékes:** RS_IASE_F_023_1883_0130 (Mezey Zsigmond óbecsei közjegyző, adásvétel, 1883): Kádas Péter, Kádas Ferenc, Kádas Klára óbecsei földművesek a Béri család mellett – egy másik Kádas család (a mi Kádas Péterünk 1883-ban 16 éves volt).
+
+Geni, MyHeritage, Ancestry: nyílt webes keresésre óbecsei Ricz/Klimek/Kádas fa nem jelent meg (a tartalmuk nagyrészt előfizetéshez kötött).
