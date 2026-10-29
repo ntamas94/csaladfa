@@ -863,3 +863,5 @@ Mellékes: 189. kép, 1843. jan. 30.: „Berecka Judith, Kovács Lőrinc neje, �
 Agó Erzsébet halála – folytatás: átnézve 1843. szept. – 1847. nov. (195–278. kép). Nincs benne. Hátravan 1847 dec. (279–280. kép) és 1850. jún. – 1855 (297–403. kép); 1848 és 1849. febr. – 1850. máj. hiányzik a filmről.
 
 Mellékes, a Gubincsik-családhoz tartozó halálozások (rokonság nem igazolt): 240. kép, 1846. jún. 9.: Tóth Anna, Gubincsik Mátyás özvegye, 70 éves; 214. kép, 1844. dec. 5.: Gubincsik Ilona, Busa István özvegye, 56 éves.
+
+Agó Erzsébet – további átnézés: 1847. dec. (279–280. kép) és 1851. márc. – dec. (297–302. kép); nincs benne. Hátravan 1852–1855 (303–403. kép).
