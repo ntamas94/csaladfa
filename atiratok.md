@@ -643,3 +643,11 @@ Madaras (ma Bácsmadaras), r. k. anyakönyvek a FamilySearch-katalógusban (koha
 Ez illik a családi hagyományhoz: kétéves forma korában, egy út menti kukoricásban találták, csak németül beszélt, és csak azt tudta, hogy Johannesnek hívják. Ha így volt, nem Madarason született, a „Klimek” nevet pedig valószínűleg később kapta (befogadó családtól, vagy a hatóság adta). Az „or. ex Madaras” (1880) azt jelentheti, hogy Madarason találták vagy ott nőtt fel.
 
 További lehetőségek: a madarasi keresztelési anyakönyvben egy utólagos, „inventus” (talált) vagy „ignotis parentibus” (ismeretlen szülőktől) megjegyzésű bejegyzés kb. 1843–1846 körül; a madarasi házassági anyakönyvben (DGS 8265980) Klimek János és Galics Anna házassága kb. 1862–1864 körül, ami a szülőket vagy a nevelőszülőket is megnevezheti.
+
+## 35. Madaras: Klimek János és Galics Anna házassága (keresés)
+
+Madaras, r. k. házassági anyakönyv (Házasultak 1789–1891, DGS 8265980). Átnézve a 256–276. kép, 1861. okt. 16. – 1865. máj. 8., a vőlegények és menyasszonyok neveit tartalmazó oszlop: **Klimek-vőlegény nincs.** A film végén (306–307. kép) a vőlegények évenkénti névmutatója van; ez is átnézhető.
+
+Nyom: 257. kép, 95. bejegyzés, 1861. október 16.: Joannes Botyák (22 éves), a néhai Botyák János és Veronika [Cinter?] fia, feleségül vette **Anna Gálicz**-ot (18 éves), a néhai Gálicz Mihály és Veronika Görnöri lányát, madarasi lakosokat. Ha ez ugyanaz a Galics Anna, akkor Klimek János felesége özvegyként ment hozzá, és a házasság Botyák János halála után, valószínűleg 1862 és 1864 között volt, Madarason kívül (például Óbecsén). Ez nem igazolt.
+
+Klimek János és Galics Anna első gyermeke, Teréz 1865-ben Óbecsén született, így a házasságot 1864 és 1865 eleje között érdemes keresni az óbecsei anyakönyvben (DGS 7994502), a 276. kép után.
