@@ -91,7 +91,13 @@ section { display: grid; gap: 16px; }
 #tree .lbl.hyp { fill: var(--hyp); }
 #tree .lbl.ok { fill: var(--ok); }
 #tree .gen { font: 500 10.5px var(--font-body); fill: var(--muted); letter-spacing: .06em; }
-#tree .node { cursor: pointer; }
+#tree .node, #tree .sibchip { cursor: pointer; }
+#tree .sibchip rect { fill: var(--surface); stroke: var(--muted); stroke-width: 1; }
+#tree .sibchip.hyp rect { stroke: var(--hyp); stroke-dasharray: 4 3; }
+#tree .sibchip:hover rect { stroke-width: 2; }
+#tree .snm { font: 600 10.5px var(--font-body); fill: var(--ink); }
+#tree .sdt { font: 400 9.5px var(--font-mono); fill: var(--muted); }
+#tree .edge.sib { stroke-dasharray: 2 3; }
 #tree .node:focus { outline: none; }
 #tree .node.direct .box { stroke-width: 2.8; }
 #tree .node:hover .box, #tree .node:focus-visible .box { stroke-width: 3.2; }
@@ -528,7 +534,16 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var SOLO = [["gp", ["mom", "msib"]], ["mom", ["me"]]];
 
   function X(p) { return p.cx * SX + OX; }
-  function Y(p) { return OY + p.r * ROWH; }
+  // Siblings known only from the records are drawn as small chips under the person;
+  // rows that carry chips get extra height
+  var CW = 96, CH = 30, CG = 4, CPER = 3, SIBS = {}, EXTRA = {};
+  Object.keys(P).forEach(function (k) {
+    var s = ((D[k] || {}).sibs || []).filter(function (x) { return !x.id; });
+    if (!s.length) return;
+    SIBS[k] = s;
+    EXTRA[P[k].r] = Math.max(EXTRA[P[k].r] || 0, 14 + Math.ceil(s.length / CPER) * (CH + CG));
+  });
+  function Y(p) { var y = OY + p.r * ROWH; for (var r = 0; r < p.r; r++) y += EXTRA[r] || 0; return y; }
   // Shift right so boxes with negative cx stay inside the scrollable area
   var minX = Infinity;
   Object.keys(P).forEach(function (k) { minX = Math.min(minX, X(P[k]) - W / 2); });
@@ -537,7 +552,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   Object.keys(P).forEach(function (k) { maxX = Math.max(maxX, X(P[k]) + W / 2); });
   var maxR = 0;
   Object.keys(P).forEach(function (k) { maxR = Math.max(maxR, P[k].r); });
-  var VW = Math.ceil(maxX + 30), VH = OY + maxR * ROWH + H + 34;
+  var VW = Math.ceil(maxX + 30), VH = Y({ r: maxR }) + H + (EXTRA[maxR] || 0) + 34;
 
   var NS = "http://www.w3.org/2000/svg";
   var svg = document.getElementById("tree");
@@ -553,7 +568,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
 
   // Generation labels down the left edge
   ["VII.", "VI.", "V.", "IV.", "III.", "II.", "I."].forEach(function (t, i) {
-    el("text", { x: 14, y: OY + i * ROWH + H / 2 + 4, "class": "gen" }, gE, t);
+    el("text", { x: 14, y: Y({ r: i }) + H / 2 + 4, "class": "gen" }, gE, t);
   });
 
   function line(x1, y1, x2, y2, cls) { el("line", { x1: x1, y1: y1, x2: x2, y2: y2, "class": "edge" + (cls ? " " + cls : "") }, gE); }
@@ -663,6 +678,32 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     var lines = names.map(function (t) { return [t, "nm"]; }).concat(info.map(function (t) { return [t, p.line === "hyp" ? "hyp-t" : "dt"]; }));
     var lh = 14, y0 = y + H / 2 - ((lines.length - 1) * lh) / 2 + 4;
     lines.forEach(function (l, i) { el("text", { x: X(p), y: y0 + i * lh, "text-anchor": "middle", "class": l[1] }, g, l[0]); });
+  });
+
+  // Sibling chips: kept clear of the line that runs down from the person's couple
+  Object.keys(SIBS).forEach(function (k) {
+    var p = P[k], s = SIBS[k], per = Math.min(CPER, s.length), bw = per * CW + (per - 1) * CG, cx = X(p);
+    C.forEach(function (c) {
+      if (c[0] !== k && c[1] !== k) return;
+      var mid = (X(P[c[0]]) + X(P[c[1]])) / 2;
+      if (cx <= mid && cx + bw / 2 > mid - 10) cx = mid - 10 - bw / 2;
+      if (cx > mid && cx - bw / 2 < mid + 10) cx = mid + 10 + bw / 2;
+    });
+    var y0 = Y(p) + H + 14, sur = p.name.split(" ")[0] + " ";
+    line(X(p), Y(p) + H, X(p), y0, "sib");
+    s.forEach(function (x, i) {
+      var row = Math.floor(i / per), n = Math.min(per, s.length - row * per);
+      var x0 = cx - (n * CW + (n - 1) * CG) / 2 + (i % per) * (CW + CG), y = y0 + row * (CH + CG);
+      var nm = x.n.indexOf(sur) === 0 ? x.n.slice(sur.length) : x.n;
+      var by = /^(szül\.|kereszt\.|kb\.)?\s*\D{0,6}(\d{4})/.exec(x.d || ""), dy = /meghalt[^0-9]*?(\d{4})/.exec(x.d || "");
+      var yrs = (by && /^(szül|kereszt|kb|\d)/.test(x.d) ? by[2] : "") + (dy ? " – †" + dy[1] : "");
+      var g = el("g", { "class": "sibchip" + (x.st === "hyp" ? " hyp" : ""), tabindex: 0, role: "button", "aria-label": p.name + " testvére: " + x.n + (x.d ? ", " + x.d : "") }, gN);
+      g.addEventListener("click", function () { select(k, "tree"); });
+      el("title", {}, g, x.n + (x.d ? " — " + x.d : "") + (x.st === "hyp" ? " (feltételezés)" : ""));
+      el("rect", { x: x0, y: y, width: CW, height: CH, rx: 4 }, g);
+      el("text", { x: x0 + CW / 2, y: y + (yrs ? 13 : 19), "text-anchor": "middle", "class": "snm" }, g, nm.length > 16 ? nm.slice(0, 15) + "…" : nm);
+      if (yrs) el("text", { x: x0 + CW / 2, y: y + 25, "text-anchor": "middle", "class": "sdt" }, g, yrs);
+    });
   });
 
   // Zoom
