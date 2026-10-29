@@ -522,6 +522,10 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
 
   function X(p) { return p.cx * SX + OX; }
   function Y(p) { return OY + p.r * ROWH; }
+  // Shift right so boxes with negative cx stay inside the scrollable area
+  var minX = Infinity;
+  Object.keys(P).forEach(function (k) { minX = Math.min(minX, X(P[k]) - W / 2); });
+  if (minX < 70) OX += 70 - minX;
   var maxX = 0;
   Object.keys(P).forEach(function (k) { maxX = Math.max(maxX, X(P[k]) + W / 2); });
   var maxR = 0;
