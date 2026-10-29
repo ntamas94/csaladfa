@@ -914,3 +914,15 @@ Agó Erzsébet – folytatás: átnézve 1862. jan. – 1864. márc. (223–257.
 Agó Erzsébet – folytatás: átnézve 1864. ápr. – 1867. márc. (258–305. kép), mindkét oldal; nincs benne. Folytatandó a 306. képtől.
 
 Agó Erzsébet – lezárva (1870-ig): átnézve 1867. ápr. – 1870. dec. (306–428. kép, a film vége) is; nincs benne. Összesen tehát az óbecsei halotti anyakönyvekben 1841. júl. – 1870. dec. között nem szerepel, a filmről hiányzó 1848 és 1849. febr. – 1850. máj. kivételével. Legvalószínűbb, hogy ebben a hiányzó időszakban (az 1849-es kolerajárvány idején) halt meg, vagy nem Óbecsén. (Megjegyzés: az 1859–1863-as apró latin kézírás ebben a nagyításban csak részben olvasható.)
+
+## 53. Török kori adóösszeírások (defterek), 16. század
+
+A török defterek magyar fordításban megjelent kiadásai a Hungaricana Könyvtárban teljes szövegben kereshetők.
+
+**Óbecse (Becse):** Káldy-Nagy Gyula: *A szegedi szandzsák települései, lakosai és török birtokosai 1570-ben* (Dél-Alföldi évszázadok 24., Szeged, 2008) – https://library.hungaricana.hu/hu/view/CSOM_Dae_24/?pg=53 . A kiadó szerint Óbecse azonosítása a defterben bizonytalan; a szóba jöhető „Bocsonfalu” 1570-ben **lakatlan puszta** volt, földjét kívülről művelték. Óbecsei lakosnévsor tehát 1570-ből nincs. (A Becse/Becskerek szandzsákszékhely a Bánságban, Törökbecse volt, nem Óbecse.)
+
+**Kádas név a szolnoki szandzsákban:** Ágoston Gábor: *A szolnoki szandzsák 1591–92. évi összeírása II.* (Zounuk – A Szolnok Megyei Levéltár Évkönyve 4., Szolnok, 1989), 191. o. – https://library.hungaricana.hu/hu/view/JNSM_Ek_04/?pg=238 . Egy (a kiadás szövegfelismerése alapján „Kőrös”-ként olvasható nevű) faluban, amely Musztafa pasa vakufbirtoka volt, az adózók között: **Kádas Péter nős, fia István nőtlen**. Cibakháza (ahol 1748-ban Kádas István élt, 11. fejezet) ugyanebben a szandzsákban, a Tisza mentén fekszik.
+
+Jelentősége: azt mutatja, hogy a Kádas név a 16. század végén már jelen volt a Szolnok környéki Tisza-vidéken. Rokoni kapcsolatot a 150 évvel későbbi cibakházi Kádasokkal semmi nem igazol; a falu neve a kiadás képén ellenőrizendő.
+
+Ricz, Gubincsik, Füstös, Klimek nevekre a defter-kiadásokban nincs találat.
