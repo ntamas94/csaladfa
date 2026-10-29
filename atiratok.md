@@ -867,3 +867,9 @@ Mellékes, a Gubincsik-családhoz tartozó halálozások (rokonság nem igazolt)
 Agó Erzsébet – további átnézés: 1847. dec. (279–280. kép) és 1851. márc. – dec. (297–302. kép); nincs benne. Hátravan 1852–1855 (303–403. kép).
 
 Agó Erzsébet – lezárva: átnézve 1852. jan. – 1855. dec. 30. (303–400. kép, a film vége) is; nincs benne. A halotti filmen (1826–1855) 1841. júl. után sehol nem szerepel. Legvalószínűbb, hogy a filmen hiányzó időszakban (1848, vagy 1849. febr. – 1850. máj., kolera) halt meg, vagy 1855 után (Halottak 1856–1870, DGS 8265819, még nem átnézve).
+
+## 50. Kádas Pál (kb. 1793) születése – országos névmutató-keresés
+
+FamilySearch-névmutató (Hungary, Catholic Church Records és társgyűjtemények), keresés: Kádas/Kadas/Kádos/Kados, Pál/Paulus, születés 1786–1800, helymegkötés nélkül. **Kádas Pál nevű keresztelés ebben az időszakban sehol nincs az indexben.** A közeli Kádas/Kados-keresztelések: Szeged (Katalin, 1795), Szabadszállás (János, 1799), Jászberény (György, 1794), Mindszent (Mihály, 1787), Mezőkövesd (Mátyás, 1792), Dunaföldvár (Ádám, 1796), Eger (Rozália 1788, István 1792) – Pál egyik helyen sincs.
+
+Következtetés: Kádas Pál keresztelése egy olyan plébánián lehet, amelynek az 1790-es évei nincsenek indexelve (pl. Óbecse 1826 előtt), vagy más névalakban (pl. „Kadász”) jegyezték be. Online, kézi lapozás nélkül nem található meg.
