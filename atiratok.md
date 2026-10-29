@@ -904,3 +904,5 @@ Az összeírás id. Ricz Péter és Fehér Ferenc óbecsei jelenlétét 1828-ra 
 - **Török kori defterek:** a 16–17. századi lakosság a török kiűzése után nagyrészt kicserélődött; a mi családjaink a 18. században költöztek be, így nem kapcsolhatók.
 
 Agó Erzsébet – folytatás (Halottak 1856–1870, DGS 8265819, 431 kép): átnézve 1856. jan. 1. – 1857. nov. eleje (6–70. kép, 1–192. bejegyzés 1857-ben); nincs benne. A film néhol ismétel (pl. a 48–50. kép a 43–45. másolata). Folytatandó a 71. képtől.
+
+Agó Erzsébet – folytatás: átnézve 1857. nov. – 1861. máj. (71–195. kép); nincs benne. Az 1859 közepétől latin nyelvű, apró kézírású bejegyzések ebben a nagyításban nehezen olvashatók, ezért egy rövid, rosszul olvasható bejegyzés elkerülhette a figyelmet. Folytatandó a 196. képtől.
