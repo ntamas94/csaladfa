@@ -910,3 +910,5 @@ Agó Erzsébet – folytatás: átnézve 1857. nov. – 1861. máj. (71–195. k
 Agó Erzsébet – folytatás: átnézve 1861. máj. – dec. (196–222. kép); nincs benne. **Figyelem:** 1862-től (223. képtől) a lapok kétoldalasak (a kép jobb felén is vannak bejegyzések); a 223–235. képeken eddig csak a bal oldalt néztem, ezeket mindkét oldallal újra kell nézni. Folytatandó a 223. képtől, mindkét oldal.
 
 Agó Erzsébet – folytatás: átnézve 1862. jan. – 1864. márc. (223–257. kép), mindkét oldal; nincs benne. Az 1862–1863-as kézírás ebben a nagyításban csak részben olvasható. Folytatandó a 258. képtől.
+
+Agó Erzsébet – folytatás: átnézve 1864. ápr. – 1867. márc. (258–305. kép), mindkét oldal; nincs benne. Folytatandó a 306. képtől.
