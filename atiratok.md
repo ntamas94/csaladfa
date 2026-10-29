@@ -859,3 +859,7 @@ Homonyi Karolina (Kádas Pál özvegye, 1841) újraházasodása: a házassági a
 Agó Erzsébet halála – keresés állapota: a halotti anyakönyvben (DGS 8265818) átnézve 1841. júl. – 1843. szept. 27. (170–194. kép), mindkét oldal névoszlopa. Nincs benne. Folytatandó a 195. képtől (1843. szept. vége).
 
 Mellékes: 189. kép, 1843. jan. 30.: „Berecka Judith, Kovács Lőrinc neje, óbecsei lakos, 53 esztendős” – ő a Kádas-gyerekek (1833, 1836, 1837) keresztanyja.
+
+Agó Erzsébet halála – folytatás: átnézve 1843. szept. – 1847. nov. (195–278. kép). Nincs benne. Hátravan 1847 dec. (279–280. kép) és 1850. jún. – 1855 (297–403. kép); 1848 és 1849. febr. – 1850. máj. hiányzik a filmről.
+
+Mellékes, a Gubincsik-családhoz tartozó halálozások (rokonság nem igazolt): 240. kép, 1846. jún. 9.: Tóth Anna, Gubincsik Mátyás özvegye, 70 éves; 214. kép, 1844. dec. 5.: Gubincsik Ilona, Busa István özvegye, 56 éves.
