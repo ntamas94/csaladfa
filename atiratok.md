@@ -833,3 +833,20 @@ Homonyi Karolina újraházasodása (Kádas Pál özvegyeként, 1841 után): a h�
 | Keresztelő | Keller Ferenc óbecsei káplán |
 
 Kádas Pál (kb. 1793) és Homonyi Karolina második gyermeke, Mihály (1836, †9 naposan) után. Ugyanazok a keresztszülők, mint 1833-ban és 1836-ban. A halotti anyakönyvben 1836–1841 között nem találtam a halálát.
+
+## 48. Kádas István és Sóti Erzsébet házassága, Óbecse, 1842. január 9.
+
+Óbecse, r. k. házassági anyakönyv (DGS 7994502), 100. kép, 1. bejegyzés (1842): https://www.familysearch.org/search/film/007994502?i=99
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Esztendeje, napja | 1842. 9. Januarius |
+| Nevek | Kádas István, Homaj Anna özvegye; Sóti Erzsébet, Szécsi Ferenc özvegye, óbecsei lakosok |
+| Hány esztendősek | 24; 20 |
+| Sorsok | nemtelen; nemtelen |
+| Násznagyok | Kovács Mihály és Sárkány Ferenc, óbecsei lakosok |
+| Eskető | András József óbecsei káplán |
+
+Kádas István (Kádas Pál és Busa Ilona fia, 1837-ben 20 éves, itt 24) első felesége, [Homonyi] Anna 1842 januárja előtt meghalt (lányuk, Verona 1839-ben született). A második feleség, Sóti Erzsébet maga is özvegy volt. Ebből a házasságból születtek a névmutató szerinti gyerekek (Verona 1846, Veronika 1853, János 1856); fiuk, Ferenc 1878-ban nősült (30. fejezet).
+
+Homonyi Karolina (Kádas Pál özvegye, 1841) újraházasodása: a házassági anyakönyvben 1841. febr. – 1842. nov. (97–102. kép) nincs; a keresés itt lezárva, további 1843–1845-ös átnézés kis eséllyel jár, mert a névmutatóban 1841 után nincs Homonyi anyjú gyermek.
