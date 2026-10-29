@@ -599,3 +599,13 @@ A dátum egyezik a család lapjával, a szülők nevei az 1871-es házassági be
 A bácsföldvári katolikus anyakönyvek a FamilySearch-katalógusban: Kereszteltek 1826–1857 (DGS 4594708), 1857–1895 (DGS 4552338), Házasultak 1826–1895 (DGS 8305240), Halottak 1826–1895 (DGS 8305241). Névmutató Bácsföldvárra nincs.
 
 Keceli Mária (1890. aug. 15.) a bácsföldvári keresztelések között sincs: DGS 4552338, 572–574. kép, 1890. júl. 14. – aug. 30. (90–111. bejegyzés). Az óbecsei anyakönyvben sem szerepel (30. fejezet).
+
+## 32. Füstös János és Bálint Katalin házassága, Bácsföldvár (keresés)
+
+Bácsföldvár, r. k. házassági anyakönyv (Házasultak 1826–1895, DGS 8305240). A film képei nagyjából időrendben vannak (50. kép 1842, 55. kép 1843, 64–66. kép 1844, 68–70. kép 1845, 72. kép 1847, 74. kép 1846, 75–79. kép 1850–1851, 80–82. kép 1852, 83. kép 1853), de egyes évek összekeverve következnek.
+
+Átnézve, Füstös-vőlegény nélkül: 1844 (64–66. kép), 1845 (68–70. kép), mindkét oldal; 1846 (74. kép) és 1847 (72. kép) csak a bal oldal; 1850–1852 (75–82. kép) a bal oldali névoszlop.
+
+Még átnézendő: 1842–1843 (kb. 50–63. kép), 1846–1849 jobb oldalai és a hiányzó 1848–1849, valamint 1826–1841.
+
+Nyom: 1853. január 24. körül (83. kép, 4. bejegyzés) egy Gergely nevű vőlegény feleségül vette „Victoria Joannis Füstös et Elisabethae Szabó filia”-t. Ha ez ugyanaz a Füstös János, akkor első felesége Szabó Erzsébet volt, és Bálint Katalinnal második házasságban élt. Ez esetben az 1840-es évek házassági bejegyzésében „viduus” (özvegy) jelzővel szerepel.
