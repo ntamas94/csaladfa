@@ -728,3 +728,28 @@ Parcsetich Félix óbecsei közjegyző iratai, RS_IASE_F_022_1878_0057 (Történ
 Tartalom (bizonytalan olvasat, a kézírás nehezen olvasható): Bálint Pál topolyai, Bálint Petronella (férjezett Kovács Jánosné) és Bálint Kata (férjezett Kiss Györgyné) mint eladók, és Kádas Pál mint vevő adásvételi szerződést kötnek. Az eladók átadják a tulajdonukat képező, az óbecsei [950. sz.] telekjegyzőkönyvben 1634–1635. helyrajzi szám alatt felvett, **934. számú** ingatlant (házat) Kádas Pálnak. Az okiratot „Kelt Óbecsén, [1878] … havának … napján”. Mind a négy fél kereszttel írta alá („+ Bálint Páll topolyai, + Bálint Petron, + Bálint Katalin, + Kádas Páll, névírójuk …”), vagyis egyikük sem tudott írni. Tanúk: Komáromi [István?] és Juhász István, óbecsei lakosok. Díjjegyzék: 3 Ft 40 kr.
 
 Jelentősége: a 934-es házszám azonos azzal, amely alatt Kádas Pál és Gubincsik Ilona 1884-ben, lányuk, Kádas Ilona keresztelésekor lakott (9. fejezet). Ez tehát ifj. Kádas Pál (1833), Kádas Ilona apja: 1878-ban vette meg a házat, amelyben Kádas Ilona született. Kádas Pál nem tudott írni.
+
+## 42. Kádas Pál és Gubincsik Ilona házassága, Óbecse, 1861. október 30.
+
+Óbecse, r. k. házassági anyakönyv (Házasultak 1826–1875, DGS 7994502), 250. kép, 100. bejegyzés: https://www.familysearch.org/search/film/007994502?i=249
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Numerus | 100 |
+| Annus et dies | 1861. 30. Octobris |
+| Nomen et conditio | Paulus Kádas, filius [dfti?] Pauli Kádas et [dftae?] Helenae Busa; item Helena Gubincsik, filia Emerici Gubincsik et dftae Catharinae Budai. C[ivilis] C[onditionis] |
+| Locus, domus | V[etus] Becse 1064; V. Becse 1058 |
+| Religio | R. C.; R. C. |
+| Aetas | 28 annorum; 18 annorum |
+| Status | coelebs; coelebs |
+| Testes | Antonius Szabó et Petrus Kovács, civ. cond. |
+| Copulans | Josephus Bende, parochus V. Becsensis |
+| Megjegyzés | promulgati |
+
+Fordítás: 1861. október 30-án Óbecsén házasságot kötött Kádas Pál, 28 éves, nőtlen, [a néhai?] Kádas Pál és [a néhai] Busa Ilona fia (1064. sz. ház), és Gubincsik Ilona, 18 éves, hajadon, Gubincsik Imre és a néhai Budai Katalin lánya (1058. sz. ház). Tanúk: Szabó Antal és Kovács Péter. Összeadta Bende József plébános.
+
+Megjegyzések:
+- A 28 év egyezik az 1833. decemberi születéssel, a 18 év nagyjából Gubincsik Ilona 1841. májusi születésével (20 lenne; az életkor-megadás pontatlan).
+- **Budai Katalin 1861 októbere előtt meghalt.**
+- Az apa neve előtti rövidítés („dfti”, azaz defuncti) a kis nagyításban bizonytalan. Ha olvasata helyes, **id. Kádas Pál (kb. 1795) 1861 előtt meghalt**; halála 1836 és 1861 között keresendő (Halottak 1826–1855: DGS 8265818; 1856–1870: DGS 8265819).
+- A két ház (1064 és 1058) közel volt egymáshoz.
