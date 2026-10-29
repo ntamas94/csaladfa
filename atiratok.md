@@ -1178,3 +1178,11 @@ Következmény a kutatásra: a családjaink 1757–1825 közötti keresztelései
 - **HM HIM Katonahőseink (katonahoseink.militaria.hu, hadisir.militaria.hu):** ismételt próbálkozásra is elérhetetlen (2026. okt. 29.).
 
 Összegzés: az online elérhető források a családfa minden ágán kimerültek az 1826 előtti (Óbecse) és az 1895 utáni (állami anyakönyvek, Szerbia) időszakra.
+
+## 66. MNL AdatbázisokOnline: második világháborús adatbázisok
+
+- **A második világháború veszteségi adatbázisa:** Ricz névre 2 találat; az egyetlen Ricz (Ricz József, földműves napszámos, Prügy, Borsod-Abaúj-Zemplén, 1950-es halotti bejegyzés) nem óbecsei. Klimek, Kádas, Keczeli: óbecsei találat nincs.
+- **Szovjet táborok magyar foglyai** (szovjet fogolynyilvántartó lapok, gépi átírással): Ricz névre 60 találat, ebből csak kettő valódi Ricz (Ricz Pál, Nagyvárad, 1921; Ricz János, Bonya, Tolna m., 1925), a többi Rácz – egyik sem óbecsei. Klimek: 20 találat, óbecsei nincs (köztük Klimek József, apja János, szül. 1922, és Klimek Magdolna, apja János, szül. 1926, születési hely nélkül – a család lapja szerint Klimek János huszárnak ilyen nevű gyermeke nem volt). Kádas: 229 találat, a többségnél nincs születési hely, ezért azonosítás nem lehetséges.
+- **Csehszlovák–jugoszláv–magyar népességmozgás, lakosságcsere:** Ricz névre nincs találat.
+
+Ezzel az MNL AdatbázisokOnline családunk szempontjából releváns adatbázisai mind át vannak nézve (1828-as összeírás, I. és II. világháborús veszteségek, szovjet táborok, állami anyakönyvek, népességmozgás).
