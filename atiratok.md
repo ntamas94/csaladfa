@@ -659,3 +659,11 @@ Klimek János és Galics Anna első gyermeke, Teréz 1865-ben Óbecsén születe
 Klimek János és Galics Anna házassága az óbecsei házassági anyakönyvben (DGS 7994502) nincs meg: átnézve 1863. febr. – 1865. máj. 1. (266–283. kép). A madarasi anyakönyvben sincs 1861. okt. – 1865. máj. között (35. fejezet). Lehet, hogy egy harmadik plébánián (a menyasszony vagy a vőlegény akkori lakóhelyén) esküdtek, vagy 1865 májusa és szeptembere között.
 
 Kiegészítés: átnézve 1865. máj. 1. – nov. 4. is (284–289. kép, 25–54. bejegyzés). Klimek–Galics házasság 1865-ben sincs az óbecsei anyakönyvben. Klimek János és Galics Anna tehát nem Óbecsén és nem Madarason esküdött 1861 és 1865 között.
+
+## 37. Füstös János halála, Bácsföldvár, 1855. május 17. (előzetes olvasat)
+
+Bácsföldvár, r. k. halotti anyakönyv (Halottak 1826–1895, DGS 8305241), 167. kép, 39. bejegyzés: https://www.familysearch.org/search/film/008305241?i=166 . A névoszlop kis nagyításban: „1855. die 17. Maji – Joannes Füstös, maritus Catharinae B[álint], conditionis civilis”. A teljes sor (életkor, lakóhely, betegség) még nincs kiolvasva.
+
+Átnézve 1853. jan. – 1855. dec. (142–174. kép); ebben az időszakban más Füstös-halálozás nincs. A film 134–141. képei egy későbbi, magyar nyelvű állami anyakönyv lapjai, közbeékelve.
+
+Ha az olvasat megerősítést nyer: Füstös János 1855 májusában halt meg, amikor lánya, Mária két és fél éves volt. Ez illik ahhoz, hogy Mária 1871-es házasságakor apja „néhai”.
