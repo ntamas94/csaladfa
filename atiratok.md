@@ -1157,3 +1157,14 @@ Mellékes: az Ambrus család (Mihály és Pintér Borbála 1855-ben és 1860-ban
 **Vajdasági Levéltár (arhivvojvodine.org.rs):** online csak fond- és gyűjteményjegyzék, oklevélgyűjtemény és virtuális kiállítások vannak; név szerinti adatbázis, anyakönyv vagy összeírás online nincs.
 
 Megjegyzés: a keresés közben előkerült irodalom – „The 1744 Census of Old Bečej Township” (Óbecse 1744-es összeírása; folyóiratcikk a CEEOL-on) – név szerinti 1744-es lakosjegyzéket ígér; a teljes szöveg előfizetéses.
+
+## 64. Óbecse 1744-es összeírása (CEEOL) és a katolikus anyakönyvek kezdete
+
+Forrás: Gordana Garić Petrović: *Попис становника Старог Бечеја из 1744. године* (Óbecse lakóinak 1744-es összeírása), Мешовита грађа / Miscellanea 34 (2013), 103–119. o., Beograd, Istorijski institut; CEEOL: https://www.ceeol.com/search/article-detail?id=106443 (előfizetéssel olvasva, 2026. okt. 29.).
+
+- A lista a **szerb ortodox parókia** legrégebbi anyakönyvében maradt fenn (Zentai Történelmi Levéltár, becsei részleg, F 550.1). 126 ház (1–131. sorszám), 803 lakos, név, életkor és rokonsági viszony szerint, cirill betűs egyházi szláv írással. Az összeírás idején Óbecse a tiszai határőrvidék helyőrsége volt, lakói szinte kizárólag ortodox szerbek.
+- A teljes szöveget átkerestem: **Ricz, Kádas, Gubincsik, Busa, Budai, Fehér, Imre, Klimek név nincs benne** (sem latin, sem cirill alakban). Ez várható: a magyar katolikus betelepítés a határőrvidék 1751-es megszüntetése és a Tiszai Koronakerület létrehozása után kezdődött.
+
+Fontos adat a cikkből: **az óbecsei római katolikus plébánia anyakönyvei 1757-ben kezdődnek** (abban az évben öt keresztelés); 1764-ben már 37 keresztelés volt, és 277 katolikus élt a városban; 1787-ben Óbecsének 4437 lakosa volt (799 ház, 885 család). A szerző hivatkozott forrása a betelepítésről: Gyetvai Péter: *A Tiszai korona-kerület telepítéstörténete*, Kalocsa, 1992.
+
+Következmény a kutatásra: a családjaink 1757–1825 közötti keresztelései, házasságai és halálozásai **léteznek** az óbecsei plébánia eredeti anyakönyveiben, de a FamilySearchen csak az 1826-tól készült másodpéldányok vannak fent, ezért ez az időszak online nem kutatható. Gyetvai Péter könyve a Hungaricanán nem érhető el (keresés: „Tiszai korona-kerület”, „Gyetvai Péter Becse”).
