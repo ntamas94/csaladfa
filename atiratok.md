@@ -720,3 +720,11 @@ A VAMADIA-ban (24. és 27. fejezet) a Magyar Szó 1945 utáni számai ingyen, te
 Kiegészítő keresések előfizetéssel (2026. okt. 29.): „Klimek Óbecse”, „Klimek Ó-Becse”, „Klimek János huszár”, „Klimek János Becse”, „Ricz Óbecse”, „Kádas Óbecse”, „Keczeli Óbecse”, „Füstös Bácsföldvár”, „Ricz Antal”, „Kádas Ilona”, „Klimek Ilona”, „Klimek Katalin”. Óbecsei családtagra egyértelmű találat nincs. Nyomok, nem igazolva:
 - Reggeli Ujság (Újvidék), 1941. május 15. és 30.: anyakönyvi kimutatásban „Pisák Dezső és Klimek Ilona” (házasság). A település és a menyasszony szülei a részletből nem derülnek ki; lehet a család lapján szereplő Klimek Ilona (Klimek Mária húga), de lehet névrokon is.
 - Hírek a sebesültekről és betegekről, 1914. november–december: Klimek László őrvezető (Gefreiter), 57. gyalogezred, kórházban Szabadkán és Munkácson; a mellette lévő óbecsei bejegyzés más személyé.
+
+## 41. Adásvételi szerződés, Óbecse, 1878 – Kádas Pál házvétele
+
+Parcsetich Félix óbecsei közjegyző iratai, RS_IASE_F_022_1878_0057 (Történelmi Levéltár Zenta), Hungaricana: https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1073565/ . 3 oldal, magyar nyelvű, 50 krajcáros bélyeggel. Résztvevők a katalógus szerint: Bálint Pál topolyai, Kovács Jánosné Bálint Petronella, Kiss Györgyné Bálint Kata (óbecseiek) és Kádas Pál (óbecsei).
+
+Tartalom (bizonytalan olvasat, a kézírás nehezen olvasható): Bálint Pál topolyai, Bálint Petronella (férjezett Kovács Jánosné) és Bálint Kata (férjezett Kiss Györgyné) mint eladók, és Kádas Pál mint vevő adásvételi szerződést kötnek. Az eladók átadják a tulajdonukat képező, az óbecsei [950. sz.] telekjegyzőkönyvben 1634–1635. helyrajzi szám alatt felvett, **934. számú** ingatlant (házat) Kádas Pálnak. Az okiratot „Kelt Óbecsén, [1878] … havának … napján”. Mind a négy fél kereszttel írta alá („+ Bálint Páll topolyai, + Bálint Petron, + Bálint Katalin, + Kádas Páll, névírójuk …”), vagyis egyikük sem tudott írni. Tanúk: Komáromi [István?] és Juhász István, óbecsei lakosok. Díjjegyzék: 3 Ft 40 kr.
+
+Jelentősége: a 934-es házszám azonos azzal, amely alatt Kádas Pál és Gubincsik Ilona 1884-ben, lányuk, Kádas Ilona keresztelésekor lakott (9. fejezet). Ez tehát ifj. Kádas Pál (1833), Kádas Ilona apja: 1878-ban vette meg a házat, amelyben Kádas Ilona született. Kádas Pál nem tudott írni.
