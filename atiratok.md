@@ -609,3 +609,15 @@ Bácsföldvár, r. k. házassági anyakönyv (Házasultak 1826–1895, DGS 83052
 Még átnézendő: 1842–1843 (kb. 50–63. kép), 1846–1849 jobb oldalai és a hiányzó 1848–1849, valamint 1826–1841.
 
 Nyom: 1853. január 24. körül (83. kép, 4. bejegyzés) egy Gergely nevű vőlegény feleségül vette „Victoria Joannis Füstös et Elisabethae Szabó filia”-t. Ha ez ugyanaz a Füstös János, akkor első felesége Szabó Erzsébet volt, és Bálint Katalinnal második házasságban élt. Ez esetben az 1840-es évek házassági bejegyzésében „viduus” (özvegy) jelzővel szerepel.
+
+Folytatás (2026-10-29): átnézve mindkét oldalon 1842–1847 (50–55., 64–70., 72., 74. kép) és 1850. máj. – 1852 (75–82. kép, a nevek a bal oldalon). Füstös-vőlegény sehol nincs.
+
+A film szerkezete: a régi, magyar fejlécű kötet 1847 végével zárul (72. kép), utána filmváltás (59–63. kép: „CONTINUED”, címkártyák), majd az új, nyomtatott fejlécű kötet 1850. május 30-án kezdődik (75. kép, 1. bejegyzés). **Az 1848. jan. – 1850. máj. közötti bácsföldvári házasságok ezen a filmen nincsenek.** Mivel Füstös Mária 1852 szeptemberében született, Füstös János és Bálint Katalin házassága nagy valószínűséggel ebbe a hiányzó időszakba esik.
+
+Füstös János első házasságának nyomai:
+- 50. kép, jobb oldal, 1842. november 21.: egy János nevű vőlegény feleségül vette Rózát, „Füstös János és Szabó Örzsébeth Leányát”, földvári lakosokat.
+- 83. kép, 1853. január: Füstös Viktória, „Joannis Füstös et Elisabethae Szabó filia” férjhez ment.
+
+Füstös Jánosnak tehát az első feleségétől, Szabó Erzsébettől már az 1820-as években született gyereke (Róza házasságakor kb. 18 éves). Szabó Erzsébet halála után vette el Bálint Katalint, kb. 1848–1850 között.
+
+Ami még megnézhető: Füstös János és Bálint Katalin további gyerekeinek keresztelései (DGS 4594708, 1849–1857; DGS 4552338, 1857–), Szabó Erzsébet halála (DGS 8305241), és Füstös János halála 1852 és 1871 között (ugyanott).
