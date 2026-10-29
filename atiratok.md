@@ -1168,3 +1168,13 @@ Forrás: Gordana Garić Petrović: *Попис становника Старог
 Fontos adat a cikkből: **az óbecsei római katolikus plébánia anyakönyvei 1757-ben kezdődnek** (abban az évben öt keresztelés); 1764-ben már 37 keresztelés volt, és 277 katolikus élt a városban; 1787-ben Óbecsének 4437 lakosa volt (799 ház, 885 család). A szerző hivatkozott forrása a betelepítésről: Gyetvai Péter: *A Tiszai korona-kerület telepítéstörténete*, Kalocsa, 1992.
 
 Következmény a kutatásra: a családjaink 1757–1825 közötti keresztelései, házasságai és halálozásai **léteznek** az óbecsei plébánia eredeti anyakönyveiben, de a FamilySearchen csak az 1826-tól készült másodpéldányok vannak fent, ezért ez az időszak online nem kutatható. Gyetvai Péter könyve a Hungaricanán nem érhető el (keresés: „Tiszai korona-kerület”, „Gyetvai Péter Becse”).
+
+## 65. Az 1757–1825 közötti óbecsei anyakönyvek és a betelepítés forrásai – online állapot
+
+- **FamilySearch-katalógus:** Óbecse/Bečej helynévre egyetlen anyakönyv-sorozat van: „Anyakönyvek, 1826–1895” (Magyar Országos Levéltár; r. k. egyház, Óbecse; koha:3506) – ezt használtuk. A „Stari Bečej”, „Bečej” és „Becej matična” keresés más (pl. szerb levéltári) sorozatot nem ad. Az 1757–1825 közötti eredeti kötetek nincsenek filmezve vagy nincsenek online.
+- **Kalocsai Főegyházmegyei Levéltár (archivum.asztrik.hu, KFL-online):** online anyakönyvi szolgáltatása van, de Óbecse ma a Szabadkai Egyházmegyéhez tartozik, és a nyilvános anyagokban Óbecse nem szerepel.
+- **Gyetvai Péter: A Tiszai korona-kerület telepítéstörténete I–III. (Kalocsa, 1992):** az Arcanumban csak ismertetések vannak róla (Ethnographia 1994, Honismeret 1993, Magyar Szó 1993. ápr. 17.); maga a mű nem digitalizált. A Bácsország 2006/1. szám irodalomjegyzéke Bodor Antal *Délmagyarországi telepítések története* (Budapest, 1914) című munkáját is idézi.
+- **Arcanum, korai telepesek:** „Ó-Becse” 1757 telepesek, „Ricz” Becse 1760, „Kádas” Becse 1770, „Gubincsik”, „Busa” „Ó-Becse”, „Becse” „Ricz Péter”: használható találat nincs.
+- **HM HIM Katonahőseink (katonahoseink.militaria.hu, hadisir.militaria.hu):** ismételt próbálkozásra is elérhetetlen (2026. okt. 29.).
+
+Összegzés: az online elérhető források a családfa minden ágán kimerültek az 1826 előtti (Óbecse) és az 1895 utáni (állami anyakönyvek, Szerbia) időszakra.
