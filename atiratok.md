@@ -794,3 +794,23 @@ A FamilySearch-névmutató szerint (a felhasználó által küldött képernyők
 Mihály dátuma a névmutatóban hibás: az eredeti bejegyzés (Kereszteltek 1876–1885, 347. sz., https://www.familysearch.org/ark:/61903/3:1:939Z-1NSY-Z) „1880. 5. 5. Sept.”, azaz született és keresztelték szeptember 5-én; az indexelő a „5. 5.” számokat májusnak olvasta.
 
 Madaras, keresztelési anyakönyv (DGS 4551500), átnézve 1841. dec. – 1846. jan. (518–548. kép), mindkét oldal: talált gyerek („inventus”, „ignotis parentibus”, „lelenc”), illetve feltételesen (sub conditione) keresztelt idősebb gyerek bejegyzése nincs; minden bejegyzésnél madarasi házaspár a szülő. Ha a kukoricásban talált kétéves gyereket már megkeresztelték máshol, Madarason nem keresztelték újra, így ebben az anyakönyvben nem is várható nyoma.
+
+## 46. Budai Katalin halála, Óbecse, 1851. február 14.
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1826–1855, DGS 8265818), 296. kép: https://www.familysearch.org/search/film/008265818?i=295
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus, dies, mensis | 1851. 14. Februarii |
+| Nomen, cognomen, locus | Catharina Budai, Emerici Gubincsik uxor, Par. V. Becsensis |
+| Aetas | 30 annorum |
+| Conditio | civilis |
+| Sacramenta | moribundorum sacramentis provisa |
+| Sepeliens | Jos. Rehák, administrator V. Becsensis |
+
+Fordítás: Budai Katalin, Gubincsik Imre felesége, óbecsei, nemtelen, 30 évesen meghalt 1851. február 14-én; a haldoklók szentségeiben részesült. Rehák József óbecsei adminisztrátor temette.
+
+Megjegyzések:
+- A 30 év kb. 1821-es születést ad; az 1837-es házasságkor 18 évesnek írták (kb. 1819). A kettő közel van.
+- Lánya, Gubincsik Ilona ekkor 9 éves volt; 1861-es házasságakor anyját „néhai”-ként említik (42. fejezet).
+- A halotti filmen hiányzik 1848. jan. – 1849. jan. és 1849. febr. – 1850. jún.; a 1850. jún. – 1851. febr. közötti rész (287–296. kép) átnézve.
