@@ -865,3 +865,5 @@ Agó Erzsébet halála – folytatás: átnézve 1843. szept. – 1847. nov. (19
 Mellékes, a Gubincsik-családhoz tartozó halálozások (rokonság nem igazolt): 240. kép, 1846. jún. 9.: Tóth Anna, Gubincsik Mátyás özvegye, 70 éves; 214. kép, 1844. dec. 5.: Gubincsik Ilona, Busa István özvegye, 56 éves.
 
 Agó Erzsébet – további átnézés: 1847. dec. (279–280. kép) és 1851. márc. – dec. (297–302. kép); nincs benne. Hátravan 1852–1855 (303–403. kép).
+
+Agó Erzsébet – lezárva: átnézve 1852. jan. – 1855. dec. 30. (303–400. kép, a film vége) is; nincs benne. A halotti filmen (1826–1855) 1841. júl. után sehol nem szerepel. Legvalószínűbb, hogy a filmen hiányzó időszakban (1848, vagy 1849. febr. – 1850. máj., kolera) halt meg, vagy 1855 után (Halottak 1856–1870, DGS 8265819, még nem átnézve).
