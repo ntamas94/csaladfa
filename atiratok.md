@@ -651,3 +651,9 @@ Madaras, r. k. házassági anyakönyv (Házasultak 1789–1891, DGS 8265980). Á
 Nyom: 257. kép, 95. bejegyzés, 1861. október 16.: Joannes Botyák (22 éves), a néhai Botyák János és Veronika [Cinter?] fia, feleségül vette **Anna Gálicz**-ot (18 éves), a néhai Gálicz Mihály és Veronika Görnöri lányát, madarasi lakosokat. Ha ez ugyanaz a Galics Anna, akkor Klimek János felesége özvegyként ment hozzá, és a házasság Botyák János halála után, valószínűleg 1862 és 1864 között volt, Madarason kívül (például Óbecsén). Ez nem igazolt.
 
 Klimek János és Galics Anna első gyermeke, Teréz 1865-ben Óbecsén született, így a házasságot 1864 és 1865 eleje között érdemes keresni az óbecsei anyakönyvben (DGS 7994502), a 276. kép után.
+
+## 36. Klimek Teréz keresztelése (1865) és a házasság keresése Óbecsén
+
+**Klimek Teréz keresztelése, Óbecse, 1865. szeptember 17.** Kereszteltek 1861–1875, 307. bejegyzés: https://www.familysearch.org/ark:/61903/3:1:939Z-1NHH-R . Theresia, leány, törvényes. Szülők: „Joannes Klinek et Anna Gálicz”, civ. cath., Óbecse. Keresztanya: Maria Novák, Josephi Nagy uxor. Ez Klimek János első ismert gyermeke.
+
+Klimek János és Galics Anna házassága az óbecsei házassági anyakönyvben (DGS 7994502) nincs meg: átnézve 1863. febr. – 1865. máj. 1. (266–283. kép). A madarasi anyakönyvben sincs 1861. okt. – 1865. máj. között (35. fejezet). Lehet, hogy egy harmadik plébánián (a menyasszony vagy a vőlegény akkori lakóhelyén) esküdtek, vagy 1865 májusa és szeptembere között.
