@@ -633,3 +633,13 @@ Ez Klimek János (kb. 1843) származási helyét adja meg: Madaras (ma Bácsmada
 Klimek János és Galics Anna házassága: az óbecsei házassági anyakönyvben 1863. febr. – 1864. jún. (266–275. kép) nem találtam (a kép kicsi, a bal oldali névoszlopot néztem). Első gyermekük, Teréz 1865-ben született Óbecsén.
 
 **Az 1901-es nyilatkozat két képe** (a család birtokából) („Alulírott Klimek János nyilatkozom, hogy az 1880 évi május hó 2-án Óbecse községben született fiam, Klimek János jelenleg a k. és m. 3. huszárezredben … önkéntes huszár”) nem egyezik az anyakönyvvel: 1880-ban Klimek Jánosnak Mihály nevű fia született, szeptember 5-én, május 2-án nem keresztelt Klimek-gyereket. A huszár Klimek János 1887. június 9-én született. A két kép szövege eltér egymástól, a pecsét pedig Pest-Pilis-Solt-Kiskun megyét ír, nem Bács-Bodrogot. Forrásként csak az eredeti irat használható.
+
+## 34. Madaras: Klimek János keresztelése (keresés)
+
+Madaras (ma Bácsmadaras), r. k. anyakönyvek a FamilySearch-katalógusban (koha:235774): Kereszteltek 1789–1860 (DGS 4551500), 1861–1877 (DGS 4498966), 1877–1895 (DGS 4498967); Házasultak 1789–1891 (DGS 8265980); Házasultak 1891–1895 és Halottak 1789–1863 (DGS 8523446); Halottak 1864–1891 (DGS 8523447), 1892–1895 (DGS 8401278). Madarasra nincs névmutató, és a FamilySearch névmutatójában sincs madarasi Klimek.
+
+Átnézve a keresztelési anyakönyvben (DGS 4551500, 518–527. kép), 1841. dec. – 1843. júl., mindkét oldal, a szülők oszlopa: **Klimek nevű szülő nincs.** Klimek János az 1878-as házasságakor 35 éves volt, így kb. 1842–1843-ban született; Madarason ebben az időszakban nem keresztelték Klimek néven.
+
+Ez illik a családi hagyományhoz: kétéves forma korában, egy út menti kukoricásban találták, csak németül beszélt, és csak azt tudta, hogy Johannesnek hívják. Ha így volt, nem Madarason született, a „Klimek” nevet pedig valószínűleg később kapta (befogadó családtól, vagy a hatóság adta). Az „or. ex Madaras” (1880) azt jelentheti, hogy Madarason találták vagy ott nőtt fel.
+
+További lehetőségek: a madarasi keresztelési anyakönyvben egy utólagos, „inventus” (talált) vagy „ignotis parentibus” (ismeretlen szülőktől) megjegyzésű bejegyzés kb. 1843–1846 körül; a madarasi házassági anyakönyvben (DGS 8265980) Klimek János és Galics Anna házassága kb. 1862–1864 körül, ami a szülőket vagy a nevelőszülőket is megnevezheti.
