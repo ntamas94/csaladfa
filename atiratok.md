@@ -621,3 +621,15 @@ Füstös János első házasságának nyomai:
 Füstös Jánosnak tehát az első feleségétől, Szabó Erzsébettől már az 1820-as években született gyereke (Róza házasságakor kb. 18 éves). Szabó Erzsébet halála után vette el Bálint Katalint, kb. 1848–1850 között.
 
 Ami még megnézhető: Füstös János és Bálint Katalin további gyerekeinek keresztelései (DGS 4594708, 1849–1857; DGS 4552338, 1857–), Szabó Erzsébet halála (DGS 8305241), és Füstös János halála 1852 és 1871 között (ugyanott).
+
+## 33. Füstös–Bálint gyerekek, Klimek János származása
+
+**Füstös János és Bálint Katalin gyerekei, Bácsföldvár.** A keresztelési filmen (DGS 4594708) is hiányzik az 1848. jan. – 1850. máj. közötti időszak: 1847 novembere (149. kép) után a következő kötet 1850. május 30-án kezdődik (150. kép). 1850. máj. – 1852. okt. (150–172. kép) a szülők oszlopában Füstös János és Bálint Katalin csak Mária (1852. szept. 7.) szülőjeként szerepel. Mária tehát valószínűleg az első közös gyerekük; a házasság kb. 1848–1852 közé tehető. A menyasszony plébániáján (talán Óbecsén) is köthették.
+
+**Klimek Mihály keresztelése, Óbecse, 1880. szeptember 5.** Kereszteltek 1876–1885, 347. bejegyzés: https://www.familysearch.org/ark:/61903/3:1:939Z-1NSY-Z . Michael, fiú, törvényes; született és keresztelték 1880. szept. 5. Szülők: Joannes Klimek, „or. ex Madaras” [Madarasról származó], et Julianna Hegyi, C. R. Keresztanya: Julianna Szabó, Georgii Horváth uxor, Óbecse 1342. Keresztelő: Josephus [Kulik?].
+
+Ez Klimek János (kb. 1843) származási helyét adja meg: Madaras (ma Bácsmadaras, Magyarország). A család hagyománya szerint egy Klimek Jánost kétévesen egy út menti kukoricásban találtak, csak németül beszélt és csak a „Johannes” nevet tudta. Ha ez róla szól, a madarasi plébánia keresztelési vagy lelencbejegyzéseiben kereshető (kb. 1841–1845).
+
+Klimek János és Galics Anna házassága: az óbecsei házassági anyakönyvben 1863. febr. – 1864. jún. (266–275. kép) nem találtam (a kép kicsi, a bal oldali névoszlopot néztem). Első gyermekük, Teréz 1865-ben született Óbecsén.
+
+**Az 1901-es nyilatkozat két képe** („Alulírott Klimek János nyilatkozom, hogy az 1880 évi május hó 2-án Óbecse községben született fiam, Klimek János jelenleg a k. és m. 3. huszárezredben … önkéntes huszár”) nem egyezik az anyakönyvvel: 1880-ban Klimek Jánosnak Mihály nevű fia született, szeptember 5-én, május 2-án nem keresztelt Klimek-gyereket. A huszár Klimek János 1887. június 9-én született. A két kép szövege eltér egymástól, a pecsét pedig Pest-Pilis-Solt-Kiskun megyét ír, nem Bács-Bodrogot. Forrásként csak az eredeti irat használható.
