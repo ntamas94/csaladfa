@@ -1087,3 +1087,7 @@ Következtetés: ha az 1879-es örököstársak közötti szerepe alapján (57. 
 Ez a pár **eddig ismeretlen első gyermeke**: kb. 1873. augusztus közepén született, a házasságkötés (1872. febr. 7.) után másfél évvel. A keresztelése a névmutatóban nincs (a ricz-obecse.md listájában sem); az eredeti keresztelési képen 1873 augusztusában keresendő. Az 507-es ház itt is megjelenik (56. fejezet).
 
 Mellékes: a 115. kép 1873. áprilisi bejegyzései között egy „Catharina, filia Michaelis Pálfi et Veronicae Ritz” is szerepel (olvasat nagyítás nélkül, bizonytalan): ez azt mutatná, hogy Pálfi Mihály és Ricz Veronika (az 1879-es örököstárs) már 1873 előtt házas volt.
+
+Ricz Péter – folytatás (Halottak 1856–1870, DGS 8265819): átnézve visszafelé **1867. aug. – 1870. dec.** (311–428. kép); nincs benne. 1867-től visszafelé a lapok kétoldalasak és apró kézírásúak; ebben a nagyításban a nevek csak részben olvashatók, ezért a keresést itt abbahagytam.
+
+Mérlegelés: az 1872. februári házassági bejegyzés (10. fejezet) az apát „Petri Ritz”-ként, „néhai” (dfti) jelölés nélkül nevezi meg, holott ugyanez az anyakönyv máshol jelöli az elhunyt szülőt (pl. 1861, 42. fejezet). Ez arra utal, hogy **Ricz Péter 1872 februárjában még élt**, így 1856–1867 közötti halála valószínűtlen. Ha az 1879-es örököstársak közötti szerep helyesen jelzi, hogy 1879 októbere előtt meghalt, akkor 1872–1879 között halt meg, de nem az óbecsei plébánián (pl. tanyán, más plébánián), vagy a bejegyzés az 1871–1879-es film gyors, kis nagyítású átnézésekor elkerülte a figyelmet.
