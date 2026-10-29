@@ -763,3 +763,26 @@ Megjegyzések:
 Id. Kádas Pál (kb. 1795) halála: átnézve 1836. jan. – 1838. júl. eleje (110–139. kép), a névoszlop. Nincs benne. Mellékes Kádas-halálozások ugyanitt, más családból: József, Kádas Gáspár és Gajdos Mária fia; József, Kádas Mihály és Gémes Anna fia (130. kép, 1837. aug.). A Ricz-családból: Rozália, Ricz Pál és Sági Verona lánya (125. kép, 1837. febr.).
 
 A névmutató szerint Kádas Pálnak és Homonyi Karolinának Mihály után nem született több gyermeke Óbecsén; ez arra utalhat, hogy Kádas Pál 1836 után nem sokkal meghalt vagy elköltözött. A keresés 1838 júliusától folytatandó (140. képtől).
+
+## 44. Id. Kádas Pál halála, Óbecse, 1841. február 27.
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1826–1855, DGS 8265818), 167. kép, 48. bejegyzés: https://www.familysearch.org/search/film/008265818?i=166
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Sorszám | 48 |
+| A meghalálozás napja | 1841. február 27. |
+| A megholtnak neve, lakása | Kádas Pál, Homonyi Karolin férje, óbecsei lakos |
+| Kora | 48 esztendős |
+| Sorsa | nemtelen |
+| Szentségek | a haldoklók szentségeivel ellátva |
+| Temető | Keller Ferenc, óbecsei káplán |
+
+Megjegyzések:
+- A 48 év kb. 1793-as születést ad; az 1835-ös házassági bejegyzés 40 évet (kb. 1795) írt. A kettő közel van egymáshoz.
+- Második felesége, [Homonyi] Karolina túlélte. Fia, ifj. Kádas Pál ekkor 7 éves volt; 1861-es házassági bejegyzésében az apja ezért „néhai” (42. fejezet).
+- A bejegyzés a születési helyét nem adja meg, így a cibakházi eredet továbbra sem igazolt.
+
+Mellékes halálozások ugyanezen a filmen (átnézve 1836. jan. – 1841. ápr., 110–168. kép):
+- **Ricz Vince**, Ricz Péter és Fehér Rozália fia, meghalt 1839. december 3-án (153. kép). Ő az 1838-ban született Vince, Ricz Antal (1842) bátyja.
+- **Gubincsik János**, Gubincsik Imre és Budai Katalin fia, meghalt 1840 áprilisában, 1 hónaposan (158. kép). Gubincsik Ilona (1841) bátyja.
