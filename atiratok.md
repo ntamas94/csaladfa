@@ -912,3 +912,5 @@ Agó Erzsébet – folytatás: átnézve 1861. máj. – dec. (196–222. kép);
 Agó Erzsébet – folytatás: átnézve 1862. jan. – 1864. márc. (223–257. kép), mindkét oldal; nincs benne. Az 1862–1863-as kézírás ebben a nagyításban csak részben olvasható. Folytatandó a 258. képtől.
 
 Agó Erzsébet – folytatás: átnézve 1864. ápr. – 1867. márc. (258–305. kép), mindkét oldal; nincs benne. Folytatandó a 306. képtől.
+
+Agó Erzsébet – lezárva (1870-ig): átnézve 1867. ápr. – 1870. dec. (306–428. kép, a film vége) is; nincs benne. Összesen tehát az óbecsei halotti anyakönyvekben 1841. júl. – 1870. dec. között nem szerepel, a filmről hiányzó 1848 és 1849. febr. – 1850. máj. kivételével. Legvalószínűbb, hogy ebben a hiányzó időszakban (az 1849-es kolerajárvány idején) halt meg, vagy nem Óbecsén. (Megjegyzés: az 1859–1863-as apró latin kézírás ebben a nagyításban csak részben olvasható.)
