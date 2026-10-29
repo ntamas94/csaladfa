@@ -850,3 +850,8 @@ Kádas Pál (kb. 1793) és Homonyi Karolina második gyermeke, Mihály (1836, �
 Kádas István (Kádas Pál és Busa Ilona fia, 1837-ben 20 éves, itt 24) első felesége, [Homonyi] Anna 1842 januárja előtt meghalt (lányuk, Verona 1839-ben született). A második feleség, Sóti Erzsébet maga is özvegy volt. Ebből a házasságból születtek a névmutató szerinti gyerekek (Verona 1846, Veronika 1853, János 1856); fiuk, Ferenc 1878-ban nősült (30. fejezet).
 
 Homonyi Karolina (Kádas Pál özvegye, 1841) újraházasodása: a házassági anyakönyvben 1841. febr. – 1842. nov. (97–102. kép) nincs; a keresés itt lezárva, további 1843–1845-ös átnézés kis eséllyel jár, mert a névmutatóban 1841 után nincs Homonyi anyjú gyermek.
+
+## 49. Nyitott, online kevéssé kutatható szálak (2026. okt. 29.)
+
+- **Agó Erzsébet halála:** 1841 júliusában özvegy lett (15. fejezet). Halála az óbecsei halotti anyakönyvben 1841 után keresendő (DGS 8265818, 168. képtől; 1848 és 1849. febr. – 1850. máj. hiányzik). Halálozások nincsenek indexelve, ezért kézi lapozás kell, képenként kb. 30 bejegyzéssel; 1841–1855 kb. 130 kép.
+- **Busa Ilona szülei:** kb. 1797-ben született; az óbecsei másodpéldány-filmek 1826-tal kezdődnek, a korábbi keresztelések online nem érhetők el. Ha Óbecsén született, a születése online nem kereshető; házassága Kádas Pállal (kb. 1817) szintén nincs a filmen.
