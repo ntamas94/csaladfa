@@ -4,6 +4,7 @@ Családfakutatás: a Ricz, a Kádas és a Gubincsik ág, kiegészítve az óbecs
 
 - **`index.html`**: a családfa ábrája, a talált iratok és a nyitott kérdések. Böngészőben megnyitva működik.
 - **`atiratok.md`**: a forrásokból készült átírások.
+- **`ricz-obecse.md`**: az összes óbecsei Ricz-keresztelés családonként, 1828–1895 (FamilySearch-névmutató).
 
 ## Igazolt adatok
 
