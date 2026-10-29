@@ -696,3 +696,13 @@ Megjegyzések:
 Galics Anna tehát 1877 októbere (fia születése) és december 20. között halt meg, valószínűleg a szülés után. Halotti bejegyzése az óbecsei anyakönyvben nincs: átnézve 1877. jan. – dec. (303–340. kép), a névoszlop. Lehet, hogy máshol halt meg vagy temették (például szülőfalujában, Madarason), vagy a bejegyzés más névalakkal (például „Anna Klimek”) szerepel, amit a kis nagyításban nem ismertem fel.
 
 Klimek János (kb. 1843) három hónappal felesége halála után, 1878. március 4-én újranősült (Hegyi Julianna, 30. fejezet).
+
+## 39. Klimek János (kb. 1843) halála: keresés 1887–1895; Klimek Erzsébet halála, 1895
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1881–1895, DGS 8265821), átnézve 1887. szept. – 1895. szept. 30. (252–628. kép, a film vége), a névoszlop. **Klimek János halála ebben az időszakban nincs**, tehát 1895 októbere után halt meg; az 1895 utáni halála az állami anyakönyvben van (ez a FamilySearchen nem érhető el).
+
+**Klimek Erzsébet**, 626. kép, 271. bejegyzés: meghalt 1895. szeptember 16-án, 4 évesen (szül. kb. 1891), „Klimek Erzsébet, János és Hegyi Juliánna leánya”, r. kath., cseléd [szülők foglalkozása]. Lakóhely: Óbecse, Sugár utca 18. Betegség: croup (torokgyík). Temették szept. 17-én az óbecsei alsó temetőben; temette Hárs Aladár káplán. A bejegyzésben az apa nem „néhai”, vagyis Klimek János 1895 szeptemberében élt.
+
+Klimek Erzsébet a huszár Klimek János (1887) húga; a keresztelési névmutatóban nem szerepelt (az 1886–1895-ös óbecsei keresztelések névmutatója hiányos).
+
+Az 1901-es nyilatkozat két képét és a kézírásos családfa-lapot Ricz Antal „Tóni” küldte (2026. okt.).
