@@ -706,3 +706,13 @@ Klimek János (kb. 1843) három hónappal felesége halála után, 1878. márciu
 Klimek Erzsébet a huszár Klimek János (1887) húga; a keresztelési névmutatóban nem szerepelt (az 1886–1895-ös óbecsei keresztelések névmutatója hiányos).
 
 Az 1901-es nyilatkozat két képét és a kézírásos családfa-lapot Ricz Antal „Tóni” küldte (2026. okt.).
+
+## 40. Arcanum Digitális Tudománytár (adt.arcanum.com) – keresés
+
+Keresés bejelentkezés nélkül (a találati lista rövid szövegrészleteket mutat; a teljes oldal előfizetéshez kötött).
+
+- **Fehér Józsefné? szül. Klimek Verona (1917–1986), Becse** – Magyar Szó, 43. évf., 1986. február 2.: köszönetnyilvánítás „anyósom és nagymamánk, Fehér szül. Klimek Verona (1917–1986)” temetéséről, Becse. A család lapja szerint Verona Klimek Mária (1914) húga, Klimek János (1887) és Keceli Mária lánya. A férj keresztneve a szövegrészletből nem derül ki.
+- „Klimek János”, „Klimek Jánosné”: 105 találat, egyik sem óbecsei (szepesi, budapesti, amerikai névrokonok).
+- „Ricz Antal”, „Ric Antal”, „Ricz Antalné”, „Kádas Ilona”, „Keceli Mária”, „Klimek Matild”, „Klimek Katalin”: óbecsei találat nincs.
+
+A VAMADIA-ban (24. és 27. fejezet) a Magyar Szó 1945 utáni számai ingyen, teljes szöveggel olvashatók; az 1986. február 2-i szám ott is kikereshető.
