@@ -459,3 +459,49 @@ Keresés a https://vamadia.rs/kereses oldalon, „Pontos kifejezésre keresek”
 Nincs találat: „Ricz Antalné”, „Kádas Ilona”. A „Kádas” keresés csak idegen szövegrészeket adott. A „Ricz László” találatai közül egy képzőművész (halálának 10. évfordulója 1979-ben) és diákmunkák (1991–1993) szerepelnek; családi kapcsolat nem látszik. A „Ricz András” találatai egy mai szabadkai/palicsi személyre és egy szerkesztőre vonatkoznak.
 
 Érdemes még kézzel megnézni: a fenti 1., 3. és 4. pont teljes szövegét, valamint a két első világháborús veszteségkötetben a „Ricz” és „Kádas” bejegyzéseket.
+
+## 25. Ricz Péter és Fehér Rozália házassága, Óbecse, 1833. november 17.
+
+Óbecse, r. k. házassági anyakönyv, FamilySearch DGS 7994502 (Házasultak 1826–1875), 52. kép (433-ból): https://www.familysearch.org/search/film/007994502?i=51 . A jobb oldali lap (lapszám 47) második bejegyzése, sorszám: 58. Latin nyelvű nyomtatott rovatok. A névmutatóban nincs benne.
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus et Dies Mensis | 1833. 17ª Novembr. |
+| Nomen et Cognomen, ac Parochia Contrahentium | Petrus, Petri Ritz et Veronicae Bertha d[efunc]tae filius; Rosalia, Francisci Fehér et Elisabethae Kókai filia, Parochiani V[eteris] Becsen. |
+| Aetas | 20.; 16. |
+| Conditio | Pleb.; Pleb. |
+| Nomina Testium | Josephus [Sárza] et Michael [Szelesi], Parochiani V. Becs. |
+| Minister | Idem (az oldal első bejegyzésénél: Antonius [Szathmáry], Parochus V. Becsen) |
+
+Fordítás: 1833. november 17-én házasságot kötött Ricz Péter, 20 éves, Ricz Péter és a néhai Bertha Veronika fia, és Fehér Rozália, 16 éves, Fehér Ferenc és Kókai Erzsébet lánya, óbecsei plébániabeliek, nemtelenek. Tanúk: [Sárza] József és [Szelesi] Mihály, óbecseiek. Összeadta [Szathmáry] Antal óbecsei plébános.
+
+Megjegyzések:
+- Az életkorok egyeznek a fán szereplő születési évekkel (Péter 1813, Rozália 1817), és a szülők neve is (Fehér Ferenc, Kokai Erzsébet).
+- Az anya vezetékneve itt tisztán Bertha, és „dftae” (defunctae): 1833-ban már nem élt. Az 1835-ös Ricz Pál-bejegyzésben (21. fejezet) Derta olvasat áll; a kézírásban a D és a B hasonló, ugyanarról a személyről lehet szó.
+- A dátum „17ª”; a fölötte álló, ugyanazon a napon kötött házasság (57. sz.) dátuma ugyanígy írva.
+- Az előző átnézés (1834–1837, 55–77. kép) azért nem találta, mert a házasság 1833-ban volt.
+
+Közvetlenül alatta, ugyanazon a napon, 59. sz.: Vincentius, Andreae Csábi et Helenae Bálint filius, 22 éves; Apollonia, Petri Ritz et Veronicae Bertha d[efunc]tae filia, 19 éves, Parochiani V. Becs. Tanúk: Joannes [Diosi?] et Josephus [Sárza]. Ricz Apollónia (kb. 1814) tehát Péter húga, testvérével egy napon ment férjhez.
+
+Ugyanezen az oldalon, alul: Joannes, Antonii [Lutka] et Mariae Ricz d[efunc]tae filius, 22 éves (rokonság nem igazolt).
+
+## 26. Kádas István és [Homonyi] Anna házassága, Óbecse, 1837. november 27.
+
+Ugyanez a film, 80. kép: https://www.familysearch.org/search/film/007994502?i=79 . A bal oldali lap alsó felében, az 1837. nov. 27-i első bejegyzés. Magyar nyelvű nyomtatott rovatok, sorszám nincs.
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Esztendeje, Hónapja, Napja | 1837. 27. Novemb. |
+| Nevek, vezetéknevek, plébánia | István, Kádas Pál és Busa Ilona fia; Anna, Hom[onyi] László és Kovács Erzsébet leánya, Óbecsei lak. |
+| Hány esztendősek | 20.; 17. |
+| Sorsok | n[em] n[eme]s; n[em] n[eme]s |
+| Násznagyok | Kovács István és [Borsos?] István, Óbecsei lak. |
+| Eskető | ugyan az |
+
+Fordítás: 1837. november 27-én házasságot kötött Kádas István, 20 éves, Kádas Pál és Busa Ilona fia, és Anna, 17 éves, [Homonyi] László és Kovács Erzsébet lánya, óbecsei lakosok, nemtelenek.
+
+Megjegyzések:
+- Kádas István (kb. 1817) az 1833-ban született Kádas Pál bátyja. Mivel 1837-ben 20 éves volt, Kádas Pál és Busa Ilona házassága 1817 körül vagy előtte lehetett: ez az 1826-ban kezdődő óbecsei másodpéldány-filmen nem lehet rajta, és a 6–54. kép átnézése emiatt nem szükséges.
+- A menyasszony szülei ugyanazok, mint Kádas Pál második feleségéé, Karolináé (14. fejezet): Anna Karolina húga. Ez a „Homonyi” olvasatot is erősíti.
+
+Átnézve 1838-ra (81–85. kép, 1838. jan. – nov.): nincs Ricz-, Fehér- vagy Kádas-vőlegény.
