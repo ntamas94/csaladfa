@@ -1025,3 +1025,40 @@ Megjegyzés: 1860-ban Imre János keresztanyja Pintér Borbála, Ambrus Mihály 
 Óbecse, r. k. halotti anyakönyv (Halottak 1881–1895, DGS 8265821), 469. kép, 266. bejegyzés: **1892. aug. 30.**, „Ricz József, Antal és Imre Róza fia, r. k.”, lakóhely **Pacsirta u.**, fiú, 12 napos, halál oka eclampsia. Ez a keresztelési bejegyzés margójegyzetét („1892 30/8”) és a Pacsirta utcai lakcímet is megerősíti.
 
 Tájékozódás a DGS 8265821-en: 469. kép ≈ 1892. aug. vége, 471. kép = 1892. szept. közepe, 491. kép = 1893. január.
+
+## 57. Az 1879-es Ricz-örököstársak a keresztelési listával összevetve; források állapota
+
+### Kik lehettek az örököstársak?
+
+Az 1879-es meghatalmazás (3. fejezet) aláíróit összevetettem az óbecsei Ricz-keresztelések listájával (ricz-obecse.md). A megfeleltetés **csak a névmutató alapján valószínű, iratban nincs igazolva**:
+
+| 1879-es fél | Lehetséges azonosítás a keresztelési listából |
+|---|---|
+| Ricz Antal | Ricz Péter és Fehér Rozália fia, 1842 (a mi águnk) |
+| Ricz Vincze | Ricz Péter és Fehér Rozália fia, 1846; vagy Ricz János és Nagy Klára fia, 1847 |
+| Ricz Anna, férj. Székely | Székely Sándor felesége (gyermekeik 1874–1882); Ricz Pál és Sági Veronika lánya (1856), vagy Ricz Péter lánya (1840) |
+| Ricz György | Ricz Pál és Sági Veronika fia, 1843 |
+| Ricz Pál, Ricz Pál fia | Ricz Pál és Sági Veronika fia, 1846 vagy 1853 |
+| Ricz Verona, férj. Varnyú | Varnyú Imre felesége (gyermekeik 1853–1867); talán Ricz Pál és Sági Veronika lánya, 1838 |
+| Ricz Pál, Ricz István fia | Ricz István és Szabó Rozália fia, 1843; vagy Ricz István és Nyitri Anna fia, 1856 |
+| Ricz Verona, férj. Simovits | Simonovics Ignác felesége (gyermekeik 1858–1885) |
+| Ricz Verona, férj. Pálfi | Pálfi Mihály felesége (gyermekeik 1874–1893) |
+| özv. Kovácsné Ludmány Rozál | talán Ludmán János és Ricz Anna (gyermekeik 1839–1846) lánya |
+
+Ha ez így van, az örököstársak **három Ricz-testvér (Péter, Pál, István) és talán egy Ricz-lány (Ludmánné Ricz Anna) gyermekei**, azaz id. Ricz Péter (és Bertha Veronika) unokái. Ez a „Ricz István · Ricz Pál = Péter testvérei” feltevést erősíti: Ricz Pál 1835-ös házassági bejegyzése szerint ő is Ricz Péter és [Bertha/Derta] Veronika fia (21. fejezet). Ebből az is következne, hogy **ifj. Ricz Péter (1813) 1879 októbere előtt meghalt**, hiszen helyette a fia, Antal (és talán Vince) örököl.
+
+### Ellenőrzési kísérlet a házassági anyakönyvben
+
+A menyasszonyok apját a házassági bejegyzésük mondaná meg. Ezért átnéztem:
+- **1873 teljes évét** (DGS 7994502, 379–397. kép, 1–98. bejegyzés): Ricz-menyasszony nincs; csak a 2. bejegyzés (1873. jan. 20.), Buttás Pál × Ricz Erzsébet, Ricz Márton és Varnyú Ilona lánya (ő nem szerepel az 1879-es iratban).
+- **1874–1875 házasságai hiányoznak a FamilySearch-filmekről:** a „Házasultak 1826–1875” film (DGS 7994502) 1873. november végén ér véget, a 398. képtől már 1894-es lapok vannak; a „Házasultak 1876–1895” film (DGS 8118730) 1876. januárjával kezdődik. Így a Pálfi–Ricz és a Székely–Ricz házasság (első gyermekük 1874-ben) online nem érhető el.
+- A régebbi házasságok (Ludmán–Ricz kb. 1838, Varnyú–Ricz kb. 1852, Simonovics–Ricz kb. 1857) a DGS 7994502-n keresendők. Tájékozódás: 200. kép = 1856. nov., 204. kép = 1857. febr., 215. kép ≈ 1858. nov., 225. kép = 1859. okt., 235. kép = 1860. nov. Az 1856–1857-es apró kézírás a képek nagyításában nehezen olvasható; még nem néztem át.
+
+Mellékes: 202. kép, 1856. nov. 26., 72. bejegyzés: egy menyasszony szülei „Jacobi Gubincsik et Helenae Szalai” (Gubincsik Jakab és Szalai Ilona; 20. fejezet).
+
+### Közjegyzői iratok (Hungaricana), új nevek
+
+Keresve: „Imre Mátyás”, „Imre Mátyásné”, „Imre Rozália”, „Ricz Péter”, „Fehér Rozália”, „Kovács Ilona”, „Ricz Antalné”, Bartusz, Megyeri. A Zentai Történelmi Levéltár óbecsei iratai között a mi családunkhoz kapcsolható találat nincs:
+- „Ricz Péter” (1878, 1883): óbecsei földműves, özv. Ricz Ferencné Balázs Teréz mellett; ő Ricz Ferenc és Balázs Terézia fia (szül. 1855), nem a mi Ricz Péterünk.
+- „Ricz Antalné” (1880, 1894): Pál Viktória, a másik Ricz Antal (iparos) felesége.
+- Bartusz (1878–1892): Bartusz István 1887-ben ajándékozási és adásvételi szerződést kötött (Bartusz György, illetve Uborka Julis Bartusz Julis), Imre Rozália komájáról van szó; a mi családunkat nem érinti.
