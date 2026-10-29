@@ -2,7 +2,7 @@
 
 Forrás: FamilySearch-névmutató, „Hungary, Catholic Church Records, 1636–1895”, Óbecse (Ó-Becse, Bács-Bodrog), keresés a Ricz, Ritz, Ric, Rics, Riecz, Rícz alakokra, 2026. október 29. Összesen 359 bejegyzés, ebből itt a Ricz apától született gyermekek, családonként (az anyja Ricz-lány családokat külön, a végén soroljuk). Az évszám a keresztelés éve. A nevek a névmutató latin/magyar alakjából magyarítva; a névmutató olvasati hibáit (pl. Szekeli/Szakal, Nyitri/Hitri/Vitri, Besenyi/Bessenyi/Berenyi) összevontuk, ahol egyértelmű.
 
-**Félkövér** = a családfa egyenes ága.
+**Félkövér** = a családfa egyenes ága. ✓ = az eredeti anyakönyvi képen ellenőrizve (atiratok.md, 55. fejezet).
 
 ## 1828–1847 (Kereszteltek 1826–1847, DGS 4594732)
 
@@ -15,7 +15,7 @@ Forrás: FamilySearch-névmutató, „Hungary, Catholic Church Records, 1636–1
 | Ricz Márton × Székely Rozália | Márton 1830, Ignác 1832, Pál 1833, Veronika 1835, Klára 1837, Terézia 1838, Rozália 1840, Pál 1842 |
 | Ricz János × Rodits Rozália | Mátyás 1831 |
 | Ricz József × Acsai (Atyai) Erzsébet | József 1832, Pál 1834, István 1838, Brigitta 1840, Anna 1841, Ágnes 1844 |
-| **Ricz Péter × Fehér Rozália** | Károly 1835, Vince 1838, Anna 1840, **Antal 1842**, József 1844, Vince 1846 |
+| **Ricz Péter × Fehér Rozália** | Károly 1835 ✓, Vince 1838 ✓, Anna 1840 ✓, **Antal 1842** ✓, József 1844 ✓, Vince 1846 ✓ |
 | Ricz János × Veis (Ven, Ver) Verona | Terézia 1836, Erzsébet 1838, András 1840 |
 | Ricz Pál × Sági Veronika | Rozália 1836, Verona 1838, János 1840, György 1843, Pál 1846, Pál 1853, Anna 1856 |
 | Ricz János × Torma Borbála | Anna 1838, József 1840, Ádám 1843, Éva 1843, Mátyás 1845 |
@@ -43,7 +43,7 @@ Forrás: FamilySearch-névmutató, „Hungary, Catholic Church Records, 1636–1
 | Ricz János × Barany Gertrúd | Mihály 1866, Pál 1868 |
 | Ricz János × Tóth Erzsébet | József 1867, János 1871, Sándor 1874 |
 | Ricz József × Pataki Rozália | Terézia 1868, András 1870, Mihály 1872, Imre 1874, Péter 1876, György 1878, Veronika 1880, Adelhaid 1882, József 1883, István 1885 |
-| Ricz Pál × Besenyi Anna | Mária 1869, Terézia 1873, Viktor 1875, Erzsébet 1877, **Pál 1880**, Ferenc 1882, Franciska 1884, Anna 1889, Rozália 1894 |
+| Ricz Pál × Besenyi Anna | Mária 1869, Terézia 1873, Viktor 1875, Erzsébet 1877, **Pál 1880** ✓, Ferenc 1882, Franciska 1884, Anna 1889, Rozália 1894 |
 | Ricz Antal × Nagy Veronika | Antal 1871 |
 
 ## 1873–1895 (Kereszteltek 1861–1875, 1876–1885, 1886–1895)
@@ -52,7 +52,7 @@ Forrás: FamilySearch-névmutató, „Hungary, Catholic Church Records, 1636–1
 |---|---|
 | Ricz István × Sági Terézia | Ádám 1873, Ágnes 1876, György 1876, Zsófia 1880, Veronika 1883, Péter 1885, Mihály 1890 |
 | Ricz György × Szűcs Klára | Károly 1873, András 1875, Mihály 1877, Rozália 1877, Imre 1879, István 1882, Lajos 1882, Rozália 1885, Borbála 1887, Mária 1890 |
-| **Ricz Antal × Imre Rozália** | Mária 1874, István 1875, Mihály 1877, Veronika 1880, Pál 1882, **Antal 1883**, János 1884, Vince 1887, Márton 1888, Ilona 1891, József 1892, Julianna 1894 |
+| **Ricz Antal × Imre Rozália** | Mária 1874 ✓, István 1875 ✓, Mihály 1877 ✓ (†1877), Veronika 1880 ✓, Pál 1882 ✓, **Antal 1883** ✓, János 1884 ✓, Vince 1887 ✓, Márton 1888 ✓, Ilona 1891 ✓, József 1892 ✓ (†1892), Julianna 1894 ✓ |
 | Ricz Péter × Szalas Petronella | Viktor 1875, Julianna 1876, Mária 1878, Erzsébet 1879, Péter 1881, Franciska 1882, János 1884, Ferenc 1884, András 1885, Terézia 1887, Pál 1889, Mária 1890, Pál 1892, György 1893 |
 | Ricz Vince × Csabi Veronika | Erzsébet 1875, Rozália 1877, Mária 1879, Terézia 1881, Mihály 1883, Julianna 1886 |
 | Ricz Pál × Balzam Mária | István 1879, Erzsébet 1880, György 1883 |

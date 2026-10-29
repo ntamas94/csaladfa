@@ -937,3 +937,41 @@ Eredmény:
 - Kádas, Gubincsik, Keczeli: óbecsei bejegyzés nincs.
 
 Megjegyzés: a szövegfelismerés hibái miatt (pl. „Klimek” → „Kliniek”) egy-egy bejegyzés elkerülhette a keresést.
+
+## 55. Az egyenes ági Ricz-családok kereszteléseinek ellenőrzése az eredeti képeken
+
+A ricz-obecse.md névmutatós listájából az egyenes ág két családjának összes gyermekét (és a katona Ricz Pált) megnéztem az eredeti óbecsei keresztelési anyakönyvi képeken (FamilySearch, „Hungary, Catholic Church Records”; a kép azonosítója a FamilySearch-képtár 3:1-es azonosítója). A névmutató minden esetben helyesnek bizonyult. Dátum: születés/keresztelés; ha csak egy van, a kettő ugyanaz a nap.
+
+### Ricz Péter × Fehér Rozália (Kereszteltek 1826–1847, DGS 4594732)
+
+| Gyermek | Dátum | Szülők a bejegyzésben | Keresztszülők | Keresztelő | Kép |
+|---|---|---|---|---|---|
+| Károly | 1835. júl. 22. | Petrus Ritz et Rosa Fehér, V[etus] B[ecse], Pleb[eji] | Mich[ael] Standl et Anna Pere, V. B. | Joan. Kap[osvári?] káplán | 3:1:939X-3398-P3 |
+| Vince | 1838. jan. 17. | Ricz Péter és Fehér Rozália, k[öz] s[orsú], óbecsei lakosok | Standl Mihály és Perze[?] Anna | Kátonyi[?] Alajos káplán | 3:1:939X-339Z-MX |
+| Anna | 1840. jún. 30. | Ricz Péter és Fehér Rozália, nemtelen | Standl Mihály és Pere Anna | Keller Ferenc káplán | 3:1:939X-339C-XL |
+| József | 1844. márc. 4. (77. sz.) | Ricz Péter és Fehér Rozália, nemtelen | Bukross Mihály és Nagy Terézia | Wagner Tóbiás plébános | 3:1:939X-339C-VD |
+| Vince | 1846. jan. 5. (3. sz.) | Ricz Péter és Fehér Rozália, nemtelen | Bukross Mihály és Nagy Terézia | Keller Ferenc káplán | 3:1:939X-3QCH |
+
+Az 1842-es Antal keresztelésénél (8. fejezet) „[Brandl] Mihály és [Pecze] Anna” olvasatot adtam; a három korábbi bejegyzés alapján ez is **Standl Mihály és Pere Anna**. 1844-től új keresztszülő-pár (Bukross Mihály és Nagy Terézia). Az első Vince az 1839-es halotti bejegyzés szerint meghalt, ezért kapta a nevet újra az 1846-os fiú. Az 1846-os lapon az 1. bejegyzés (Király András és Simon Ágnes lánya) keresztanyja „Gubincsik Katalin”.
+
+### Ricz Antal × Imre Rozália (Kereszteltek 1861–1875, 1876–1885, 1886–1895)
+
+| Gyermek | Dátum | Sorszám | Lakóhely | Keresztanya | Keresztelő | Megjegyzés | Kép |
+|---|---|---|---|---|---|---|---|
+| Mária | 1874. aug. 9. | 240 | Óbecse 507 | Bottlik Rozália, Bertusz István neje | Róka Lajos káplán | | 3:1:939Z-1NC5-P |
+| István | 1875. dec. 26. | 432 | Óbecse 507 | Bottlik Rozália, Bertusz István neje | Lajthay[?] János káplán | | 3:1:939Z-1NHB-G |
+| Mihály | 1877. szept. 19/20. | 309 | Óbecse 507 | Bottlik Rozália, Bertusz István neje | Sarffenberger Ádám káplán | „† 1877 5/10”: **meghalt 1877. okt. 5.** | 3:1:939Z-1NSK-4 |
+| Veronika | 1880. jan. 18/19. | 23 | Óbecse, „in nov[is] port[is]”[?] | Megyeri Rozália, László András neje | Török Sándor káplán | | 3:1:939Z-1NSP-V |
+| Pál | 1882. febr. 2. | 46 | Óbecse | Megyeri Rozália, László András neje | Török Sándor káplán | | 3:1:939Z-1NSL-V |
+| János | 1884. szept. 6/7. | 335 | Óbecse | László Veronika hajadon | Varga Mátyás káplán | | 3:1:939Z-1NS5-G |
+| Vince | 1887. jan. 20. | 28 | Óbecse 2428 | László Veronika hajadon, helyette Megyeri Rozália | Szulik József apátplébános | | 3:1:9Q97-YS8R-NCG |
+| Márton | 1888. ápr. 2/4. | 143 | Óbecse 2428 | Megyeri Rozália, László András neje | | | 3:1:9Q97-YS8R-NHR |
+| Ilona | 1891. márc. 26/27. | 146 | Óbecse, Pacsirta u.[?] 24[2]8 | Megyeri Rozália, László András neje | Novák Ferenc káplán | | 3:1:9Q97-YS8R-NLN |
+| József | 1892. aug. 19/20. | 310 | Pacsirta [u.] 39 | Megyeri Róza, László Andrásné, napszámos | Rácz[?] Pál káplán | kereszt a név mellett, „1892 30/8”: **meghalt 1892. aug. 30.**; apa napszámos | 3:1:9Q97-YS8R-N2C |
+| Julianna | 1894. máj. 4/5. | | Óbecse, Pacsirta utca 39 | Megyeri Rozália, László András hitvese, napszámos | Fonyó Pál plébános | szülők r. k. napszámosok | 3:1:9Q97-YS8R-NL7 |
+
+Ifj. Ricz Antal (1883. máj. 29.) bejegyzése a 9. fejezetben van. A család tehát 1874–1877-ben az 507. számú házban lakott (ott, ahol a keresztanya, Bottlik Rozália is), 1887–1888-ban a 2428. számúban (az új házszámozás szerint), 1892–1894-ben a **Pacsirta utca 39.** alatt. 1880-tól a keresztanya állandóan Megyeri Rozália, László András felesége, vagy helyette László Veronika.
+
+### Ricz Pál × Besenyi Anna fia, Pál (a katona, 54. fejezet)
+
+1880. jan. 20. (26. sz.), „Paulus Ritz et Anna Bessenyi”, Óbecse „in nov[is] port[is]”[?]; keresztanya Bessenyi Terézia, Ludmán Mihály neje; keresztelte Török Sándor káplán. Ugyanazon a képen, mint Veronika (3:1:939Z-1NSP-V). Ez megerősíti, hogy az első világháborús veszteséglistán szereplő, 1880-ban született óbecsei Ricz Pál nem a családfa ágán áll, hanem egy oldalági Ricz család fia.
