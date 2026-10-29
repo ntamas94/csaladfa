@@ -814,3 +814,7 @@ Megjegyzések:
 - A 30 év kb. 1821-es születést ad; az 1837-es házasságkor 18 évesnek írták (kb. 1819). A kettő közel van.
 - Lánya, Gubincsik Ilona ekkor 9 éves volt; 1861-es házasságakor anyját „néhai”-ként említik (42. fejezet).
 - A halotti filmen hiányzik 1848. jan. – 1849. jan. és 1849. febr. – 1850. jún.; a 1850. jún. – 1851. febr. közötti rész (287–296. kép) átnézve.
+
+Megjegyzés a halotti filmről (DGS 8265818): a 280. kép (1847. dec.) után a 281. kép már 1849. januári, tehát **1848 teljes egészében hiányzik**; a 286. kép (1849. jan.) után a 287. kép 1850. júniusi, tehát **1849. febr. – 1850. máj. is hiányzik** (az 1849-es kolerajárvány időszaka).
+
+Homonyi Karolina újraházasodása (Kádas Pál özvegyeként, 1841 után): a házassági filmen (DGS 7994502) 1841 képei (96–99.) kis nagyításban átnézve, egyértelmű találat nincs; a keresés nagyobb nagyítással folytatandó, 1841–1845.
