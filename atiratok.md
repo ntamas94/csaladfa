@@ -1062,3 +1062,28 @@ Keresve: „Imre Mátyás”, „Imre Mátyásné”, „Imre Rozália”, „Ri
 - „Ricz Péter” (1878, 1883): óbecsei földműves, özv. Ricz Ferencné Balázs Teréz mellett; ő Ricz Ferenc és Balázs Terézia fia (szül. 1855), nem a mi Ricz Péterünk.
 - „Ricz Antalné” (1880, 1894): Pál Viktória, a másik Ricz Antal (iparos) felesége.
 - Bartusz (1878–1892): Bartusz István 1887-ben ajándékozási és adásvételi szerződést kötött (Bartusz György, illetve Uborka Julis Bartusz Julis), Imre Rozália komájáról van szó; a mi családunkat nem érinti.
+
+## 58. Ricz Péter (1813) halála – keresés 1871–1879; Ricz Rozália (1873)
+
+### Keresés
+
+Óbecse, r. k. halotti anyakönyv, Halottak 1871–1880 (DGS 8265820), átnézve a 10–417. kép: **1871. február – 1879. november közepe**, minden bejegyzés névoszlopa. **Ricz (Ritz) Péter halála nincs benne.** A 165. képen (1874. febr. 14., 56. sz.) egy „Petrus Sküts” szerepel (szegedi, 40 éves), ő nem a mi Ricz Péterünk.
+
+Következtetés: ha az 1879-es örököstársak közötti szerepe alapján (57. fejezet) Ricz Péter 1879 októbere előtt meghalt, akkor **1871 előtt** halt meg (vagy nem Óbecsén). Az 1856–1870-es halotti filmet (DGS 8265819) korábban Agó Erzsébetre néztem át (52. fejezet), Ricz Péterre nem; ott keresendő. 1872 februárjában, fia esküvőjén a bejegyzés nem jelöli „néhai”-nak, de ez a házassági anyakönyvben nem mindig szerepel.
+
+### Ricz Rozália, Ricz Antal és Imre Rozália első gyermeke
+
+138. kép, 373. bejegyzés:
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Halál | 1873. aug. 29. |
+| Név | Rosalia, filia Antonii Ritz & Rosaliae Imre, civ. R. C. |
+| Lakóhely | Óbecse 507 |
+| Nem, kor | leány, 1½ hetes (1½ septim.) |
+| Halál oka | Eclampsia (görcsök) |
+| Temetés | Óbecse, aug. 30.; Ujhelyi Ágoston káplán |
+
+Ez a pár **eddig ismeretlen első gyermeke**: kb. 1873. augusztus közepén született, a házasságkötés (1872. febr. 7.) után másfél évvel. A keresztelése a névmutatóban nincs (a ricz-obecse.md listájában sem); az eredeti keresztelési képen 1873 augusztusában keresendő. Az 507-es ház itt is megjelenik (56. fejezet).
+
+Mellékes: a 115. kép 1873. áprilisi bejegyzései között egy „Catharina, filia Michaelis Pálfi et Veronicae Ritz” is szerepel (olvasat nagyítás nélkül, bizonytalan): ez azt mutatná, hogy Pálfi Mihály és Ricz Veronika (az 1879-es örököstárs) már 1873 előtt házas volt.
