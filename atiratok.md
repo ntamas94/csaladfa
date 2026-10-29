@@ -505,3 +505,16 @@ Megjegyzések:
 - A menyasszony szülei ugyanazok, mint Kádas Pál második feleségéé, Karolináé (14. fejezet): Anna Karolina húga. Ez a „Homonyi” olvasatot is erősíti.
 
 Átnézve 1838-ra (81–85. kép, 1838. jan. – nov.): nincs Ricz-, Fehér- vagy Kádas-vőlegény.
+
+## 27. Ricz Antal „Tóni” (kb. 1968) a VAMADIA-ban
+
+Keresés a https://vamadia.rs/kereses oldalon: „Ricz Antal”, „Ric Antal”, „Rícz Antal”, „Ricz/Ric Anti”, „Ricz/Ric Tóni”, „Ricz/Ric Toni”, „Antal Ricz”, „Ricz Tika”. A „Tóni”, „Anti” és „Tika” alakokra nincs találat. A szövegeket a letöltött PDF-ekből olvastam ki.
+
+1. **Jó Pajtás, 36. évf. 15. sz., 1982. április 29.:** „A bácsföldvári matematikaversenyen a becsei Petőfi Sándor iskola képviselője Pálinkás Imre (a nyolcadikosok közül) az első, Ricz Antal (a hetedikesek közül) a második díjat érdemelte ki.” (Beküldte Baranyi Magdolna, Becse.) https://vamadia.rs/periodika-szam/jo-pajtas-36-evf-1982-aprilis-29-15-sz
+2. **Magyar Szó, 39. évf. 95. sz., 1982. április 7., 29. oldal (gyerekrovat):** a lap a fogalmazásokat beküldő iskolákat dicséri; a „becsei PETŐFI SÁNDOR iskola” tanulói között: Mellár Erika, Baranyi Magdolna, Szám Ilona, Fehér Aranka, Ricz Antal, Kiss Zoltán, Rácz Szabó Sarolta, Kéringer Márta. https://vamadia.rs/periodika-szam/magyar-szo-39-evf-1982-aprilis-7-95-sz-1-20-oldal
+3. **Jó Pajtás, 36. évf. 31. sz., 1982. november 11.** és **37. évf. 1–2. sz., 1983. január 13.:** a Rügyfakadás rovatba munkát küldők névsorában, a becseiek között. https://vamadia.rs/periodika-szam/jo-pajtas-36-evf-1982-november-11-31-sz , https://vamadia.rs/periodika-szam/jo-pajtas-37-evf-1983-januar-13-1-2-sz
+4. **7 Nap melléklet, 9. évf. 38. sz., 1983. szeptember 24–30., 29. oldal:** levelezőtárs-hirdetés: „15 éves fiú vagyok. Szeretem …”, Ricz Antal, Becse (a hirdetésben teljes lakcím). https://vamadia.rs/periodika-szam/7-nap-melleklet-9-evf-1983-szeptember-24-30-38-sz
+
+Miért ő: 1982 tavaszán hetedikes és 1983 szeptemberében 15 éves, tehát kb. 1968-ban született; becsei. Ez illik ifj. Ricz Antal „Tika” és Kovács Viktória 1967-es becsei házasságához (24. fejezet, 1. és 3. pont). A cikkek a szülőket nem nevezik meg.
+
+Valószínűleg más személy: Magyar Szó, 42. évf. 227. sz., 1985. augusztus 19., 12. oldal: egy Kovin község faluja (Dózsa) asztalitenisz-klubjáról szóló cikkben „MLEKOV József, MERT József, RIC Antal edzőjükkel”. A cikk nem becsei.
