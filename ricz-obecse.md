@@ -52,7 +52,7 @@ Forrás: FamilySearch-névmutató, „Hungary, Catholic Church Records, 1636–1
 |---|---|
 | Ricz István × Sági Terézia | Ádám 1873, Ágnes 1876, György 1876, Zsófia 1880, Veronika 1883, Péter 1885, Mihály 1890 |
 | Ricz György × Szűcs Klára | Károly 1873, András 1875, Mihály 1877, Rozália 1877, Imre 1879, István 1882, Lajos 1882, Rozália 1885, Borbála 1887, Mária 1890 |
-| **Ricz Antal × Imre Rozália** | (Rozália 1873, †1873; csak halotti bejegyzésből, 58. fejezet), Mária 1874 ✓, István 1875 ✓, Mihály 1877 ✓ (†1877), Veronika 1880 ✓, Pál 1882 ✓, **Antal 1883** ✓, János 1884 ✓, Vince 1887 ✓, Márton 1888 ✓, Ilona 1891 ✓, József 1892 ✓ (†1892), Julianna 1894 ✓ |
+| **Ricz Antal × Imre Rozália** | (Rozália 1873, †1873; csak halotti bejegyzésből, 58. fejezet), Mária 1874 ✓, István 1875 ✓, Mihály 1877 ✓ (†1877), (Mihály kb. 1878, †1879; csak halotti bejegyzésből), Veronika 1880 ✓, Pál 1882 ✓, **Antal 1883** ✓, János 1884 ✓, Vince 1887 ✓, Márton 1888 ✓, Ilona 1891 ✓, József 1892 ✓ (†1892), Julianna 1894 ✓ |
 | Ricz Péter × Szalas Petronella | Viktor 1875, Julianna 1876, Mária 1878, Erzsébet 1879, Péter 1881, Franciska 1882, János 1884, Ferenc 1884, András 1885, Terézia 1887, Pál 1889, Mária 1890, Pál 1892, György 1893 |
 | Ricz Vince × Csabi Veronika | Erzsébet 1875, Rozália 1877, Mária 1879, Terézia 1881, Mihály 1883, Julianna 1886 |
 | Ricz Pál × Balzam Mária | István 1879, Erzsébet 1880, György 1883 |

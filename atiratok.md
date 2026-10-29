@@ -1091,3 +1091,11 @@ Mellékes: a 115. kép 1873. áprilisi bejegyzései között egy „Catharina, f
 Ricz Péter – folytatás (Halottak 1856–1870, DGS 8265819): átnézve visszafelé **1867. aug. – 1870. dec.** (311–428. kép); nincs benne. 1867-től visszafelé a lapok kétoldalasak és apró kézírásúak; ebben a nagyításban a nevek csak részben olvashatók, ezért a keresést itt abbahagytam.
 
 Mérlegelés: az 1872. februári házassági bejegyzés (10. fejezet) az apát „Petri Ritz”-ként, „néhai” (dfti) jelölés nélkül nevezi meg, holott ugyanez az anyakönyv máshol jelöli az elhunyt szülőt (pl. 1861, 42. fejezet). Ez arra utal, hogy **Ricz Péter 1872 februárjában még élt**, így 1856–1867 közötti halála valószínűtlen. Ha az 1879-es örököstársak közötti szerep helyesen jelzi, hogy 1879 októbere előtt meghalt, akkor 1872–1879 között halt meg, de nem az óbecsei plébánián (pl. tanyán, más plébánián), vagy a bejegyzés az 1871–1879-es film gyors, kis nagyítású átnézésekor elkerülte a figyelmet.
+
+Ricz Péter – újranézés nagyobb nagyítással (Halottak 1871–1880, DGS 8265820): a 10–33. kép (1871. febr. – szept.) és az 56–418. kép (**1872. febr. – 1879. nov. közepe**) minden bejegyzése, kétszeres nagyítással, a név- és szülőoszloppal. **Ricz (Ritz) Péter halála nincs benne.** Egyetlen kép rosszul olvasható (313. kép, 1877. márc. eleje, elmosódott felvétel). Következtetés: Ricz Péter 1872 és 1879 között nem az óbecsei r. k. plébánián halt meg (vagy a 313. képen van), illetve az 1879-es örököstársi szerep nem jelenti a halálát.
+
+### Új találat: Ricz Mihály (II.), meghalt 1879
+
+413. kép, 286. bejegyzés: **1879. okt. 6.**, „Michaël Ritz, filius Antonii et Rosaliae Imre, Civ. R. C.”, Óbecse, fiú, **1 éves**, halál oka eclampsia (görcsök). Temette okt. 7-én Török Sándor káplán.
+
+Ricz Antal és Imre Rozália **második Mihály nevű fia**: kb. 1878-ban született (az első Mihály 1877. okt. 5-én halt meg, 56. fejezet). A keresztelése nincs a névmutatóban. Így a pár ismert csecsemőhalálai: Rozália (1873), Mihály (1877), Mihály (1879), József (1892).
