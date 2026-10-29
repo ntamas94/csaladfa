@@ -538,3 +538,45 @@ Ellenőrzés a FamilySearch óbecsei keresztelési névmutatójában (1826–189
 - Óbecsén egy másik Klimek János is élt (felesége Galics Anna; gyermekek 1865–1877), ezért az 1880-as közjegyzői nyilatkozat Klimek Jánosa nem azonosítható biztosan.
 
 A dátumok a lapról származnak; a névmutató csak az évet adja, a napot az eredeti bejegyzésből lehet ellenőrizni.
+
+## 30. Klimek–Keceli ág az anyakönyvekben
+
+**Klimek János keresztelése, Óbecse, 1887. június 9.** Kereszteltek 1886–1895 (DGS 4492284), 92. kép, 241. bejegyzés: https://www.familysearch.org/ark:/61903/3:1:9Q97-YS8R-NC5 . Született és keresztelték: 1887. jún. 9. Név: Joannes, fiú, törvényes. Szülők: Joannes Klimek és Julianna Hegyi, r. k. Lakóhely: „in allod.” [majorban]. Keresztanya: Anna Pálinkás, Josephi Hegedűs uxor.
+
+**Hegyi Julianna keresztelése, Óbecse, 1853. február 12.** Kereszteltek 1851–1860, 35. bejegyzés: https://www.familysearch.org/ark:/61903/3:1:939Z-1F9L-H2 . Juliana, leány, törvényes. Szülők: Gregorius Hegyi et Theresia Kovács, civ. cath. Keresztszülők: Josephus Németh et Veronica [Utzai]. Keresztelő: Michael Bogár coop.
+
+**Keceli Ferenc keresztelése, Óbecse, 1845. október 8.** Kereszteltek 1826–1847, 329. bejegyzés: https://www.familysearch.org/ark:/61903/3:1:939X-3Q2N . Ferencz; szülei Keczeli János és Lázár Terézia, hites házasok, óbecsei lakosok; nemtelen. Keresztszülők: Ördög József és Mészáros [?], óbecsei lakosok. Keresztelő: Jámbor Pál óbecsei káplán.
+
+**Keceli Ferenc és Füstös Mária házassága, Óbecse, 1871. január 18.** Házasultak 1826–1875 (DGS 7994502), 352. kép, 5. bejegyzés: https://www.familysearch.org/search/film/007994502?i=351
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus, mensis, dies | 1871. 18. Januarii |
+| Nomen et conditio | Franciscus Keczeli, d[efun]cti Joannis et d[efun]ctae Theresiae Lázár filius; et Maria Füstös, d[efun]cti Joannis et Catharinae Bálint filia. Civ. C. R. |
+| Locus originis et domicilii | Óbecse; Földvár, [lakik] Óbecse |
+| Religio, aetas | R. C., 25; R. C., 18 |
+| Status | coelebs; innupta |
+| Testes | Antonius Szabó et Andreas Táborosi, civ. C. R. |
+| Copulans | Augustinus [Ágoston?], capellanus |
+| Megjegyzés | Promulgati |
+
+Mária Bácsföldváron született, ezért nincs az óbecsei keresztelési névmutatóban. A 18 év egyezik a család lapjának 1852. szeptember 7-i dátumával.
+
+**Klimek János és Hegyi Julianna házassága, Óbecse, 1878. március 4.** Házasultak 1876–1895 (DGS 8118730), 43. kép, 47. bejegyzés: https://www.familysearch.org/search/film/008118730?i=42
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus, mensis, dies | 1878. 4. Martii |
+| Nomen et conditio | Joannes Klimek viduus Annae Gálicz; item Julianna filia + Gregorii Hegyi et Theresiae Kovács. Civ. Cond. |
+| Locus | Óbecse; Óbecse |
+| Religio, aetas | R. C., 35; R. C., 25 |
+| Status | viduus; innupta |
+| Testes | Vendelinus Nagy et Michael Ludmán, civ. cond. |
+| Copulans | Josephus Bende, abbas, parochus |
+| Megjegyzés | Promulgati |
+
+Ezzel kiderült, hogy a névmutató két Klimek Jánosa (Galics Anna férje, gyerekek 1865–1877; Hegyi Julianna férje, gyerekek 1879–1887) egy személy, kb. 1843-ban született.
+
+**Keceli Mária (1890. aug. 15.)**: az óbecsei katolikus keresztelések között 1890 augusztusában nincs (DGS 4492284, 284–289. kép, 264–317. bejegyzés). Valószínűleg máshol született.
+
+Mellékes: ugyanezen a házassági filmen, 45. kép, 1878. május 20.: Franciscus, filius Stephani Kádas et + Elisabethae Sóti × Elisabetha, filia Mathiae Ferencz et Agnetis Mészáros. Kádas Ferenc Kádas István (kb. 1817) fia, tehát Kádas Pál (kb. 1795) unokája.
