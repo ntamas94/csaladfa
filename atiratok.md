@@ -873,3 +873,32 @@ Agó Erzsébet – lezárva: átnézve 1852. jan. – 1855. dec. 30. (303–400.
 FamilySearch-névmutató (Hungary, Catholic Church Records és társgyűjtemények), keresés: Kádas/Kadas/Kádos/Kados, Pál/Paulus, születés 1786–1800, helymegkötés nélkül. **Kádas Pál nevű keresztelés ebben az időszakban sehol nincs az indexben.** A közeli Kádas/Kados-keresztelések: Szeged (Katalin, 1795), Szabadszállás (János, 1799), Jászberény (György, 1794), Mindszent (Mihály, 1787), Mezőkövesd (Mátyás, 1792), Dunaföldvár (Ádám, 1796), Eger (Rozália 1788, István 1792) – Pál egyik helyen sincs.
 
 Következtetés: Kádas Pál keresztelése egy olyan plébánián lehet, amelynek az 1790-es évei nincsenek indexelve (pl. Óbecse 1826 előtt), vagy más névalakban (pl. „Kadász”) jegyezték be. Online, kézi lapozás nélkül nem található meg.
+
+## 51. Az 1828-as országos összeírás (Conscriptio regnicolaris), Óbecse
+
+FamilySearch-katalógus: „Vagyonösszeírás, 1828” (Census of the taxable population of Hungary, 1828), Bács-Bodrog vármegye, „Vetus-Becse (Ó-Becse)”: DGS 8302868, kb. 441–599. kép (Comitatus Bacsiensis, Oppidum Vetus Becse). A lista a háztartásfőket sorolja fel (1–1521. sorszám), mellettük az adózó személyek száma és a vagyon (ház, föld, jószág). Minden lap kétszer van lefényképezve.
+
+Átnézve a teljes óbecsei névsor. Családunkhoz kapcsolható nevek (a rokonságot az összeírás nem mondja ki):
+
+| Kép | Sorszám | Név | Megjegyzés |
+|---|---|---|---|
+| 450–451 | 63., 64. | Petrus Ritz, Petrus Ritz | két Ricz Péter egymás után; valószínűleg id. Ricz Péter és egy névrokon (a 15 éves ifj. Péter még nem lehetett háztartásfő) |
+| 503–504 | 598. | Franc[iscus] Fehér | **Fehér Ferenc, Fehér Rozália apja** (33. és 25. fejezet) |
+| 527 | 830., 831. | Joannes Ricz; Joannes Ricz Sen[ior] | Ricz János (Gubincsik Erzsébet férje?) és apja |
+| 495–496 | 519. | Mathias Busa | Busa család; Busa Ilona rokona lehet |
+| 450–451 | 69. | Emericus Budai | Budai család |
+| 487–488 | 428. | Mich[ael] Budai | Budai család |
+| 515–516 | 716. | Joannes Budai | Budai család |
+| 448–449; 450–451 | 48.; 62. | Stephanus Fehér (kétszer) | Fehér család |
+| 515–516 | 719. | Joannes Fehér | Fehér család |
+
+**Kádas és Gubincsik nevű háztartásfő nincs a listán.** Kádas Pál ekkor (1828) kb. 35 éves volt és Busa Ilonával Óbecsén élt (fiuk István kb. 1817-ben született); lehet, hogy zsellérként (inquilinus) vagy más háztartásában lakott, és így nem szerepel külön, vagy a lista egy részét nem olvastam ki pontosan. Ugyanez vonatkozhat Gubincsik Andrásra (kb. 1777).
+
+Az összeírás id. Ricz Péter és Fehér Ferenc óbecsei jelenlétét 1828-ra igazolja, vagyis a család már az anyakönyvi filmek kezdete (1826) előtt Óbecsén élt.
+
+## 52. Egyéb online források (2026. okt. 29.)
+
+- **1869-es népszámlálás:** a FamilySearch-katalógusban Bács-Bodrog vármegyére, illetve Óbecsére nincs 1869-es népszámlálási anyag (a fennmaradt név szerinti 1869-es ívek főleg az északi megyékből valók).
+- **1715/1720-as adóösszeírás:** Óbecse ekkor a Tisza menti határőrvidékhez tartozott (1751-ig), ezért nem a vármegyei összeírásokban szerepel; ezek amúgy is csak családneveket közölnek, rokonságot nem.
+- **Kalocsai egyházlátogatási jegyzőkönyvek (canonica visitatio):** online nem találhatók a FamilySearch-katalógusban; a plébánia történetéről szólnak, családokat nem sorolnak fel.
+- **Török kori defterek:** a 16–17. századi lakosság a török kiűzése után nagyrészt kicserélődött; a mi családjaink a 18. században költöztek be, így nem kapcsolhatók.
