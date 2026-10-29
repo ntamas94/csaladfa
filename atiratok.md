@@ -926,3 +926,14 @@ A török defterek magyar fordításban megjelent kiadásai a Hungaricana Könyv
 Jelentősége: azt mutatja, hogy a Kádas név a 16. század végén már jelen volt a Szolnok környéki Tisza-vidéken. Rokoni kapcsolatot a 150 évvel későbbi cibakházi Kádasokkal semmi nem igazol; a falu neve a kiadás képén ellenőrizendő.
 
 Ricz, Gubincsik, Füstös, Klimek nevekre a defter-kiadásokban nincs találat.
+
+## 54. Osztrák források: első világháborús veszteséglisták (ANNO)
+
+Az Osztrák Nemzeti Könyvtár ANNO gyűjteményében (https://anno.onb.ac.at) a bécsi hadügyminisztérium veszteséglistái (Verlustliste, 1914–1919), betűrendes mutatói és a „Nachrichten über Verwundete und Kranke” (sebesültek és betegek jegyzéke) szövegesen kereshetők. A szövegfelismerés Óbecsét „Obecse” alakban adja. Keresés: Klimek, Ricz, Kádas/Kadas, Gubincsik, Keczeli – mindegyik „Obecse”-vel együtt; a találatos oldalakon olyan sorokat kerestem, ahol a név és Óbecse egy bejegyzésben áll.
+
+Eredmény:
+- **Ricz Pál**, gyalogos, cs. és kir. 86. gyalogezred, 1. század, óbecsei, szül. 1880: beteg, a sternbergi (Morvaország) betegállomáson, polgári iskola. Forrás: Nachrichten über Verwundete und Kranke, Bécs, 1915. április 21., 39. oldal (ANNO, nvv19150421). Kapcsolata a családdal nem igazolt; korosztálya alapján lehet ifj. Ricz Antal (1883) testvére vagy unokatestvére.
+- **Klimek János** (1887, huszár): óbecsei Klimek János nem található a listákban. A „Klimek Johann” találatok más személyekre vonatkoznak (pl. Klimek Johann, Landsturmschütze, k. k. SchR. Nr. 31, sziléziai Bielitzből, szül. 1887, orosz hadifogság – Verlustliste, 1917. jún. 7., 27. oldal); ez **nem** a mi Klimek Jánosunk. A család szerint a mi Klimek Jánosunk épségben hazajött a háborúból, ami összhangban van azzal, hogy nem szerepel a veszteséglistákban.
+- Kádas, Gubincsik, Keczeli: óbecsei bejegyzés nincs.
+
+Megjegyzés: a szövegfelismerés hibái miatt (pl. „Klimek” → „Kliniek”) egy-egy bejegyzés elkerülhette a keresést.
