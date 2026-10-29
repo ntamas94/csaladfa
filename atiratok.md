@@ -1118,3 +1118,16 @@ Nem hozott eredményt (még): Füstös János × Bálint Katalin (Bácsföldvár
 - **Homonyi (Homanyi) László × Kovács Erzsébet:** a névmutatóban nincs gyermekük; Karolina (kb. 1815) és Anna (kb. 1817) 1826 előtt született, a filmek kezdete előtt.
 - **Imre Mátyás:** óbecsei keresztelése 1820–1835 között nincs a névmutatóban (az 1826 előtti évek hiányoznak).
 - **Kovács Ilona (Imre Mátyás felesége):** egyetlen jelölt az óbecsei névmutatóban 1825–1835 között: **Kovács Ilona, keresztelve 1833, Kovács Mihály és Nagy Erzsébet lánya** (3:1:939X-339D-WW). Ez egyezik az első gyermek (1852) alapján várható kb. 1830-as születéssel, de a Kovács név gyakori, és a házassági bejegyzés (1851) hiányzik a filmről, így az azonosság **csak feltételezés**.
+
+## 61. Klimek János és Keceli Mária házassága (1913) – online keresés; Klimek János 1880-as kölcsöne
+
+**A házasság (1913. ápr. 22., a család lapja szerint) online nem található.**
+- FamilySearch-névmutató: Klimek, Keczeli, Keceli nevekre 1900–1920 között, valamint házastárs-párosításra (Klimek × Keczeli/Keceli) nincs óbecsei vagy bácskai találat. Az óbecsei r. k. anyakönyvek a FamilySearchen 1895-tel érnek véget, az állami anyakönyvek (1895-től) nincsenek fent. A FamilySearch sírkő-indexe (BillionGraves) főleg az újvidéki temetőket tartalmazza; becsei Klimek/Ric sír nincs benne.
+- Arcanum: „Klimek Keczeli”, „Klimek Keceli”, „Keczeli Mária”, „Keczeli Ferenc”, „Klimek Óbecse 1913”, „Klimek János” Keczeli, „Füstös Mária”, „Hegyi Julianna” Klimek, „Klimek Jánosné”: óbecsei találat nincs.
+- Hungaricana, közjegyzői iratok: Keczeli/Keceli/Füstös nevű óbecsei fél nincs (a Keczeli-találatok a zentai Keczeli Mészáros családé).
+
+**Új irat: Klimek János adóssági nyilatkozata, Óbecse, 1880. november 14.** Parcsetich Félix óbecsei közjegyző iratai, RS_IASE_F_022_1880_0960 (3 oldal, 25 kr + 7 kr bélyeg), Hungaricana: https://archives.hungaricana.hu/hu/lear/Kozjegyzoi/1089839/ . A katalógus szerint felek: Klimek János és Károlyi János, óbecseiek.
+
+Tartalom (a kézírás nehezen olvasható, csak a lényeg): Károlyi János óbecsei lakos kijelenti, hogy a mai napon **Klimek János óbecsei lakostól száz (100) forint** kölcsönt vett fel készpénzben, és azt kamattal visszafizeti. Károlyi János saját kezűleg írta alá. Kelt Óbecsén, 1880. november 14-én; a közjegyzőhelyettes aláírásával és a hivatal pecsétjével.
+
+Jelentősége: 1880-ban az óbecsei Klimek János (kb. 1843, a huszár apja; 33. fejezet) pénzt tudott kölcsönadni, vagyis nem volt szegény napszámos. Károlyi János 1877-ben tanú volt Ricz Márton adóssági ügyében is (5. fejezet). Hogy ez a Klimek János a mi Klimek Jánosunk, azt az irat nem mondja ki, de 1880-ban más óbecsei Klimek Jánosról nem tudunk.
