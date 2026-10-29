@@ -660,10 +660,28 @@ Klimek János és Galics Anna házassága az óbecsei házassági anyakönyvben 
 
 Kiegészítés: átnézve 1865. máj. 1. – nov. 4. is (284–289. kép, 25–54. bejegyzés). Klimek–Galics házasság 1865-ben sincs az óbecsei anyakönyvben. Klimek János és Galics Anna tehát nem Óbecsén és nem Madarason esküdött 1861 és 1865 között.
 
-## 37. Füstös János halála, Bácsföldvár, 1855. május 17. (előzetes olvasat)
+## 37. Füstös János halála, Bácsföldvár, 1855. május 17.
 
-Bácsföldvár, r. k. halotti anyakönyv (Halottak 1826–1895, DGS 8305241), 167. kép, 39. bejegyzés: https://www.familysearch.org/search/film/008305241?i=166 . A névoszlop kis nagyításban: „1855. die 17. Maji – Joannes Füstös, maritus Catharinae B[álint], conditionis civilis”. A teljes sor (életkor, lakóhely, betegség) még nincs kiolvasva.
+Bácsföldvár (Tiszaföldvár), r. k. halotti anyakönyv (Halottak 1826–1895, DGS 8305241), 167. kép, 39. bejegyzés: https://www.familysearch.org/search/film/008305241?i=166
 
-Átnézve 1853. jan. – 1855. dec. (142–174. kép); ebben az időszakban más Füstös-halálozás nincs. A film 134–141. képei egy későbbi, magyar nyelvű állami anyakönyv lapjai, közbeékelve.
+| Oszlop | Bejegyzés |
+|---|---|
+| Annus et dies obitus | 1855. die 17. Maji |
+| Nomen et conditio defuncti | Joannes Füstös, maritus Catharinae Bálint, conditionis civilis |
+| Locus originis et habitationis | T. Földvár, sub No. 200 |
+| Sexus | masculino |
+| Aetas | 57 annorum |
+| Morbus | [communis?] |
+| Sacramenta | [sacramentis moribundorum provisus] |
+| Sepultura | T. Földvárini, die 18. Maji, in coemeterio [?] |
+| Sepeliens | Mathias Jadronyi, parochus T. Földvariensis |
 
-Ha az olvasat megerősítést nyer: Füstös János 1855 májusában halt meg, amikor lánya, Mária két és fél éves volt. Ez illik ahhoz, hogy Mária 1871-es házasságakor apja „néhai”.
+Fordítás: Füstös János, Bálint Katalin férje, nemtelen, tiszaföldvári lakos (200. sz. ház), 57 évesen meghalt 1855. május 17-én; a haldoklók szentségeiben részesült. Május 18-án temette Jadronyi Mátyás plébános.
+
+Megjegyzések:
+- Az 57 év alapján kb. 1798-ban született.
+- A 200-as házszám ugyanaz, mint lánya, Mária 1852-es keresztelésénél (31. fejezet): ez ugyanaz a Füstös János.
+- Mária ekkor két és fél éves volt; 1871-es házasságakor apját „néhai”-ként említik (30. fejezet).
+- Első feleségétől, Szabó Erzsébettől született lányai: Róza (férjhez ment 1842) és Viktória (férjhez ment 1853) (32. fejezet).
+
+Átnézve 1853. jan. – 1855. dec. (142–174. kép). A film 134–141. képei egy későbbi, magyar nyelvű állami anyakönyv lapjai, közbeékelve.
