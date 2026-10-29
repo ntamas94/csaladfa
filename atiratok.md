@@ -753,3 +753,13 @@ Megjegyzések:
 - **Budai Katalin 1861 októbere előtt meghalt.**
 - Az apa neve előtti rövidítés („dfti”, azaz defuncti) a kis nagyításban bizonytalan. Ha olvasata helyes, **id. Kádas Pál (kb. 1795) 1861 előtt meghalt**; halála 1836 és 1861 között keresendő (Halottak 1826–1855: DGS 8265818; 1856–1870: DGS 8265819).
 - A két ház (1064 és 1058) közel volt egymáshoz.
+
+## 43. Id. Kádas Pál halála (keresés) és Kádas Mihály halála, 1836
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1826–1855, DGS 8265818).
+
+**Kádas Mihály**, 121. kép: meghalt 1836. szeptember 22-én, 9 naposan; „Michael, Pauli Kádas et Catharinae Homanyi [filius]”, P. V. B. Ő az 1836. szept. 13-án született féltestvér (13. fejezet).
+
+Id. Kádas Pál (kb. 1795) halála: átnézve 1836. jan. – 1838. júl. eleje (110–139. kép), a névoszlop. Nincs benne. Mellékes Kádas-halálozások ugyanitt, más családból: József, Kádas Gáspár és Gajdos Mária fia; József, Kádas Mihály és Gémes Anna fia (130. kép, 1837. aug.). A Ricz-családból: Rozália, Ricz Pál és Sági Verona lánya (125. kép, 1837. febr.).
+
+A névmutató szerint Kádas Pálnak és Homonyi Karolinának Mihály után nem született több gyermeke Óbecsén; ez arra utalhat, hogy Kádas Pál 1836 után nem sokkal meghalt vagy elköltözött. A keresés 1838 júliusától folytatandó (140. képtől).
