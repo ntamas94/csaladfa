@@ -518,3 +518,9 @@ Keresés a https://vamadia.rs/kereses oldalon: „Ricz Antal”, „Ric Antal”
 Miért ő: 1982 tavaszán hetedikes és 1983 szeptemberében 15 éves, tehát kb. 1968-ban született; becsei. Ez illik ifj. Ricz Antal „Tika” és Kovács Viktória 1967-es becsei házasságához (24. fejezet, 1. és 3. pont). A cikkek a szülőket nem nevezik meg.
 
 Valószínűleg más személy: Magyar Szó, 42. évf. 227. sz., 1985. augusztus 19., 12. oldal: egy Kovin község faluja (Dózsa) asztalitenisz-klubjáról szóló cikkben „MLEKOV József, MERT József, RIC Antal edzőjükkel”. A cikk nem becsei.
+
+## 28. Kádas-keresztelések Óbecsén a névmutatóban; ifj. Kádas Pál házassága (keresés)
+
+A FamilySearch névmutatójában Óbecsén csak keresztelések vannak indexelve, halálozások és házasságok nem. Kádas István (kb. 1817) gyermekei: Verona 1839 (anyja „Homaj Anna”, https://www.familysearch.org/ark:/61903/1:1:XKYY-ZBY); Verona 1846, Veronika 1853, János 1856 (anyjuk Sóti Erzsébet). Első felesége, [Homonyi] Anna tehát 1839 és 1846 között valószínűleg meghalt (nem ellenőrizve).
+
+Ifj. Kádas Pál (1833) és Gubincsik Ilona házassága: a Házasultak filmen (DGS 7994502) átnézve az 1863–1864-es év (264–279. kép) és 1862 egy része (260–263. kép); nincs benne. Első gyermekük, Antal 1864-ben született, így a házasság 1862 elejére vagy korábbra (1859–1862) tehető.
