@@ -1131,3 +1131,13 @@ Nem hozott eredményt (még): Füstös János × Bálint Katalin (Bácsföldvár
 Tartalom (a kézírás nehezen olvasható, csak a lényeg): Károlyi János óbecsei lakos kijelenti, hogy a mai napon **Klimek János óbecsei lakostól száz (100) forint** kölcsönt vett fel készpénzben, és azt kamattal visszafizeti. Károlyi János saját kezűleg írta alá. Kelt Óbecsén, 1880. november 14-én; a közjegyzőhelyettes aláírásával és a hivatal pecsétjével.
 
 Jelentősége: 1880-ban az óbecsei Klimek János (kb. 1843, a huszár apja; 33. fejezet) pénzt tudott kölcsönadni, vagyis nem volt szegény napszámos. Károlyi János 1877-ben tanú volt Ricz Márton adóssági ügyében is (5. fejezet). Hogy ez a Klimek János a mi Klimek Jánosunk, azt az irat nem mondja ki, de 1880-ban más óbecsei Klimek Jánosról nem tudunk.
+
+## 62. Kovács Ilona (1833) – az eredeti kép és a keresztszülők összevetése
+
+Óbecse, Kereszteltek 1826–1847 (DGS 4594732), 3:1:939X-339D-WW, 90. bejegyzés: **Helena, 1833. április 8.**, szülők Michael Kovács et Elisabetha Nagy, parochiani V[etus] Bec[se], plebeji; keresztszülők **Josephus Ricz[?] et Elisabetha Atsai[?]**, parochiani V. Becse; keresztelte Franciscus Válics káplán.
+
+A keresztszülők olvasata bizonytalan, de ha helyes, ők az óbecsei **Ricz József és Acsai (Atyai) Erzsébet** házaspár (gyermekeik 1832–1844, ricz-obecse.md). Ez érdekes kapcsolat lenne a Ricz családdal, de nem bizonyítja, hogy ez a Kovács Ilona Imre Mátyás felesége.
+
+Összevetés Imre Mátyás és Kovács Ilona gyermekeinek keresztszüleivel: Rozália 1853: Sötét József és [Lányi] Rozália; Katalin 1855. szept. 21. (213. sz., 1855-ös lap, 3:1:939Z-1F92-5M): Ambrus Mihály [és Pintér Borbála]; János 1860: Pintér Borbála, Ambrus Mihály neje. Kovács vagy Nagy nevű keresztszülő nincs köztük, így a keresztszülők nem erősítik meg az azonosságot. **Az 1833-as Kovács Ilona továbbra is csak feltételezés.**
+
+Mellékes: az Ambrus család (Mihály és Pintér Borbála 1855-ben és 1860-ban, Péter és [Stoló] Terézia 1883-ban) két nemzedéken át komája volt az Imre–Ricz családnak.
