@@ -550,16 +550,16 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   C.forEach(function (c) {
     var a = P[c[0]], b = P[c[1]];
     var ya = Y(a) + H / 2;
-    line(X(a) + W / 2, ya, X(b) - W / 2, ya);
+    line(Math.min(X(a), X(b)) + W / 2, ya, Math.max(X(a), X(b)) - W / 2, ya);
     var mx = (X(a) + X(b)) / 2;
     var kids = c[2].map(function (id) { return P[id]; });
     var ky = Y(kids[0]);
-    if (kids.length === 1) {
+    if (kids.length === 1 && X(kids[0]) === mx) {
       line(mx, ya, mx, ky);
     } else {
-      var bar = ky - 26;
+      var bar = ky - 26, xs = kids.map(X).concat(mx);
       line(mx, ya, mx, bar);
-      line(X(kids[0]), bar, X(kids[kids.length - 1]), bar);
+      line(Math.min.apply(null, xs), bar, Math.max.apply(null, xs), bar);
       kids.forEach(function (k) { line(X(k), bar, X(k), ky); });
     }
   });
