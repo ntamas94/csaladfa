@@ -657,3 +657,5 @@ Klimek János és Galics Anna első gyermeke, Teréz 1865-ben Óbecsén születe
 **Klimek Teréz keresztelése, Óbecse, 1865. szeptember 17.** Kereszteltek 1861–1875, 307. bejegyzés: https://www.familysearch.org/ark:/61903/3:1:939Z-1NHH-R . Theresia, leány, törvényes. Szülők: „Joannes Klinek et Anna Gálicz”, civ. cath., Óbecse. Keresztanya: Maria Novák, Josephi Nagy uxor. Ez Klimek János első ismert gyermeke.
 
 Klimek János és Galics Anna házassága az óbecsei házassági anyakönyvben (DGS 7994502) nincs meg: átnézve 1863. febr. – 1865. máj. 1. (266–283. kép). A madarasi anyakönyvben sincs 1861. okt. – 1865. máj. között (35. fejezet). Lehet, hogy egy harmadik plébánián (a menyasszony vagy a vőlegény akkori lakóhelyén) esküdtek, vagy 1865 májusa és szeptembere között.
+
+Kiegészítés: átnézve 1865. máj. 1. – nov. 4. is (284–289. kép, 25–54. bejegyzés). Klimek–Galics házasság 1865-ben sincs az óbecsei anyakönyvben. Klimek János és Galics Anna tehát nem Óbecsén és nem Madarason esküdött 1861 és 1865 között.
