@@ -906,3 +906,5 @@ Az összeírás id. Ricz Péter és Fehér Ferenc óbecsei jelenlétét 1828-ra 
 Agó Erzsébet – folytatás (Halottak 1856–1870, DGS 8265819, 431 kép): átnézve 1856. jan. 1. – 1857. nov. eleje (6–70. kép, 1–192. bejegyzés 1857-ben); nincs benne. A film néhol ismétel (pl. a 48–50. kép a 43–45. másolata). Folytatandó a 71. képtől.
 
 Agó Erzsébet – folytatás: átnézve 1857. nov. – 1861. máj. (71–195. kép); nincs benne. Az 1859 közepétől latin nyelvű, apró kézírású bejegyzések ebben a nagyításban nehezen olvashatók, ezért egy rövid, rosszul olvasható bejegyzés elkerülhette a figyelmet. Folytatandó a 196. képtől.
+
+Agó Erzsébet – folytatás: átnézve 1861. máj. – dec. (196–222. kép); nincs benne. **Figyelem:** 1862-től (223. képtől) a lapok kétoldalasak (a kép jobb felén is vannak bejegyzések); a 223–235. képeken eddig csak a bal oldalt néztem, ezeket mindkét oldallal újra kell nézni. Folytatandó a 223. képtől, mindkét oldal.
