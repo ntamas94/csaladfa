@@ -685,3 +685,14 @@ Megjegyzések:
 - Első feleségétől, Szabó Erzsébettől született lányai: Róza (férjhez ment 1842) és Viktória (férjhez ment 1853) (32. fejezet).
 
 Átnézve 1853. jan. – 1855. dec. (142–174. kép). A film 134–141. képei egy későbbi, magyar nyelvű állami anyakönyv lapjai, közbeékelve.
+
+## 38. Galics Anna halála (keresés) és két Klimek-gyermek halála, Óbecse, 1877
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1871–1880, DGS 8265820).
+
+- **Klimek Rozália**, 323. kép, 175. bejegyzés: meghalt 1877. június 9-én, 1¾ évesen (kb. 1875. szept.), „filia Joannis et Annae Galis”, Óbecse, nova porta. Temették jún. 11-én. Ekkor anyja még élt.
+- **Klimek János**, 340. kép, 329. bejegyzés: meghalt 1877. december 20-án, 8 hetesen (szül. kb. 1877. okt. vége), „filius Joannis et d[e]f[unc]tae Annae Galisz”, Óbecse, porta nova. Temették dec. 24-én. Ekkor anyja már nem élt.
+
+Galics Anna tehát 1877 októbere (fia születése) és december 20. között halt meg, valószínűleg a szülés után. Halotti bejegyzése az óbecsei anyakönyvben nincs: átnézve 1877. jan. – dec. (303–340. kép), a névoszlop. Lehet, hogy máshol halt meg vagy temették (például szülőfalujában, Madarason), vagy a bejegyzés más névalakkal (például „Anna Klimek”) szerepel, amit a kis nagyításban nem ismertem fel.
+
+Klimek János (kb. 1843) három hónappal felesége halála után, 1878. március 4-én újranősült (Hegyi Julianna, 30. fejezet).
