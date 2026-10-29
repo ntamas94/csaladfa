@@ -716,3 +716,7 @@ Keresés bejelentkezés nélkül (a találati lista rövid szövegrészleteket m
 - „Ricz Antal”, „Ric Antal”, „Ricz Antalné”, „Kádas Ilona”, „Keceli Mária”, „Klimek Matild”, „Klimek Katalin”: óbecsei találat nincs.
 
 A VAMADIA-ban (24. és 27. fejezet) a Magyar Szó 1945 utáni számai ingyen, teljes szöveggel olvashatók; az 1986. február 2-i szám ott is kikereshető.
+
+Kiegészítő keresések előfizetéssel (2026. okt. 29.): „Klimek Óbecse”, „Klimek Ó-Becse”, „Klimek János huszár”, „Klimek János Becse”, „Ricz Óbecse”, „Kádas Óbecse”, „Keczeli Óbecse”, „Füstös Bácsföldvár”, „Ricz Antal”, „Kádas Ilona”, „Klimek Ilona”, „Klimek Katalin”. Óbecsei családtagra egyértelmű találat nincs. Nyomok, nem igazolva:
+- Reggeli Ujság (Újvidék), 1941. május 15. és 30.: anyakönyvi kimutatásban „Pisák Dezső és Klimek Ilona” (házasság). A település és a menyasszony szülei a részletből nem derülnek ki; lehet a család lapján szereplő Klimek Ilona (Klimek Mária húga), de lehet névrokon is.
+- Hírek a sebesültekről és betegekről, 1914. november–december: Klimek László őrvezető (Gefreiter), 57. gyalogezred, kórházban Szabadkán és Munkácson; a mellette lévő óbecsei bejegyzés más személyé.
