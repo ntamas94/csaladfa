@@ -392,12 +392,12 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   add("c3", 6, kidMid, "ricz", "Ricz András");
   add("c4", 6, kidMid + 140, "ricz", "Ricz László");
   add("c5", 6, kidMid + 280, "ricz", "Ricz Veronika");
-  add("kjanos1", 4, -450, "other", "Klimek János", ["Óbecse, 1879–1887"]);
-  add("hjuli", 4, -310, "other", "Hegyi Julianna", ["1853. febr. 12.", "Óbecse ✓"]);
-  add("kferenc", 4, -170, "other", "Keceli Ferenc", ["1845. okt. 8.", "Óbecse ✓"]);
-  add("fmaria", 4, -30, "other", "Füstös Mária", ["1852. szept. 7."]);
-  add("kjanos2", 5, -380, "other", "Klimek János", ["1887. jún. 9.", "Óbecse ✓ · huszár"]);
-  add("kmariak", 5, -100, "other", "Keceli Mária", ["1890. júl. 5.", "Óbecse ✓ · ⚭ 1913"]);
+  add("kjanos1", 4, -1000, "other", "Klimek János", ["Óbecse, 1879–1887"]);
+  add("hjuli", 4, -720, "other", "Hegyi Julianna", ["1853. febr. 12.", "Óbecse ✓"]);
+  add("kferenc", 4, -440, "other", "Keceli Ferenc", ["1845. okt. 8.", "Óbecse ✓"]);
+  add("fmaria", 4, -160, "other", "Füstös Mária", ["1852. szept. 7."]);
+  add("kjanos2", 5, -860, "other", "Klimek János", ["1887. jún. 9.", "Óbecse ✓ · huszár"]);
+  add("kmariak", 5, -300, "other", "Keceli Mária", ["1890. júl. 5.", "Óbecse ✓ · ⚭ 1913"]);
   add("kmaria", 6, 524, "other", "Klimek Mária", ["1914. márc. 18.", "⚭ 1934"]);
   add("ifj", 7, kidMid - 420, "ricz", "ifj. Ricz Antal", ["1943 · „Tika”"]);
   add("kviki", 7, kidMid - 280, "hyp", "Kovács Viktória", ["⚭ 1967, Becse?"]);
@@ -542,17 +542,26 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     var s = ((D[k] || {}).sibs || []).filter(function (x) { return !x.id; });
     if (s.length) SIBS[k] = s;
   });
-  // Place each sibling block: centred under the person, off the couple's descent line,
-  // and stacked below a neighbour's block when the two would overlap
-  // When the parents are on the tree, the siblings hang from the parents' descent line
-  // (as the parents' other children); otherwise they hang under the person
-  Object.keys(SIBS).sort(function (a, b) { return P[a].cx - P[b].cx; }).forEach(function (k) {
-    var p = P[k], s = SIBS[k], per = Math.min(CPER, s.length), bw = per * CW + (per - 1) * CG;
-    var pc = C.filter(function (c) { return c[2].indexOf(k) >= 0; })[0];
-    var from = pc ? P[pc[0]] : p, ax = pc ? (X(P[pc[0]]) + X(P[pc[1]])) / 2 : X(p), cx = ax;
-    // keep clear of the descent line the block hangs from, on the side away from the person
-    var side = pc ? (X(p) >= ax ? -1 : 1) : 0;
-    if (side) cx = ax + side * (14 + bw / 2);
+  // Siblings are drawn as the parents' other children: a comb hanging from the parents'
+  // descent line, in the band below the parents. When the parents are not on the tree,
+  // the comb sits in the band above the person and the person rises to the same bar.
+  // Each block goes beside its line (never over it), as wide as the gap to the next line allows,
+  // and is stacked below a neighbour's block when the two would still overlap.
+  var ANCH = Object.keys(SIBS).map(function (k) {
+    var p = P[k], pc = C.filter(function (c) { return c[2].indexOf(k) >= 0; })[0];
+    return { k: k, pc: pc, r: pc ? P[pc[0]].r : p.r - 1, ax: pc ? (X(P[pc[0]]) + X(P[pc[1]])) / 2 : X(p) };
+  });
+  ANCH.sort(function (a, b) { return a.ax - b.ax; }).forEach(function (a) {
+    var k = a.k, p = P[k], s = SIBS[k], pc = a.pc, from = { r: a.r }, ax = a.ax;
+    var gap = function (dir) {
+      var d = 4000;
+      ANCH.forEach(function (o) { if (o !== a && o.r === a.r && (o.ax - ax) * dir > 0) d = Math.min(d, Math.abs(o.ax - ax)); });
+      return d;
+    };
+    // the side away from the person, or the roomier side when the comb only feeds the person
+    var side = pc && X(p) !== ax ? (X(p) > ax ? -1 : 1) : (gap(-1) > gap(1) ? -1 : 1);
+    var per = Math.max(1, Math.min(CPER, s.length, Math.floor((gap(side) * 0.55 + CG) / (CW + CG))));
+    var bw = per * CW + (per - 1) * CG, cx = ax + side * (14 + bw / 2);
     var bh = Math.ceil(s.length / per) * (CH + CG + 10), off = 0, row = placed[from.r] = placed[from.r] || [];
     row.forEach(function (o) { if (cx - bw / 2 < o.r + 8 && cx + bw / 2 > o.l - 8) off = Math.max(off, o.off + o.h + 18); });
     row.push({ l: cx - bw / 2, r: cx + bw / 2, off: off, h: bh });
@@ -704,10 +713,8 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     var p = P[k], L = SIBS[k], s = L.s, per = L.per, bw = L.bw, cx = L.cx + OX;
     L.ax += OX;
     var y0 = Y(L.from) + H + 14 + L.off, sur = p.name.split(" ")[0] + " ";
-    var top = L.pc ? Y(L.from) + H / 2 : Y(p) + H, nrows = Math.ceil(s.length / per);
-    // A comb per row: a bar fed from the parents' (or the person's) descent line, one tick per child
-    var lastBar = y0 - 8 + (nrows - 1) * (CH + CG + 10);
-    if (!L.pc) line(L.ax, top, L.ax, lastBar);
+    // A comb per row: a bar fed from the parents' descent line (or rising from the person), one tick per child
+    if (!L.pc) line(L.ax, Y(p), L.ax, y0 - 8);
     s.forEach(function (x, i) {
       var row = Math.floor(i / per), n = Math.min(per, s.length - row * per);
       var x0 = cx - (n * CW + (n - 1) * CG) / 2 + (i % per) * (CW + CG), y = y0 + row * (CH + CG + 10);
