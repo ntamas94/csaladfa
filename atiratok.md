@@ -786,3 +786,11 @@ Megjegyzések:
 Mellékes halálozások ugyanezen a filmen (átnézve 1836. jan. – 1841. ápr., 110–168. kép):
 - **Ricz Vince**, Ricz Péter és Fehér Rozália fia, meghalt 1839. december 3-án (153. kép). Ő az 1838-ban született Vince, Ricz Antal (1842) bátyja.
 - **Gubincsik János**, Gubincsik Imre és Budai Katalin fia, meghalt 1840 áprilisában, 1 hónaposan (158. kép). Gubincsik Ilona (1841) bátyja.
+
+## 45. Klimek-gyermekek pontos dátumai; Madaras, talált gyerek (keresés)
+
+A FamilySearch-névmutató szerint (a felhasználó által küldött képernyőképek alapján) Klimek János és Hegyi Julianna gyermekeinek keresztelése, Óbecse: Teréz 1879. ápr. 3.; Mihály „1880. máj. 5.”; Ágnes 1882. ápr. 22.; Katalin 1884. nov. 27.; János 1887. jún. 9.; **Mária („Klemek”) 1889. szept. 8.** (új testvér).
+
+Mihály dátuma a névmutatóban hibás: az eredeti bejegyzés (Kereszteltek 1876–1885, 347. sz., https://www.familysearch.org/ark:/61903/3:1:939Z-1NSY-Z) „1880. 5. 5. Sept.”, azaz született és keresztelték szeptember 5-én; az indexelő a „5. 5.” számokat májusnak olvasta.
+
+Madaras, keresztelési anyakönyv (DGS 4551500), átnézve 1841. dec. – 1846. jan. (518–548. kép), mindkét oldal: talált gyerek („inventus”, „ignotis parentibus”, „lelenc”), illetve feltételesen (sub conditione) keresztelt idősebb gyerek bejegyzése nincs; minden bejegyzésnél madarasi házaspár a szülő. Ha a kukoricásban talált kétéves gyereket már megkeresztelték máshol, Madarason nem keresztelték újra, így ebben az anyakönyvben nem is várható nyoma.
