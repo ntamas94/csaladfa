@@ -902,3 +902,5 @@ Az összeírás id. Ricz Péter és Fehér Ferenc óbecsei jelenlétét 1828-ra 
 - **1715/1720-as adóösszeírás:** Óbecse ekkor a Tisza menti határőrvidékhez tartozott (1751-ig), ezért nem a vármegyei összeírásokban szerepel; ezek amúgy is csak családneveket közölnek, rokonságot nem.
 - **Kalocsai egyházlátogatási jegyzőkönyvek (canonica visitatio):** online nem találhatók a FamilySearch-katalógusban; a plébánia történetéről szólnak, családokat nem sorolnak fel.
 - **Török kori defterek:** a 16–17. századi lakosság a török kiűzése után nagyrészt kicserélődött; a mi családjaink a 18. században költöztek be, így nem kapcsolhatók.
+
+Agó Erzsébet – folytatás (Halottak 1856–1870, DGS 8265819, 431 kép): átnézve 1856. jan. 1. – 1857. nov. eleje (6–70. kép, 1–192. bejegyzés 1857-ben); nincs benne. A film néhol ismétel (pl. a 48–50. kép a 43–45. másolata). Folytatandó a 71. képtől.
