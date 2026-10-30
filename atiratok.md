@@ -1556,3 +1556,13 @@ Legkorábbi ismert ősök ágankként (forrással):
 | Klimek | Klimek János (kb. 1843), talált gyerek | 1843 | eredet ismeretlen |
 
 **A határ:** az óbecsei belvárosi plébánia anyakönyvei 1777-ben kezdődnek (keresztelés, házasság, halál; a mutató 1757-től sorol fel, de a korai években nagyon hiányos). Akik 1777 előtt, vagy máshol születtek (Ricz: Kecskemét?, Kókai Erzsébet, Berta Veronika, Kádas: Cibakháza), azokhoz a származási plébánia kell. A legmesszebb a Kádas-ág ér (Cibakháza, 1720-as évek); a Gubincsik-ág családi lap szerinti 1700 körüli adatai forrással még nincsenek alátámasztva.
+
+## 96. Cibakháza: Kádas-ág visszafelé
+
+FamilySearch-katalógus, Cibakháza r. k. (koha:442554): Kereszteltek 1745–1868 (DGS 4551516), Házasultak 1745–1895 (DGS 8266137), Halottak 1745–1868 (DGS 8266138). Az anyakönyvek 1745-ben kezdődnek (Cibakháza akkor települt újra).
+
+- **Halotti anyakönyv, 6. kép, 1746. nov. 25.:** „Elisabetha filia Andreae Kádas annorum 18, timoratae conscientiae, … obiit et sepulta est in coem. Cibak.” – **Kádas Erzsébet, Kádas András lánya, 18 éves** (szül. kb. 1728). Ez a legkorábbi Kádas-bejegyzés Cibakházán. Kádas András tehát már 1746-ban felnőtt lányos családapa volt Cibakházán (szül. kb. 1700); valószínűleg Kádas István (kb. 1720) apja. Ez feltételezés.
+- Házassági anyakönyv, 5–6. kép (1745. jan. – 1749. jan.): Kádas István és Michel Erzsébet házassága nincs benne, tehát 1745 előtt (máshol) házasodtak. Pál fiuk 1748-ban, Katalin 1752-ben született.
+- FamilySearch-névmutató: „Kádas Stephanus, 52 éves (szül. kb. 1721) × Kesik Erzsébet, 1773. máj. 20., **Jászberény**” – lehet, hogy a mi Kádas Istvánunk özvegyként, de a hely Jászberény, ezért nem biztos.
+
+Kádas András és Kádas István halála a cibakházi halotti anyakönyvben keresendő (1747-től, 7. képtől).
