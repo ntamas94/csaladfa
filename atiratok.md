@@ -1354,3 +1354,46 @@ Forrással (az eredeti anyakönyvi képre mutató hivatkozással) felvitt adatok
 - Új személy: Klimek János, szül. 1869. okt. 27., kereszt. okt. 28., Óbecse, 405. bejegyzés (PN1P-C63), Klimek János és Galics Anna (L7TV-9FF) fiaként.
 
 Nem módosítva, Csongorral egyeztetendő (kettőzött személyek): Teréz 1879 (L7R4-34F / GJRG-ZWZ), Ágnes 1882 (L7R4-7KM / GJW6-NM8), Katalin 1884 (L7RH-CHF / GJW6-LDQ), Galics Anna (L7TV-9FF / L7TN-JTH).
+
+## 83. Kalocsai Főegyházmegyei Levéltár: óbecsei névmutatók és házassági anyakönyv 1777–1828
+
+Forrás: matricula.hu, KFL Matricula-Historia-online, Óbecse-Belváros (15 napos előfizetés, 2026. okt. 30-tól). Fent van: házassági anyakönyv 1777–1828 (KFL-VIII-8-b vol. 377), házassági névmutató 1757–1866 (vol. 380), keresztelési névmutató 1757–1866 (vol. 379, két rész), bérmálási anyakönyvek (1763, 1797, 1823, 1835 …), felmentések, anyakönyvi javítások. Madarasra is: keresztelési anyakönyv és mutató 1789–1851, bérmáltak, felmentések. A névmutatók a vőlegény, illetve az apa családneve szerint betűrendesek, évvel, hónappal, nappal.
+
+### Házasságok (házassági névmutató; a Ricz-bejegyzés az eredetiben is)
+
+| Vőlegény | Menyasszony | Dátum |
+|---|---|---|
+| Ricz Péter | Berta Veronika | 1798. nov. 26. (eredeti: vol. 377, 46. kép, 1798) |
+| Ricz Péter | Pap Ágnes | 181[8]. okt. 26. |
+| Ricz Péter | Bartus Anna | 1821. nov. 20. |
+| Ricz Péter | Fehér Rozália | 1833. nov. |
+| Ricz Pál | Pál Erzsébet | 1792. jan. 30. |
+| Ricz Pál | Sághi Veronika | 1835. nov. 20. |
+| Fehér Ferenc | Sternáth Katalin / **Kókai Erzsébet** / Bálint Veronika | 1795. okt. 22. / **1799. nov. 4.** / 1836. febr. 8. |
+| Gubincsik András | Csábi Mária | 1796. nov. 21. |
+| Gubincsik Imre | Budai Katalin | 1837. nov. 20. ✓ |
+| Budai György | Dudás Rózsa | 18[01–03]. nov. 16. |
+| Imre Mátyás | Kiss Anna / Benkő Ágnes / **Kovács Ilona** | 1825. nov. / 1834. nov. 24. / **1851. máj. [12.]** |
+| Hegyi Mátyás | Szerencsés Erzsébet | 17[9]8. jan. |
+| Hegyi András | Varga Ilona | 1824. jan. [12.] |
+| Hegyi Gergely | Kovács Teréz | 1845. nov. 24. |
+
+Az eredeti 1798-as bejegyzés (46. kép): „Anno Domini 1798 die 26a Nov. … Ego Michael Joan. Nep. Csáby … Parochus juvenem Petrum Ricz et virginem Veronicam Berta matrimonio junxi. Praesentibus testibus Joanne Szente et Benedicto Mutsi, Parochianis Vet. Becsensibus.” Szülőket, életkort a korai bejegyzés nem ír.
+
+Kádas-vőlegény a mutatóban nincs (Kádas Pál házasságai nem itt, vagy más plébánián).
+
+### Keresztelések (keresztelési névmutató)
+
+- **Ricz Péter × Berta Veronika:** József 1801. jan. 6., Veronika 1803. jan. 20., István 1804. márc. 3., Veronika 1806. ápr. 6., János 1808. aug. 27., **Péter 1810. dec. 3.**, Apollónia 1813. febr. 4., Pál 1815. jan. 16., Ferenc 1817. márc. 17., Ilona 1818. szept. 19. – **× Pap Ágnes:** Anna 1819. aug. 16., Ferenc 1823. márc. 17., Márton 1826. jan. 15., Illés 1828. júl. 20. – **× Fehér Rozália** (az ifjabb Péter): Károly 1835. júl. 22., Vince 1838. jan. 17., Anna 1840. jún. 30., **Antal 1842. jan. 17. ✓**, József 1844. márc. 4.
+- **Fehér Ferenc × Kókai Erzsébet:** Anna 1801. jún. 24., József 1804. márc. 29., Mihály 1806. szept. 18., Borbála 1807. nov. 28., János 1810. jún. 20., **Rozália 1813. ápr. 12.**, Ferenc 1815. márc. 17., Katalin 1817. aug. 30., Erzsébet 1820. ápr. 1.
+- **Gubincsik András × Csábi Mária:** József 1798. márc. 4., Apollónia 1800. ápr. 30., Ágnes 1802. jan. 2., Julianna 1804. febr. 12., Katalin 1806. ápr. 4., Éva és Ilona (ikrek) 1808. ápr. 1. – **× Agó Erzsébet:** János 1809. máj. 11., Erzsébet 1811. aug. 24., Erzsébet 1813. júl. 2., Anna 1816. jún. 14., **Imre 1818. júl. 12. ✓**, Ilona 1821. aug. 17.
+- **Budai György × Dudás Rózsa:** György 1804. ápr. 18., Anna 1806. szept. 13., Rozália 1816. aug. 18., **Katalin 1819. ápr. 12. ✓**, Vince 1823. ápr. 4. – Idősebb pár: **Budai György × Füleki Judit:** György 1786. ápr. 12., Erzsébet 1787, József 1790, Pál 1792 (valószínűleg ő a Dudás Rózsát elvevő György).
+- **Imre Mátyás × Benkő Ágnes:** Rozália 1848. márc. 29. – **× Kovács Ilona:** János 1852. máj. 12., **Rozália 1853. júl. 31. ✓**, Katalin 1855. szept. 21., Veronika 1860, János 1860. máj. 28., Mária Anna 1862. júl. 22., István 1865. nov. 19. Imre Mátyás saját keresztelése (kb. 1800) a mutatóban nincs.
+- **Hegyi András × Varga Ilona:** **Gergely 1824. febr. 27.**, Viktória 1826, István 1828, Veronika 1831. – **Hegyi Gergely × Kovács Teréz:** János 1846, Erzsébet 1848, **Julianna 1853. febr. 12. ✓**, János 1855, János 1858, Mária 1859 … (ez megerősíti Csongor Hegyi-ágát, 81. fejezet).
+- **Kádas** apanév a keresztelési mutatóban nincs: Kádas Pál (kb. 1795) nem az óbecse-belvárosi plébánián született (a cibakházi eredettel egyezik).
+
+### Eltérések a korábbi adatoktól
+
+- Ricz Péter (ifj.) a mutató szerint **1810. dec. 3-án** született (a FamilySearch-fán és nálunk eddig 1813). 1813-ban (febr. 4.) Apollónia nővére született.
+- Fehér Rozália a mutató szerint **1813. ápr. 12-én** született (eddig 1817, a házassági életkorból). A mutatóban nincs 1817 körüli Rozália; 1817-ben Katalin született.
+- Gubincsik Andrásnak két felesége volt: Csábi Mária (1796–1808 közötti gyerekek), majd Agó Erzsébet (1809-től).
