@@ -1305,3 +1305,15 @@ Következtetés: a családjaink (Ricz, Kádas, Gubincsik, Busa) magyar betelepü
 ## 77. FamilySearch teljes szöveges keresés (Full Text)
 
 A FamilySearch mesterséges szövegfelismeréssel kereshető, nem indexelt irataiban (főleg amerikai honosítási, bevándorlási, hagyatéki iratok): „Ricz Becse”, „Ricz Obecse”, „Klimek Becse”, „Kadas Obecse”. A találatok óbecsei születésű amerikai bevándorlók honosítási kérelmei (pl. egy 1880-ban O-Becsén született, 1905-ben ott házasodott férfi; a Sakal család Norwalkban, Connecticut), illetve Kádas Péter (szül. 1892. jún. 29., Óbecse) már ismert honosítási kérelme (68. fejezet). Az egyenes ág tagjaira (Ricz Antal, Kádas Ilona, Klimek János és leszármazottaik) nincs találat.
+
+## 78. Óbecsei közjegyzői iratok – családnév-alapú teljes átnézés (Hungaricana)
+
+Keresés csak családnévre, minden írásmóddal (Ricz, Ritz, Rics, Rícz, Ric, Kádas, Kadas, Gubincsik, Gubincsek, Klimek, Klemek, Keczeli, Keceli, Füstös, Galics), valamint néhány teljes névre (Imre Mátyás, Imre Rozália, Hegyi Julianna, Megyeri Imre, Kovács Viktória). 321 találat, ebből 199 közjegyzői okirat, **111 óbecsei** (1875–1894; Parcsetich Félix F.022, Mezey Zsigmond F.023, Vissy Károly F.024).
+
+Az egyenes ág tagjait érintő iratok mind ismertek voltak: az 1877-es kezesség (5. fejezet), az 1878-as házvétel (Kádas Pál, 41. fejezet), az 1879-es meghatalmazás (3. fejezet), az 1880-as kölcsön (Klimek János, 61. fejezet). **Új, az egyenes ágat érintő irat nincs.**
+
+Új, oldalági vagy névrokon iratok:
+- RS_IASE_F_022_1876_0699: özv. Ritz Antalné Nagy Verona, mint kiskorú Ritz Sándor gyámja – egy 1876 előtt elhunyt Ritz Antal özvegye (Ricz Antal × Nagy Veronika, fiuk Antal 1871; ricz-obecse.md).
+- RS_IASE_F_022_1880_0675: Ricz Antal **iparos** nyilatkozata – a Pál Viktória férjeként ismert másik Ricz Antal (iparos), nem a mi földműves Ricz Antalunk.
+- Egy másik óbecsei Kádas család iratai (1882–1890): Kádas Ferenc és felesége Ferencz Erzsébet, Kádas Péter, Kádas Klára (Csábi Józsefné, Csúrog), Kádas Ferencné Gubincsik Éva; a Béri és Gubincsik családdal közös földügyek. Ebből a családból való a kivándorolt Kádas Péter (1892, 68. fejezet). A mi Kádas Pálunkkal (1833) való rokonságuk nem derül ki.
+- Számos Gubincsik-irat (Gubincsik Péter, András, Ádám, György, Ferenc, Margit, Viktória; 1876–1889), amelyek a Gubincsik család óbecsei ágait mutatják; Gubincsik Imre és Gubincsik Ilona (Kádas Pálné) nem szerepel.
