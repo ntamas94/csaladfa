@@ -1484,3 +1484,15 @@ Forrás: KFL, Kecskemét-Főplébánia, KFL_V_Kecskemet_E_1761-1774 (47 kép) é
 - **1746–1760:** a 25–39. képen (kb. 1755–1760) a vőlegény-oszlop a kép kicsinyítésében és a tinta halványsága miatt csak részben olvasható; Ricz nevet nem láttam, de ez **nem biztos kizárás**. A 0–24. és 40–45. kép átnézetlen.
 
 Összegzés a kecskeméti keresésről (87., 89., 90. fejezet): a főplébánia anyakönyveiben eddig sehol nem került elő Ricz név. A bérmálási „Kecskemét” születési hely utalhat a kecskeméti ferences plébániára, a kecskeméti pusztákra (pl. Szentkirály, Bugac, Pusztaszer), vagy pontatlan lehet. Ricz János és Ricz Márton kecskeméti eredete ezért egyelőre nem igazolt.
+
+## 91. Berta Veronika halála, Óbecse, 1818
+
+Forrás: KFL, Obecse-Belvaros_M_1777-1828 (KFL-VIII-8-b vol. 378, 260 kép), 176. kép, 163. bejegyzés:
+
+> „A[nn]o 1818 die 20a Septemb[ris] obiit Veronica Berta, Petri Ricz legitima uxor, Parochiana V[etero] Becsensis, annorum 35, cum repente in puerperio mortua sit, nullis Sacramentis provideri potuit, cujus corpus in communi fidelium coemeterio V. Becsensi sepultum est.”
+
+Fordítás: 1818. szeptember 20-án meghalt Berta Veronika, Ricz Péter törvényes felesége, óbecsei plébániabeli, 35 éves; mivel hirtelen, gyermekágyban halt meg, szentségekkel nem láthatták el. Az óbecsei közös temetőben temették.
+
+Ebből: Berta Veronika kb. **1783**-ban született (1798-as házasságakor kb. 15 éves volt). Egy nappal Ilona lánya születése (1818. szept. 19.) után halt meg. Ricz Péter (id.) öt héttel később, 1818. okt. 26-án vette feleségül Pap Ágnest.
+
+A halotti könyv 1815 előtti lapjain a nevek nincsenek kiírva a lapszélre, ezért a többi ős (Kádas Pál 1748, id. Gubincsik András, Kókai Lőrinc, Budai György) halála csak lapról lapra olvasással kereshető. A könyvben 1815 után a lapszélen név és sorszám áll, ez gyorsabban átnézhető.
