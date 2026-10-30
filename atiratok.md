@@ -1268,3 +1268,10 @@ Adatok: meghalt **1975. december 29-én**, 30 évesen (szül. kb. 1945), Becsén
 Azonosítás: a szülők neve nem szerepel. Mivel a szülők „egyetlen fiuk”-nak nevezik, **valószínűleg nem Ricz Antal (1910) fia**, akinek legalább még egy fia, ifj. Ricz Antal (1943) élt. Inkább Ricz Antal testvérének, Ricz Andrásnak (a család lapja szerint ifj. Ricz Antal 1883 és Kádas Ilona fia) vagy egy másik becsei Ric családnak lehet a fia – nem igazolt.
 
 Egyéb VAMADIA-találat ezen a körön: Szabó (Ricz) Mária (1921–2014) köszönetnyilvánítása, Magyar Szó, 2014. dec. 13–14.; kapcsolata nem ismert. Ricz Antalné / Ric Antalné, Klimek Marija névre gyászhír nincs.
+
+## 74. Ricz Antal (1910) gyermekei – további VAMADIA-keresés
+
+- **Ifj. Ricz Antal „Tika” köszönetnyilvánítása** (Magyar Szó, 53. évf. 231. sz., 1996. szept. 29., 21. oldal), teljes szöveg: „Hálás szívvel mondunk köszönetet a **testvéreknek**, rokonoknak, barátoknak, szomszédoknak, munkatársaknak, iskolatársaknak, ismerősöknek, akik az 53 éves korában hirtelen elhunyt, szeretett férjem, drága jó édesapám **Ricz Antal – Tika cipész (1943–1996)** temetésén megjelentek… Pihen az arany keze, mely értünk oly sokat dolgozott… Becse, 1996. IX. 29. **Szerető felesége, Viktória és fia, Toni**.” Ez megerősíti a feleség keresztnevét (Kovács Viktória, 1967) és azt, hogy ifj. Ricz Antalnak testvérei is voltak; név szerint nincsenek felsorolva.
+- Klimek Mária (Ricz Antalné, 1914) gyászhíre: „Ricz Antalné”, „Ric Antalné”, „szül. Klimek”, „szül. Klimek Mária”, „Klimek Marija”, „Klimek Mária” (Becse), „Ricz/Ric Mária” (Becse), „Ricz Klimek”, „Ric Klimek” keresésre nincs találat. A „Klimek Mária (79)” név egy 2015-ös halotti névsorban más személy (szül. kb. 1936).
+- Egyéb, kapcsolat nélküli becsei találatok: Ric (Kovács) Mária (1920–1997), megemlékezés, Magyar Szó, 1997. aug. 10.; Szabó (Ricz) Mária (1921–2014).
+- Ricz Antal (1910) gyermekei közül így csak ifj. Ricz Antal ismert forrásból; a többi gyermek nevét a családtól kell megtudni.
