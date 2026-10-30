@@ -1222,3 +1222,11 @@ Egy rokon (a Klimek–Megyeri ág kutatója, 2026. okt. 30.) szerint Klimek Ján
 FamilySearch-névmutató, országosan: Klimek/Klinek/Klimik × Galics/Galicz/Galits/Gálics szülőpárosítás, házastárs-párosítás mindkét irányban, Klimek Kiskunhalason, Halason, Kiskunfélegyházán, Kiskunmajsán, Szabadkán és Madarason, Klimek János keresztelése 1838–1847 között és házassága 1855–1866 között: **csak a két ismert óbecsei keresztelés (Rozália 1875, János 1877) jön elő**. Kunsági Klimek–Galics bejegyzés a névmutatóban nincs; ha létezik, indexeletlen anyakönyvben vagy eltérő névalakban van. A pontos hely és év a rokontól kérdezendő.
 
 Családi szóbeli forrás: Tóni gyerekkorában még sokat beszélgetett Klimek János huszárral („Klimek tata”); a huszár fényképe is tőle való.
+
+## 70. Klimek János huszár hazatérése az első világháborúból (családi elbeszélés)
+
+Tóni (Ricz Antal, Klimek János dédunokája) szóbeli közlése, 2026. okt. 30.; gyerekkorában sokat beszélgetett vele („Klimek tata”):
+
+> Az első világháború után az olasz frontról jött haza, hintóval. Útközben elkobozták tőle a hintót, utána a lovat is, így a Vajdaságba gyalog jött haza. Egy cipészkalapácsot hozott el, amellyel Tóni a mai napig dolgozik.
+
+Történeti háttér: az olasz fronton az osztrák–magyar hadsereg 1918 októberének végén felbomlott, a villa giustii fegyverszünet (1918. nov. 3–4.) után a csapatok rendezetlenül, sokszor gyalog tértek haza; a hazatérőktől a lovakat és járműveket gyakran a különböző (köztük az új délszláv) hatóságok és katonai alakulatok elkobozták. Óbecse 1918 novemberétől szerb megszállás alá került. Ez összhangban van azzal, hogy Klimek János neve nem szerepel a veszteséglistákban (54. fejezet).
