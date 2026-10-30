@@ -1230,3 +1230,9 @@ Tóni (Ricz Antal, Klimek János dédunokája) szóbeli közlése, 2026. okt. 30
 > Az első világháború után az olasz frontról jött haza, hintóval. Útközben elkobozták tőle a hintót, utána a lovat is, így a Vajdaságba gyalog jött haza. Egy cipészkalapácsot hozott el, amellyel Tóni a mai napig dolgozik. A kalapácsot állítólag egy feltört cipészműhelyből szerezte.
 
 Történeti háttér: az olasz fronton az osztrák–magyar hadsereg 1918 októberének végén felbomlott, a villa giustii fegyverszünet (1918. nov. 3–4.) után a csapatok rendezetlenül, sokszor gyalog tértek haza; a hazatérőktől a lovakat és járműveket gyakran a különböző (köztük az új délszláv) hatóságok és katonai alakulatok elkobozták. Óbecse 1918 novemberétől szerb megszállás alá került. Ez összhangban van azzal, hogy Klimek János neve nem szerepel a veszteséglistákban (54. fejezet).
+
+## 71. A huszárkép azonosítása (családi közösségi bejegyzés, 2016)
+
+Tóni 2016. október 31-én egy közösségi oldalon közzétette a huszárképet („Ki van a képen?”). A hozzászólásokban a kép szereplőjét **Klimek Jánosként** azonosították: Tóni („a Klimek János tata, dédnagytata”), és Klimek János **két unokája** is („ez az én nagyapám, Klimek János, katona az első világháborúban”; „a képen a mi nagytatánk, Klimek János van”). Tóni ugyanitt leírta, hogy ő jött haza hintóval az olasz frontról, és hozta a suszterkalapácsot (70. fejezet).
+
+Jelentősége: Klimek Jánosnak élő unokái vannak más családágakban is (Klimek Mária, 1914 testvérei révén), köztük legalább egy külföldön élő. Az élő személyek nevét itt nem közöljük.
