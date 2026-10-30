@@ -1295,3 +1295,9 @@ Tóni (2026. okt. 30.): a családtagok sírkeresztjei a **becsei Alsóvárosi te
 ## 76. FamilySearch: szerb és jugoszláv levéltári filmek
 
 A FamilySearch-katalógusban Szerbia (Vajdaság) területére kb. 290 tétel van, de ezek szinte mind a **budapesti Magyar Országos Levéltárban őrzött egyházi másodpéldányok** filmjei (1895 előttiek), illetve néhány bánsági plébánia korai anyakönyve; szerb vagy jugoszláv levéltárban (Arhiv Vojvodine, zentai levéltár, matična služba) őrzött anyakönyvet vagy állami anyakönyvet (1895 után) a FamilySearch nem filmezett. Óbecséről egyetlen sorozat van: Anyakönyvek, 1826–1895 (koha:3506). Bács-Bodrog vármegyére egy nem anyakönyvi filmsorozat érdekes lehet: **Ansiedlerakten, 1686–1855** (Bécs, Udvari Kamara, betelepítési iratok; koha:173251) – a 18. századi telepítések iratai, amelyekben az óbecsei katolikus betelepülők (1750-es évektől) is szerepelhetnek.
+
+**Ansiedlerakten átnézése (2026. okt. 30.).** Bécsi Udvari Kamara, betelepítési kartoték, „Nach Batschka (und Banat), 1686–1830” sorozat, FamilySearch, online:
+- **Q–Sekul** film (DGS 8016408), „Ri…” rész (2072–2087. kép): Ritz Josef (Toppanfalva, 1789), Ritz Martin (a Virmont-ezrednél, 1717), Ritz Friedrich, Ritz Gabriel (1788), Ritz Heinrich, Ritz Johann (szül. kb. 1746, nőtlen, 1770-ben a Bánságba ért). **Óbecsei vagy bácskai magyar Ricz nincs**; a kartoték német, svájci, osztrák, cseh–morva telepesekről szól.
+- **K–Kütie** film (DGS 8116530), „Kad…” (36–60. kép: Cadet, Kad, Kade, Kaderle) és „Ki…–Ko…” rész (2200–2300. kép): **Kádas és Klimek nincs**. (A Klimek János kb. 1843-as születése egyébként is a kartoték 1830-as határa után van.)
+
+Következtetés: a családjaink (Ricz, Kádas, Gubincsik, Busa) magyar betelepülők voltak, ezért nem szerepelnek a német telepesek bécsi kartotékjában; az 1757 körüli óbecsei betelepülés név szerinti nyomait a kalocsai érseki és a vármegyei (Bács-Bodrog) iratok őrzik, amelyek online nem érhetők el.
