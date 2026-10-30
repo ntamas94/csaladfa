@@ -1227,6 +1227,6 @@ Családi szóbeli forrás: Tóni gyerekkorában még sokat beszélgetett Klimek 
 
 Tóni (Ricz Antal, Klimek János dédunokája) szóbeli közlése, 2026. okt. 30.; gyerekkorában sokat beszélgetett vele („Klimek tata”):
 
-> Az első világháború után az olasz frontról jött haza, hintóval. Útközben elkobozták tőle a hintót, utána a lovat is, így a Vajdaságba gyalog jött haza. Egy cipészkalapácsot hozott el, amellyel Tóni a mai napig dolgozik.
+> Az első világháború után az olasz frontról jött haza, hintóval. Útközben elkobozták tőle a hintót, utána a lovat is, így a Vajdaságba gyalog jött haza. Egy cipészkalapácsot hozott el, amellyel Tóni a mai napig dolgozik. A kalapácsot állítólag egy feltört cipészműhelyből szerezte.
 
 Történeti háttér: az olasz fronton az osztrák–magyar hadsereg 1918 októberének végén felbomlott, a villa giustii fegyverszünet (1918. nov. 3–4.) után a csapatok rendezetlenül, sokszor gyalog tértek haza; a hazatérőktől a lovakat és járműveket gyakran a különböző (köztük az új délszláv) hatóságok és katonai alakulatok elkobozták. Óbecse 1918 novemberétől szerb megszállás alá került. Ez összhangban van azzal, hogy Klimek János neve nem szerepel a veszteséglistákban (54. fejezet).
