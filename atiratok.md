@@ -1475,3 +1475,12 @@ Következtetés: a bérmálási bejegyzés (86. fejezet) szerint 1765 körül, K
 - a név a kecskeméti anyakönyvben más alakban áll (Rics, Rits).
 
 Javasolt következő lépés: a házassági anyakönyv (1746–1774) teljes átnézése Ricz Márton házasságára; ez megadná az anyja nevét és a házasság évét, amiből a gyerekek születése szűkíthető.
+
+## 90. Kecskemét: házasságok 1746–1774 (Ricz Márton keresése, részleges)
+
+Forrás: KFL, Kecskemét-Főplébánia, KFL_V_Kecskemet_E_1761-1774 (47 kép) és KFL_V_Kecskemet_E_1746-1760 (46 kép).
+
+- **1761–1774:** a 0–34. képen (kb. 1761–1772) a vőlegény-oszlopban Ricz nincs; a 35–46. kép (1772–1774) formátuma más (életkorral), ezeket csak áttekintő nagyításban néztem, Ricz-vőlegényt nem láttam. Ricz János kb. 1765-ös születése miatt a szülők házassága valószínűleg 1765 előtt volt, így ez a szakasz kevésbé fontos.
+- **1746–1760:** a 25–39. képen (kb. 1755–1760) a vőlegény-oszlop a kép kicsinyítésében és a tinta halványsága miatt csak részben olvasható; Ricz nevet nem láttam, de ez **nem biztos kizárás**. A 0–24. és 40–45. kép átnézetlen.
+
+Összegzés a kecskeméti keresésről (87., 89., 90. fejezet): a főplébánia anyakönyveiben eddig sehol nem került elő Ricz név. A bérmálási „Kecskemét” születési hely utalhat a kecskeméti ferences plébániára, a kecskeméti pusztákra (pl. Szentkirály, Bugac, Pusztaszer), vagy pontatlan lehet. Ricz János és Ricz Márton kecskeméti eredete ezért egyelőre nem igazolt.
