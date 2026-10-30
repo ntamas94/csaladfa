@@ -1238,3 +1238,20 @@ Tóni 2016. október 31-én egy közösségi oldalon közzétette a huszárképe
 Jelentősége: Klimek Jánosnak élő unokái vannak más családágakban is (Klimek Mária, 1914 testvérei révén), köztük legalább egy külföldön élő. Az élő személyek nevét itt nem közöljük.
 
 Keresés a külföldre került ágra (FamilySearch-névmutató): Klimek nevű, 1910–1932 között Becsén / Jugoszláviában / Szerbiában született személy kivándorlási, honosítási, népszámlálási vagy halotti bejegyzésben; Klimek × Cottingham és Klimek × Kupcsó házastárs- és szülőpárosítás. **Találat nincs.** Egy kivándorolt Klimek-lány a külföldi iratokban valószínűleg már férjezett nevén szerepel, ezért a lánynév ismerete nélkül nem kereshető; ehhez a családtól kell megtudni, melyik gyermek ment ki, hova, és milyen néven.
+
+## 72. Klimek János és Galics Anna 1869-es gyermeke (rosszul indexelt bejegyzés)
+
+A Galics Anna anyanévre végzett országos keresés (Csongor kunsági nyomának ellenőrzése közben) egy „Mime Joannes” apanevű óbecsei keresztelést hozott. Eredeti kép: Óbecse, Kereszteltek 1861–1875, 3:1:939Z-1NWX-3, 405. bejegyzés:
+
+| Oszlop | Bejegyzés |
+|---|---|
+| Születés / keresztelés | 1869. okt. 27. / 28. |
+| Név | Joannes, fiú, törvényes |
+| Szülők | **Joannes Klime[k?] et Anna Gálics**, civ. cond., R. Cath. |
+| Lakóhely | Óbecse, in allodiis (majorban) |
+| Keresztanya | Tóba Julianna, Gortva István neje |
+| Keresztelő | Mladoniczky Vince, óbecsei káplán |
+
+Az apa vezetékneve a kézírásban „Klime” (vagy „Mime”) olvasatú; a névmutató „Mime”-nek vette. Az anya Gálics Anna, a lakóhely a major („in allodiis”), ugyanúgy, mint a huszár Klimek János 1887-es keresztelésénél. **Szinte biztosan Klimek János és Galics Anna fia**, egy korábbi János, aki valószínűleg meghalt, mert 1877-ben újra Jánost kereszteltek. Klimek János és Galics Anna ismert gyermekei így: Teréz (1865), Viktória (1867), János (1869), Rozália (1875), János (1877).
+
+A kunsági (kiskunhalasi?) Klimek–Galics bejegyzés továbbra sem került elő: Galics Anna 1855–1866 közötti házassága és Galics anyanévvel, Kl- kezdetű apanévvel 1858–1880 között Óbecsén kívül nincs a névmutatóban. Tóba/Gortva keresztszülők: ugyanaz a Gortva család, amely 1883-ban (Kádas-irat) is előfordul.
