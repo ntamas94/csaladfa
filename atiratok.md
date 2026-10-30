@@ -1255,3 +1255,16 @@ A Galics Anna anyanévre végzett országos keresés (Csongor kunsági nyomának
 Az apa vezetékneve a kézírásban „Klime” (vagy „Mime”) olvasatú; a névmutató „Mime”-nek vette. Az anya Gálics Anna, a lakóhely a major („in allodiis”), ugyanúgy, mint a huszár Klimek János 1887-es keresztelésénél. **Szinte biztosan Klimek János és Galics Anna fia**, egy korábbi János, aki valószínűleg meghalt, mert 1877-ben újra Jánost kereszteltek. Klimek János és Galics Anna ismert gyermekei így: Teréz (1865), Viktória (1867), János (1869), Rozália (1875), János (1877).
 
 A kunsági (kiskunhalasi?) Klimek–Galics bejegyzés továbbra sem került elő: Galics Anna 1855–1866 közötti házassága és Galics anyanévvel, Kl- kezdetű apanévvel 1858–1880 között Óbecsén kívül nincs a névmutatóban. Tóba/Gortva keresztszülők: ugyanaz a Gortva család, amely 1883-ban (Kádas-irat) is előfordul.
+
+## 73. Ric András „Bandi” (kb. 1945 – 1975. dec. 29., Becse)
+
+VAMADIA, Magyar Szó:
+- **Köszönetnyilvánítás**, 33. évf. 9. sz., 1976. január 11., 34. PDF-oldal: „…a 30 éves korában tragikus körülmények között, hirtelen elhunyt szeretett drága fiunk **Ric András Bandi** temetésén megjelentek… Becse, 1976. I. 11. Örökké gyászoló édesapád, édesanyád, kislányod, Dórika és a rokonság.” https://vamadia.rs/periodika-szam/magyar-szo-33-evf-1976-januar-11-9-sz-1-28-oldal
+- **Megemlékezés fényképpel**, 34. évf. 359. sz., 1977. dec. 31. – 1978. jan. 2., 53. PDF-oldal: „December 29-én múlt végtelen szomorú, fájdalmas két éve, hogy **egyetlen**, felejthetetlen drága jó fiunk Ric András Bandi tragikus körülmények között 30 éves korában hirtelen… itthagyott bennünket… Becse, 1978. I. 1. Örökké gyászoló szülei.” https://vamadia.rs/periodika-szam/magyar-szo-34-evf-1977-december-31-1978-januar-2-359-sz
+- Ugyanezen a néven: Magyar Szó, 1980. július 6. (további megemlékezés, nem nézve).
+
+Adatok: meghalt **1975. december 29-én**, 30 évesen (szül. kb. 1945), Becsén; szülei 1978-ban még éltek; egy kislánya volt (Dórika).
+
+Azonosítás: a szülők neve nem szerepel. Mivel a szülők „egyetlen fiuk”-nak nevezik, **valószínűleg nem Ricz Antal (1910) fia**, akinek legalább még egy fia, ifj. Ricz Antal (1943) élt. Inkább Ricz Antal testvérének, Ricz Andrásnak (a család lapja szerint ifj. Ricz Antal 1883 és Kádas Ilona fia) vagy egy másik becsei Ric családnak lehet a fia – nem igazolt.
+
+Egyéb VAMADIA-találat ezen a körön: Szabó (Ricz) Mária (1921–2014) köszönetnyilvánítása, Magyar Szó, 2014. dec. 13–14.; kapcsolata nem ismert. Ricz Antalné / Ric Antalné, Klimek Marija névre gyászhír nincs.
