@@ -1511,3 +1511,13 @@ Következtetés: **Kádas Pál (kb. 1793) és Busa Ilona legkésőbb 1820-ban h�
 Nem néztem át lapszél szerint: 1826 közepe – 1828 vége (230–259. kép); 1815 előtt a lapszélen nincs név.
 
 **Kiegészítés (1826 közepe – 1828 vége, 230–250. kép):** 249. kép, 259. sz.: „1828, 20a Novemb., Elias, Petri Ricz et Agnetis Pap conj. Parochianorum V. Bec. filius, 4 mensium” – **Ricz Illés**, id. Ricz Péter és Pap Ágnes fia, 4 hónaposan meghalt (a keresztelési mutatóban 1828. júl. 20.). Pap Ágnes tehát 1828 nyarán még élt; halála 1828 után keresendő (a FamilySearch-filmeken, 1829-től). Kádas-, Gubincsik-, Budai- és Fehér-halálozás ebben a szakaszban nincs. (A 238. képen „Kardos Ágnes”, nem Kádas.) Ezzel a halotti könyv 1815–1828 közötti része lapszél szerint teljesen átnézve.
+
+## 94. Pap Ágnes halála, 1831; id. Ricz Péter keresése 1829–1836
+
+Óbecse, r. k. halotti anyakönyv (Halottak 1826–1855, DGS 8265818). Átnézve a 30–123. kép (1828. ápr. – 1836. dec.), a névoszlop:
+
+- **69. kép (3:1:3Q9M-CS54-4N11), 216. bejegyzés:** „1831. 5a Augusti. Agnes Pap, uxor Petri Ritz, Parochiana V. Bec., 40 annorum, oib. morientium Sacramentis provisa.” – **Pap Ágnes**, id. Ricz Péter második felesége, 40 évesen (szül. kb. 1791), 1831. augusztus 5-én meghalt. Ez az 1831-es kolerajárvány hónapja (a lapok tele vannak augusztusi halálesetekkel). Ricz Péter ekkor még élt („uxor”, nem „vidua”).
+- 71. kép, 300. sz.: 1831. aug. 19., Ricz Gergely, 2½ éves, „Petri Ricz et Elisabethae Dudás” fia – ez egy másik Ricz Péter (felesége Dudás Erzsébet); a mi Ricz Péterünk 1831-ben Pap Ágnes férje volt. Lehet, hogy a Ricz Péter név Óbecsén több családban is élt (vö. az 1879-es örököstársak, 57. fejezet).
+- 35. kép: Ricz Illés († 1828. nov. 20.) bejegyzése itt is szerepel (a 92. fejezet kalocsai adatának megerősítése).
+
+**Id. Ricz Péter halála 1828. ápr. és 1836. dec. között nincs az anyakönyvben.** Fia, Pál 1835. novemberi esküvőjén apaként él. Az 1837-től magyar nyelvű, sűrű kézírású lapok (124. kép-tól) kis nagyításban nehezen olvashatók; 1837–1841 között újraolvasandó, 1841. júl. – 1847 között Agó Erzsébet keresésekor (52. fejezet) Ricz-halálesetet nem jegyeztem fel.
