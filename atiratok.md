@@ -1335,3 +1335,9 @@ A hiányzó évekre ellenőrzött kötetek: 1848 és 1849 csak keresztelési; 18
 A portál feltételei szerint a képek nem oszthatók meg; ide csak átiratok kerülnek, forrásmegjelöléssel.
 
 Belgrád: az Arhiv Jugoslavije-nak nincs online névkeresője, csak írásos kérelemmel lehet adatot kérni.
+
+## 81. Madaras: Galics Anna halála (keresés); a kalocsai levéltár
+
+Madaras, r. k. halotti anyakönyv, Halottak 1864–1891 (DGS 8523447): átnézve 1877. júl. – 1878. jan. eleje (408–417. kép, 80–163. bejegyzés és 1878: 1–5.), a névoszlop. **Galics Anna (Klimek Jánosné) nincs benne**, Klimek nevű halott sincs. Tehát sem Óbecsén (31. fejezet), sem Madarason nem temették 1877 végén.
+
+Mészáros Csongor (Hegyi-ági rokon) szerint a Kalocsai Főegyházmegyei Levéltár fizetős online felületén (archivum.asztrik.hu, E-kutatás: 15 nap 3 500 Ft, 90 nap 7 000 Ft, 1 év 18 000 Ft) a történeti Bács-Bodrog megye plébániáinak minden megmaradt egyházi bejegyzése fent van, az 1800 előttiek is (keresztelés, házasság, halál, bérmálás, jegyesek). Madarasra ez az 1789 előtti köteteket adja hozzá a FamilySearch anyagához. Csongor Madarason nem talált Klimek-nyomot; ez egyezik a 34., 35. és 45. fejezettel.
