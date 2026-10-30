@@ -1509,3 +1509,5 @@ Forrás: KFL, Obecse-Belvaros_M_1777-1828 (vol. 378). Átnézve lapszéli név s
 Következtetés: **Kádas Pál (kb. 1793) és Busa Ilona legkésőbb 1820-ban házasodott**, és 1821-től Óbecsén éltek. A házasságuk az óbecsei házassági névmutatóban nincs (83. fejezet), tehát máshol esküdtek. Pap Ágnes (Ricz Péter 2. felesége) halála 1818 vége és 1826 közepe között ebben a könyvben nem került elő. Ricz-, Gubincsik- és Fehér-halálozás sem.
 
 Nem néztem át lapszél szerint: 1826 közepe – 1828 vége (230–259. kép); 1815 előtt a lapszélen nincs név.
+
+**Kiegészítés (1826 közepe – 1828 vége, 230–250. kép):** 249. kép, 259. sz.: „1828, 20a Novemb., Elias, Petri Ricz et Agnetis Pap conj. Parochianorum V. Bec. filius, 4 mensium” – **Ricz Illés**, id. Ricz Péter és Pap Ágnes fia, 4 hónaposan meghalt (a keresztelési mutatóban 1828. júl. 20.). Pap Ágnes tehát 1828 nyarán még élt; halála 1828 után keresendő (a FamilySearch-filmeken, 1829-től). Kádas-, Gubincsik-, Budai- és Fehér-halálozás ebben a szakaszban nincs. (A 238. képen „Kardos Ágnes”, nem Kádas.) Ezzel a halotti könyv 1815–1828 közötti része lapszél szerint teljesen átnézve.
