@@ -1408,3 +1408,13 @@ Forrás: matricula.hu, KFL Matricula-Historia-online, Madaras. Fent van: kereszt
 - Galics Anna (kb. 1843) keresztelése: a mutató G betűjénél 1830–1844 között Galics nincs; egy „Gál Anna” (1843. júl. 6.?) az eredeti filmen 1843 júniusában és júliusában nem található. Nyitva marad.
 
 Következtetés: Madarason semmilyen 1836–1868 közötti forrásban nincs Klimek. Az 1880-as „or. ex Madaras” ezért inkább azt jelenti, hogy Madaras felől jött (talán ott találták, vagy ott élt egy ideig), nem azt, hogy ott született vagy nőtt fel.
+
+## 85. Óbecsei bérmálási anyakönyv, 1823
+
+Forrás: KFL, KFL_I-1-d_Obecse_Bermaltak_1823_vol_281 (44 kép, kb. 1300 bejegyzés; oszlopok: név, bérmanév, életkor, szülők, bérmaszülő, lakóhely).
+
+**699. sz. (20. kép):** Rosalia Fehér Pál, bérmanév Theresia, **9 éves**, szülei **Franciscus Fejér Pál és Elisabetha Kókai**, bérmaszülő Rosalia Váradi (Michael [Szettle?]), V[etero] B[ecse]. Közvetlenül alatta, 700. sz.: Barbara Fejér Pál, 16 éves, ugyanazok a szülők.
+
+Ez megerősíti, hogy Fehér Rozália (Ricz Péter felesége) **1813-ban** született (a keresztelési mutató szerint ápr. 12-én), nem 1817-ben. A család ekkor a „Fehér Pál” (Fejér Pál) kettős nevet is használta. (A 11. képen, 353. sz. egy másik, 27 éves Fehér Rozália áll, Fehér Ferenc és [Farkas?] Erzsébet lánya; ő nem a mi águnk.)
+
+A névoszlopokat végignézve Ricz, Kádas, Busa, Gubincsik és Budai nevet nem találtam. A nagyítás azonban kicsi volt, ezért ez nem biztos kizárás. Ricz Péter (szül. 1810) ekkor 12 éves volt.
