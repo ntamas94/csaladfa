@@ -1275,3 +1275,11 @@ Egyéb VAMADIA-találat ezen a körön: Szabó (Ricz) Mária (1921–2014) kösz
 - Klimek Mária (Ricz Antalné, 1914) gyászhíre: „Ricz Antalné”, „Ric Antalné”, „szül. Klimek”, „szül. Klimek Mária”, „Klimek Marija”, „Klimek Mária” (Becse), „Ricz/Ric Mária” (Becse), „Ricz Klimek”, „Ric Klimek” keresésre nincs találat. A „Klimek Mária (79)” név egy 2015-ös halotti névsorban más személy (szül. kb. 1936).
 - Egyéb, kapcsolat nélküli becsei találatok: Ric (Kovács) Mária (1920–1997), megemlékezés, Magyar Szó, 1997. aug. 10.; Szabó (Ricz) Mária (1921–2014).
 - Ricz Antal (1910) gyermekei közül így csak ifj. Ricz Antal ismert forrásból; a többi gyermek nevét a családtól kell megtudni.
+
+**Becsei „Ricz/Ric + keresztnév” keresés (VAMADIA, 39 keresztnév × 2 névalak).** Becsei, a 20. század közepén született Ricz lányok gyászhírei, szülők megnevezése nélkül – **lehetséges** gyermekei Ricz Antalnak (1910, házasság 1934) vagy testvérei (Ricz Antal 1883 és Kádas Ilona gyermekei):
+- **Guba (Ricz) Ilona (1938–2007)**, férje Guba József (1933–1995), Óbecse; megemlékezés: Magyar Szó, 2016. jún. 18–19. és 2018. jún. 23–24. Születési éve alapján lehet Ricz Antal (1910) és Klimek Mária lánya (Klimek Mária húgát is Ilonának hívták) – nem igazolt.
+- **Gulyás (Ricz) Julianna (1923–1999)**, férje Gulyás Ferenc (1920–1996), Óbecse; megemlékezés: Magyar Szó, 2014. júl. 19. és 2018. jún. 16. Születési éve alapján Ricz Antal (1883) és Kádas Ilona lánya lehetne, de a család lapján nem szerepel.
+- **Szabó (Ricz) Mária (1921–2014)**, köszönetnyilvánítás: Magyar Szó, 2014. dec. 13–14.
+A többi becsei Ricz-találat első világháborús hősi halottak anyjaként vagy feleségeként (1900–1911) szereplő Ricz-lányokra vonatkozik.
+
+Magyarországi sajtó: az Arcanum magyarországi lapjaiban (40. fejezet) becsei Ricz/Ric gyászhír nem volt; a becsei családi hirdetések a vajdasági magyar lapokban (Magyar Szó, 7 Nap) jelentek meg.
