@@ -1576,3 +1576,7 @@ Kádas András és Kádas István halála a cibakházi halotti anyakönyvben ker
 Kádas András családja tehát: **Kádas András (kb. 1690–1700) × Ilona (kb. 1694)**; gyermekek Erzsébet (kb. 1728, † 1746) és József (kb. 1733, † 1753), valószínűleg **István (kb. 1720)** is. Kádas István 1752-ben még Cibakházán keresztelt (Katalin).
 
 1754-től a halotti anyakönyv kézírása sűrű és kapkodó; a 14. képtől lassabb olvasást igényel (1755 utáni évek: kb. 140 kép 1800-ig).
+
+**Folytatás – cibakházi halotti anyakönyv, 14–20. kép (1755. aug. – 1764. jan.):** oldalanként, nagyított nézetben átolvasva. **Kádas-bejegyzés nincs** (Kádas István és Kádas András halála ebben az időszakban nem szerepel). Az 1763-tól új kéz írja, olvashatóbb. A 21. képtől a film lapjai nem időrendben követik egymást (ismétlődő, elforgatott felvételek), ezért a folytatáshoz előbb a képek évszám szerinti sorrendjét kell feltérképezni.
+
+Kádas István 1752-ben még keresztelt Cibakházán; ha a FamilySearch 1773-as jászberényi Kádas István × Kesik Erzsébet házassága (52 éves vőlegény) rá vonatkozik, akkor 1764 után is élt, és Jászberénybe költözött vagy ott nősült újra. A jászberényi anyakönyvek a FamilySearch-ön szintén fent vannak (a házassági bejegyzés DGS 4659882).
