@@ -1287,3 +1287,11 @@ Magyarországi sajtó: az Arcanum magyarországi lapjaiban (40. fejezet) becsei 
 **Guba (Ricz) Ilona (1938–2007) – további keresés (VAMADIA).** Megemlékezés hat héttel a halála után: Magyar Szó, 64. évf. 168. sz., 2007. júl. 21–22., 29. PDF-oldal („…hat hete elhunyt édesanyánkra és nagymamánkra… Guba Ilona (1938–2007)… Óbecse, 2007. VII. 21.”), vagyis **2007 júniusának elején halt meg**. Aláírás: „szerető gyerekeik családjukkal”; szülőket, testvéreket a hirdetés nem nevez meg. Férje, Guba József (1933–1995) halálának 3. évfordulós megemlékezése (Magyar Szó, 1998. ápr. 12.) testvért („testvérem”) is említ az aláírók között, név nélkül. Közös családi megemlékezésekben (2007, 2014, 2016, 2018, 2019) Guba József és Ilona mellett Gulyás Ferenc és **Gulyás (Ricz) Julianna (1923–1999)** is szerepel – ez arra utal, hogy a két Ricz-lány közeli rokon (talán nővérek vagy nagynéni–unokahúg), de a hirdetések ezt nem mondják ki.
 
 Következtetés: a szülők neve a sajtóból nem derül ki; Guba Ilona és Ricz Antal (1910) kapcsolata a családtól kérdezendő.
+
+## 75. Családi közlés: a becsei sírok
+
+Tóni (2026. okt. 30.): a családtagok sírkeresztjei a **becsei Alsóvárosi temetőben** megvannak. (A Klimek–Megyeri ág kutatója is ugyanitt kereste fel a sírokat.) A sírkövek feliratai a 20. századi születési és halálozási adatokat pótolhatják.
+
+## 76. FamilySearch: szerb és jugoszláv levéltári filmek
+
+A FamilySearch-katalógusban Szerbia (Vajdaság) területére kb. 290 tétel van, de ezek szinte mind a **budapesti Magyar Országos Levéltárban őrzött egyházi másodpéldányok** filmjei (1895 előttiek), illetve néhány bánsági plébánia korai anyakönyve; szerb vagy jugoszláv levéltárban (Arhiv Vojvodine, zentai levéltár, matična služba) őrzött anyakönyvet vagy állami anyakönyvet (1895 után) a FamilySearch nem filmezett. Óbecséről egyetlen sorozat van: Anyakönyvek, 1826–1895 (koha:3506). Bács-Bodrog vármegyére egy nem anyakönyvi filmsorozat érdekes lehet: **Ansiedlerakten, 1686–1855** (Bécs, Udvari Kamara, betelepítési iratok; koha:173251) – a 18. századi telepítések iratai, amelyekben az óbecsei katolikus betelepülők (1750-es évektől) is szerepelhetnek.
