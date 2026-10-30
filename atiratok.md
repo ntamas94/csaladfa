@@ -1580,3 +1580,15 @@ Kádas András családja tehát: **Kádas András (kb. 1690–1700) × Ilona (kb
 **Folytatás – cibakházi halotti anyakönyv, 14–20. kép (1755. aug. – 1764. jan.):** oldalanként, nagyított nézetben átolvasva. **Kádas-bejegyzés nincs** (Kádas István és Kádas András halála ebben az időszakban nem szerepel). Az 1763-tól új kéz írja, olvashatóbb. A 21. képtől a film lapjai nem időrendben követik egymást (ismétlődő, elforgatott felvételek), ezért a folytatáshoz előbb a képek évszám szerinti sorrendjét kell feltérképezni.
 
 Kádas István 1752-ben még keresztelt Cibakházán; ha a FamilySearch 1773-as jászberényi Kádas István × Kesik Erzsébet házassága (52 éves vőlegény) rá vonatkozik, akkor 1764 után is élt, és Jászberénybe költözött vagy ott nősült újra. A jászberényi anyakönyvek a FamilySearch-ön szintén fent vannak (a házassági bejegyzés DGS 4659882).
+
+## 97. Jászberény, 1773: Kádas István özvegy házassága
+
+FamilySearch, Jászberény r. k. házassági anyakönyv (DGS 4659882), kép 3:1:939J-XPDQ-F, a jobb oldali lap, „In Ascensione Dni” (1773. május 20.):
+
+| Vőlegény | Kor | Állapot | Menyasszony | Kor | Állapot | Tanúk |
+|---|---|---|---|---|---|---|
+| Stephanus Kádas, vid[uus] | 52 | Pl[ebeius], Cath. | Elis[abeth] Kesik, vid[ua] | 38 | Pl., Cath. | Michael Nagy & Stephanus Laczi |
+
+Kádas István, özvegy, 52 éves (szül. kb. 1721), feleségül vette Kesik Erzsébet özvegyet (38). Lakóhely és szülők nincsenek feltüntetve.
+
+Értékelés: az életkor pontosan egyezik a cibakházi Kádas Istvánéval (kb. 1720, 1748-ban és 1752-ben keresztelt), és özvegy volt. A bejegyzés azonban nem mondja, hogy cibakházi, és Jászberényben más Kádas családok is éltek. **Nem bizonyított**, hogy ő a mi ősünk. Ha igen, akkor Michel Erzsébet 1752 és 1773 között meghalt, és Kádas István Jászberénybe költözött. Ellenőrzés: Michel Erzsébet halála a cibakházi halotti anyakönyvben (1764–1773, a film rendezetlen részében), illetve Kádas István halála a jászberényi halotti anyakönyvben 1773 után.
