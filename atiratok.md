@@ -1418,3 +1418,32 @@ Forrás: KFL, KFL_I-1-d_Obecse_Bermaltak_1823_vol_281 (44 kép, kb. 1300 bejegyz
 Ez megerősíti, hogy Fehér Rozália (Ricz Péter felesége) **1813-ban** született (a keresztelési mutató szerint ápr. 12-én), nem 1817-ben. A család ekkor a „Fehér Pál” (Fejér Pál) kettős nevet is használta. (A 11. képen, 353. sz. egy másik, 27 éves Fehér Rozália áll, Fehér Ferenc és [Farkas?] Erzsébet lánya; ő nem a mi águnk.)
 
 A névoszlopokat végignézve Ricz, Kádas, Busa, Gubincsik és Budai nevet nem találtam. A nagyítás azonban kicsi volt, ezért ez nem biztos kizárás. Ricz Péter (szül. 1810) ekkor 12 éves volt.
+
+## 86. Óbecsei bérmálási anyakönyv, 1797
+
+Forrás: KFL, KFL_I-1-d_Obecse_Bermaltak_1797_vol_280 (33 kép). Kollonitz László kalocsai érsek bérmált Óbecsén („Vet. Becse”), 1797. aug. 22–23. Oszlopok: név, bérmanév, életkor, nőtlen vagy házas, házastárs, születési hely, szülők, bérmaszülő. Az összes képet átnéztem; a kézírás egy része rövidített és apró, ezért ott a kizárás nem biztos.
+
+| Kép | Bérmált | Kor | Megjegyzés | Szülők | Bérmaszülő |
+|---|---|---|---|---|---|
+| 7 | Kókai Ágnes | 14 | | Kókai Lőrinc | Barta [?] Kata |
+| 7 | Kókai Rozália | 12 | | Kókai Lőrinc | ugyanő |
+| 7 | Kókai Katalin | 15 | | Kókai Mihály | |
+| 8 | **Kádas János** | 7 | óbecsei | **Kádas Pál** | Barna János |
+| 8 | Hegyi István | 7 | | Hegyi Pál | Hegyi Erzsébet |
+| 8 | **Gubincsik Erzsébet** | 8 | | **Gubincsik András** | **Ricz Mária** |
+| 8 | **Gubincsik Ilona** | 11 | | Gubincsik András | Ricz Mária |
+| 9 | **Ricz János** | 32 | házas, felesége **Gulyás Erzsébet**; született **Kecskeméten** | **Ricz Márton** | [Pásztor?] József |
+| 10 | Kókai Erzsébet | 22 | házas, „Georgius Sterda[?]” felesége | Kókai Lőrinc | Hofman Katalin |
+| 11 | Budai Erzsébet | 11 | | Budai György (a Füleki Judit-féle pár) | Horváth Klára |
+| 22 | Mester Erzsébet | 8 | | Mester Ferenc | |
+| 24 | Mester István | 11 | | Mester Ferenc | |
+
+Következtetések (feltételezések):
+
+- **Kádas:** 1797-ben Óbecsén élt egy Kádas Pál, kb. 1790-ben született János fiával. Ez valószínűleg a cibakházi Kádas Pál (1748), aki Óbecsére költözött; a mi Kádas Pálunk (szül. kb. 1793, † 1841) így az ő fia lehet. A keresztelési mutatóban azért nincs Kádas, mert a gyerekek nem Óbecsén születtek.
+- **Ricz:** Ricz János (szül. kb. 1765, Kecskemét), apja Ricz Márton. Ha Ricz Péter (házasság 1798) a testvére, a Ricz család **Kecskemétről** jött Óbecsére. Kecskemét a kalocsai főegyházmegyéhez tartozott, anyakönyvei a portálon kereshetők.
+- **Gubincsik:** az 1797-es Gubincsik Andrásnak 1786–1789 körül született lányai voltak, ő tehát a kb. 1777-es András apja lehet. A bérmaanya Ricz Mária: a Ricz és a Gubincsik család már 1797-ben kapcsolatban állt.
+- **Kókai:** Kókai Erzsébet (Fehér Ferencné, házasság 1799) valószínűleg Kókai Lőrinc lánya.
+- **Mester Erzsébet** (8 éves, apja Mester Ferenc) Csongor Hegyi-ágában Kovács (Kinka) Ferenc felesége lehet.
+
+Nem találtam: Ricz Péter (az 1798-ban nősülő), Berta Veronika, Fehér Ferenc, Gubincsik András (szül. kb. 1777), Csábi Mária, Dudás Rózsa (egy „Dalas Rozália”, 18, szülei Dalas György és [Bálla?], valószínűleg nem ő).
