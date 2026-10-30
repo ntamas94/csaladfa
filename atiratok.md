@@ -1533,3 +1533,26 @@ Nem néztem át lapszél szerint: 1826 közepe – 1828 vége (230–259. kép);
 - 169. kép, 1841. júl. 13.: Gubincsik András, Agó Erzsébet férje, 64 éves – ismert.
 
 Összesítés: id. Ricz Péter (szül. kb. 1775–1780) 1828. ápr. és 1855 vége között nem halt meg Óbecsén (1841. júl. – 1847 között az 52. fejezetben is átnézve; 1848 és 1849–50 hiányzik a filmről), vagy a bejegyzés elkerülte a figyelmet. 1835 novemberében még élt. Lehetséges, hogy máshol halt meg, vagy a hiányzó 1848–50-es években.
+
+## 95. Meddig nyúlhatunk vissza? (állapot, 2026. okt. 30.)
+
+Óbecse-belvárosi keresztelési névmutató (KFL, vol. 379), két újabb ellenőrzés:
+
+- **Kókai Lőrinc × Ágnes:** a mutatóban csak Katalin, 1779. okt. 12. Kókai Erzsébet (Fehér Ferencné, kb. 1775) nincs benne, tehát nem Óbecsén keresztelték, vagy 1777 előtt, amikor a belvárosi anyakönyv még nem kezdődött.
+- **Kovács Ferenc × Mester Erzsébet:** István, 1811. dec. 19. – Csongor Hegyi-ágának (Kovács „Kinka” Ferenc × Mester Erzsébet, Kovács Teréz szülei) első független megerősítése.
+- Berta (Beretha) névnél csak 1840 utáni családok; Berta Veronika (kb. 1783) keresztelése nincs a mutatóban.
+
+Legkorábbi ismert ősök ágankként (forrással):
+
+| Ág | Legkorábbi igazolt ős | Kb. születés | Forrás |
+|---|---|---|---|
+| Ricz | Ricz Péter (id.) × Berta Veronika, ⚭ 1798 | 1775 körül / 1783 | óbecsei házassági és halotti anyakönyv (KFL) |
+| Fehér | Fehér Ferenc × Kókai Erzsébet, ⚭ 1799; Kókai Lőrinc | 1770 körül | KFL házassági mutató, 1797-es bérmálás |
+| Kádas | Kádas István × Michel Erzsébet (Cibakháza) | 1720 körül | cibakházi keresztelés 1748 |
+| Gubincsik | Gubincsik András (id.), 1797-ben családapa | 1750 körül | 1797-es bérmálás; a családi lap Gubincsik Jakab × Péter Anna, Gubincsik András (1732) × Balogh Erzsébet (1738) – forrás nélkül |
+| Budai | Budai György × Füleki Judit (György 1786) | 1760 körül | KFL keresztelési mutató |
+| Imre | Imre Mátyás (⚭ 1825) | 1800 körül | KFL házassági mutató |
+| Hegyi (Csongor) | Hegyi Mátyás × Szerencsés Erzsébet, ⚭ 17[9]8 | 1775 körül | KFL házassági mutató |
+| Klimek | Klimek János (kb. 1843), talált gyerek | 1843 | eredet ismeretlen |
+
+**A határ:** az óbecsei belvárosi plébánia anyakönyvei 1777-ben kezdődnek (keresztelés, házasság, halál; a mutató 1757-től sorol fel, de a korai években nagyon hiányos). Akik 1777 előtt, vagy máshol születtek (Ricz: Kecskemét?, Kókai Erzsébet, Berta Veronika, Kádas: Cibakháza), azokhoz a származási plébánia kell. A legmesszebb a Kádas-ág ér (Cibakháza, 1720-as évek); a Gubincsik-ág családi lap szerinti 1700 körüli adatai forrással még nincsenek alátámasztva.
