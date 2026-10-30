@@ -1283,3 +1283,7 @@ Egyéb VAMADIA-találat ezen a körön: Szabó (Ricz) Mária (1921–2014) kösz
 A többi becsei Ricz-találat első világháborús hősi halottak anyjaként vagy feleségeként (1900–1911) szereplő Ricz-lányokra vonatkozik.
 
 Magyarországi sajtó: az Arcanum magyarországi lapjaiban (40. fejezet) becsei Ricz/Ric gyászhír nem volt; a becsei családi hirdetések a vajdasági magyar lapokban (Magyar Szó, 7 Nap) jelentek meg.
+
+**Guba (Ricz) Ilona (1938–2007) – további keresés (VAMADIA).** Megemlékezés hat héttel a halála után: Magyar Szó, 64. évf. 168. sz., 2007. júl. 21–22., 29. PDF-oldal („…hat hete elhunyt édesanyánkra és nagymamánkra… Guba Ilona (1938–2007)… Óbecse, 2007. VII. 21.”), vagyis **2007 júniusának elején halt meg**. Aláírás: „szerető gyerekeik családjukkal”; szülőket, testvéreket a hirdetés nem nevez meg. Férje, Guba József (1933–1995) halálának 3. évfordulós megemlékezése (Magyar Szó, 1998. ápr. 12.) testvért („testvérem”) is említ az aláírók között, név nélkül. Közös családi megemlékezésekben (2007, 2014, 2016, 2018, 2019) Guba József és Ilona mellett Gulyás Ferenc és **Gulyás (Ricz) Julianna (1923–1999)** is szerepel – ez arra utal, hogy a két Ricz-lány közeli rokon (talán nővérek vagy nagynéni–unokahúg), de a hirdetések ezt nem mondják ki.
+
+Következtetés: a szülők neve a sajtóból nem derül ki; Guba Ilona és Ricz Antal (1910) kapcsolata a családtól kérdezendő.
