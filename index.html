@@ -353,12 +353,18 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var P = {};
   function add(id, r, cx, line, name, info, note) { P[id] = { id: id, r: r, cx: cx, line: line, name: name, info: info || [], note: note || "" }; }
 
+  add("kandras", 0, 900, "hyp", "Kádas András", ["kb. 1695", "Cibakháza, 1746–1753"]);
+  add("kilona0", 0, 1040, "hyp", "Ilona", ["kb. 1694 – 1754", "özv. Kádas, Cibakháza"]);
   add("gjakab", 0, 1330, "gub", "Gubincsik Jakab");
   add("panna", 0, 1470, "other", "Péter Anna");
   add("kistvan", 1, 900, "kadas", "Kádas István", ["kb. 1720", "Cibakháza, 1748–1752 ✓"]);
   add("micsel", 1, 1040, "other", "Michel Erzsébet", ["(fán: Micsel)", "Cibakháza, 1748"]);
+  add("klorinc", 1, 422, "hyp", "Kókai Lőrinc", ["Óbecse, 1779–1797"]);
+  add("kagnes", 1, 562, "hyp", "Ágnes", ["Kókai Lőrinc felesége"]);
   add("gand1", 1, 1400, "gub", "Gubincsik András", ["1732"]);
   add("balogh", 1, 1540, "other", "Balogh Erzsébet", ["1738"]);
+  add("bgyorgy0", 1, 1760, "hyp", "Budai György", ["Óbecse, 1786–1792"]);
+  add("fjudit", 1, 1900, "hyp", "Füleki Judit", ["Óbecse, 1786–1792"]);
   add("rpeter0", 2, 72, "ricz", "Ricz Péter", ["⚭ 1798, Óbecse ✓"]);
   add("derta", 2, 212, "other", "Berta Veronika", ["kb. 1783 – 1818", "Óbecse ✓"]);
   add("fferenc", 2, 352, "other", "Fehér Ferenc", ["⚭ 1799, Óbecse ✓"]);
@@ -463,6 +469,12 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     v1894: { t: "Adásvétel, 1894: egy másik Ricz Antal és Pál Viktória (RS_IASE_F0024_1894_0239)", u: HU + "1102562/" }
   };
   var D = {
+    kandras: { st: "hyp", facts: ["Cibakházán élt. Lánya, Erzsébet 1746. nov. 25-én 18 évesen, fia, József 1753. szept. 24-én 20 évesen meghalt (cibakházi halotti anyakönyv, DGS 8266138, 6. és 13. kép)."], notes: ["Feltételezés: Kádas István (kb. 1720) apja. A korok és a település egyeznek, de egyik bejegyzés sem mondja ki a kapcsolatot. A cibakházi anyakönyvek 1745-ben kezdődnek, ennél régebbre itt nem lehet visszamenni."] },
+    kilona0: { st: "hyp", death: "1754. jan., Cibakháza", facts: ["„Helena Kádás vidua”, kb. 60 éves, 1754 januárjában meghalt Cibakházán (halotti anyakönyv, 13. kép)."], notes: ["Feltételezés: Kádas András özvegye, Kádas István anyja. Családneve nem ismert."] },
+    klorinc: { st: "hyp", facts: ["Óbecsén élt. 1797-ben bérmálták Ágnes (14), Rozália (12) és Erzsébet (22, férjezett) nevű lányait; Katalin lánya 1779. okt. 12-én született "+S+"."], notes: ["Feltételezés: Kókai Erzsébet (Fehér Ferencné, ⚭ 1799) apja. Erzsébet keresztelése az óbecsei mutatóban nincs."] },
+    kagnes: { st: "hyp", facts: ["Kókai Lőrinc felesége; a keresztelési mutató csak keresztnevét adja (Katalin lánya, 1779) "+S+"."] },
+    bgyorgy0: { st: "hyp", facts: ["Óbecsén élt; gyermekei Füleki Judittól: György 1786. ápr. 12., Erzsébet 1787, József 1790, Pál 1792 "+S+". Erzsébet lányát 1797-ben bérmálták."], notes: ["Feltételezés: az ifjabb Budai György (Dudás Rózsa férje) apja, ha az 1786-ban született György azonos vele."] },
+    fjudit: { st: "hyp", facts: ["Budai György felesége; gyermekeik 1786 és 1792 között születtek Óbecsén "+S+"."] },
     kistvan: { st: "part", facts: ["A cibakházi halotti anyakönyvben további Kádas-bejegyzések: 1753. szept. 24. Kádas József, Kádas András fia, 20 éves (szül. kb. 1733); 1754. jan. Kádas [Kádás] Ilona özvegy, kb. 60 éves (szül. kb. 1694) – valószínűleg Kádas András özvegye. Kádas András családja (Erzsébet kb. 1728, József kb. 1733) és Kádas István (kb. 1720) korban illik egymáshoz; István valószínűleg András és Ilona fia (feltételezés).", "Cibakházán 1746-ban élt egy Kádas András: lánya, Erzsébet 1746. november 25-én, 18 évesen meghalt (cibakházi halotti anyakönyv 1745–1868, DGS 8266138, 6. kép). Ez a legkorábbi cibakházi Kádas-bejegyzés; Kádas András valószínűleg Kádas István apja vagy idősebb rokona (feltételezés).", "1748-ban Cibakházán élt, felesége Michel Erzsébet. Ekkor keresztelték fiukat, Pált."], src: ["c1748", "c1748i"] },
     micsel: { st: "part", facts: ["Kádas István felesége. 1748-ban Cibakházán keresztelték fiukat, Pált."], notes: ["A családfán „Micsel Elizabeth” áll. Az anyakönyvben Elisabeth Michel: a „Micsel” a német Michel név magyaros írása."], src: ["c1748", "c1748i"] },
     kpal1: { st: "ok", sibs: [{ n: "Kádas Katalin", d: "kereszt. 1752. júl. 7., Cibakháza", st: "ok" }], facts: ["Megkeresztelték 1748. január [28.]-án, Cibakházán.", "Szülei Kádas István és Michel Erzsébet.", "Keresztszülők: [Mursi] János és [Timár] Katalin."], notes: ["A családfán jan. 22. áll, de az a bejegyzés egy másik Pálé (Dobros Ferenc és Hajdin Anna fia). A Kádas-bejegyzés napja bizonytalan, „2?.”, de nem 22.", "A fán a fia az óbecsei Kádas Pál, aki 1835-ben 40 éves volt (kb. 1795). Ez kb. 47 év különbség; az apa–fiú kapcsolatot forrás nem igazolja, és kimaradt nemzedék is lehet. A cibakházi névmutatóban 1803 előtt csak két Kádas-keresztelés van (Pál 1748, Katalin 1752)."], src: ["c1748", "c1748i"] },
@@ -609,6 +621,15 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     }
   });
 
+  // Probable but unproven parents: dashed couple and descent lines
+  [["kandras", "kilona0", "kistvan"], ["klorinc", "kagnes", "kokai"], ["bgyorgy0", "fjudit", "bgyorgy"]].forEach(function (c) {
+    var a = P[c[0]], b = P[c[1]], k = P[c[2]], ya = Y(a) + H / 2, mx = (X(a) + X(b)) / 2, bar = Y(k) - 26;
+    line(Math.min(X(a), X(b)) + W / 2, ya, Math.max(X(a), X(b)) - W / 2, ya, "hyp");
+    line(mx, ya, mx, bar, "hyp");
+    line(mx, bar, X(k), bar, "hyp");
+    line(X(k), bar, X(k), Y(k), "hyp");
+    el("text", { x: mx + 6, y: bar - 6, "class": "lbl hyp" }, gE, "valószínűleg");
+  });
   // Hypothesis: fathers as siblings of Ricz Péter (b. 1813)
   (function () {
     var h = P.hfathers, rp = P.rpeter1, bar = Y(rp) - 26;
