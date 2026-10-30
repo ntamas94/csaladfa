@@ -1463,3 +1463,15 @@ Megjegyzés: a kecskeméti „Rác/Rácz” név nem azonos a Ricz-cel; az óbec
 Családi fotó (2026. okt.), közös sírkő felirata: „Itt nyugszik Megyeri Imre 1886–1965, neje Klimek Mária 1889–1951; Kiss János 1911–1990, neje Kiss Julianna 1917–1993. Nyugodjanak békében.” Mellette fakereszt: Kiss Lás[zló], élt 79 évet, 2022.
 
 Megerősíti a FamilySearch-fán szereplő évszámokat: Klimek Mária (kereszt. 1889. szept. 8., Óbecse), a huszár Klimek János nővére, 1951-ben halt meg, férje Megyeri Imre (1886–1965). Kiss Julianna (1917–1993) valószínűleg a lányuk, Megyeri Julianna, Kiss János felesége (a FamilySearch-fán Megyeri Julianna szerepel gyermekként); ez nem biztos.
+
+## 89. Kecskemét: keresztelések 1762–1766 (Ricz János keresése)
+
+Forrás: KFL, Kecskemét-Főplébánia, KFL_V_Kecskemet_K_1762-1766 (vol. 3, 70 kép, 1762. jan. – 1766. dec.). Táblázatos könyv: keresztelő pap, gyermek, apa, anya, keresztapa, keresztanya, nap. Mind a 70 kép apa-oszlopát átnéztem: **Ricz (Ritz, Rics) nevű apa nincs**. Évente kb. 600 keresztelés van; a kézírás jól olvasható, de a kicsinyített képen egy-egy elmosódott név elkerülhette a figyelmemet.
+
+Következtetés: a bérmálási bejegyzés (86. fejezet) szerint 1765 körül, Kecskeméten született Ricz Jánost a főplébánián 1762 és 1766 között nem keresztelték. Lehetséges magyarázatok:
+
+- az életkor pontatlan (a bérmálásnál a kor gyakran becsült), és 1762 előtt vagy 1766 után született;
+- a „Kecskemét” születési hely a kecskeméti határra, tanyára, vagy a ferences plébániára vonatkozik (Kecskeméten a főplébánia mellett ferences rendház is anyakönyvezett);
+- a név a kecskeméti anyakönyvben más alakban áll (Rics, Rits).
+
+Javasolt következő lépés: a házassági anyakönyv (1746–1774) teljes átnézése Ricz Márton házasságára; ez megadná az anyja nevét és a házasság évét, amiből a gyerekek születése szűkíthető.
