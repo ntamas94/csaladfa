@@ -1341,3 +1341,16 @@ Belgrád: az Arhiv Jugoslavije-nak nincs online névkeresője, csak írásos ké
 Madaras, r. k. halotti anyakönyv, Halottak 1864–1891 (DGS 8523447): átnézve 1877. júl. – 1878. jan. eleje (408–417. kép, 80–163. bejegyzés és 1878: 1–5.), a névoszlop. **Galics Anna (Klimek Jánosné) nincs benne**, Klimek nevű halott sincs. Tehát sem Óbecsén (31. fejezet), sem Madarason nem temették 1877 végén.
 
 Mészáros Csongor (Hegyi-ági rokon) szerint a Kalocsai Főegyházmegyei Levéltár fizetős online felületén (archivum.asztrik.hu, E-kutatás: 15 nap 3 500 Ft, 90 nap 7 000 Ft, 1 év 18 000 Ft) a történeti Bács-Bodrog megye plébániáinak minden megmaradt egyházi bejegyzése fent van, az 1800 előttiek is (keresztelés, házasság, halál, bérmálás, jegyesek). Madarasra ez az 1789 előtti köteteket adja hozzá a FamilySearch anyagához. Csongor Madarason nem talált Klimek-nyomot; ez egyezik a 34., 35. és 45. fejezettel.
+
+## 82. Feltöltés a FamilySearch közös családfájára (2026. okt. 30.)
+
+Forrással (az eredeti anyakönyvi képre mutató hivatkozással) felvitt adatok:
+
+- Klimek János (1843, GJQF-HRY): születési hely Madaras (a fia, Mihály 1880-as keresztelési bejegyzése alapján: „or. ex Madaras”).
+- Klimek János × Hegyi Julianna (M14Y-2CW): házasság 1878. márc. 4., Óbecse, 47. bejegyzés.
+- Klimek János, a huszár (GJW6-57M): keresztelés 1887. jún. 9., Óbecse, 241. bejegyzés.
+- Klimek Rozália (L7TV-9FD): meghalt 1877. jún. 9., Óbecse, 175. bejegyzés.
+- Klimek János (GV9X-H3H): meghalt 1877. dec. 20., Óbecse, 329. bejegyzés.
+- Új személy: Klimek János, szül. 1869. okt. 27., kereszt. okt. 28., Óbecse, 405. bejegyzés (PN1P-C63), Klimek János és Galics Anna (L7TV-9FF) fiaként.
+
+Nem módosítva, Csongorral egyeztetendő (kettőzött személyek): Teréz 1879 (L7R4-34F / GJRG-ZWZ), Ágnes 1882 (L7R4-7KM / GJW6-NM8), Katalin 1884 (L7RH-CHF / GJW6-LDQ), Galics Anna (L7TV-9FF / L7TN-JTH).
