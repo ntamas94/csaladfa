@@ -1201,3 +1201,16 @@ Ezzel az MNL AdatbázisokOnline családunk szempontjából releváns adatbázisa
 **Hungaricana, mellékes:** RS_IASE_F_023_1883_0130 (Mezey Zsigmond óbecsei közjegyző, adásvétel, 1883): Kádas Péter, Kádas Ferenc, Kádas Klára óbecsei földművesek a Béri család mellett – egy másik Kádas család (a mi Kádas Péterünk 1883-ban 16 éves volt).
 
 Geni, MyHeritage, Ancestry: nyílt webes keresésre óbecsei Ricz/Klimek/Kádas fa nem jelent meg (a tartalmuk nagyrészt előfizetéshez kötött).
+
+## 68. Kivándorlók Óbecséről (FamilySearch-indexek: Ellis Island, amerikai honosítások)
+
+Keresés a családneveinkre (Ricz/Ritz/Rics/Ric, Klimek, Kádas, Keczeli/Keceli, Gubincsik, Imre, Füstös, Hegyi), óbecsei lakóhellyel vagy születési hellyel; az Ellis Island-i érkezési listák (1892–1924) gyűjteménye külön is (1368704), valamint minden más gyűjtemény kivándorlási, honosítási, népszámlálási és katonai bejegyzései.
+
+| Név | Adatok | Forrás | Azonosítás |
+|---|---|---|---|
+| **Ricz István** (Ostvan Ricz) | szül. **1871. aug. 10., Óbecse**; érkezett Ellis Islandre **1907. nov. 9.**, lakóhely O. Becse; **honosítva 1909, Ohio** | Ellis Island; Ohio naturalization index | Óbecsei keresztelése a névmutatóban nincs (1871-ben nincs Ricz István); családja nem állapítható meg |
+| **Ricz Imre** | szül. kb. 1880, lakóhely O. Becse; érkezett Ellis Islandre **1907. febr. 10.** | Ellis Island | Valószínűleg Ricz György és Szűcs Klára fia (kereszt. 1879), aki hazatért, és 1917. dec. 31-én meghalt (63. fejezet: született Óbecsén, lakott Szegeden) – nem igazolt |
+| **Kádas Péter** | szül. **1892. jún. 29., Óbecse**; érkezett Ellis Islandre **1921. nov. 4.** (lakóhely Óbecse, Jugoszlávia); **honosítva 1941. febr. 4., Hammond, Indiana**; felesége Johanna | Ellis Island; Indiana naturalization | Kádas Ferenc és Ferencz Erzsébet fia (kereszt. 1892) – egy másik óbecsei Kádas család, nem Kádas Pál és Gubincsik Ilona ága |
+| **Kádas Károly** (Carl Kadas) | szül. **1911. nov. 29., Bečej**; bevándorolt **1956, San Francisco** | California-i bevándorlási index | Szülei ismeretlenek |
+
+Klimek, Keczeli/Keceli, Gubincsik, Füstös, Hegyi és Imre névre óbecsei kivándorló nem került elő. Az egyenes ágból (Ricz Antal és Kádas Ilona leszármazottai, Klimek János és Keceli Mária családja) senki sem szerepel a kivándorlási indexekben.
