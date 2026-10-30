@@ -1496,3 +1496,16 @@ Fordítás: 1818. szeptember 20-án meghalt Berta Veronika, Ricz Péter törvén
 Ebből: Berta Veronika kb. **1783**-ban született (1798-as házasságakor kb. 15 éves volt). Egy nappal Ilona lánya születése (1818. szept. 19.) után halt meg. Ricz Péter (id.) öt héttel később, 1818. okt. 26-án vette feleségül Pap Ágnest.
 
 A halotti könyv 1815 előtti lapjain a nevek nincsenek kiírva a lapszélre, ezért a többi ős (Kádas Pál 1748, id. Gubincsik András, Kókai Lőrinc, Budai György) halála csak lapról lapra olvasással kereshető. A könyvben 1815 után a lapszélen név és sorszám áll, ez gyorsabban átnézhető.
+
+## 92. Óbecsei halotti anyakönyv 1818–1826: Kádas- és Budai-gyerekek
+
+Forrás: KFL, Obecse-Belvaros_M_1777-1828 (vol. 378). Átnézve lapszéli név szerint a 167–229. kép (kb. 1817 vége – 1826 közepe).
+
+- **201. kép, 190. sz.:** „A[nn]o 1822 die 29a Novemb. obiit Josephus, Pauli Kádas et Helenae Busa leg. conj. Parochian. V. Bec. filius 14 mensium” – Kádas József, Kádas Pál és Busa Ilona fia, 14 hónapos (szül. kb. 1821. szept.).
+- **211. kép, 29. sz.:** „A[nn]o 1824 die 5a Februarii obiit Paulus, Pauli Kádas et Helenae Busa leg. conj. … filius ½ anni” – Kádas Pál, ugyanők fia, félévesen (szül. kb. 1823. aug.).
+- **174. kép, 117. sz.:** „A[nn]o 1818 die 7a Maji obiit Rosalia, Georgii Budai et Rosaliae Du[dás] leg. conj. … filia 1 anni” – Budai Rozália, Budai György és Dudás Rózsa lánya, egyéves (a keresztelési mutatóban 1816. aug. 18.).
+- 194. kép, 84. sz.: Kádas Judit, Deák János felesége, 42 éves († 1821. máj. 13.) – kapcsolata a családunkhoz nem ismert.
+
+Következtetés: **Kádas Pál (kb. 1793) és Busa Ilona legkésőbb 1820-ban házasodott**, és 1821-től Óbecsén éltek. A házasságuk az óbecsei házassági névmutatóban nincs (83. fejezet), tehát máshol esküdtek. Pap Ágnes (Ricz Péter 2. felesége) halála 1818 vége és 1826 közepe között ebben a könyvben nem került elő. Ricz-, Gubincsik- és Fehér-halálozás sem.
+
+Nem néztem át lapszél szerint: 1826 közepe – 1828 vége (230–259. kép); 1815 előtt a lapszélen nincs név.
