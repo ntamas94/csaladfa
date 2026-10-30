@@ -1321,3 +1321,17 @@ Az egyenes ág tagjait érintő iratok mind ismertek voltak: az 1877-es kezessé
 ## 79. Hungaricana – a többi levéltár adatbázisai
 
 Keresés családnévre a Hungaricana összes levéltári adatbázisában (közjegyzői okiratok más levéltárakból is, hadifogoly-nyilvántartás, büntető- és polgári perek, árvaszéki és hagyatéki iratok, bécsi segélyek, vármegyei közgyűlési jegyzőkönyvek – köztük a Jász-Nagykun-Szolnok vármegyeié): Klimek, Galics/Gálics/Galicz, Kádas/Kadas, Füstös, Keczeli. 874 találat, 554 egyedi irat. Ebből Madarasra, Kiskunhalasra, Cibakházára vagy Bácsföldvárra/Óbecsére vonatkozó, a családunkkal kapcsolatba hozható irat **nincs**; a helyszínszűrés után maradt 7 irat a zentai levéltár már ismert óbecsei közjegyzői anyagából való (egy másik Kádas család 1891–1892, egy Galicz Anna Péterrévén 1893, egy Füstös Ilona Bácsföldváron 1891, Ricza nővérek 1905). A Klimek-találatok más vármegyék Klimek családjaira vonatkoznak.
+
+## 80. Vajdasági Levéltár (maticneknjige.org.rs) – óbecsei katolikus anyakönyvek
+
+Az Arhiv Vojvodine egyházi anyakönyvi portálján fent vannak az óbecsei római katolikus kötetek 1834–1895 között (102 kötet), olyan évekkel is, amelyek a FamilySearch-ön nincsenek meg. A képek csak regisztráció után nézhetők meg; a regisztrációt 2026. okt. 30-án beadtuk (elbírálás legfeljebb 14 munkanap).
+
+A hiányzó évekre ellenőrzött kötetek: 1848 és 1849 csak keresztelési; 1850 keresztelési, házassági és halotti; 1874 és 1875 mindhárom fajta. Ezekben keresendő:
+
+- Agó Erzsébet halála (1848–50; csak az 1850-es halotti kötet jöhet szóba),
+- Imre Mátyás és Kovács Ilona házassága (1851; ha az 1850-es házassági kötet átnyúlik 1851-re),
+- a Pálfi–Ricz és a Székely–Ricz házasság (1874–75).
+
+A portál feltételei szerint a képek nem oszthatók meg; ide csak átiratok kerülnek, forrásmegjelöléssel.
+
+Belgrád: az Arhiv Jugoslavije-nak nincs online névkeresője, csak írásos kérelemmel lehet adatot kérni.
