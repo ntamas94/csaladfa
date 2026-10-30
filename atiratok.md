@@ -1397,3 +1397,14 @@ Kádas-vőlegény a mutatóban nincs (Kádas Pál házasságai nem itt, vagy má
 - Ricz Péter (ifj.) a mutató szerint **1810. dec. 3-án** született (a FamilySearch-fán és nálunk eddig 1813). 1813-ban (febr. 4.) Apollónia nővére született.
 - Fehér Rozália a mutató szerint **1813. ápr. 12-én** született (eddig 1817, a házassági életkorból). A mutatóban nincs 1817 körüli Rozália; 1817-ben Katalin született.
 - Gubincsik Andrásnak két felesége volt: Csábi Mária (1796–1808 közötti gyerekek), majd Agó Erzsébet (1809-től).
+
+## 84. Madaras a kalocsai levéltárban: Klimek-keresés
+
+Forrás: matricula.hu, KFL Matricula-Historia-online, Madaras. Fent van: keresztelési anyakönyv és mutató 1789–1830, házassági anyakönyv és mutató 1789–1851, házassági mutatók 1852–1868, 1869–1891, 1891–1908, keresztelési mutató 1830–2007 (vol. 324), bérmálási anyakönyvek (1791, 1807, 1812, 1829, 1847, 1857 …), felmentések, anyakönyvi javítások.
+
+- **Keresztelési mutató 1830–2007, K betű, 1836–1847** (48. kép): Klimek (Klinek, Klimik) nincs. Ez megerősíti a FamilySearch-filmen végzett keresést (34. és 45. fejezet).
+- **Házassági mutató 1852–1868, K betű** (3. kép): Klimek-vőlegény nincs.
+- **Bérmálási anyakönyv, 1857** (vol. 277, fiúk, 3–36. kép, kb. 400 bejegyzés): Klimek nincs. Klimek János ekkor kb. 14 éves lett volna; ha Madarason nőtt fel, nem Klimek néven bérmálták, vagy máshol.
+- Galics Anna (kb. 1843) keresztelése: a mutató G betűjénél 1830–1844 között Galics nincs; egy „Gál Anna” (1843. júl. 6.?) az eredeti filmen 1843 júniusában és júliusában nem található. Nyitva marad.
+
+Következtetés: Madarason semmilyen 1836–1868 közötti forrásban nincs Klimek. Az 1880-as „or. ex Madaras” ezért inkább azt jelenti, hogy Madaras felől jött (talán ott találták, vagy ott élt egy ideig), nem azt, hogy ott született vagy nőtt fel.
