@@ -1521,3 +1521,15 @@ Nem néztem át lapszél szerint: 1826 közepe – 1828 vége (230–259. kép);
 - 35. kép: Ricz Illés († 1828. nov. 20.) bejegyzése itt is szerepel (a 92. fejezet kalocsai adatának megerősítése).
 
 **Id. Ricz Péter halála 1828. ápr. és 1836. dec. között nincs az anyakönyvben.** Fia, Pál 1835. novemberi esküvőjén apaként él. Az 1837-től magyar nyelvű, sűrű kézírású lapok (124. kép-tól) kis nagyításban nehezen olvashatók; 1837–1841 között újraolvasandó, 1841. júl. – 1847 között Agó Erzsébet keresésekor (52. fejezet) Ricz-halálesetet nem jegyeztem fel.
+
+**Folytatás: 1837. jan. – 1841. júl. (124–169. kép), nagyobb nagyításban, képenként négy oszlopban.** Id. Ricz Péter halála ebben az időszakban sincs az anyakönyvben. Talált bejegyzések:
+
+- 124. kép, 1837. febr.: Rozália, Ricz Pál és Sági Veronika lánya, 5 hónapos (Ricz Péter öccsének családja).
+- **152. kép (3:1:3Q9M-CS54-4…; a kép 152.), 1839. dec. 2. körül: Vince, Ricz Péter és Fehér Rozália fia, 2½ éves** – Ricz Antal (1842) bátyja; a keresztelési mutató szerint 1838. jan. 17-én született. A FamilySearch-fán „Vince 1838–1846?” – most igazolva: 1839-ben meghalt, az 1846-os Vince ezért kapta ugyanazt a nevet.
+- **157. kép, 1840. máj. 8.: János, Gubincsik Imre és Budai Katalin fia, 1 hetes** – Gubincsik Ilona (1841) bátyja.
+- 137. kép, 1838. máj. 24.: Gubincsik Erzsébet, Bogár József felesége, 21 éves (szül. kb. 1817) – valószínűleg Gubincsik András és Agó Erzsébet lánya (a keresztelési mutatóban Erzsébet 1813 és ismét 1811), Gubincsik Imre nővére.
+- 166. kép, 1841. febr. 27.: Kádas Pál, Homonyi Katalin férje, 48 éves – az ismert halálozás (15. fejezet).
+- 168. kép, 1841. máj.: Mária, Imre Mátyás és Hegedűs Anna lánya, 13 éves – a mutató szerint Imre Mátyás 1825-ös felesége Kiss Anna, így ez vagy egy másik Imre Mátyás, vagy a név tévesen áll; nem biztos.
+- 169. kép, 1841. júl. 13.: Gubincsik András, Agó Erzsébet férje, 64 éves – ismert.
+
+Összesítés: id. Ricz Péter (szül. kb. 1775–1780) 1828. ápr. és 1855 vége között nem halt meg Óbecsén (1841. júl. – 1847 között az 52. fejezetben is átnézve; 1848 és 1849–50 hiányzik a filmről), vagy a bejegyzés elkerülte a figyelmet. 1835 novemberében még élt. Lehetséges, hogy máshol halt meg, vagy a hiányzó 1848–50-es években.
