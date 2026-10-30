@@ -1301,3 +1301,7 @@ A FamilySearch-katalógusban Szerbia (Vajdaság) területére kb. 290 tétel van
 - **K–Kütie** film (DGS 8116530), „Kad…” (36–60. kép: Cadet, Kad, Kade, Kaderle) és „Ki…–Ko…” rész (2200–2300. kép): **Kádas és Klimek nincs**. (A Klimek János kb. 1843-as születése egyébként is a kartoték 1830-as határa után van.)
 
 Következtetés: a családjaink (Ricz, Kádas, Gubincsik, Busa) magyar betelepülők voltak, ezért nem szerepelnek a német telepesek bécsi kartotékjában; az 1757 körüli óbecsei betelepülés név szerinti nyomait a kalocsai érseki és a vármegyei (Bács-Bodrog) iratok őrzik, amelyek online nem érhetők el.
+
+## 77. FamilySearch teljes szöveges keresés (Full Text)
+
+A FamilySearch mesterséges szövegfelismeréssel kereshető, nem indexelt irataiban (főleg amerikai honosítási, bevándorlási, hagyatéki iratok): „Ricz Becse”, „Ricz Obecse”, „Klimek Becse”, „Kadas Obecse”. A találatok óbecsei születésű amerikai bevándorlók honosítási kérelmei (pl. egy 1880-ban O-Becsén született, 1905-ben ott házasodott férfi; a Sakal család Norwalkban, Connecticut), illetve Kádas Péter (szül. 1892. jún. 29., Óbecse) már ismert honosítási kérelme (68. fejezet). Az egyenes ág tagjaira (Ricz Antal, Kádas Ilona, Klimek János és leszármazottaik) nincs találat.
