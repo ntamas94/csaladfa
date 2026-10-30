@@ -1592,3 +1592,15 @@ FamilySearch, Jászberény r. k. házassági anyakönyv (DGS 4659882), kép 3:1:
 Kádas István, özvegy, 52 éves (szül. kb. 1721), feleségül vette Kesik Erzsébet özvegyet (38). Lakóhely és szülők nincsenek feltüntetve.
 
 Értékelés: az életkor pontosan egyezik a cibakházi Kádas Istvánéval (kb. 1720, 1748-ban és 1752-ben keresztelt), és özvegy volt. A bejegyzés azonban nem mondja, hogy cibakházi, és Jászberényben más Kádas családok is éltek. **Nem bizonyított**, hogy ő a mi ősünk. Ha igen, akkor Michel Erzsébet 1752 és 1773 között meghalt, és Kádas István Jászberénybe költözött. Ellenőrzés: Michel Erzsébet halála a cibakházi halotti anyakönyvben (1764–1773, a film rendezetlen részében), illetve Kádas István halála a jászberényi halotti anyakönyvben 1773 után.
+
+## 98. Környező falvak: Kádas Pál × Busa Ilona házasságának keresése (kb. 1818–1821)
+
+A házasság Óbecsén nincs (83. fejezet); első gyermekük, József 1821 szeptemberében született (92. fejezet). Ellenőrzött környező plébániák (KFL, matricula.hu):
+
+- **Péterréve**, házassági anyakönyv 1817–1829 (vol. 331), 3–14. kép (1818 – 1821 eleje), a lapszéli vőlegény–menyasszony nevek: **Kádas nincs.**
+- **Ada**, házassági anyakönyv 1811–1829 (vol. 333), 23–36. kép (kb. 1818 – 1820 ősz), lapszéli vőlegénynevek: **Kádas nincs.**
+- **Szenttamás, Mohol, Bácsföldvár:** a portálon csak 1826-tól van anyakönyv. **Zenta:** egyik zentai plébániánál sincs 1826 előtti anyag a portálon.
+
+FamilySearch-névmutató: Kádas × Busa házasság sehol nincs indexelve. Óbecsén 1829-ben egy „Kodas Paulus × Buzada Helena” keresztelés szerepel (János) – ez a mi párunk, torz névalakkal. Zentán 1827–1837 között Kádas/Kádos családok éltek (Kádos Mátyás × Dudás Katalin; Kadas Mihály × Csepe Kata) – lehetséges rokonság, de a zentai anyakönyvek 1827 előtt online nem érhetők el.
+
+Megjegyzés: Kádas Pál (kb. 1793) családja – az 1797-es bérmálás alapján (86. fejezet) – már Óbecsén élt; a házasság tehát valószínűleg a menyasszony plébániáján (Busa Ilona szülőhelyén) volt, amely még ismeretlen.
