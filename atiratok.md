@@ -1447,3 +1447,13 @@ Következtetések (feltételezések):
 - **Mester Erzsébet** (8 éves, apja Mester Ferenc) Csongor Hegyi-ágában Kovács (Kinka) Ferenc felesége lehet.
 
 Nem találtam: Ricz Péter (az 1798-ban nősülő), Berta Veronika, Fehér Ferenc, Gubincsik András (szül. kb. 1777), Csábi Mária, Dudás Rózsa (egy „Dalas Rozália”, 18, szülei Dalas György és [Bálla?], valószínűleg nem ő).
+
+## 87. Kecskemét (főplébánia): Ricz-keresés
+
+Forrás: KFL, Kecskemét-Főplébánia. Fent van: keresztelési anyakönyvek 1678–1811, házassági és halotti anyakönyvek 1734–1774 és 1783–1811, keresztelési névmutató 1780–1799 (vol. 62), házassági névmutatók 1800–1940. 1780 előttre nincs névmutató.
+
+- **Keresztelési névmutató 1780–1799, R betű** (63–64. kép): Ricz, Ritz, Rics **nincs**; csak Rác (Rácz) és egy Ricsor (1792). A Ricz család tehát 1780 után nem keresztelt Kecskeméten; Ricz János (szül. kb. 1765, 86. fejezet) családja addigra valószínűleg elköltözött.
+- **Házassági anyakönyv 1761–1774** (KFL_V_Kecskemet_E_1761-1774, 47 kép, táblázatos: vőlegény, menyasszony, tanúk, dátum): a 0–19. kép vőlegény-oszlopában Ricz nevet nem láttam (kis nagyítás, nem biztos). A 20–46. kép még hátravan, és Ricz Márton házassága 1761 előtt is lehetett (E_1746–1760).
+- **Ricz János keresztelése (kb. 1765)** a mutató nélküli keresztelési könyvben (K_1762–1766, K_1767–1771) lehet. Kecskemét nagy plébánia, évente sok száz kereszteléssel, ezért ez képenkénti átnézést igényel.
+
+Megjegyzés: a kecskeméti „Rác/Rácz” név nem azonos a Ricz-cel; az óbecsei bejegyzések következetesen Ricz/Ritz alakot írnak.
