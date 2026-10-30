@@ -1214,3 +1214,11 @@ Keresés a családneveinkre (Ricz/Ritz/Rics/Ric, Klimek, Kádas, Keczeli/Keceli,
 | **Kádas Károly** (Carl Kadas) | szül. **1911. nov. 29., Bečej**; bevándorolt **1956, San Francisco** | California-i bevándorlási index | Szülei ismeretlenek |
 
 Klimek, Keczeli/Keceli, Gubincsik, Füstös, Hegyi és Imre névre óbecsei kivándorló nem került elő. Az egyenes ágból (Ricz Antal és Kádas Ilona leszármazottai, Klimek János és Keceli Mária családja) senki sem szerepel a kivándorlási indexekben.
+
+## 69. Klimek János és Galics Anna – kunsági nyom (keresés)
+
+Egy rokon (a Klimek–Megyeri ág kutatója, 2026. okt. 30.) szerint Klimek Jánosnak és Galics Annának egy kunsági településen (talán Kiskunhalason) is van bejegyzése; ő ezt még nem tudta összekötni. A Hegyi Julianna 1933-as halálához halotti bejegyzést talált (még nem küldte el), és a becsei sírt is felkeresi.
+
+FamilySearch-névmutató, országosan: Klimek/Klinek/Klimik × Galics/Galicz/Galits/Gálics szülőpárosítás, házastárs-párosítás mindkét irányban, Klimek Kiskunhalason, Halason, Kiskunfélegyházán, Kiskunmajsán, Szabadkán és Madarason, Klimek János keresztelése 1838–1847 között és házassága 1855–1866 között: **csak a két ismert óbecsei keresztelés (Rozália 1875, János 1877) jön elő**. Kunsági Klimek–Galics bejegyzés a névmutatóban nincs; ha létezik, indexeletlen anyakönyvben vagy eltérő névalakban van. A pontos hely és év a rokontól kérdezendő.
+
+Családi szóbeli forrás: Tóni gyerekkorában még sokat beszélgetett Klimek János huszárral („Klimek tata”); a huszár fényképe is tőle való.
