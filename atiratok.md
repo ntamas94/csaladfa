@@ -1604,3 +1604,25 @@ A házasság Óbecsén nincs (83. fejezet); első gyermekük, József 1821 szept
 FamilySearch-névmutató: Kádas × Busa házasság sehol nincs indexelve. Óbecsén 1829-ben egy „Kodas Paulus × Buzada Helena” keresztelés szerepel (János) – ez a mi párunk, torz névalakkal. Zentán 1827–1837 között Kádas/Kádos családok éltek (Kádos Mátyás × Dudás Katalin; Kadas Mihály × Csepe Kata) – lehetséges rokonság, de a zentai anyakönyvek 1827 előtt online nem érhetők el.
 
 Megjegyzés: Kádas Pál (kb. 1793) családja – az 1797-es bérmálás alapján (86. fejezet) – már Óbecsén élt; a házasság tehát valószínűleg a menyasszony plébániáján (Busa Ilona szülőhelyén) volt, amely még ismeretlen.
+
+## 99. Ricz Márton × Molnár Erzsébet – id. Ricz Péter szülei (valószínűleg)
+
+KFL, óbecse-belvárosi keresztelési névmutató 1757–1866 (vol. 379, 2. rész, 90–91. kép, 584–586. oldal), „Ricz Márton – Molnár Erzse”:
+
+| Gyermek | Születés |
+|---|---|
+| Pál | 1770. okt. 26. |
+| István | 1773. jún. 6. |
+| Katalin | 1776. febr. 20. |
+| Ádám és József (ikrek) | 1778. márc. 19. |
+| **Péter** | **1779. jún. 26.** |
+| József | 1782. febr. 17. |
+| Anna | 1785. máj. 7. |
+
+Ez a legkorábbi Ricz család az óbecsei mutatóban. **Id. Ricz Péter (⚭ 1798 Berta Veronika)** a mutatóban az egyetlen 1775–1785 között született Ricz Péter, így szinte biztosan ő az 1779-es Péter; házasságakor kb. 19 éves volt. Az 1797-es bérmálás Ricz Jánosa (32 éves, született Kecskeméten, apja Ricz Márton; 86. fejezet) ugyanennek a családnak a legidősebb fia lehet, kb. 1765-ből, az Óbecsére költözés előttről. Ricz Márton tehát **1765 és 1770 között költözött Kecskemétről Óbecsére**.
+
+Ugyanezen az oldalon egy későbbi Ricz Márton (× Székelyi özv. Eitl Rozália; × Bárány Ilona) gyermekei 1825-től – az 1797-ben bérmált Ricz Márton fia vagy unokája, nem azonos.
+
+Ellenőrizve még: Busa (B betű) – az óbecsei mutatóban csak 1846-tól; Agó (A betű) – nincs. Busa Ilona és Agó Erzsébet tehát nem Óbecsén született.
+
+A fán: Ricz Márton × Molnár Erzsébet szaggatott (valószínű) szülőpárként, id. Ricz Péter születési dátuma 1779. jún. 26., testvérei a dobozához csatolva.
