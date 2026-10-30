@@ -1566,3 +1566,13 @@ FamilySearch-katalógus, Cibakháza r. k. (koha:442554): Kereszteltek 1745–186
 - FamilySearch-névmutató: „Kádas Stephanus, 52 éves (szül. kb. 1721) × Kesik Erzsébet, 1773. máj. 20., **Jászberény**” – lehet, hogy a mi Kádas Istvánunk özvegyként, de a hely Jászberény, ezért nem biztos.
 
 Kádas András és Kádas István halála a cibakházi halotti anyakönyvben keresendő (1747-től, 7. képtől).
+
+**Folytatás – cibakházi halotti anyakönyv (DGS 8266138), átnézve 7–14. kép (1748. jan. – 1755. aug.):**
+
+- **13. kép, 1753. szept. 24.:** „defunctus est Josephus filius Andreae Kadas annorum 20, Cibakháza” – **Kádas József, Kádas András fia, 20 éves** (szül. kb. 1733). Az apja ekkor élt (nincs „defuncti”).
+- **13. kép (3:1:3Q9M-CS54-5QSX-S), 1754. jan.:** „obiit Helena Kádás vidua annorum circiter 60, Cibakháza” – **Kádas Ilona özvegy, kb. 60 éves** (szül. kb. 1694). Mivel 1753 szeptemberében Kádas András még élt, és 1754 januárjában egy Kádas-özvegy hal meg, valószínű, hogy Kádas András 1753 vége felé halt meg (vagy máshol), és Ilona az ő özvegye. Kádas András halála a 13. kép 1753. okt.–dec. bejegyzései között nem szerepel; nem biztos.
+- 10. kép, 1750. dec.: „Elisabeth, filia defuncti Stephani Kaszab”, 6 éves – Kaszab, nem Kádas.
+
+Kádas András családja tehát: **Kádas András (kb. 1690–1700) × Ilona (kb. 1694)**; gyermekek Erzsébet (kb. 1728, † 1746) és József (kb. 1733, † 1753), valószínűleg **István (kb. 1720)** is. Kádas István 1752-ben még Cibakházán keresztelt (Katalin).
+
+1754-től a halotti anyakönyv kézírása sűrű és kapkodó; a 14. képtől lassabb olvasást igényel (1755 utáni évek: kb. 140 kép 1800-ig).
