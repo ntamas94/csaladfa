@@ -1457,3 +1457,9 @@ Forrás: KFL, Kecskemét-Főplébánia. Fent van: keresztelési anyakönyvek 167
 - **Ricz János keresztelése (kb. 1765)** a mutató nélküli keresztelési könyvben (K_1762–1766, K_1767–1771) lehet. Kecskemét nagy plébánia, évente sok száz kereszteléssel, ezért ez képenkénti átnézést igényel.
 
 Megjegyzés: a kecskeméti „Rác/Rácz” név nem azonos a Ricz-cel; az óbecsei bejegyzések következetesen Ricz/Ritz alakot írnak.
+
+## 88. Sírkő: Megyeri Imre és Klimek Mária
+
+Családi fotó (2026. okt.), közös sírkő felirata: „Itt nyugszik Megyeri Imre 1886–1965, neje Klimek Mária 1889–1951; Kiss János 1911–1990, neje Kiss Julianna 1917–1993. Nyugodjanak békében.” Mellette fakereszt: Kiss Lás[zló], élt 79 évet, 2022.
+
+Megerősíti a FamilySearch-fán szereplő évszámokat: Klimek Mária (kereszt. 1889. szept. 8., Óbecse), a huszár Klimek János nővére, 1951-ben halt meg, férje Megyeri Imre (1886–1965). Kiss Julianna (1917–1993) valószínűleg a lányuk, Megyeri Julianna, Kiss János felesége (a FamilySearch-fán Megyeri Julianna szerepel gyermekként); ez nem biztos.
