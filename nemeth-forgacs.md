@@ -43,3 +43,8 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Lehetséges rokon: **Hamu Pál** napszámos, 29 éves özvegy (első felesége †Kulcsár[?] Katalin), lakik Óbecse-belváros, Tiszapart 27; 1913. jan. 28-án Óbecse-alsóvárosban (6. bejegyzés) feleségül vette Héder Zsófiát (18). 1919-ben Németh Ferencék a Tiszapart 24. alatt laktak – a család szerint Pál Petronella testvére.
 - Hamu Petronella testvérei a család szerint: **Hamu Pál** és **Hamu Mária**.
 - Németh Ferenc és Hamu Petronella további gyermekei a család szerint: **István** és még egy gyermek, mindketten fiatalon meghaltak.
+
+## Hamu Petronella (2026. okt. 31.)
+
+- Keresztelés: Óbecse-belváros, kereszteltek 1891, 229. bejegyzés. Petronella, leány, törvényes, született 1891. máj. 24. (a család szerint 25.). Szülei **Hamu Antal** és **Karácsonyi Mária**, óbecsei r. kat. polgárok.
+- Halála a család szerint: 1961. október 10.
