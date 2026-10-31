@@ -35,3 +35,8 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - **Szabó Mária**: Óbecse-alsóváros, kereszteltek 1922, 185. bejegyzés. Született 1922. okt. 31., keresztelték nov. 5. Szülei Szabó Béla földműves és Nagy Erzsébet, r. kat.; Óbecse, Halász[?] u. 32. Keresztelő Nagele[?] József káplán.
 - **Kiss Zsófia** (1924. máj. 13.): nincs meg Óbecse-belváros és -alsóváros (MF-másolat) és Szenttamás 1924 májusában. Óbecse-újfalu könyvei nincsenek fent.
 - **Németh Ferencz** (jelölt): Szenttamás, kereszteltek 1892, 202. bejegyzés. Született 1892. nov. 11., keresztelték nov. 12. Szülei Németh Mihály és Teleki Erzsébet, r. kat.; Szenttamás 707. Keresztszülők Andrello[?] Gergely és Jurovics[?] Antónia; keresztelő Körtössy Antal káplán. Széljegyzet nincs. Nem igazolt, hogy ő József (1919) apja.
+
+## Házasságkeresés, negatív (2026. okt. 31.)
+
+- Németh Ferenc × Hamu Petronella: Óbecse-belváros 1915–1918 és 1919 jan.–febr., Óbecse-alsóváros 1918 nincs meg. Hátra van: Szenttamás 1913–1918, Óbecse-belváros 1912–1914, alsóváros 1912–1917.
+- Németh Mihály × Teleki Erzsébet (Ferencz 1892 szülei): Szenttamás 1891–1892 és 1890 első fele nincs meg. Hátra van: Szenttamás 1880–1890.
