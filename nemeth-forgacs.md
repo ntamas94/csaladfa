@@ -38,5 +38,5 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 
 ## Házasságkeresés, negatív (2026. okt. 31.)
 
-- Németh Ferenc × Hamu Petronella: Óbecse-belváros 1915–1918 és 1919 jan.–febr., Óbecse-alsóváros 1918 nincs meg. Hátra van: Szenttamás 1913–1918, Óbecse-belváros 1912–1914, alsóváros 1912–1917.
+- Németh Ferenc × Hamu Petronella: nincs meg Óbecse-belváros 1912–1918 és 1919 jan.–febr., Óbecse-alsóváros 1918, Szenttamás 1913 és 1916–1918 könyveiben (Szenttamás 1914–1915 nincs fent). Hátra van: Óbecse-alsóváros 1912–1917. Óbecse-belváros 1914: Hamu Erzsébet férjhez megy (más vőlegény) – Petronella rokona lehet.
 - Németh Mihály × Teleki Erzsébet (Ferencz 1892 szülei): Szenttamás 1891–1892 és 1890 első fele nincs meg. Hátra van: Szenttamás 1880–1890.
