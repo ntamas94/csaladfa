@@ -91,3 +91,5 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Új testvér: **Nemet Carolus (Károly)**, kereszt. 1853, Szenttamás, szülei Nemet Josephus és Galik Rosalia (FamilySearch XKBC-4BS). A házasság tehát 1853 előtt.
 - Szenttamás házasultak (matricula.hu) 1845–1847 és 1851 átnézve: nincs meg. **1848–1850 hiányzik** a matricula.hu-n – valószínűleg ott van; FamilySearch-filmen vagy a szenttamási plébánián kereshető.
 - Gálik Rozália lehetséges keresztelői (névmutató): Ada 1828 (Galik József × Tóbiás Erzsébet), Veprovác 1828 és 1837, Csongrád 1815 – egyik sem igazolt.
+- **FamilySearch-film 008523400** (Szenttamás r. kat. házasultak 1826–1895, 430 kép): a 117. kép 1847. dec. 31-i lezárással végződik, a 118. kép már 1851. januárral kezdődik – **1848–1850 itt is hiányzik**. A házasság (1853 előtt) valószínűleg ebben a hiányban van; eredeti példány csak a szenttamási plébánián lehet.
+- Szenttamási halotti filmek a FamilySearch-ön: 008523402 (1826–1860), 008523401 (1861–1895) – ezekben kereshető Németh József és Gálik Rozália halála.
