@@ -68,3 +68,10 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Ferenc tehát háromszor nősült: Katona Julianna († 1910 előtt), Hamu Petronella (1910), majd Kiskunhalason (1950–60).
 - Mellékesen: Óbecse-belváros, házasultak 1911, 35. bejegyzés: **Forgács Imre × Szabó Mária, 1911. jún. 6.** (Forgács Ferenc 1913 szülei).
 - Németh Mihály × Ignácski Viktória házassága: a család szerint Mihály Szeged környékén született. Szenttamás házasultak 1880–1892 átnézve (gyenge felbontás mellett), nincs meg; 1870–1879 még hátra van. Gyorsabb lenne a FamilySearch-névmutató (szülőpárra keresve, 1895-ig indexelt) – ahhoz bejelentkezés kell.
+
+## FamilySearch-névmutató (2026. okt. 31.)
+
+- **Németh Mihály × Ignácski/Igracski Viktória** gyermekei, Szenttamás (r. kat. keresztelések): Viktória 1880 (X8RX-5ZB), Erzsébet 1882 (X8RF-39Y), **Ferenc 1885**, Mihály 1888 (X8RF-VHG), György 1891 (X8RF-R85), **István 1895** (X8RN-4YW) – István a család szerint Ferenc testvére, ez igazolva.
+- A szülők házassága a névmutatóban nincs; Szenttamáson 1880–1892 sincs meg → valószínűleg 1880 előtt vagy máshol (Szeged környéke?).
+- **Németh Ferencz harmadik házassága**: Kiskunhalas, polgári, 1943. febr. 24., 37. sz. (https://www.familysearch.org/ark:/61903/1:1:6V15-GGZP). Vőlegény szül. Szenttamás 1885. okt. 5., szülei Németh Mihály és Igracski Viktória. Menyasszony Kereszturi Julianna, kb. 1897, Kiskunhalas; szülei Kereszturi Sándor és Erdődi Julianna. A család 1950–60-at tudta.
+- A család szerint az első feleség (Katona Julianna) a házasság alatt halt meg.
