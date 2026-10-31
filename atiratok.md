@@ -1626,3 +1626,16 @@ Ugyanezen az oldalon egy későbbi Ricz Márton (× Székelyi özv. Eitl Rozáli
 Ellenőrizve még: Busa (B betű) – az óbecsei mutatóban csak 1846-tól; Agó (A betű) – nincs. Busa Ilona és Agó Erzsébet tehát nem Óbecsén született.
 
 A fán: Ricz Márton × Molnár Erzsébet szaggatott (valószínű) szülőpárként, id. Ricz Péter születési dátuma 1779. jún. 26., testvérei a dobozához csatolva.
+
+## 100. Óbecsei házassági felmentések (Dispensatio), 1868–1920
+
+Forrás: KFL, KFL-I-1-b-Obecse-Belvaros-2-c, öt mappa: 01 = 1868–1884 (253 kép), 02 = 1884–1889 (264), 03 = 1889–1896 (247), 04 = 1896–1907 (260), 05 = 1907–1920 (271). Egy-egy ügy: borító (szám, dátum, a jegyesek neve, a felmentés fajtája), a plébános kérvénye (a jegyesek neve, születési adatai), rokonsági ábra, érseki engedély. Csak akkor készült, ha a jegyesek rokonok voltak, vagy a kihirdetést, tiltott időt kellett felmenteni.
+
+Átnézve a családunk házasságai szempontjából:
+
+- **01 (1868–1884)**, mind a 253 kép: Ricz–Imre (1872), Klimek–Hegyi (1878), Keceli–Füstös (1871 körül) – **nincs felmentés**. (Mellékesen 1879: Kapás Bálint × Hegyi Anna, másodfokú sógorság – Hegyi Julianna rokona lehet.)
+- **05 (1907–1920)**, 1908 és 1913 körüli borítók (3–75., 122–170. kép): Ricz Antal × Kádas Ilona (1908) és Klimek János × Keceli Mária (1913) – **nincs felmentés**. 1908-ban egy Gubincsik × Mészáros kihirdetési felmentés szerepel (5/44), ez nem a mi águnk.
+
+Következtetés: a fenti párok nem voltak egymással közeli rokonok (legalábbis nem kértek rá felmentést), és a házasságokat rendes kihirdetéssel kötötték. A Ricz Antal × Kádas Ilona házasság (1908) anyakönyvi bejegyzése így továbbra is az 1895 utáni (polgári és egyházi) anyakönyvekben keresendő, amelyek online nem érhetők el.
+
+Megjegyzés: a matricula.hu KFL-listájának alján „Más egyházmegyék: Eger” is szerepel – a cibakházi Kádas-ág (egri egyházmegye) miatt később megnézendő.
