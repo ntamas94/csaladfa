@@ -50,3 +50,6 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Halála a család szerint: 1961. október 10.
 - Fiatalon elhunyt gyermekek (István és testvére): Óbecse-belváros halotti könyveiben 1918–1926 között nincs Németh Ferenc-gyermek. Hátra van: belváros 1927–1943, alsóváros, valamint a keresztelők 1920–1924.
 - Mellékes Hamu-nyomok a halotti könyvből: 1918. nov. 12. Hamu Teréz, Szögi András neje, 27 éves (valószínűleg spanyolnátha); 1919: Hamu Ilona, Hamu Imre leánya.
+- **Németh István halála megvan**: Óbecse-belváros, halottak 1916, 147. bejegyzés. Németh István, Németh Ferenc és Hamu Petronella fia, napszámosok, r. kat.; Óbecse, Szenttamási[?] u. 27.; meghalt 1916. nov. 12-én, 1 évesen, tüdőgyulladásban; eltemették nov. 14-én (Garai Béla káplán). Tehát kb. 1915-ben született, Ferenc és Petronella már 1915 előtt együtt éltek.
+- A harmadik, szintén kisgyerekként elhunyt gyermek: Óbecse-belváros halottak 1914–1926 között nincs meg (1916 nov. után és 1917-ben még nem teljesen átnézve).
+- Mellékesen (anyai ág): Óbecse-belváros halottak 1916, 44. bejegyzés: Klimek János, Klimek János és Keceli Mária fia, †1916. márc. 31.
