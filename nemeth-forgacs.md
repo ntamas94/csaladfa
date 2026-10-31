@@ -82,3 +82,4 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - **Németh Mihály keresztelése**: Szenttamás 1856, szülei Németh József és Gálik Rozália (FamilySearch XKBC-ZQ7). Testvére Anna 1859.
 - **Igracski Viktória**: valószínűleg Szenttamás 1857 (FamilySearch XKBC-843, „Ignatsky Victoria”, szülei Ignatsky Paulus és Kontsar Elisabetha). Testvérei a névmutatóban: Katalin 1860, Veronika 1861, Anna 1870, Pál 1871, Julianna 1879.
 - Mihály tehát már Szenttamáson született; a Szeged környéki eredet az apjára (Németh József) vagy korábbra vonatkozhat.
+- Családi közlés: Németh Mihály szülei Szeged környékén maradtak. Ellentmond: József × Gálik Rozália 1856-ban és 1859-ben Szenttamáson kereszteltetett, és a fiuk 1879-es házasságában szenttamási illetőségű. Lehetséges, hogy később visszaköltöztek; ellenőrzés: Szenttamás halottak 1860–1900 (Németh József, Gálik Rozália) – ha nincsenek ott, a Szeged környéki halotti könyvek.
