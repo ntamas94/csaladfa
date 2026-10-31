@@ -5,7 +5,7 @@ Forrás: KFL Matricula-Historia-online (matricula.hu), Óbecse-belváros, házas
 ## Németh József × Kiss Zsófia (dédszülők, Németh József 1945 és Német Mária szülei)
 
 Óbecse-belváros, Házasultak 1941, 33. bejegyzés, **1941. július 6.**
-- Vőlegény: **Németh József Sándor**, r. kat., nőtlen; született **Stanisics** (Őrszállás, Stanišić), **1919. március 4.**; lakik Óbecse.
+- Vőlegény: **Németh József Sándor**, r. kat., nőtlen; született **Óbecse** (a keresztelő szerint; korábban tévesen Stanisicsnak olvasva), **1919. március 4.**; lakik Óbecse.
   Szülei: **Németh Ferenc** és **Hamu Petronella** (a kézírás „Hamii”-nak is olvasható; a család szerint Hamu), r. kat.
 - Menyasszony: **Kiss Zsófia Teréz**, r. kat., hajadon; született Óbecse, **1924. május 13.**; lakik Óbecse.
   Szülei: **Kiss Pál** és **Schmidt Mária Teréz**, r. kat.
@@ -27,7 +27,7 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 
 - Szenttamás, házasultak 1927–1943: nincs Németh × Zsófia (1942. márc. 29. Németh Péter × [Szádor?] Éva; 1943 Németh Mária menyasszony – nem a mi águnk).
 - Óbecse-belváros és -alsóváros 1941–1943 átnézve; 1942. nov. 25. Németh József × Gálik Margit (más személy).
-- Németh József (szül. 1919. márc. 4.) keresztelője: Őrszállás 1919 (jan.–jún., szülők oszlopa) és Szenttamás 1919 (febr.–ápr.) átnézve, nincs meg. Lehet, hogy később keresztelték, vagy máshol (tanya, szomszéd plébánia).
+- **Németh József Sándor keresztelője megvan**: Óbecse-belváros, kereszteltek 1919, 22. bejegyzés. Született 1919. márc. 4., keresztelték márc. 9. Szülei Németh Ferenc [foglalkozás olvashatatlan] és Hamu Petron[ella], napszámosok, r. kat.; Óbecse, Tiszapart 24. Keresztanya Horváth Julianna, Mucsi[?] István neje; Garai Béla káplán. A házassági bejegyzésben a szülőhelyet tévesen „Stanisics”-nak olvastam.
 
 ## Keresztelők (2026. okt. 31.)
 
