@@ -1641,3 +1641,10 @@ Következtetés: a fenti párok nem voltak egymással közeli rokonok (legalább
 Megjegyzés: a matricula.hu KFL-listájának alján „Más egyházmegyék: Eger” is szerepel – a cibakházi Kádas-ág (egri egyházmegye) miatt később megnézendő.
 
 **Kiegészítés – „Más egyházmegyék: Eger” a matricula.hu-n:** csak a Kalocsára fellebbezett egri házassági perek iratai (KFL-I-2-a-Eger, 201 kép, 12 ügy, 1807–1868; pl. Galló Mihály – Hajdú Erzsébet 1807, Szabó János – Gál Zsuzsanna 1807, Schäffer – Jäger 1861). Anyakönyv nincs benne; Kádas vagy cibakházi fél egyik ügyben sem szerepel. A cibakházi anyakönyvek továbbra is csak a FamilySearch-ön érhetők el.
+
+## 101. Óbecse-belváros, halotti anyakönyv 1914–1926 (Németh-kutatás közben, anyai ági találatok)
+
+Forrás: KFL Matricula-Historia-online, Óbecse-belváros, halottak (matricula.hu).
+
+- **Keceli Ferenc** (Keceli Mária apja): 1917, 78. bejegyzés. Keceli Ferenc, Füstös Mária férje, napszámos, r. kat., Óbecse; férfi, 72 éves; meghalt 1917. júl. 29., eltemették júl. 31. (Udvary[?] István káplán). Az 1845-ös születéssel egyezik.
+- **Klimek János** (gyermek): 1916, 44. bejegyzés. Klimek János, Klimek János és Keceli Mária fia; meghalt 1916. márc. 31. (Klimek Mária testvére.)
