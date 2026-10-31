@@ -48,3 +48,5 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 
 - Keresztelés: Óbecse-belváros, kereszteltek 1891, 229. bejegyzés. Petronella, leány, törvényes, született 1891. máj. 24. (a család szerint 25.). Szülei **Hamu Antal** és **Karácsonyi Mária**, óbecsei r. kat. polgárok.
 - Halála a család szerint: 1961. október 10.
+- Fiatalon elhunyt gyermekek (István és testvére): Óbecse-belváros halotti könyveiben 1918–1926 között nincs Németh Ferenc-gyermek. Hátra van: belváros 1927–1943, alsóváros, valamint a keresztelők 1920–1924.
+- Mellékes Hamu-nyomok a halotti könyvből: 1918. nov. 12. Hamu Teréz, Szögi András neje, 27 éves (valószínűleg spanyolnátha); 1919: Hamu Ilona, Hamu Imre leánya.
