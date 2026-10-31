@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Németh–Forgács családfa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Same palette and type as index.html; the tree is plain stacked generations, no SVG. */
+:root {
+  --bg: #f4f6f9; --surface: #ffffff; --ink: #1c2330; --muted: #5a6476; --rule: #d6dbe4;
+  --nemeth: #2c4c8c; --forgacs: #2f6b4a; --other: #7a8394; --hyp: #a8660f; --hyp-soft: #fbf3e6;
+  --font-display: "Spectral", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
+    --nemeth: #8fb0ec; --forgacs: #86c39e; --other: #9ba4b4; --hyp: #e3a94f; --hyp-soft: #2a2216; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
+  --nemeth: #8fb0ec; --forgacs: #86c39e; --other: #9ba4b4; --hyp: #e3a94f; --hyp-soft: #2a2216; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; margin: 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 56px;
+}
+.wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 36px; }
+header { display: grid; gap: 8px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 24px; margin: 0; }
+p { margin: 0; max-width: 68ch; }
+.lede { color: var(--muted); }
+a { color: var(--nemeth); }
+section { display: grid; gap: 16px; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--muted); }
+.sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; border: 2px solid var(--other); margin-right: 6px; vertical-align: -1px; }
+.sw.n { border-color: var(--nemeth); } .sw.f { border-color: var(--forgacs); } .sw.h { border-color: var(--hyp); border-style: dashed; }
+
+.tree { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 24px; }
+.branch { display: grid; gap: 10px; align-content: start; }
+.branch > h3 { margin: 0; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.gen { display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; }
+.gen + .gen::before { content: ""; flex-basis: 100%; height: 14px; margin: -6px 0 -2px 24px; border-left: 2px solid var(--rule); }
+.p { background: var(--surface); border: 2px solid var(--other); border-radius: 8px; padding: 8px 12px; min-width: 180px; flex: 1 1 200px; }
+.p.n { border-color: var(--nemeth); } .p.f { border-color: var(--forgacs); }
+.p.h { border-style: dashed; border-color: var(--hyp); background: var(--hyp-soft); }
+.p.live { color: var(--muted); font-style: italic; }
+.p b { display: block; font-weight: 600; }
+.p span { display: block; font-size: 13px; color: var(--muted); }
+.amp { align-self: center; color: var(--muted); font-size: 13px; }
+.join { grid-column: 1 / -1; display: flex; justify-content: center; }
+.join .p { flex: 0 1 360px; text-align: center; }
+
+.rec { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px; }
+.rec h3 { margin: 0; font-size: 15px; }
+.rec .src { font-size: 13px; color: var(--muted); }
+ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 72ch; }
+footer { font-size: 13px; color: var(--muted); }
+
+@media (max-width: 720px) { .tree { grid-template-columns: 1fr; } .p { min-width: 0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Szeged környéke · Szenttamás · Óbecse</div>
+    <h1>Németh–Forgács családfa</h1>
+    <p class="lede">Az apai ág, a családi emlékek és az óbecsei katolikus anyakönyvek alapján. Élő személyek adatai ezen az oldalon nem szerepelnek. A szaggatott keretes adatok a család emlékezetéből valók, anyakönyvi bejegyzés még nincs hozzájuk.</p>
+    <p><a href="index.html">← Az anyai ág: Ricz–Kádas családfa</a></p>
+  </header>
+
+  <section aria-labelledby="h-tree">
+    <h2 id="h-tree">Családfa</h2>
+    <div class="legend">
+      <span><i class="sw n"></i>Németh ág</span>
+      <span><i class="sw f"></i>Forgács ág</span>
+      <span><i class="sw"></i>beházasodott</span>
+      <span><i class="sw h"></i>családi emlék, nem igazolt</span>
+    </div>
+    <div class="tree">
+      <div class="branch">
+        <h3>Németh („Bolyhos”)</h3>
+        <div class="gen">
+          <div class="p n h"><b>Németh …</b><span>Szeged környékéről jött Szenttamásra, ott nősült; juhtenyésztő. Három fia Szenttamáson született.</span></div>
+        </div>
+        <div class="gen">
+          <div class="p n h"><b>Németh Ferenc</b><span>Szenttamás · testvére Németh István · később Magyarországra szökött, 2. házassága Kiskunhalason (1950–60)</span></div>
+          <span class="amp">⚭</span>
+          <div class="p"><b>Hamu Petronella</b><span>1. feleség</span></div>
+        </div>
+        <div class="gen">
+          <div class="p n"><b>Németh József Sándor</b><span>szül. 1919. márc. 4., Stanisics (Őrszállás)</span></div>
+          <span class="amp">⚭ 1941</span>
+          <div class="p"><b>Kiss Zsófia Teréz</b><span>szül. 1924. máj. 13., Óbecse · apja Kiss Pál, anyja Schmidt Mária Teréz</span></div>
+        </div>
+        <div class="gen">
+          <div class="p n live"><b>élő</b><span>két gyermekük (lány és fiú)</span></div>
+        </div>
+      </div>
+
+      <div class="branch">
+        <h3>Forgács</h3>
+        <div class="gen">
+          <div class="p f"><b>Forgács Imre</b><span>Óbecse</span></div>
+          <span class="amp">⚭</span>
+          <div class="p"><b>Szabó Mária</b><span>meghalt 1943 előtt</span></div>
+          <div class="p"><b>Szabó Béla</b><span>Óbecse</span></div>
+          <span class="amp">⚭</span>
+          <div class="p"><b>Nagy Erzsébet</b></div>
+        </div>
+        <div class="gen">
+          <div class="p f"><b>Forgács Ferenc</b><span>szül. 1913. máj. 21., Óbecse</span></div>
+          <span class="amp">⚭ 1943</span>
+          <div class="p"><b>Szabó Mária</b><span>szül. 1922. okt. 31., Óbecse</span></div>
+        </div>
+        <div class="gen">
+          <div class="p f live"><b>élő</b><span>leszármazottak</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-rec">
+    <h2 id="h-rec">Anyakönyvi bejegyzések</h2>
+    <div class="rec">
+      <h3>Németh József Sándor × Kiss Zsófia Teréz — 1941. július 6., Óbecse</h3>
+      <p>Vőlegény: Németh József Sándor, római katolikus, nőtlen, született Stanisicson 1919. március 4-én, lakik Óbecsén. Szülei Németh Ferenc és Hamu Petronella. Menyasszony: Kiss Zsófia Teréz, római katolikus, hajadon, született Óbecsén 1924. május 13-án. Szülei Kiss Pál és Schmidt Mária Teréz. Tanúk: Budácsevics[?] Félix és Ancskó[?] Pál; esketett Csajkás Antal káplán.</p>
+      <p class="src">Óbecse-belváros, házasultak 1941, 33. bejegyzés (Kalocsai Főegyházmegyei Levéltár, matricula.hu)</p>
+    </div>
+    <div class="rec">
+      <h3>Forgács Ferenc × Szabó Mária — 1943. november 27., Óbecse</h3>
+      <p>Vőlegény: Forgács Ferenc, római katolikus, nőtlen, született Óbecsén 1913. május 21-én, lakik Óbecse I, Pázmány u. 39. Szülei Forgács Imre és a néhai Szabó Mária. Menyasszony: Szabó Mária, római katolikus, hajadon, született Óbecsén 1922. október 31-én. Szülei Szabó Béla és Nagy Erzsébet.</p>
+      <p class="src">Óbecse-belváros, házasultak 1943, 78. bejegyzés (Kalocsai Főegyházmegyei Levéltár, matricula.hu)</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-open">
+    <h2 id="h-open">Ami még nem ismert</h2>
+    <ul>
+      <li><b>Németh Ferenc születése.</b> A szenttamási névmutatóban több Németh Ferenc is van (1879, 1883, 1885, 1892); az 1892. nov. 12-i (szülei Németh Mihály és Teleki Erzsébet) korban illik egy 1919-ben született fiúhoz.</li>
+      <li><b>Németh József keresztelője (1919).</b> Az őrszállási és a szenttamási 1919-es keresztelési könyvben március körül nincs meg.</li>
+      <li><b>Németh Ferenc és Hamu Petronella házassága</b> (a család szerint Óbecsén, kb. 1915–1919).</li>
+      <li><b>A Szeged környéki származás:</b> melyik faluból jött a „Bolyhos” Németh család Szenttamásra.</li>
+      <li><b>Forgács Ferenc, Szabó Mária és Kiss Zsófia keresztelője</b> (Óbecse 1913, 1922, 1924): online elérhető, még nincs megnézve.</li>
+    </ul>
+  </section>
+
+  <footer>Források: Kalocsai Főegyházmegyei Levéltár (matricula.hu), FamilySearch, családi közlés. Részletes jegyzetek: nemeth-ag.md.</footer>
+</div>
+</body>
+</html>

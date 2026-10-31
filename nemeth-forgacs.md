@@ -1,0 +1,30 @@
+# Németh és Forgács ág – jegyzetek (nem publikus)
+
+Forrás: KFL Matricula-Historia-online (matricula.hu), Óbecse-belváros, házassági másodpéldányok 1943.
+
+## Németh József × Kiss Zsófia (dédszülők, Németh József 1945 és Német Mária szülei)
+
+Óbecse-belváros, Házasultak 1941, 33. bejegyzés, **1941. július 6.**
+- Vőlegény: **Németh József Sándor**, r. kat., nőtlen; született **Stanisics** (Őrszállás, Stanišić), **1919. március 4.**; lakik Óbecse.
+  Szülei: **Németh Ferenc** és **Hamu Petronella** (a kézírás „Hamii”-nak is olvasható; a család szerint Hamu), r. kat.
+- Menyasszony: **Kiss Zsófia Teréz**, r. kat., hajadon; született Óbecse, **1924. május 13.**; lakik Óbecse.
+  Szülei: **Kiss Pál** és **Schmidt Mária Teréz**, r. kat.
+- Tanúk: Budácsevics[?] Félix és Ancskó[?] Pál. Esketett: Csajkás Antal káplán. Hirdetve.
+
+Megjegyzés: a család szerint Zsófia 1929-ben született; az anyakönyv 1924-et ír.
+
+## Forgács Ferenc × Szabó Mária (dédszülők)
+
+Óbecse-belváros, Házasultak 1943, 78. bejegyzés, **1943. november 27.**
+- Vőlegény: **Forgács Ferenc**, r. kat., nőtlen; született Óbecse, **1913. május 21.**; lakik Óbecse I, Pázmány u. 39.
+  Szülei: Forgács **Imre** és †**Szabó Mária**, r. kat.
+- Menyasszony: **Szabó Mária**, r. kat., hajadon; született Óbecse, **1922. október 31.**; lakik Óbecse II, Erkel F. u. 2[?].
+  Szülei: Szabó **Béla** és **Nagy Erzsébet**, r. kat.
+
+Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 10., szülei Vince és Urbán Mária) × Ferenc(z) Margit (szül. 1920. dec. 11., szülei Péter és Horváth Julianna). Más szülők, kapcsolata nem ismert.
+
+## Átnézve, negatív
+
+- Szenttamás, házasultak 1927–1943: nincs Németh × Zsófia (1942. márc. 29. Németh Péter × [Szádor?] Éva; 1943 Németh Mária menyasszony – nem a mi águnk).
+- Óbecse-belváros és -alsóváros 1941–1943 átnézve; 1942. nov. 25. Németh József × Gálik Margit (más személy).
+- Németh József (szül. 1919. márc. 4.) keresztelője: Őrszállás 1919 (jan.–jún., szülők oszlopa) és Szenttamás 1919 (febr.–ápr.) átnézve, nincs meg. Lehet, hogy később keresztelték, vagy máshol (tanya, szomszéd plébánia).

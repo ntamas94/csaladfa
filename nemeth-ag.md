@@ -76,3 +76,8 @@ FamilySearch Családfa, „Német” alakkal:
 1. Megkérdezni a családban: ki volt Németh Ferenc a Német család szempontjából (dédapa? nagyapa?), mikor született (kb. melyik évben), mi történt 1950–1960 között Kiskunhalason (házasság? beköltözés? halál?), és kik voltak a szülei vagy a felesége.
 2. Ha a nagyapa vagy dédapa születési évét és helyét tudjuk, a polgári anyakönyvi indexben a szülők nevével célzottan lehet keresni (ez a mostani keresésnél is működött).
 3. Az 1. jelölt születési (1901) és házassági (1945) bejegyzésének képe: megnézni a pontos helyet és a tanúkat.
+
+## Pontosítás (2026. okt. 31.)
+
+- Németh Ferenc első felesége **Hamu Petronella**; fiuk **Németh József Sándor** (szül. 1919. márc. 4., Stanisics) 1941. júl. 6-án Óbecsén vette feleségül Kiss Zsófia Terézt. Részletek: nemeth-forgacs.md, oldal: nemeth.html.
+- A család szerint Ferenc később **Magyarországra szökött**, második házassága **Kiskunhalason** volt.
