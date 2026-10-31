@@ -67,3 +67,4 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Az 1892-es jelölt (Mihály × Teleki Erzsébet fia) tehát **nem** a mi Ferencünk.
 - Ferenc tehát háromszor nősült: Katona Julianna († 1910 előtt), Hamu Petronella (1910), majd Kiskunhalason (1950–60).
 - Mellékesen: Óbecse-belváros, házasultak 1911, 35. bejegyzés: **Forgács Imre × Szabó Mária, 1911. jún. 6.** (Forgács Ferenc 1913 szülei).
+- Németh Mihály × Ignácski Viktória házassága: a család szerint Mihály Szeged környékén született. Szenttamás házasultak 1880–1892 átnézve (gyenge felbontás mellett), nincs meg; 1870–1879 még hátra van. Gyorsabb lenne a FamilySearch-névmutató (szülőpárra keresve, 1895-ig indexelt) – ahhoz bejelentkezés kell.
