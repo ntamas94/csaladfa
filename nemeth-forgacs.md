@@ -28,3 +28,9 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Szenttamás, házasultak 1927–1943: nincs Németh × Zsófia (1942. márc. 29. Németh Péter × [Szádor?] Éva; 1943 Németh Mária menyasszony – nem a mi águnk).
 - Óbecse-belváros és -alsóváros 1941–1943 átnézve; 1942. nov. 25. Németh József × Gálik Margit (más személy).
 - Németh József (szül. 1919. márc. 4.) keresztelője: Őrszállás 1919 (jan.–jún., szülők oszlopa) és Szenttamás 1919 (febr.–ápr.) átnézve, nincs meg. Lehet, hogy később keresztelték, vagy máshol (tanya, szomszéd plébánia).
+
+## Keresztelők (2026. okt. 31.)
+
+- **Forgács Ferenc**: Óbecse-belváros, kereszteltek 1913, 121. bejegyzés. Született 1913. máj. 21., keresztelték máj. 25. Szülei Forgács Imre napszámos és Szabó Mária, r. kat.; Óbecse, Szegedi[?] u. 91. Keresztszülők Kántorai[?] Veronika, Kovács Károly[?] napszámos neje; keresztelő Jancsó[?] Ferenc plébános.
+- **Szabó Mária**: Óbecse-alsóváros, kereszteltek 1922, 185. bejegyzés. Született 1922. okt. 31., keresztelték nov. 5. Szülei Szabó Béla földműves és Nagy Erzsébet, r. kat.; Óbecse, Halász[?] u. 32. Keresztelő Nagele[?] József káplán.
+- **Kiss Zsófia** (1924. máj. 13.): nincs meg Óbecse-belváros és -alsóváros (MF-másolat) és Szenttamás 1924 májusában. Óbecse-újfalu könyvei nincsenek fent.

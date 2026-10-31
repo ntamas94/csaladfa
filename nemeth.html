@@ -6,67 +6,169 @@
 <title>Németh–Forgács családfa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Same palette and type as index.html; the tree is plain stacked generations, no SVG. */
+/* Layout: archive worksheet — a scrollable pedigree chart on top, the notarial evidence and open questions below. */
 :root {
-  --bg: #f4f6f9; --surface: #ffffff; --ink: #1c2330; --muted: #5a6476; --rule: #d6dbe4;
-  --nemeth: #2c4c8c; --forgacs: #2f6b4a; --other: #7a8394; --hyp: #a8660f; --hyp-soft: #fbf3e6;
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --ink: #1c2330;
+  --muted: #5a6476;
+  --rule: #d6dbe4;
+  --stamp: #2c4c8c;
+  --ricz: #2c4c8c;
+  --kadas: #2f6b4a;
+  --gub: #7b3a6c;
+  --other: #7a8394;
+  --hyp: #a8660f;
+  --hyp-soft: #fbf3e6;
+  --warn: #b4410f;
+  --ok: #2f6b4a;
+  --sel: #e4ecfb;
   --font-display: "Spectral", Georgia, "Times New Roman", serif;
   --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
-    --nemeth: #8fb0ec; --forgacs: #86c39e; --other: #9ba4b4; --hyp: #e3a94f; --hyp-soft: #2a2216; color-scheme: dark;
+    --stamp: #8fb0ec; --ricz: #8fb0ec; --kadas: #86c39e; --gub: #d79bc9; --other: #9ba4b4;
+    --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; --sel: #24314a; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #11151c; --surface: #19202a; --ink: #e4e8ef; --muted: #9ba4b4; --rule: #2d3644;
-  --nemeth: #8fb0ec; --forgacs: #86c39e; --other: #9ba4b4; --hyp: #e3a94f; --hyp-soft: #2a2216; color-scheme: dark;
+  --stamp: #8fb0ec; --ricz: #8fb0ec; --kadas: #86c39e; --gub: #d79bc9; --other: #9ba4b4;
+  --hyp: #e3a94f; --hyp-soft: #2a2216; --warn: #f39a63; --ok: #86c39e; --sel: #24314a; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
-  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; margin: 0;
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   padding-block: 28px 56px;
 }
-.wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 36px; }
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 36px; }
 header { display: grid; gap: 8px; }
 .eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
-h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; }
-h2 { font-family: var(--font-display); font-weight: 600; font-size: 24px; margin: 0; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 24px; margin: 0; text-wrap: balance; }
+h3 { font-size: 15px; font-weight: 600; margin: 0; }
 p { margin: 0; max-width: 68ch; }
 .lede { color: var(--muted); }
-a { color: var(--nemeth); }
 section { display: grid; gap: 16px; }
 
-.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--muted); }
-.sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; border: 2px solid var(--other); margin-right: 6px; vertical-align: -1px; }
-.sw.n { border-color: var(--nemeth); } .sw.f { border-color: var(--forgacs); } .sw.h { border-color: var(--hyp); border-style: dashed; }
+/* Tree */
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--muted); align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 18px; height: 12px; border-radius: 3px; border: 2px solid var(--other); background: var(--surface); display: inline-block; }
+.sw.ricz { border-color: var(--ricz); } .sw.kadas { border-color: var(--kadas); } .sw.gub { border-color: var(--gub); }
+.sw.hyp { border: 2px dashed var(--hyp); background: var(--hyp-soft); }
+.sw.direct { border: 3px solid var(--ink); }
+.warnmark { color: var(--warn); font-weight: 600; }
+.toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.toolbar button {
+  font: 500 14px var(--font-body); color: var(--ink); background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 6px 12px; cursor: pointer; min-width: 40px;
+}
+.toolbar button:hover { border-color: var(--stamp); }
+.toolbar button:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; }
+.toolbar .zoomval { font: 13px var(--font-mono); color: var(--muted); min-width: 4ch; }
+.treebox {
+  overflow: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
+  max-height: 78vh; -webkit-overflow-scrolling: touch;
+}
+#tree { display: block; }
+#tree .box { fill: var(--surface); stroke-width: 1.6; }
+#tree .box.ricz { stroke: var(--ricz); } #tree .box.kadas { stroke: var(--kadas); }
+#tree .box.gub { stroke: var(--gub); } #tree .box.other { stroke: var(--other); }
+#tree .box.hyp { stroke: var(--hyp); stroke-dasharray: 5 4; fill: var(--hyp-soft); }
+#tree .nm { font: 600 12.5px var(--font-body); fill: var(--ink); }
+#tree .dt { font: 400 11px var(--font-mono); fill: var(--muted); }
+#tree .hyp-t { font: 400 10.5px var(--font-body); fill: var(--hyp); }
+#tree .edge { stroke: var(--muted); stroke-width: 1.4; fill: none; }
+#tree .edge.hyp { stroke: var(--hyp); stroke-dasharray: 5 4; }
+#tree .lbl { font: 500 11px var(--font-body); fill: var(--warn); }
+#tree .lbl.hyp { fill: var(--hyp); }
+#tree .lbl.ok { fill: var(--ok); }
+#tree .gen { font: 500 10.5px var(--font-body); fill: var(--muted); letter-spacing: .06em; }
+#tree .node, #tree .sibchip { cursor: pointer; }
+#tree .sibchip rect { fill: var(--surface); stroke: var(--muted); stroke-width: 1; }
+#tree .sibchip.hyp rect { stroke: var(--hyp); stroke-dasharray: 4 3; }
+#tree .sibchip:hover rect { stroke-width: 2; }
+#tree .snm { font: 600 10.5px var(--font-body); fill: var(--ink); }
+#tree .sdt { font: 400 9.5px var(--font-mono); fill: var(--muted); }
+#tree .edge.sib { stroke-dasharray: 2 3; }
+#tree .slbl { font: italic 400 10px var(--font-body); fill: var(--muted); }
+#tree .node:focus { outline: none; }
+#tree .node.direct .box { stroke-width: 2.8; }
+#tree .node:hover .box, #tree .node:focus-visible .box { stroke-width: 3.2; }
+#tree .box.todo { stroke: var(--muted); stroke-dasharray: 5 4; fill: var(--bg); }
+#tree .edge.todo { stroke-dasharray: 5 4; }
+#tree .node.sel .box { stroke-width: 3.2; fill: var(--sel); }
+#tree .node.sel .box.hyp { fill: var(--hyp-soft); }
+.hint { font-size: 13px; color: var(--muted); }
 
-.tree { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 24px; }
-.branch { display: grid; gap: 10px; align-content: start; }
-.branch > h3 { margin: 0; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
-.gen { display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; }
-.gen + .gen::before { content: ""; flex-basis: 100%; height: 14px; margin: -6px 0 -2px 24px; border-left: 2px solid var(--rule); }
-.p { background: var(--surface); border: 2px solid var(--other); border-radius: 8px; padding: 8px 12px; min-width: 180px; flex: 1 1 200px; }
-.p.n { border-color: var(--nemeth); } .p.f { border-color: var(--forgacs); }
-.p.h { border-style: dashed; border-color: var(--hyp); background: var(--hyp-soft); }
-.p.live { color: var(--muted); font-style: italic; }
-.p b { display: block; font-weight: 600; }
-.p span { display: block; font-size: 13px; color: var(--muted); }
-.amp { align-self: center; color: var(--muted); font-size: 13px; }
-.join { grid-column: 1 / -1; display: flex; justify-content: center; }
-.join .p { flex: 0 1 360px; text-align: center; }
+/* Person detail */
+.detail { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 18px 20px; display: grid; gap: 14px; scroll-margin-top: 16px; }
+.dhead { display: grid; gap: 4px; }
+.dhead h3 { font-family: var(--font-display); font-size: 24px; font-weight: 600; line-height: 1.2; text-wrap: balance; }
+.dhead .dates { font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.dhead .meta { margin-top: 2px; }
+.dgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px 28px; }
+.dgrid > div { min-width: 0; display: grid; gap: 6px; align-content: start; }
+.detail ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.detail li, .detail p { font-size: 14px; }
+.rel { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 14px; }
+.rel dt { color: var(--muted); }
+.rel dd { margin: 0; display: flex; flex-wrap: wrap; gap: 2px 10px; min-width: 0; }
+.plink { appearance: none; background: none; border: 0; padding: 0; font: inherit; color: var(--stamp); text-decoration: underline; text-underline-offset: 2px; cursor: pointer; text-align: left; }
+.plink:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; border-radius: 2px; }
+.detail a { color: var(--stamp); text-underline-offset: 2px; overflow-wrap: anywhere; }
+.pill.part { color: var(--stamp); }
+.none { color: var(--muted); }
+.hypname { color: var(--hyp); }
+.photos { display: flex; flex-wrap: wrap; gap: 14px; }
+.photos figure { margin: 0; display: grid; gap: 6px; width: 170px; max-width: 100%; }
+.photos img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--rule); background: var(--bg); }
+.photos figcaption { font-size: 12px; color: var(--muted); line-height: 1.4; }
+.photos a:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; border-radius: 6px; }
+#tree .cam { fill: var(--stamp); }
+#tree .camlens { fill: var(--surface); }
 
-.rec { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px; }
-.rec h3 { margin: 0; font-size: 15px; }
-.rec .src { font-size: 13px; color: var(--muted); }
-ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 72ch; }
-footer { font-size: 13px; color: var(--muted); }
+/* Evidence */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 18px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.card.main { grid-column: 1 / -1; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 12.5px; color: var(--muted); }
+.ref { font-family: var(--font-mono); font-size: 12px; overflow-wrap: anywhere; }
+.ref a { color: var(--stamp); text-underline-offset: 2px; }
+.ref a:focus-visible { outline: 2px solid var(--stamp); outline-offset: 2px; }
+.pill { font-size: 11.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+.pill.done { color: var(--ok); } .pill.todo { color: var(--hyp); } .pill.conflict { color: var(--warn); } .pill.other { color: var(--muted); }
+.card ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; }
+.card p, .card li { font-size: 14px; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px 24px; }
+.two > div { min-width: 0; display: grid; gap: 6px; align-content: start; }
+.k { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 
-@media (max-width: 720px) { .tree { grid-template-columns: 1fr; } .p { min-width: 0; } }
+/* Checks */
+.checks { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.checks li { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 16px; display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; }
+.checks .mark { font-weight: 700; color: var(--warn); font-family: var(--font-mono); }
+.checks b { font-weight: 600; }
+
+/* Table */
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 760px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+td.d { font-family: var(--font-mono); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; background: var(--other); }
+.dot.ricz { background: var(--ricz); } .dot.kadas { background: var(--kadas); } .dot.gub { background: var(--gub); }
+footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+#tree .box.todo + text { font-style: italic; }
 </style>
 </head>
 <body>
@@ -74,87 +176,483 @@ footer { font-size: 13px; color: var(--muted); }
   <header>
     <div class="eyebrow">Szeged környéke · Szenttamás · Óbecse</div>
     <h1>Németh–Forgács családfa</h1>
-    <p class="lede">Az apai ág, a családi emlékek és az óbecsei katolikus anyakönyvek alapján. Élő személyek adatai ezen az oldalon nem szerepelnek. A szaggatott keretes adatok a család emlékezetéből valók, anyakönyvi bejegyzés még nincs hozzájuk.</p>
+    <p class="lede">Az apai ág, a családi emlékek és az óbecsei katolikus anyakönyvek alapján. Élő személyek adatai ezen az oldalon nem szerepelnek. A szaggatott keretes nevek még nem biztosak.</p>
     <p><a href="index.html">← Az anyai ág: Ricz–Kádas családfa</a></p>
   </header>
 
   <section aria-labelledby="h-tree">
     <h2 id="h-tree">Családfa</h2>
     <div class="legend">
-      <span><i class="sw n"></i>Németh ág</span>
-      <span><i class="sw f"></i>Forgács ág</span>
-      <span><i class="sw"></i>beházasodott</span>
-      <span><i class="sw h"></i>családi emlék, nem igazolt</span>
+      <span><i class="sw ricz"></i>Németh ág</span>
+      <span><i class="sw kadas"></i>Forgács ág</span>
+      <span><i class="sw"></i>beházasodott ágak</span>
+      <span><i class="sw hyp"></i>családi emlék, nem igazolt</span>
+      <span><i class="sw direct"></i>vastag keret: egyenes ági felmenők</span>
     </div>
-    <div class="tree">
-      <div class="branch">
-        <h3>Németh („Bolyhos”)</h3>
-        <div class="gen">
-          <div class="p n h"><b>Németh …</b><span>Szeged környékéről jött Szenttamásra, ott nősült; juhtenyésztő. Három fia Szenttamáson született.</span></div>
-        </div>
-        <div class="gen">
-          <div class="p n h"><b>Németh Ferenc</b><span>Szenttamás · testvére Németh István · később Magyarországra szökött, 2. házassága Kiskunhalason (1950–60)</span></div>
-          <span class="amp">⚭</span>
-          <div class="p"><b>Hamu Petronella</b><span>1. feleség</span></div>
-        </div>
-        <div class="gen">
-          <div class="p n"><b>Németh József Sándor</b><span>szül. 1919. márc. 4., Stanisics (Őrszállás)</span></div>
-          <span class="amp">⚭ 1941</span>
-          <div class="p"><b>Kiss Zsófia Teréz</b><span>szül. 1924. máj. 13., Óbecse · apja Kiss Pál, anyja Schmidt Mária Teréz</span></div>
-        </div>
-        <div class="gen">
-          <div class="p n live"><b>élő</b><span>két gyermekük (lány és fiú)</span></div>
-        </div>
-      </div>
+    <div class="toolbar">
+      <button type="button" id="zoomOut" aria-label="Kicsinyítés">−</button>
+      <span class="zoomval" id="zoomVal">80%</span>
+      <button type="button" id="zoomIn" aria-label="Nagyítás">+</button>
+      <button type="button" id="zoomFit">Teljes fa</button>
+    </div>
+    <p class="hint">Kattints egy névre: lent megjelenik, mit tudunk róla.</p>
+    <div class="treebox" id="treebox"><svg id="tree" aria-label="A Németh és a Forgács család négy nemzedéke"></svg></div>
+    <article class="detail" id="detail" aria-live="polite"><p class="none">Kattints egy névre a fán.</p></article>
+  </section>
 
-      <div class="branch">
-        <h3>Forgács</h3>
-        <div class="gen">
-          <div class="p f"><b>Forgács Imre</b><span>Óbecse</span></div>
-          <span class="amp">⚭</span>
-          <div class="p"><b>Szabó Mária</b><span>meghalt 1943 előtt</span></div>
-          <div class="p"><b>Szabó Béla</b><span>Óbecse</span></div>
-          <span class="amp">⚭</span>
-          <div class="p"><b>Nagy Erzsébet</b></div>
-        </div>
-        <div class="gen">
-          <div class="p f"><b>Forgács Ferenc</b><span>szül. 1913. máj. 21., Óbecse</span></div>
-          <span class="amp">⚭ 1943</span>
-          <div class="p"><b>Szabó Mária</b><span>szül. 1922. okt. 31., Óbecse</span></div>
-        </div>
-        <div class="gen">
-          <div class="p f live"><b>élő</b><span>leszármazottak</span></div>
-        </div>
-      </div>
+  <section aria-labelledby="h-ev">
+    <h2 id="h-ev">Anyakönyvi bejegyzések</h2>
+    <div class="cards">
+      <article class="card">
+        <div class="meta"><span class="pill done">megtalálva</span><span>1941 · Óbecse-belváros, házasultak, 33. bejegyzés</span></div>
+        <h3>Németh József Sándor × Kiss Zsófia Teréz, 1941. július 6.</h3>
+        <p>Vőlegény: Németh József Sándor, római katolikus, nőtlen, született Stanisicson 1919. március 4-én, lakik Óbecsén. Szülei Németh Ferenc és Hamu Petronella. Menyasszony: Kiss Zsófia Teréz, hajadon, született Óbecsén 1924. május 13-án. Szülei Kiss Pál és Schmidt Mária Teréz. Tanúk: Budácsevics[?] Félix és Ancskó[?] Pál; esketett Csajkás Antal káplán.</p>
+      </article>
+      <article class="card">
+        <div class="meta"><span class="pill done">megtalálva</span><span>1943 · Óbecse-belváros, házasultak, 78. bejegyzés</span></div>
+        <h3>Forgács Ferenc × Szabó Mária, 1943. november 27.</h3>
+        <p>Vőlegény: Forgács Ferenc, nőtlen, született Óbecsén 1913. május 21-én, lakik Óbecse I, Pázmány u. 39. Szülei Forgács Imre és a néhai Szabó Mária. Menyasszony: Szabó Mária, hajadon, született Óbecsén 1922. október 31-én. Szülei Szabó Béla és Nagy Erzsébet.</p>
+      </article>
+      <article class="card">
+        <div class="meta"><span class="pill done">megtalálva</span><span>1913 · Óbecse-belváros, kereszteltek, 121. bejegyzés</span></div>
+        <h3>Forgács Ferenc keresztelése, 1913. május 25.</h3>
+        <p>Született május 21-én. Szülei Forgács Imre napszámos és Szabó Mária, római katolikusok; lakás Óbecse, Szegedi[?] u. 91. Keresztszülők Kántorai[?] Veronika és Kovács Károly napszámos[?]; keresztelte Jancsó[?] Ferenc plébános.</p>
+      </article>
+      <article class="card">
+        <div class="meta"><span class="pill done">megtalálva</span><span>1922 · Óbecse-alsóváros, kereszteltek, 185. bejegyzés</span></div>
+        <h3>Szabó Mária keresztelése, 1922. november 5.</h3>
+        <p>Született október 31-én. Szülei Szabó Béla földműves és Nagy Erzsébet, római katolikusok; lakás Óbecse, Halász[?] u. 32. Keresztelte Nagele[?] József káplán.</p>
+      </article>
     </div>
   </section>
 
-  <section aria-labelledby="h-rec">
-    <h2 id="h-rec">Anyakönyvi bejegyzések</h2>
-    <div class="rec">
-      <h3>Németh József Sándor × Kiss Zsófia Teréz — 1941. július 6., Óbecse</h3>
-      <p>Vőlegény: Németh József Sándor, római katolikus, nőtlen, született Stanisicson 1919. március 4-én, lakik Óbecsén. Szülei Németh Ferenc és Hamu Petronella. Menyasszony: Kiss Zsófia Teréz, római katolikus, hajadon, született Óbecsén 1924. május 13-án. Szülei Kiss Pál és Schmidt Mária Teréz. Tanúk: Budácsevics[?] Félix és Ancskó[?] Pál; esketett Csajkás Antal káplán.</p>
-      <p class="src">Óbecse-belváros, házasultak 1941, 33. bejegyzés (Kalocsai Főegyházmegyei Levéltár, matricula.hu)</p>
-    </div>
-    <div class="rec">
-      <h3>Forgács Ferenc × Szabó Mária — 1943. november 27., Óbecse</h3>
-      <p>Vőlegény: Forgács Ferenc, római katolikus, nőtlen, született Óbecsén 1913. május 21-én, lakik Óbecse I, Pázmány u. 39. Szülei Forgács Imre és a néhai Szabó Mária. Menyasszony: Szabó Mária, római katolikus, hajadon, született Óbecsén 1922. október 31-én. Szülei Szabó Béla és Nagy Erzsébet.</p>
-      <p class="src">Óbecse-belváros, házasultak 1943, 78. bejegyzés (Kalocsai Főegyházmegyei Levéltár, matricula.hu)</p>
-    </div>
-  </section>
-
-  <section aria-labelledby="h-open">
-    <h2 id="h-open">Ami még nem ismert</h2>
-    <ul>
-      <li><b>Németh Ferenc születése.</b> A szenttamási névmutatóban több Németh Ferenc is van (1879, 1883, 1885, 1892); az 1892. nov. 12-i (szülei Németh Mihály és Teleki Erzsébet) korban illik egy 1919-ben született fiúhoz.</li>
-      <li><b>Németh József keresztelője (1919).</b> Az őrszállási és a szenttamási 1919-es keresztelési könyvben március körül nincs meg.</li>
-      <li><b>Németh Ferenc és Hamu Petronella házassága</b> (a család szerint Óbecsén, kb. 1915–1919).</li>
-      <li><b>A Szeged környéki származás:</b> melyik faluból jött a „Bolyhos” Németh család Szenttamásra.</li>
-      <li><b>Forgács Ferenc, Szabó Mária és Kiss Zsófia keresztelője</b> (Óbecse 1913, 1922, 1924): online elérhető, még nincs megnézve.</li>
+  <section aria-labelledby="h-chk">
+    <h2 id="h-chk">Ami még nem ismert</h2>
+    <ul class="checks">
+      <li><span class="mark">1</span><div><b>Németh Ferenc születése.</b> A szenttamási névmutatóban több Németh Ferenc is van (1879, 1883, 1885, 1892); az 1892. nov. 12-i (szülei Németh Mihály és Teleki Erzsébet) korban illik egy 1919-ben született fiúhoz.</div></li>
+      <li><span class="mark">2</span><div><b>Németh József keresztelője (1919).</b> Az őrszállási és a szenttamási 1919-es keresztelési könyvben március körül nincs meg.</div></li>
+      <li><span class="mark">3</span><div><b>Kiss Zsófia keresztelője (1924).</b> Az óbecse-belvárosi, -alsóvárosi és a szenttamási könyvben 1924 májusában nincs meg; az óbecse-újfalusi plébánia könyvei nincsenek fent.</div></li>
+      <li><span class="mark">4</span><div><b>Németh Ferenc és Hamu Petronella házassága</b> (a család szerint Óbecsén, kb. 1915–1919).</div></li>
+      <li><span class="mark">5</span><div><b>A Szeged környéki származás:</b> melyik faluból jött a „Bolyhos” Németh család Szenttamásra.</div></li>
     </ul>
   </section>
 
-  <footer>Források: Kalocsai Főegyházmegyei Levéltár (matricula.hu), FamilySearch, családi közlés. Részletes jegyzetek: nemeth-ag.md.</footer>
+  <section aria-labelledby="h-tab">
+    <h2 id="h-tab">Személyek</h2>
+    <div class="tablebox"><table id="ptable"><thead><tr><th>Név</th><th>Született</th><th>Elhunyt</th><th>Élt</th><th>Szülők</th><th>Házastárs</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <footer>
+    <span>Források: Kalocsai Főegyházmegyei Levéltár, Matricula-Historia-online (matricula.hu); FamilySearch; családi közlés.</span>
+    <span>A szögletes zárójelbe tett szavak a régi kézírásban bizonytalanul olvashatók. Jegyzetek: nemeth-ag.md, nemeth-forgacs.md.</span>
+  </footer>
 </div>
+
+<script>
+(function () {
+  var W = 128, H = 60, ROWH = 120, OY = 34, OX = 210, SX = 1.12;
+  var P = {};
+  function add(id, r, cx, line, name, info, note) { P[id] = { id: id, r: r, cx: cx, line: line, name: name, info: info || [], note: note || "" }; }
+
+  add("nos", 0, 70, "hyp", "Németh „Bolyhos”", ["Szeged környéke →", "Szenttamás"]);
+  add("nferenc", 1, 0, "ricz", "Németh Ferenc", ["Szenttamás", "2. házasság: Kiskunhalas"]);
+  add("hamu", 1, 140, "other", "Hamu Petronella", ["1. feleség"]);
+  add("kisspal", 1, 310, "other", "Kiss Pál", ["Óbecse"]);
+  add("schmidt", 1, 450, "other", "Schmidt Mária Teréz", ["Óbecse"]);
+  add("fimre", 1, 630, "kadas", "Forgács Imre", ["napszámos, Óbecse"]);
+  add("szmaria0", 1, 770, "other", "Szabó Mária", ["† 1943 előtt"]);
+  add("szbela", 1, 930, "other", "Szabó Béla", ["földműves, Óbecse"]);
+  add("nagye", 1, 1070, "other", "Nagy Erzsébet", ["Óbecse"]);
+  add("njozsef", 2, 70, "ricz", "Németh József Sándor", ["1919. márc. 4.", "Stanisics · ⚭ 1941"]);
+  add("kzsofia", 2, 380, "other", "Kiss Zsófia Teréz", ["1924. máj. 13.", "Óbecse ✓ · ⚭ 1941"]);
+  add("fferenc", 2, 700, "kadas", "Forgács Ferenc", ["1913. máj. 21.", "Óbecse ✓ · ⚭ 1943"]);
+  add("szmaria", 2, 1000, "other", "Szabó Mária", ["1922. okt. 31.", "Óbecse ✓ · ⚭ 1943"]);
+  add("elo1", 3, 225, "todo", "élő", ["két gyermekük"]);
+  add("elo2", 3, 850, "todo", "élő", ["leszármazottak"]);
+  var kidMid = 535;
+
+  var M = "https://matricula.hu/start_kfl_matricula_historia";
+  var S = {
+    m1941: { t: "Házasság, Óbecse-belváros, 1941. júl. 6., 33. bejegyzés (KFL, matricula.hu)", u: M },
+    m1943: { t: "Házasság, Óbecse-belváros, 1943. nov. 27., 78. bejegyzés (KFL, matricula.hu)", u: M },
+    k1913: { t: "Keresztelés, Óbecse-belváros, 1913. máj. 25., 121. bejegyzés (KFL, matricula.hu)", u: M },
+    k1922: { t: "Keresztelés, Óbecse-alsóváros, 1922. nov. 5., 185. bejegyzés (KFL, matricula.hu)", u: M }
+  };
+  var D = {
+    nos: { st: "hyp", facts: ["A család szerint Szeged környékéről jött Szenttamásra, ott nősült meg; juhtenyésztéssel foglalkozott.", "Három fia Szenttamáson született, köztük Németh Ferenc és Németh István.", "A család csúfneve „Bolyhos” volt."], notes: ["Neve, felesége és a szülőfalu még nem ismert."] },
+    nferenc: { st: "part", sibs: [{ n: "Németh István", d: "a család közlése szerint", st: "hyp" }], facts: ["A család szerint Szenttamáson született.", "Első felesége Hamu Petronella; fiuk Németh József Sándor (1919) – a fia 1941-es házassági bejegyzése szerint.", "Később Magyarországra szökött; második házassága Kiskunhalason volt (1950–1960 között)."], notes: ["Születése még nem ismert. Szenttamási jelölt: Németh Ferenc, kereszt. 1892. nov. 12., szülei Németh Mihály és Teleki Erzsébet (FamilySearch-névmutató)."], src: ["m1941"] },
+    hamu: { st: "part", facts: ["Németh Ferenc első felesége; fiuk Németh József Sándor (1919)."], notes: ["A kézírás „Hamii”-nak is olvasható; a család szerint Hamu."], src: ["m1941"] },
+    kisspal: { st: "part", facts: ["Kiss Zsófia Teréz apja, óbecsei."], src: ["m1941"] },
+    schmidt: { st: "part", facts: ["Kiss Zsófia Teréz anyja, óbecsei."], src: ["m1941"] },
+    fimre: { st: "ok", facts: ["Napszámos, Óbecse (1913).", "Fia, Forgács Ferenc 1913. máj. 21-én született."], src: ["k1913", "m1943"] },
+    szmaria0: { st: "ok", facts: ["Forgács Imre felesége; fiuk Forgács Ferenc (1913).", "1943-ban már nem élt (a fia házassági bejegyzésében „néhai”)."], src: ["k1913", "m1943"] },
+    szbela: { st: "ok", facts: ["Földműves, Óbecse (1922)."], src: ["k1922", "m1943"] },
+    nagye: { st: "ok", facts: ["Szabó Béla felesége; lányuk Szabó Mária (1922)."], src: ["k1922", "m1943"] },
+    njozsef: { st: "ok", facts: ["Született 1919. március 4-én, Stanisicson (Őrszállás, Bács-Bodrog vm.), római katolikus.", "1941. július 6-án Óbecsén vette feleségül Kiss Zsófia Terézt. Tanúk: Budácsevics[?] Félix és Ancskó[?] Pál; esketett Csajkás Antal káplán."], notes: ["Keresztelője nincs meg: az őrszállási és a szenttamási 1919-es könyvben március körül nem szerepel."], src: ["m1941"] },
+    kzsofia: { st: "ok", facts: ["Született 1924. május 13-án, Óbecsén (a házassági bejegyzés szerint).", "1941-ben, 17 évesen ment férjhez Németh József Sándorhoz."], notes: ["A család 1929-et tudta születési évnek.", "Keresztelője nincs meg az óbecse-belvárosi, -alsóvárosi és a szenttamási könyvben; az óbecse-újfalusi plébánia könyvei nincsenek fent."], src: ["m1941"] },
+    fferenc: { st: "ok", facts: ["Született 1913. május 21-én, keresztelték 25-én, Óbecsén.", "Keresztszülők Kántorai[?] Veronika és Kovács Károly[?]; keresztelte Jancsó[?] Ferenc plébános.", "1943. november 27-én vette feleségül Szabó Máriát; akkor Óbecse I, Pázmány u. 39. alatt lakott."], src: ["k1913", "m1943"] },
+    szmaria: { st: "ok", facts: ["Született 1922. október 31-én, keresztelték november 5-én, Óbecsén (alsóvárosi plébánia).", "1943. november 27-én ment férjhez Forgács Ferenchez."], src: ["k1922", "m1943"] },
+    elo1: { st: "todo", facts: ["Élő személyek; adataik ezen a nyilvános oldalon nem szerepelnek."] },
+    elo2: { st: "todo", facts: ["Élő személyek; adataik ezen a nyilvános oldalon nem szerepelnek."] }
+  };
+
+  var C = [
+    ["nferenc", "hamu", ["njozsef"]], ["kisspal", "schmidt", ["kzsofia"]],
+    ["fimre", "szmaria0", ["fferenc"]], ["szbela", "nagye", ["szmaria"]],
+    ["njozsef", "kzsofia", ["elo1"]], ["fferenc", "szmaria", ["elo2"]]
+  ];
+  var SOLO = [];
+
+  function X(p) { return p.cx * SX + OX; }
+  // Siblings known only from the records are drawn as small chips under the person;
+  // rows that carry chips get extra height
+  var CW = 86, CH = 30, CG = 6, CPER = 7, SIBS = {}, EXTRA = {}, placed = {};
+  Object.keys(P).forEach(function (k) {
+    var s = ((D[k] || {}).sibs || []).filter(function (x) { return !x.id; });
+    if (s.length) SIBS[k] = s;
+  });
+  // Siblings are drawn as the parents' other children: a comb hanging from the parents'
+  // descent line, in the band below the parents. When the parents are not on the tree,
+  // the comb sits in the band above the person and the person rises to the same bar.
+  // Each block goes beside its line (never over it), as wide as the gap to the next line allows,
+  // and is stacked below a neighbour's block when the two would still overlap.
+  var ANCH = Object.keys(SIBS).map(function (k) {
+    var p = P[k], pc = C.filter(function (c) { return c[2].indexOf(k) >= 0; })[0];
+    return { k: k, pc: pc, r: pc ? P[pc[0]].r : p.r - 1, ax: pc ? (X(P[pc[0]]) + X(P[pc[1]])) / 2 : X(p) };
+  });
+  ANCH.sort(function (a, b) { return a.ax - b.ax; }).forEach(function (a) {
+    var k = a.k, p = P[k], s = SIBS[k], pc = a.pc, from = { r: a.r }, ax = a.ax;
+    var gap = function (dir) {
+      var d = 4000;
+      ANCH.forEach(function (o) { if (o !== a && o.r === a.r && (o.ax - ax) * dir > 0) d = Math.min(d, Math.abs(o.ax - ax)); });
+      return d;
+    };
+    // the side away from the person, or the roomier side when the comb only feeds the person
+    var side = pc && X(p) !== ax ? (X(p) > ax ? -1 : 1) : (gap(-1) > gap(1) ? -1 : 1);
+    var per = Math.max(1, Math.min(CPER, s.length, Math.floor((gap(side) * 0.55 + CG) / (CW + CG))));
+    var bw = per * CW + (per - 1) * CG, cx = ax + side * (14 + bw / 2);
+    var bh = Math.ceil(s.length / per) * (CH + CG + 10), off = 0, row = placed[from.r] = placed[from.r] || [];
+    row.forEach(function (o) { if (cx - bw / 2 < o.r + 8 && cx + bw / 2 > o.l - 8) off = Math.max(off, o.off + o.h + 18); });
+    row.push({ l: cx - bw / 2, r: cx + bw / 2, off: off, h: bh });
+    // stored relative to OX, which is shifted later
+    SIBS[k] = { s: s, per: per, bw: bw, cx: cx - OX, off: off, from: from, ax: ax - OX, pc: pc };
+    EXTRA[from.r] = Math.max(EXTRA[from.r] || 0, 14 + off + bh);
+  });
+  function Y(p) { var y = OY + p.r * ROWH; for (var r = 0; r < p.r; r++) y += EXTRA[r] || 0; return y; }
+  // Shift right so boxes with negative cx stay inside the scrollable area
+  var minX = Infinity;
+  Object.keys(P).forEach(function (k) { minX = Math.min(minX, X(P[k]) - W / 2); });
+  Object.keys(SIBS).forEach(function (k) { minX = Math.min(minX, SIBS[k].cx + OX - SIBS[k].bw / 2); });
+  if (minX < 70) OX += 70 - minX;
+  var maxX = 0;
+  Object.keys(P).forEach(function (k) { maxX = Math.max(maxX, X(P[k]) + W / 2); });
+  Object.keys(SIBS).forEach(function (k) { maxX = Math.max(maxX, SIBS[k].cx + OX + SIBS[k].bw / 2); });
+  var maxR = 0;
+  Object.keys(P).forEach(function (k) { maxR = Math.max(maxR, P[k].r); });
+  var VW = Math.ceil(maxX + 30), VH = Y({ r: maxR }) + H + (EXTRA[maxR] || 0) + 34;
+
+  var NS = "http://www.w3.org/2000/svg";
+  var svg = document.getElementById("tree");
+  svg.setAttribute("viewBox", "0 0 " + VW + " " + VH);
+  function el(tag, attrs, parent, text) {
+    var e = document.createElementNS(NS, tag);
+    for (var a in attrs) e.setAttribute(a, attrs[a]);
+    if (text != null) e.textContent = text;
+    (parent || svg).appendChild(e);
+    return e;
+  }
+  var gE = el("g", {}), gN = el("g", {});
+
+  // Generation labels down the left edge
+  ["IV.", "III.", "II.", "I."].forEach(function (t, i) {
+    el("text", { x: 14, y: Y({ r: i }) + H / 2 + 4, "class": "gen" }, gE, t);
+  });
+
+  function line(x1, y1, x2, y2, cls) { el("line", { x1: x1, y1: y1, x2: x2, y2: y2, "class": "edge" + (cls ? " " + cls : "") }, gE); }
+
+  C.forEach(function (c) {
+    var a = P[c[0]], b = P[c[1]];
+    var ya = Y(a) + H / 2;
+    line(Math.min(X(a), X(b)) + W / 2, ya, Math.max(X(a), X(b)) - W / 2, ya);
+    var mx = (X(a) + X(b)) / 2;
+    var kids = c[2].map(function (id) { return P[id]; });
+    var ky = Y(kids[0]);
+    if (kids.length === 1 && X(kids[0]) === mx) {
+      line(mx, ya, mx, ky);
+    } else {
+      var bar = ky - 26, xs = kids.map(X).concat(mx);
+      line(mx, ya, mx, bar);
+      line(Math.min.apply(null, xs), bar, Math.max.apply(null, xs), bar);
+      kids.forEach(function (k) { line(X(k), bar, X(k), ky); });
+    }
+  });
+
+  // Family memory only: the „Bolyhos” ancestor above Németh Ferenc
+  (function () {
+    var a = P.nos, k = P.nferenc;
+    line(X(a), Y(a) + H, X(k), Y(k), "hyp");
+    el("text", { x: X(a) + 8, y: (Y(a) + H + Y(k)) / 2 + 4, "class": "lbl hyp" }, gE, "a család szerint");
+  })();
+  // Placeholder for the generations below Ric Antal (1910), down to today
+  SOLO.forEach(function (sl) {
+    var pa = P[sl[0]], kids = sl[1].map(function (id) { return P[id]; }), px = X(pa), py = Y(pa) + H, ky = Y(kids[0]);
+    if (kids.length === 1) { line(px, py, X(kids[0]), ky); return; }
+    var bar = ky - 26;
+    line(px, py, px, bar);
+    line(X(kids[0]), bar, X(kids[kids.length - 1]), bar);
+    kids.forEach(function (k) { line(X(k), bar, X(k), ky, k.line === "todo" ? "todo" : ""); });
+  });
+  function splitName(s) {
+    if (s.length <= 18) return [s];
+    var cut = s.lastIndexOf(" ", 18);
+    if (cut < 1) cut = s.indexOf(" ");
+    return cut < 1 ? [s] : [s.slice(0, cut), s.slice(cut + 1)];
+  }
+
+  // Direct line: everyone above the living generation
+  var DIRECT = {}, pm = {};
+  C.forEach(function (c) { c[2].forEach(function (k) { pm[k] = [c[0], c[1]]; }); });
+  SOLO.forEach(function (sl) { sl[1].forEach(function (k) { pm[k] = [sl[0]]; }); });
+  ["elo1", "elo2"].forEach(function up(k) { DIRECT[k] = true; (pm[k] || []).forEach(up); });
+  var NODES = {};
+  var MON = { jan: 1, febr: 2, "márc": 3, "ápr": 4, "máj": 5, "jún": 6, "júl": 7, aug: 8, szept: 9, okt: 10, nov: 11, dec: 12 };
+  function parseDate(t) {
+    var m = /(\d{4})(?:\.\s*(jan|febr|márc|ápr|máj|jún|júl|aug|szept|okt|nov|dec)\.?\s*\[?(\d{1,2}))?/.exec(t || "");
+    return m ? { y: +m[1], m: m[2] ? MON[m[2]] : 0, d: m[3] ? +m[3] : 0 } : null;
+  }
+  // Years lived: exact when both full dates are known, otherwise a one-year range
+  function lifeSpan(k) {
+    var d = D[k] || {};
+    if (!d.death) return null;
+    if (d.deathAge != null) return { exact: true, n: d.deathAge, text: d.deathAge + " évet (" + (d.deathAgeSrc || "a halotti anyakönyv szerint") + ")" };
+    var b = parseDate(P[k].info[0]), e = parseDate(d.death);
+    if (!b || !e) return null;
+    var n = e.y - b.y;
+    if (b.m && b.d && e.m && e.d) {
+      if (e.m < b.m || (e.m === b.m && e.d < b.d)) n--;
+      return { exact: true, n: n, text: n + " évet" };
+    }
+    return { exact: false, n: n, text: "kb. " + (n - 1) + "–" + n + " évet" };
+  }
+  function lifeShort(k) {
+    var d = D[k] || {};
+    if (!d.death) return null;
+    var e = parseDate(d.death), l = lifeSpan(k);
+    return "† " + (e ? e.y : "?") + (l ? " · " + (l.exact ? l.n : (l.n - 1) + "–" + l.n) + " év" : "");
+  }
+
+  Object.keys(P).forEach(function (k) {
+    var p = P[k], x = X(p) - W / 2, y = Y(p);
+    var g = NODES[k] = el("g", { "class": "node" + (DIRECT[k] ? " direct" : ""), tabindex: 0, role: "button", "aria-label": p.name + (p.info.length ? ", " + p.info.join(", ") : "") }, gN);
+    g.addEventListener("click", function () { select(k, "tree"); });
+    g.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(k, "tree"); } });
+    var tip = p.name + (p.info.length ? " — " + p.info.join(", ") : "") + (p.note ? "\n" + p.note : "");
+    el("title", {}, g, tip);
+    el("rect", { x: x, y: y, width: W, height: H, rx: 6, "class": "box " + p.line }, g);
+    if ((D[k] || {}).photos) {
+      el("rect", { x: x + W - 17, y: y + 7, width: 11, height: 8, rx: 1.5, "class": "cam" }, g);
+      el("circle", { cx: x + W - 11.5, cy: y + 11, r: 2.2, "class": "camlens" }, g);
+    }
+    var names = splitName(p.name);
+    var ls = lifeShort(k), info = ls ? [p.info[0], ls].filter(Boolean) : p.info;
+    var lines = names.map(function (t) { return [t, "nm"]; }).concat(info.map(function (t) { return [t, p.line === "hyp" ? "hyp-t" : "dt"]; }));
+    var lh = 14, y0 = y + H / 2 - ((lines.length - 1) * lh) / 2 + 4;
+    lines.forEach(function (l, i) { el("text", { x: X(p), y: y0 + i * lh, "text-anchor": "middle", "class": l[1] }, g, l[0]); });
+  });
+
+  // Sibling chips (positions computed above)
+  Object.keys(SIBS).forEach(function (k) {
+    var p = P[k], L = SIBS[k], s = L.s, per = L.per, bw = L.bw, cx = L.cx + OX;
+    L.ax += OX;
+    var y0 = Y(L.from) + H + 14 + L.off, sur = p.name.split(" ")[0] + " ";
+    // A comb per row: a bar fed from the parents' descent line (or rising from the person), one tick per child
+    if (!L.pc) line(L.ax, Y(p), L.ax, y0 - 8);
+    s.forEach(function (x, i) {
+      var row = Math.floor(i / per), n = Math.min(per, s.length - row * per);
+      var x0 = cx - (n * CW + (n - 1) * CG) / 2 + (i % per) * (CW + CG), y = y0 + row * (CH + CG + 10);
+      if (i % per === 0) line(Math.min(L.ax, x0 + CW / 2), y - 8, Math.max(L.ax, x0 + (n - 1) * (CW + CG) + CW / 2), y - 8);
+      line(x0 + CW / 2, y - 8, x0 + CW / 2, y);
+      var nm = x.n.indexOf(sur) === 0 ? x.n.slice(sur.length) : x.n;
+      var by = /^(szül\.|kereszt\.|kb\.)?\s*\D{0,6}(\d{4})/.exec(x.d || ""), dy = /meghalt[^0-9]*?(\d{4})/.exec(x.d || "");
+      var yrs = (by && /^(szül|kereszt|kb|\d)/.test(x.d) ? by[2] : "") + (dy ? " – †" + dy[1] : "");
+      var g = el("g", { "class": "sibchip" + (x.st === "hyp" ? " hyp" : ""), tabindex: 0, role: "button", "aria-label": p.name + " testvére: " + x.n + (x.d ? ", " + x.d : "") }, gN);
+      g.addEventListener("click", function () { select(k, "tree"); });
+      el("title", {}, g, x.n + (x.d ? " — " + x.d : "") + (x.st === "hyp" ? " (feltételezés)" : ""));
+      el("rect", { x: x0, y: y, width: CW, height: CH, rx: 4 }, g);
+      el("text", { x: x0 + CW / 2, y: y + (yrs ? 13 : 19), "text-anchor": "middle", "class": "snm" }, g, nm.length > 16 ? nm.slice(0, 15) + "…" : nm);
+      if (yrs) el("text", { x: x0 + CW / 2, y: y + 25, "text-anchor": "middle", "class": "sdt" }, g, yrs);
+    });
+  });
+
+  // Zoom
+  var box = document.getElementById("treebox"), zv = document.getElementById("zoomVal");
+  var z = 0.8;
+  function apply(center) {
+    svg.setAttribute("width", Math.round(VW * z));
+    svg.setAttribute("height", Math.round(VH * z));
+    zv.textContent = Math.round(z * 100) + "%";
+    if (center) box.scrollLeft = Math.max(0, (kidMid * SX + OX) * z - box.clientWidth / 2);
+  }
+  function setZ(nz, center) {
+    var cx = (box.scrollLeft + box.clientWidth / 2) / z;
+    z = Math.min(1.6, Math.max(0.3, nz));
+    apply(false);
+    if (center) box.scrollLeft = Math.max(0, cx * z - box.clientWidth / 2);
+  }
+  document.getElementById("zoomIn").addEventListener("click", function () { setZ(z + 0.1, true); });
+  document.getElementById("zoomOut").addEventListener("click", function () { setZ(z - 0.1, true); });
+  document.getElementById("zoomFit").addEventListener("click", function () { setZ((box.clientWidth - 2) / VW, false); box.scrollLeft = 0; });
+  apply(true);
+
+  // People table
+  var parentsOf = {}, spouseOf = {};
+  C.forEach(function (c) {
+    c[2].forEach(function (k) { parentsOf[k] = P[c[0]].name + " és " + P[c[1]].name; });
+    (spouseOf[c[0]] = spouseOf[c[0]] || []).push(P[c[1]].name);
+    (spouseOf[c[1]] = spouseOf[c[1]] || []).push(P[c[0]].name);
+  });
+  var tb = document.querySelector("#ptable tbody");
+  Object.keys(P).filter(function (k) { return P[k].line !== "hyp" && P[k].line !== "todo"; })
+    .sort(function (a, b) { return P[a].r - P[b].r || P[a].cx - P[b].cx; })
+    .forEach(function (k) {
+      var p = P[k], tr = document.createElement("tr");
+      function td(t, cls) { var d = document.createElement("td"); if (cls) d.className = cls; d.textContent = t; tr.appendChild(d); return d; }
+      var n = td("");
+      var dot = document.createElement("i"); dot.className = "dot " + p.line; n.appendChild(dot);
+      n.appendChild(personLink(k, true));
+      td(p.info.join(", ") || "–", "d");
+      var dk = D[k] || {}, lk = lifeSpan(k);
+      td(dk.death || "–", "d");
+      td(lk ? lk.text : "–");
+      td(parentsOf[k] || "–");
+      td((spouseOf[k] || []).join(", ") || "–");
+      tb.appendChild(tr);
+    });
+
+  var ST = { fam: ["a család közlése szerint", "part"], todo: ["kitöltendő", "todo"], ok: ["igazolva", "done"], part: ["részben igazolva", "part"], tree: ["a családfa rajzáról, forrás nélkül", "other"], hyp: ["feltételezés", "todo"] };
+  var LINE = { todo: "Élő leszármazottak", ricz: "Németh ág", kadas: "Forgács ág", other: "Beházasodott ág", hyp: "Családi emlék" };
+
+  var parents = {}, spouses = {}, children = {};
+  C.forEach(function (c) {
+    c[2].forEach(function (k) { parents[k] = [c[0], c[1]]; });
+    [[c[0], c[1]], [c[1], c[0]]].forEach(function (pr) {
+      (spouses[pr[0]] = spouses[pr[0]] || []).push(pr[1]);
+      children[pr[0]] = (children[pr[0]] || []).concat(c[2]);
+    });
+  });
+
+  SOLO.forEach(function (sl) {
+    sl[1].forEach(function (k) { parents[k] = [sl[0]]; });
+    children[sl[0]] = (children[sl[0]] || []).concat(sl[1]);
+  });
+
+  function h(tag, cls, text, parent) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function personLink(id, bare) {
+    var p = P[id], b = h("button", "plink", p.name + (!bare && p.info[0] ? " (" + p.info[0] + ")" : ""));
+    b.type = "button";
+    b.addEventListener("click", function () { select(id, "link"); });
+    return b;
+  }
+
+  var panel = document.getElementById("detail"), cur = null;
+  var smooth = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+
+  function render(id) {
+    var p = P[id], d = D[id] || { st: "tree" }, st = ST[d.st];
+    panel.textContent = "";
+    var head = h("div", "dhead", null, panel);
+    h("div", "eyebrow", LINE[p.line], head);
+    h("h3", null, p.name, head);
+    if (p.info.length) h("div", "dates", p.info.join(" · "), head);
+    var meta = h("div", "meta", null, head);
+    h("span", "pill " + st[1], st[0], meta);
+    if (d.photos && d.photos.length) {
+      var ph = h("div", "photos", null, panel);
+      d.photos.forEach(function (f) {
+        var fig = h("figure", null, null, ph), a = h("a", null, null, fig), img = h("img", null, null, a);
+        a.href = f.full || f.src; a.target = "_blank"; a.rel = "noopener";
+        img.src = f.src; img.alt = p.name + " fényképe"; img.loading = "lazy";
+        h("figcaption", null, f.cap, fig);
+      });
+    }
+
+    var grid = h("div", "dgrid", null, panel);
+    var relBox = h("div", null, null, grid);
+    h("div", "k", "Rokonság a fán", relBox);
+    var dl = h("dl", "rel", null, relBox);
+    var sib = parents[id] ? (children[parents[id][0]] || []).filter(function (k) { return k !== id; }) : [];
+    [["Szülők", parents[id] || []], ["Házastárs", spouses[id] || []], ["Gyermekek", children[id] || []]].forEach(function (r) {
+      h("dt", null, r[0], dl);
+      var dd = h("dd", null, null, dl);
+      if (r[1].length) r[1].forEach(function (k) { dd.appendChild(personLink(k)); });
+      else h("span", "none", "nem ismert", dd);
+    });
+    // Siblings: those on the tree, plus siblings known only from the records (✓ igazolt, ? feltételezett)
+    h("dt", null, "Testvérek", dl);
+    var sd = h("dd", null, null, dl), extra = d.sibs || [];
+    sib.forEach(function (k) { sd.appendChild(personLink(k)); });
+    extra = extra.filter(function (x) { return !x.id || sib.indexOf(x.id) < 0; });
+    extra.forEach(function (x) {
+      if (x.id) sd.appendChild(personLink(x.id));
+      else h("span", x.st === "hyp" ? "hypname" : null, x.n + (x.d ? " (" + x.d + ")" : "") + (x.st === "hyp" ? " ?" : " ✓"), sd);
+    });
+    if (!sib.length && !extra.length) {
+      h("span", "none", parents[id] ? "még nem ismert: " + parents[id].map(function (k) { return P[k].name; }).join(" és ") + " többi gyermeke keresendő" : "nem ismert", sd);
+    } else if (extra.some(function (x) { return x.st === "hyp" || (x.id && P[x.id].line === "hyp"); })) {
+      h("span", "none", "(? = feltételezés)", sd);
+    }
+    h("dt", null, "Elhunyt", dl);
+    var ddd = h("dd", null, null, dl);
+    if (d.death) {
+      h("span", null, "† " + d.death, ddd);
+      var l = lifeSpan(id);
+      h("dt", null, "Élt", dl);
+      h("span", l ? null : "none", l ? l.text + (l.exact ? "" : " (csak az évek ismertek)") : "nem számolható ki", h("dd", null, null, dl));
+    } else h("span", "none", "még nem ismert", ddd);
+
+    var factBox = h("div", null, null, grid);
+    h("div", "k", "Amit tudunk", factBox);
+    if (d.facts && d.facts.length) { var ul = h("ul", null, null, factBox); d.facts.forEach(function (t) { h("li", null, t, ul); }); }
+    else h("p", "none", "Csak a név ismert, az eredeti családfa rajzáról.", factBox);
+
+    if (d.notes && d.notes.length) {
+      var noteBox = h("div", null, null, grid);
+      h("div", "k", "Megjegyzések, nyitott kérdések", noteBox);
+      var nl = h("ul", null, null, noteBox);
+      d.notes.forEach(function (t) { h("li", null, t, nl); });
+    }
+
+    var srcBox = h("div", null, null, grid);
+    h("div", "k", "Források", srcBox);
+    if (d.src && d.src.length) {
+      var sl = h("ul", null, null, srcBox);
+      d.src.forEach(function (s) { var li = h("li", null, null, sl), a = h("a", null, S[s].t + " ↗", li); a.href = S[s].u; a.target = "_blank"; a.rel = "noopener"; });
+    } else h("p", "none", "Még nincs forrás csatolva.", srcBox);
+  }
+
+  function select(id, how) {
+    if (cur && NODES[cur]) NODES[cur].classList.remove("sel");
+    cur = id;
+    NODES[id].classList.add("sel");
+    render(id);
+    if (how === "link") {
+      var p = P[id];
+      box.scrollTo({ left: Math.max(0, X(p) * z - box.clientWidth / 2), top: Math.max(0, (Y(p) + H / 2) * z - box.clientHeight / 2), behavior: smooth ? "smooth" : "auto" });
+      box.scrollIntoView({ block: "nearest", behavior: smooth ? "smooth" : "auto" });
+    } else if (how === "tree") {
+      var r = panel.getBoundingClientRect();
+      if (r.top > window.innerHeight - 80) panel.scrollIntoView({ block: "start", behavior: smooth ? "smooth" : "auto" });
+    }
+  }
+
+  select("njozsef", "init");
+})();
+</script>
 </body>
 </html>
