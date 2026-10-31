@@ -75,3 +75,10 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - A szülők házassága a névmutatóban nincs; Szenttamáson 1880–1892 sincs meg → valószínűleg 1880 előtt vagy máshol (Szeged környéke?).
 - **Németh Ferencz harmadik házassága**: Kiskunhalas, polgári, 1943. febr. 24., 37. sz. (https://www.familysearch.org/ark:/61903/1:1:6V15-GGZP). Vőlegény szül. Szenttamás 1885. okt. 5., szülei Németh Mihály és Igracski Viktória. Menyasszony Kereszturi Julianna, kb. 1897, Kiskunhalas; szülei Kereszturi Sándor és Erdődi Julianna. A család 1950–60-at tudta.
 - A család szerint az első feleség (Katona Julianna) a házasság alatt halt meg.
+
+## Németh Mihály × Igracski Viktória (2026. okt. 31.)
+
+- **Házasság**: Szenttamás, házasultak 1879, 11. bejegyzés, **1879. február 12.** Vőlegény: Michael Németh, Josephi et Rosaliae Gálik filius, Szenttamás 804, r. kat., 23 éves, nőtlen. Menyasszony: Victoria Igrácski, Pauli et Elisabethae Kancsár filia, Szenttamás 752, r. kat., 20 éves, hajadon.
+- **Németh Mihály keresztelése**: Szenttamás 1856, szülei Németh József és Gálik Rozália (FamilySearch XKBC-ZQ7). Testvére Anna 1859.
+- **Igracski Viktória**: valószínűleg Szenttamás 1857 (FamilySearch XKBC-843, „Ignatsky Victoria”, szülei Ignatsky Paulus és Kontsar Elisabetha). Testvérei a névmutatóban: Katalin 1860, Veronika 1861, Anna 1870, Pál 1871, Julianna 1879.
+- Mihály tehát már Szenttamáson született; a Szeged környéki eredet az apjára (Németh József) vagy korábbra vonatkozhat.

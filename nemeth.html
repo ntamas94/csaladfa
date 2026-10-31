@@ -234,8 +234,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   <section aria-labelledby="h-chk">
     <h2 id="h-chk">Ami még nem ismert</h2>
     <ul class="checks">
-      <li><span class="mark">1</span><div><b>Németh Mihály származása.</b> A család szerint Szeged környékéről jött; születése és házassága Ignácski Viktóriával még nem ismert.</div></li>
-      <li><span class="mark">2</span><div><b>A Szeged környéki származás:</b> melyik faluból jött a „Bolyhos” Németh család Szenttamásra.</div></li>
+      <li><span class="mark">1</span><div><b>A Szeged környéki származás.</b> Németh Mihály 1856-ban már Szenttamáson született, apja Németh József. Hogy József vagy egy korábbi ős jött-e Szeged környékéről, még nem ismert.</div></li>
     </ul>
   </section>
 
@@ -256,24 +255,28 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var P = {};
   function add(id, r, cx, line, name, info, note) { P[id] = { id: id, r: r, cx: cx, line: line, name: name, info: info || [], note: note || "" }; }
 
-  add("nmihaly", 0, -70, "ricz", "Németh Mihály", ["„Bolyhos” · Szeged környéke", "→ Szenttamás"]);
-  add("ignacski", 0, 70, "other", "Ignácski Viktória", ["Szenttamás"]);
-  add("nferenc", 1, 0, "ricz", "Németh Ferenc", ["1885. okt. 5.", "Szenttamás ✓ · ⚭ 1910"]);
-  add("hamuantal", 0, 230, "other", "Hamu Antal", ["Óbecse"]);
-  add("karacsonyi", 0, 370, "other", "Karácsonyi Mária", ["Óbecse"]);
-  add("hamu", 1, 140, "other", "Hamu Petronella", ["1891. máj. 24.", "Óbecse ✓ · ⚭ 1910"]);
-  add("kisspal", 1, 310, "other", "Kiss Pál", ["Stanisics → Óbecse"]);
-  add("schmidt", 1, 450, "other", "Schmidt Mária Teréz", ["Stanisics → Óbecse"]);
-  add("fimre", 1, 630, "kadas", "Forgács Imre", ["napszámos, Óbecse"]);
-  add("szmaria0", 1, 770, "other", "Szabó Mária", ["† 1943 előtt"]);
-  add("szbela", 1, 930, "other", "Szabó Béla", ["földműves, Óbecse"]);
-  add("nagye", 1, 1070, "other", "Nagy Erzsébet", ["Óbecse"]);
-  add("njozsef", 2, 70, "ricz", "Németh József Sándor", ["1919. márc. 4.", "Óbecse ✓ · ⚭ 1941"]);
-  add("kzsofia", 2, 380, "other", "Kiss Zsófia Teréz", ["1924. máj. 13.", "Stanisics ✓ · ⚭ 1941"]);
-  add("fferenc", 2, 700, "kadas", "Forgács Ferenc", ["1913. máj. 21.", "Óbecse ✓ · ⚭ 1943"]);
-  add("szmaria", 2, 1000, "other", "Szabó Mária", ["1922. okt. 31.", "Óbecse ✓ · ⚭ 1943"]);
-  add("elo1", 3, 225, "todo", "élő", ["két gyermekük"]);
-  add("elo2", 3, 850, "todo", "élő", ["leszármazottak"]);
+  add("njozsef0", 0, -140, "ricz", "Németh József", ["Szenttamás"]);
+  add("galik", 0, 0, "other", "Gálik Rozália", ["Szenttamás"]);
+  add("igpal", 0, 140, "other", "Igracski Pál", ["Szenttamás"]);
+  add("kancsar", 0, 280, "other", "Kancsár Erzsébet", ["Szenttamás"]);
+  add("nmihaly", 1, -70, "ricz", "Németh Mihály", ["1856", "Szenttamás · ⚭ 1879"]);
+  add("ignacski", 1, 70, "other", "Igracski Viktória", ["kb. 1858", "Szenttamás · ⚭ 1879"]);
+  add("nferenc", 2, 0, "ricz", "Németh Ferenc", ["1885. okt. 5.", "Szenttamás ✓ · ⚭ 1910"]);
+  add("hamuantal", 1, 230, "other", "Hamu Antal", ["Óbecse"]);
+  add("karacsonyi", 1, 370, "other", "Karácsonyi Mária", ["Óbecse"]);
+  add("hamu", 2, 140, "other", "Hamu Petronella", ["1891. máj. 24.", "Óbecse ✓ · ⚭ 1910"]);
+  add("kisspal", 2, 310, "other", "Kiss Pál", ["Stanisics → Óbecse"]);
+  add("schmidt", 2, 450, "other", "Schmidt Mária Teréz", ["Stanisics → Óbecse"]);
+  add("fimre", 2, 630, "kadas", "Forgács Imre", ["napszámos, Óbecse"]);
+  add("szmaria0", 2, 770, "other", "Szabó Mária", ["† 1943 előtt"]);
+  add("szbela", 2, 930, "other", "Szabó Béla", ["földműves, Óbecse"]);
+  add("nagye", 2, 1070, "other", "Nagy Erzsébet", ["Óbecse"]);
+  add("njozsef", 3, 70, "ricz", "Németh József Sándor", ["1919. márc. 4.", "Óbecse ✓ · ⚭ 1941"]);
+  add("kzsofia", 3, 380, "other", "Kiss Zsófia Teréz", ["1924. máj. 13.", "Stanisics ✓ · ⚭ 1941"]);
+  add("fferenc", 3, 700, "kadas", "Forgács Ferenc", ["1913. máj. 21.", "Óbecse ✓ · ⚭ 1943"]);
+  add("szmaria", 3, 1000, "other", "Szabó Mária", ["1922. okt. 31.", "Óbecse ✓ · ⚭ 1943"]);
+  add("elo1", 4, 225, "todo", "élő", ["két gyermekük"]);
+  add("elo2", 4, 850, "todo", "élő", ["leszármazottak"]);
   var kidMid = 535;
 
   var M = "https://matricula.hu/start_kfl_matricula_historia";
@@ -292,11 +295,16 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     m1910: { t: "Házasság, Óbecse-belváros, 1910. ápr. 19., 22. bejegyzés, Németh Ferenc és Hamu Petronella (KFL, matricula.hu)", u: M },
     m1911: { t: "Házasság, Óbecse-belváros, 1911. jún. 6., 35. bejegyzés, Forgács Imre és Szabó Mária (KFL, matricula.hu)", u: M },
     m1943h: { t: "Polgári házasság, Kiskunhalas, 1943. febr. 24., 37. sz., Németh Ferencz és Kereszturi Julianna (FamilySearch, Hungary Civil Registration)", u: "https://www.familysearch.org/ark:/61903/1:1:6V15-GGZP" },
+    m1879: { t: "Házasság, Szenttamás, 1879. febr. 12., 11. bejegyzés, Németh Mihály és Igracski Viktória (KFL, matricula.hu)", u: M },
     k1892: { t: "Keresztelés, Szenttamás, 1892. nov. 12., 202. bejegyzés, Németh Ferencz – jelölt (KFL, matricula.hu)", u: M }
   };
   var D = {
-    nmihaly: { st: "part", facts: ["Felesége Ignácski (Igracski) Viktória. Gyermekeik Szenttamáson (FamilySearch-névmutató): Viktória 1880, Erzsébet 1882, Ferenc 1885, Mihály 1888, György 1891, István 1895.", "A család szerint Szeged környékéről jött Szenttamásra, ott nősült meg, juhtenyésztéssel foglalkozott; három fia Szenttamáson született, köztük Ferenc és István. A család csúfneve „Bolyhos” volt."], notes: ["Születése, házassága és a szülőfalu még nem ismert."], src: ["k1885"] },
-    ignacski: { st: "ok", facts: ["Németh Mihály felesége; fiuk Németh Ferenc (1885)."], notes: ["A névalak a keresztelési bejegyzésben Ignácski[?]; a FamilySearch-névmutatóban Ignacski/Igracski Victoria."], src: ["k1885"] },
+    nmihaly: { st: "ok", facts: ["Keresztelték 1856-ban Szenttamáson; szülei Németh József és Gálik Rozália (FamilySearch-névmutató).", "1879. február 12-én Szenttamáson, 23 évesen, nőtlenként feleségül vette a 20 éves Igracski Viktóriát (házszám: Szenttamás 804).", "Gyermekeik Szenttamáson: Viktória 1880, Erzsébet 1882, Ferenc 1885, Mihály 1888, György 1891, István 1895.", "A család szerint juhtenyésztő volt; a csúfnév „Bolyhos”."], notes: ["A család Szeged környéki származást tud; Mihály már Szenttamáson született, így ez inkább az apjára, Németh Józsefre vagy korábbra vonatkozhat."], sibs: [{ n: "Németh Anna", d: "kereszt. 1859, Szenttamás, névmutató", st: "ok" }], src: ["m1879", "k1885"] },
+    njozsef0: { st: "ok", facts: ["Felesége Gálik Rozália; gyermekeik Szenttamáson: Mihály 1856, Anna 1859 (FamilySearch-névmutató)."], notes: ["Származása nem ismert; a család Szeged környéki eredetet tud."], src: ["m1879"] },
+    galik: { st: "ok", facts: ["Németh József felesége; fia Németh Mihály (1856)."], src: ["m1879"] },
+    igpal: { st: "ok", facts: ["Felesége Kancsár Erzsébet; Szenttamáson keresztelt gyermekeik a névmutatóban: Viktória (Ignatsky Victoria) 1857, Katalin 1860, Veronika 1861, Anna 1870, Pál 1871, Julianna 1879."], src: ["m1879"] },
+    kancsar: { st: "ok", facts: ["Igracski Pál felesége; lányuk Igracski Viktória."], src: ["m1879"] },
+    ignacski: { st: "ok", facts: ["Valószínűleg 1857-ben keresztelték Szenttamáson (névmutató: Ignatsky Victoria, szülei Ignatsky Paulus és Kontsar Elisabetha).", "1879. február 12-én 20 évesen ment férjhez Németh Mihályhoz (Szenttamás 752).", "Szülei Igracski Pál és Kancsár Erzsébet."], notes: ["Névalakjai: Igracski, Igrácski, Ignácski, Ignatsky."], src: ["m1879", "k1885"] },
     nferenc: { st: "ok", sibs: [{ n: "Németh Viktória", d: "kereszt. 1880, Szenttamás, FamilySearch-névmutató", st: "ok" }, { n: "Németh Erzsébet", d: "kereszt. 1882, Szenttamás, FamilySearch-névmutató", st: "ok" }, { n: "Németh Mihály", d: "kereszt. 1888, Szenttamás, FamilySearch-névmutató", st: "ok" }, { n: "Németh György", d: "kereszt. 1891, Szenttamás, FamilySearch-névmutató", st: "ok" }, { n: "Németh István", d: "kereszt. 1895, Szenttamás, FamilySearch-névmutató", st: "ok" }], facts: ["Született 1885. október 5-én, keresztelték ugyanaznap, Szenttamáson. Szülei Németh Mihály és Ignácski Viktória, római katolikusok. Keresztanyja Tóth Katalin; keresztelte Plachinszky[?] Bernát káplán.", "Első felesége Katona Julianna volt, aki a házasságuk alatt, 1910 előtt meghalt.", "1910. április 19-én Óbecsén, 24 éves özvegyként, szenttamási földművesként feleségül vette a 18 éves Hamu Petronellát. Tanúk: Tóth Ferenc és Sötét[?] István földművesek; esketett Jancsó Ferenc plébános.", "Gyermekeik: Julianna (szül. 1912. jan. 22., Szenttamás; a család szerint apáca lett, 1994-ben Vácon halt meg), István (kb. 1915 – 1916. nov. 12., Óbecse, egyévesen; a halotti bejegyzés szerint tüdőgyulladás, a család szerint torokgyík), Lajos (a család szerint egy héten belül halt meg Istvánnal) és József Sándor (1919. márc. 4., Óbecse). 1916-ban Óbecsén a Tiszaszél u. 27., 1919-ben a Tiszapart 24. alatt laktak; ekkor napszámos volt.", "Később Magyarországra szökött. 1943. február 24-én Kiskunhalason (anyakönyvi kivonat 37.) feleségül vette Kereszturi Juliannát (szül. kb. 1897, Kiskunhalas; szülei Kereszturi Sándor és Erdődi Julianna). A bejegyzésben Ferenc születése: Szenttamás, 1885. okt. 5."], notes: ["A család 1950–1960 közé tette a kiskunhalasi házasságot; az anyakönyv 1943-at ír. Hamu Petronella ekkor még élt (†1961) – a válás vagy a bejegyzés körülményei nem ismertek."], src: ["k1885", "m1910", "k1912", "d1916", "k1919", "m1941", "m1943h"] },
     hamu: { st: "ok", death: "1961. okt. 10.", sibs: [{ n: "Hamu Pál", d: "kb. 1884; napszámos, Óbecse, Tiszapart 27; 1913-ban feleségül vette Héder Zsófiát", st: "ok" }, { n: "Hamu Mária", d: "a család közlése szerint", st: "ok" }], facts: ["Született 1891. május 24-én (a család szerint 25-én), Óbecsén (belvárosi plébánia, 229. bejegyzés). Szülei Hamu Antal és Karácsonyi Mária, óbecsei római katolikusok.", "1910. április 19-én Óbecsén, 18 évesen ment férjhez Németh Ferenchez (ő özvegy volt). Lakása akkor Óbecse, Tiszapart 27.", "Németh Ferenc második felesége; fiuk Németh József Sándor 1919. márc. 4-én született Óbecsén.", "Meghalt 1961. október 10-én (a család közlése szerint).", "Testvére Hamu Pál (a család közlése szerint): 1913. jan. 28-án 29 éves özvegyként vette feleségül Héder Zsófiát Óbecse-alsóvárosban; a Tiszapart 27. alatt lakott, Németh Ferencék 1919-ben a 24. alatt.", "Óbecsén 1914-ben Hamu Erzsébet ment férjhez, 1919-ben Hamu Mihály és Hamu Imre gyermekeit keresztelték; ők is rokonok lehetnek."], src: ["k1891", "k1919", "m1941", "h1913"] },
     hamuantal: { st: "ok", facts: ["Óbecsei római katolikus; felesége Karácsonyi Mária. Lányuk Hamu Petronella (1891); a család szerint fiuk Hamu Pál és lányuk Hamu Mária is."], src: ["k1891"] },
@@ -316,7 +324,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   };
 
   var C = [
-    ["nmihaly", "ignacski", ["nferenc"]], ["hamuantal", "karacsonyi", ["hamu"]], ["nferenc", "hamu", ["njozsef"]], ["kisspal", "schmidt", ["kzsofia"]],
+    ["njozsef0", "galik", ["nmihaly"]], ["igpal", "kancsar", ["ignacski"]], ["nmihaly", "ignacski", ["nferenc"]], ["hamuantal", "karacsonyi", ["hamu"]], ["nferenc", "hamu", ["njozsef"]], ["kisspal", "schmidt", ["kzsofia"]],
     ["fimre", "szmaria0", ["fferenc"]], ["szbela", "nagye", ["szmaria"]],
     ["njozsef", "kzsofia", ["elo1"]], ["fferenc", "szmaria", ["elo2"]]
   ];
@@ -383,7 +391,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
   var gE = el("g", {}), gN = el("g", {});
 
   // Generation labels down the left edge
-  ["IV.", "III.", "II.", "I."].forEach(function (t, i) {
+  ["V.", "IV.", "III.", "II.", "I."].forEach(function (t, i) {
     el("text", { x: 14, y: Y({ r: i }) + H / 2 + 4, "class": "gen" }, gE, t);
   });
 
