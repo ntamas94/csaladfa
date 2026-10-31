@@ -59,3 +59,11 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - A család szerint: **Németh Júlia (Julianna)**, Ferenc és Petronella lánya, apácának ment.
 - **Németh Julianna keresztelője megvan**: Szenttamás, kereszteltek 1912, 22. bejegyzés. Julianna, leány, törvényes, született 1912. jan. 22., keresztelték jan. 24. Szülei Németh Ferenc és Hamu Petronella, r. kat.; lakás Szenttamás 1747. Keresztanyák Katona[?] Istvánné és Klecskó[?] Jánosné; keresztelő Sáfrány[?] Antal plébános. A család szerint apáca lett, 1994-ben Vácon halt meg.
 - Mivel Julianna 1912 januárjában **törvényes** gyermekként született, Ferenc és Petronella legkésőbb 1911-ben összeházasodtak – a házasságot 1910–1911 között kell keresni (Szenttamás vagy Óbecse).
+
+## Németh Ferenc pontosítva (2026. okt. 31.)
+
+- **Házasság Hamu Petronellával**: Óbecse-belváros, házasultak 1910, 22. bejegyzés, **1910. április 19.** Vőlegény: Németh Ferenc, földműves, szül. Szenttamás, lakik Szenttamás, r. kat., **szül. 1885. okt. 5.**, **özvegy** (volt felesége: **Katona Julianna**). Menyasszony: Hamu Petronella, szül. Óbecse, lakik Óbecse, Tiszapart 27, szül. 1891. máj. 24., hajadon; szülei Hamu Antal és Karácsonyi Mária. Tanúk: Tóth Ferenc és Sötét[?] István földművesek; Jancsó Ferenc plébános; háromszori hirdetés.
+- **Keresztelés**: Szenttamás, kereszteltek 1885, 171. bejegyzés: Franciscus, fiú, törvényes, szül. és kereszt. 1885. okt. 5.; szülei **Németh Mihály** és **Ignácski[?] Viktória**, r. kat. szenttamási lakosok; keresztanya Tóth Katalin; Plachinszky[?] Bernát káplán. (Egyezik a FamilySearch-névmutatóval: „Nemeth Franciscus 1885, Nemeth Michael és Ignacski Victoria”.)
+- Az 1892-es jelölt (Mihály × Teleki Erzsébet fia) tehát **nem** a mi Ferencünk.
+- Ferenc tehát háromszor nősült: Katona Julianna († 1910 előtt), Hamu Petronella (1910), majd Kiskunhalason (1950–60).
+- Mellékesen: Óbecse-belváros, házasultak 1911, 35. bejegyzés: **Forgács Imre × Szabó Mária, 1911. jún. 6.** (Forgács Ferenc 1913 szülei).
