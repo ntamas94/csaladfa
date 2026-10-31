@@ -57,3 +57,5 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Óbecse-belváros halottak 1917 jan.–szept. átnézve: a harmadik gyermek nincs meg.
 - A család szerint: **Németh Lajos** István után egy héten belül halt meg, torokgyíkban. Óbecse-belváros és -alsóváros halottak 1916 okt.–dec.: nincs Németh Lajos – lehet, hogy máshol (pl. Szenttamáson) halt meg, vagy a bejegyzés más évben/néven van.
 - A család szerint: **Németh Júlia (Julianna)**, Ferenc és Petronella lánya, apácának ment.
+- **Németh Julianna keresztelője megvan**: Szenttamás, kereszteltek 1912, 22. bejegyzés. Julianna, leány, törvényes, született 1912. jan. 22., keresztelték jan. 24. Szülei Németh Ferenc és Hamu Petronella, r. kat.; lakás Szenttamás 1747. Keresztanyák Katona[?] Istvánné és Klecskó[?] Jánosné; keresztelő Sáfrány[?] Antal plébános. A család szerint apáca lett, 1994-ben Vácon halt meg.
+- Mivel Julianna 1912 januárjában **törvényes** gyermekként született, Ferenc és Petronella legkésőbb 1911-ben összeházasodtak – a házasságot 1910–1911 között kell keresni (Szenttamás vagy Óbecse).
