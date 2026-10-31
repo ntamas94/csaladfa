@@ -1639,3 +1639,5 @@ Forrás: KFL, KFL-I-1-b-Obecse-Belvaros-2-c, öt mappa: 01 = 1868–1884 (253 k�
 Következtetés: a fenti párok nem voltak egymással közeli rokonok (legalábbis nem kértek rá felmentést), és a házasságokat rendes kihirdetéssel kötötték. A Ricz Antal × Kádas Ilona házasság (1908) anyakönyvi bejegyzése így továbbra is az 1895 utáni (polgári és egyházi) anyakönyvekben keresendő, amelyek online nem érhetők el.
 
 Megjegyzés: a matricula.hu KFL-listájának alján „Más egyházmegyék: Eger” is szerepel – a cibakházi Kádas-ág (egri egyházmegye) miatt később megnézendő.
+
+**Kiegészítés – „Más egyházmegyék: Eger” a matricula.hu-n:** csak a Kalocsára fellebbezett egri házassági perek iratai (KFL-I-2-a-Eger, 201 kép, 12 ügy, 1807–1868; pl. Galló Mihály – Hajdú Erzsébet 1807, Szabó János – Gál Zsuzsanna 1807, Schäffer – Jäger 1861). Anyakönyv nincs benne; Kádas vagy cibakházi fél egyik ügyben sem szerepel. A cibakházi anyakönyvek továbbra is csak a FamilySearch-ön érhetők el.
