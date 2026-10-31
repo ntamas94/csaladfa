@@ -9,7 +9,7 @@ Forrás: KFL Matricula-Historia-online (matricula.hu), Óbecse-belváros, házas
   Szülei: **Németh Ferenc** és **Hamu Petronella** (a kézírás „Hamii”-nak is olvasható; a család szerint Hamu), r. kat.
 - Menyasszony: **Kiss Zsófia Teréz**, r. kat., hajadon; született **Stanisics (Őrszállás)**, **1924. május 13.**; lakik Óbecse.
   Szülei: **Kiss Pál** és **Schmidt Mária Teréz**, r. kat.
-- Tanúk: Budácsevics[?] Félix és Ancskó[?] Pál. Esketett: Csajkás Antal káplán. Hirdetve.
+- Tanúk: Szudácsevics Félix és Niszter Pál. Esketett: Csajkás Antal káplán. Hirdetve.
 
 Megjegyzés: a család szerint Zsófia 1929-ben született; az anyakönyv 1924-et ír.
 
