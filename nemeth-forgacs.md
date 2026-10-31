@@ -42,3 +42,4 @@ Ugyanott, 76. bejegyzés (1943. nov. 14.): Forgács József (szül. 1913. nov. 1
 - Németh Mihály × Teleki Erzsébet (Ferencz 1892 szülei): Szenttamás 1880–1892 átnézve, nincs meg. Lehet, hogy 1880 előtt vagy máshol (pl. Szeged környékén) házasodtak; a család szerint Ferenc apja onnan jött.
 - Lehetséges rokon: **Hamu Pál** napszámos, 29 éves özvegy (első felesége †Kulcsár[?] Katalin), lakik Óbecse-belváros, Tiszapart 27; 1913. jan. 28-án Óbecse-alsóvárosban (6. bejegyzés) feleségül vette Héder Zsófiát (18). 1919-ben Németh Ferencék a Tiszapart 24. alatt laktak – a család szerint Pál Petronella testvére.
 - Hamu Petronella testvérei a család szerint: **Hamu Pál** és **Hamu Mária**.
+- Németh Ferenc és Hamu Petronella további gyermekei a család szerint: **István** és még egy gyermek, mindketten fiatalon meghaltak.
